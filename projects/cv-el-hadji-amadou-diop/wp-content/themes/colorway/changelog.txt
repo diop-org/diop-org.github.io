@@ -1,0 +1,77 @@
+== Changelog ==
+
+= Theme Name: Colorway Lite =
+
+= Version: 1.7.8 =
+
+* Some jquery issue fixed.
+
+* Stylesheet optimized. 
+
+= Version: 1.7.7 =
+
+* Some little bugs fixed.
+
+* Child theme enabled.
+
+= Version: 1.7.6 =
+
+* "Main Menu" theme location issue fixed.
+
+* Search Result Posts/Pages? are not proerply aligned issue fixed.
+
+* Themes are required to enqueue comment-reply script via callback issue fixed.
+
+* Cufon replacement and tipsy calling issue fixed.
+
+* Neutral default image issue fixed.
+
+* Long strings in menu drop down. e.g(aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa) issue fixed.
+
+* Long menu overlaps the designated space in the theme issue fixed.
+
+* Long site title / descriiption overflows in the footer issue fixed.
+
+= Version: 1.7.5 =
+
+* Stylesheet optimized.
+
+* Some little bug fixed
+
+* Footer social logos arranged.
+
+= Version: 1.7.4 =
+
+* Wordpress jquery initialization 
+
+* Removed unwanted files.
+
+* Fixed unlinked images.
+
+* Fixed analytics code.
+
+= Version: 1.7.3 =
+
+* More social icons added.
+
+= Version: 1.7.2 =
+
+* Functions file updated.
+
+* Attachment file added.
+
+* Few bugs fixed in attachment file.
+
+= Version: 1.7 =
+
+* Custom css option panel resolved.
+
+* Favicon option panel resolved.
+
+* Analytics option panel resolved.
+
+* Searching resolved.
+
+* Cufon heading to display resolved.
+
+

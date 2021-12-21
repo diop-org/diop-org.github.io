@@ -1,0 +1,11 @@
+/*
+Theme Name: MiniCard
+
+RTL Basics
+*/
+
+
+body {
+	direction:rtl;
+	unicode-bidi:embed;
+}

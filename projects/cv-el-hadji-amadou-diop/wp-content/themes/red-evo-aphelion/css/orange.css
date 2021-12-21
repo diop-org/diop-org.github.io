@@ -1,0 +1,69 @@
+/* CSS Document */
+
+body{
+background:#8b1c07 url(../images/orange/bg_main.jpg) center top no-repeat;
+}
+
+#header #top h3{
+color:#f38201;
+background:url(../images/orange/toph3bg.gif) no-repeat;
+}
+
+h3.collapse-head{
+background:url(../images/orange/h3bg.jpg) top left no-repeat;
+}
+
+a, ul.menu a:hover, li#current a, li.parent li#current a, li#current li a:hover, #bottom li a:hover, a.mainlevel:hover, a#active_menu.mainlevel{
+color:#f38201;
+}
+
+ul.menu a:hover, li#current a, a.mainlevel:hover, a#active_menu.mainlevel{
+background:url(../images/orange/arrow_active.png) no-repeat;
+background-position:3px 9px;
+}
+
+.middle a, h2,.contentheading{
+color:#e10707;
+}
+
+.button{
+background:#f5a601 url(../images/orange/buttonbg.gif) top left repeat-x;
+}
+
+
+.middle ul li{
+background:url(../images/orange/bullet.png) no-repeat;
+}
+
+#reflection{
+background:url(../images/orange/reflection.jpg) top left repeat-x;
+}
+#reflection-l{
+background:url(../images/orange/reflection-l.jpg) top left no-repeat;}
+
+#reflection-r{
+background:url(../images/orange/reflection-r.jpg) top right no-repeat;}
+
+#container{
+background:url(../images/orange/containerbg_l.jpg) top left repeat-y;
+}
+#container .bgright{
+background:url(../images/orange/containerbg_r.jpg) top right repeat-y;
+}
+
+#header .bgleft{
+background:url(../images/orange/headerbg_l.jpg) top left no-repeat;
+}
+#header .bgright{
+background:url(../images/orange/headerbg_r.jpg) top right no-repeat;
+} 
+
+li.parent li#current a, li#current li a:hover, ul.menu ul a:hover{
+background:url(../images/orange/arrow_subactive.png) no-repeat;
+background-position:4px 10px;
+}
+
+#user3 ul li a:hover{
+background: transparent url(../images/orange/topmenu-bg.jpg) repeat-x;
+background-position:0px 1px;
+}

@@ -1,0 +1,233 @@
+
+#glidercontent{
+	margin:5px 0 0px 5px;
+
+
+}
+
+.glidecontentwrapper{
+	position: relative; 
+	width: 990px;
+	height:340px; 
+	overflow: hidden;
+	margin:0px 0px 0px 0px;
+	padding:0px 0px;
+	background:url(images/gcontent.jpg) repeat-y;
+	}
+
+.glidecontent{ 
+	position:absolute; 
+	padding:0px 5px 0px 5px;
+	width:940px;
+	color:#555;
+	margin:0px 20px;
+	height:100%;
+	overflow:hidden;
+	float:left;
+	background:#fff;
+
+}
+
+.glidim{
+	float:left;
+
+}
+
+.glidim img{
+	margin:0px 5px 5px 0px;
+	padding:7px 7px;
+
+
+
+}
+.glidecontent h2{
+	margin:0px 0px 0px 0px;
+	padding:5px 0px;
+	font-size:24px;
+	line-height:24px;
+	font-weight:bold;
+	overflow:hidden;
+	font-family: Trebuchet ms,Century gothic,Arial,Tahoma,sans-serif;
+}
+.glidecontent h2 a:link, .glidecontent h2 a:visited{
+	color:#303843;
+}
+
+.glidecontent p{
+	margin:0px 0px 0px 0px;
+	padding:5px 0px;
+	font-size:14px;
+	line-height:22px;
+
+	overflow:hidden;
+	font-family: Trebuchet ms,Century gothic,Arial,Tahoma,sans-serif;
+	color:#696d70;
+}
+
+
+
+.glidebot{
+	width:1000px;
+	height:12px;
+	background:url(images/glidbot.jpg) center no-repeat;
+	margin:0px 0px ;
+	padding:0px 0px;
+	float:left;
+
+}
+.gnav{ /*style for DIV used to contain toggler links. */
+	width: 100px;
+	height:50px;
+	z-index:150;
+	float:right;
+	padding-right:25px;
+}
+
+.glidecontenttoggler{ /*style for DIV used to contain toggler links. */
+
+	height:45px;
+	z-index:150;
+	width: 990px;
+	background: url(images/ftit.jpg) no-repeat;
+
+}
+.glidecontenttoggler a{ /*style for every navigational link within toggler */
+	display: -moz-inline-box;
+	display: inline-block;
+	color: #2e6ab1;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.glidecontenttoggler a.selected{ /*style for selected page's toggler link. ".selected" class auto generated! */
+	background: #E4EFFA;
+	color: black;
+}
+
+.glidecontenttoggler a:hover{
+	background: #E4EFFA;
+	color: black;
+}
+
+.glidecontenttoggler a.toc{ /*style for individual toggler links (page 1, page 2, etc). ".toc" class auto generated! */
+}
+
+.glidecontenttoggler a.prev{ /*style for "prev" and "next" toggler links. ".prev" and ".next" classes auto generated! */
+	top:10px;
+	right:75px;
+	position:absolute;
+	display:block;
+	background:url(images/left.jpg) left;
+	width:50px;
+	height:29px;
+}
+.glidecontenttoggler a.next {
+	float:right;
+	display:block;
+	background:url(images/right.jpg) right;
+	width:50px;
+	height:29px;
+	position:absolute;
+	top:10px;
+	right:25px;
+}
+
+
+
+
+
+.lavaLampBottomStyle {
+        position: relative;
+        height: 34px;
+        width: 960px;
+        padding: 0px 10px;
+        margin: 0px 10px 0px 10px;
+        overflow: hidden;
+  
+        }
+.lavaLampBottomStyle li {
+        float: left;
+        list-style: none;
+        }
+.lavaLampBottomStyle li.back {
+         border-bottom: 7px solid #303843;
+         width: 9px;
+         height: 25px;
+         z-index: 8;
+         position: absolute;
+        }
+.lavaLampBottomStyle li a {
+        font:14px arial;
+        text-decoration: none;
+        color: #000;
+        outline: none;
+        text-align: center;
+        top: 7px;
+        text-transform: uppercase;
+        letter-spacing: 0;
+        z-index: 10;
+        display: block;
+        float: left;
+        height: 30px;
+        position: relative;
+        overflow: hidden;
+        margin: auto 10px;
+                    }   
+					
+.lavaLampBottomStyle li a:hover, .lavaLampBottomStyle li a:active, .lavaLampBottomStyle li a:visited {
+        border: none;
+                        }                     
+						
+#miniblock{
+
+	float:left;
+	height:100%;
+	width:1000px;
+    margin-bottom:10px;
+	margin-top:15px;
+}
+
+.minipost{
+
+		width:309px;
+		overflow:hidden;
+		float:left;
+		height:100%;
+		margin-left:17px;
+		
+
+}	
+
+.hentry h2{
+
+	margin:0px 0px;
+	padding:3px 0px;
+	font-family:Trebuchet ms,Century gothic,Arial,Tahoma,sans-serif;
+	font-size:18px;
+	font-weight:bold;
+
+}					
+.hentry h2 a:link, .hentry h2 a:visited {
+	color:#18202b;
+
+}
+.hentry p{
+
+	margin:5px 0px;
+	padding:0px 0px;
+	font-size:12px;
+	font-family: Trebuchet ms,Century gothic,Arial,Tahoma,sans-serif;
+	color:#696d77;
+	line-height:18px;
+	text-align:justify;
+}
+.hentry p a:link, .hentry p a:visited {
+	color:#d00000;
+	font-weight:normal;
+}
+.hentry img{
+	margin:5px 0px;
+	background:#fff;
+	padding:6px 6px;
+	border:1px solid #d2d8de;
+}

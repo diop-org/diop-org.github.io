@@ -1,0 +1,775 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Thank You Counter Button 1.0.02\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-11-11 23:14+0700\n"
+"PO-Revision-Date: \n"
+"Last-Translator: mencase <mencase@gmail.com>\n"
+"Language-Team: mencase.com <mencase@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-Country: CHINA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: .\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#@ thankyou
+#: thankyou_widgets.php:14
+msgid "the latest or the most thanked post titles with total thanks quant"
+msgstr "最新或最多感谢文章标题和全部感谢统计"
+
+#@ thankyou
+#: thankyou_widgets.php:15
+#: thankyou_widgets.php:25
+msgid "Thanks Stat"
+msgstr "感谢统计"
+
+#@ thankyou
+#: thankyou_widgets.php:78
+#: thankyou_widgets.php:236
+msgid "Total quant of thanks: "
+msgstr "总计感谢"
+
+#@ thankyou
+#: thankyou_widgets.php:107
+msgid "Title:"
+msgstr "标题："
+
+#@ thankyou
+#: thankyou_widgets.php:110
+msgid "Number of posts to show:"
+msgstr "显示文章数"
+
+#@ thankyou
+#: thankyou_widgets.php:122
+#: thankyou_widgets.php:314
+msgid "What posts to show:"
+msgstr "哪些文章显示："
+
+#@ thankyou
+#: thankyou_widgets.php:124
+#: thankyou_widgets.php:317
+msgid "Latest thanked"
+msgstr "最新感谢"
+
+#@ thankyou
+#: thankyou_widgets.php:125
+#: thankyou_widgets.php:318
+msgid "Most thanked"
+msgstr "最多感谢"
+
+#@ thankyou
+#: thankyou_widgets.php:126
+msgid "Total quant of thanks"
+msgstr "总计感谢"
+
+#@ thankyou
+#: thankyou_widgets.php:131
+#: thankyou_widgets.php:330
+msgid "Display total quant of thanks"
+msgstr "显示总计感谢"
+
+#@ thankyou
+#: thankyou_widgets.php:242
+msgid "Check Full Statistics"
+msgstr "查看全部统计"
+
+#@ thankyou
+#: thankyou_widgets.php:246
+msgid "Plugin author home page"
+msgstr "插件主页"
+
+#@ thankyou
+#: thankyou_widgets.php:253
+msgid "No thanks yet"
+msgstr "暂无感谢"
+
+#@ thankyou
+#: thankyou_widgets.php:309
+msgid "Posts number to show:"
+msgstr "显示文章数："
+
+#@ thankyou
+#: thankyou_widgets.php:335
+msgid "Display Full Statistics link"
+msgstr "显示全部统计链接"
+
+#@ thankyou
+#: thankyou_widgets.php:340
+msgid "Display plugin author link"
+msgstr "显示插件作者链接"
+
+#@ thankyou
+#: thankyou_widgets.php:351
+msgid "Latest Thanks"
+msgstr "最新感谢"
+
+#@ thankyou
+#: thankyou_widgets.php:353
+msgid "Most Thanked"
+msgstr "最多感谢"
+
+#@ default
+#: thankyou.php:38
+msgid "Thank You Counter Button requires WordPress 3.0 or newer."
+msgstr "感谢统计按钮要求 WordPress版本3.0或更高"
+
+#@ default
+#: thankyou.php:38
+msgid "Please update!"
+msgstr "请升级！"
+
+#@ thankyou
+#. translators: plugin header field 'Description'
+#: thankyou.php:0
+#: thankyou.php:47
+msgid "Every time a new visitor clicks the \"Thank you\" button, one point is added to the total \"thanks\" counter for this post."
+msgstr "每当有新游客点击\"Thank you\"按钮时，一个点击就添加到该文章全部\"thanks\"计数"
+
+#@ thankyou
+#: thankyou.php:101
+msgid "Thank You Counter Button Plugin"
+msgstr "感谢统计按钮"
+
+#@ thankyou
+#: thankyou.php:117
+#: thankyou.php:193
+#: thankyou.php:489
+#: thankyou_options.php:548
+msgid "Settings"
+msgstr "设置"
+
+#@ thankyou
+#: thankyou.php:118
+msgid "Statistics"
+msgstr "统计"
+
+#@ thankyou
+#: thankyou.php:176
+#: thankyou.php:178
+msgid "You left &ldquo;Thanks&rdquo; already for this post"
+msgstr "这篇文章你不是已经&ldquo;赞&rdquo;过了吗"
+
+#@ thankyou
+#: thankyou.php:179
+msgid "Click to left &ldquo;Thanks&rdquo; for this post"
+msgstr "这篇文章对我有帮助"
+
+#@ thankyou
+#: thankyou.php:194
+#: thankyou_options.php:549
+#: thankyou_statistics.php:606
+#: thankyou_statistics.php:609
+#, php-format
+msgid "View statistics details for \"%s\""
+msgstr "查看\"%s\"统计细节"
+
+#@ thankyou
+#: thankyou.php:195
+#: thankyou_options.php:550
+msgid "Hide these shortcuts"
+msgstr "隐藏这些短码"
+
+#@ thankyou
+#: thankyou.php:195
+msgid "Do you really want to hide these shortcuts?"
+msgstr "你确定想隐藏这些短码、"
+
+#@ thankyou
+#: thankyou.php:393
+#: thankyou_lib.php:285
+msgid "Thank You"
+msgstr "感谢"
+
+#@ thankyou
+#: thankyou.php:499
+#: thankyou_options.php:55
+msgid "Changelog"
+msgstr "更新日志"
+
+#@ thankyou
+#: thankyou.php:500
+msgid "Additional Documentation"
+msgstr "添加文档"
+
+#@ thankyou
+#: thankyou_options.php:35
+msgid "Default Settings are restored"
+msgstr "默认设置已保存"
+
+#@ thankyou
+#: thankyou_options.php:37
+msgid "All Thanks Counters are cleared"
+msgstr "所有统计已清除"
+
+#@ thankyou
+#: thankyou_options.php:51
+msgid "About this Plugin:"
+msgstr "关于插件："
+
+#@ thankyou
+#: thankyou_options.php:52
+msgid "Author's website"
+msgstr "作者主页"
+
+#@ thankyou
+#: thankyou_options.php:53
+msgid "Plugin webpage"
+msgstr "插件主页"
+
+#@ thankyou
+#: thankyou_options.php:54
+msgid "Additional documentation"
+msgstr "附加文档"
+
+#@ thankyou
+#: thankyou_options.php:56
+msgid "FAQ"
+msgstr "常见问题"
+
+#@ thankyou
+#: thankyou_options.php:57
+msgid "Donate"
+msgstr "捐赠中心"
+
+#@ thankyou
+#: thankyou_options.php:59
+msgid "More plugins from"
+msgstr "更多插件请访问"
+
+#@ thankyou
+#: thankyou_options.php:73
+#: thankyou_options.php:88
+msgid "No items found."
+msgstr "没有找到"
+
+#@ plugins-lang-switch
+#: thankyou_options.php:76
+msgid "Recent Posts:"
+msgstr "最新文章："
+
+#@ thankyou
+#: thankyou_options.php:91
+msgid "Greetings:"
+msgstr "感谢译者："
+
+#@ thankyou
+#: thankyou_options.php:92
+msgid "It's me, the author"
+msgstr "插件作者"
+
+#@ thankyou
+#: thankyou_options.php:93
+msgid "for the help with Belarusian translation"
+msgstr "帮助Belarusian翻译"
+
+#@ thankyou
+#: thankyou_options.php:94
+msgid "for the help with Dutch translation"
+msgstr "荷兰语"
+
+#@ thankyou
+#: thankyou_options.php:95
+msgid "for the help with French translation, ideas, source code contributions and new versions testing"
+msgstr "法语，建议，资源代码贡献和新版本测试"
+
+#@ thankyou
+#: thankyou_options.php:96
+msgid "for the help with German translation"
+msgstr "德语"
+
+#@ thankyou
+#: thankyou_options.php:97
+msgid "for the help with Hungarian translation"
+msgstr "匈牙利语"
+
+#@ thankyou
+#: thankyou_options.php:98
+msgid "for the help with Iranian translation"
+msgstr "伊朗语"
+
+#@ thankyou
+#: thankyou_options.php:99
+#: thankyou_options.php:100
+msgid "for the help with Italian translation"
+msgstr "意大利语"
+
+#@ thankyou
+#: thankyou_options.php:101
+msgid "for the help with Spanish translation, ideas and new versions testing"
+msgstr "西班牙语，建议和新版本测试"
+
+#@ ure
+#: thankyou_options.php:102
+msgid "For the help with Turkish translation"
+msgstr "土耳其语"
+
+#@ thankyou
+#: thankyou_options.php:104
+msgid "for setting page layout idea and html markup examples"
+msgstr "设置样式建议和 html标签示例"
+
+#@ thankyou
+#: thankyou_options.php:105
+msgid "for the excelent JQuery color picker"
+msgstr " JQuery 颜色picker部分"
+
+#@ thankyou
+#: thankyou_options.php:106
+msgid "for the form input slider code"
+msgstr "输入slider代码形式"
+
+#@ thankyou
+#: thankyou_options.php:107
+msgid "for the cute online button image generator"
+msgstr " cute在线按钮图像生成"
+
+#@ thankyou
+#: thankyou_options.php:138
+msgid "All settings for TYCB plugin will be return to the default values, Continue?"
+msgstr "所有TYCB插件将要恢复默认值，要继续吗？"
+
+#@ thankyou
+#: thankyou_options.php:322
+#: thankyou_options.php:326
+msgid "Display"
+msgstr "显示"
+
+#@ thankyou
+#: thankyou_options.php:331
+msgid "Display button at Pages"
+msgstr "在页面上显示按钮"
+
+#@ thankyou
+#: thankyou_options.php:334
+msgid "Display button at Home page, Categories/Tags archive pages"
+msgstr "在主页上，目录/标签存档页上显示按钮"
+
+#@ thankyou
+#: thankyou_options.php:339
+msgid "Do not show button for selected categories"
+msgstr "在选中的目录上不显示按钮"
+
+#@ thankyou
+#: thankyou_options.php:394
+msgid "Position in the Post text"
+msgstr "在文章中的位置"
+
+#@ thankyou
+#: thankyou_options.php:398
+msgid "Before"
+msgstr "之前"
+
+#@ thankyou
+#: thankyou_options.php:400
+msgid "At first page of multipaged posts only"
+msgstr "仅在多页面文章的第一页"
+
+#@ thankyou
+#: thankyou_options.php:404
+msgid "After"
+msgstr "之后"
+
+#@ thankyou
+#: thankyou_options.php:406
+msgid "At last page of multipaged posts only"
+msgstr "仅在多页面文章的最后一页"
+
+#@ thankyou
+#: thankyou_options.php:410
+msgid "Shortcode [thankyou]"
+msgstr "短码"
+
+#@ thankyou
+#: thankyou_options.php:411
+msgid "Manual"
+msgstr "手动"
+
+#@ thankyou
+#: thankyou_options.php:417
+msgid "Button Caption"
+msgstr "说明文字"
+
+#@ thankyou
+#: thankyou_options.php:424
+msgid "Button Styling"
+msgstr "按钮风格"
+
+#@ thankyou
+#: thankyou_options.php:426
+msgid "Add style to the div:"
+msgstr "添加风格到DIV:"
+
+#@ thankyou
+#: thankyou_options.php:429
+#: thankyou_options.php:433
+#: thankyou_options.php:486
+msgid "e.g.,"
+msgstr "例："
+
+#@ thankyou
+#: thankyou_options.php:430
+msgid "to the Caption font:"
+msgstr "标题字体："
+
+#@ thankyou
+#: thankyou_options.php:434
+msgid "font color: "
+msgstr "字体颜色："
+
+#@ thankyou
+#: thankyou_options.php:439
+msgid "Size"
+msgstr "按钮大小"
+
+#@ thankyou
+#: thankyou_options.php:444
+msgid "Normal"
+msgstr "正常"
+
+#@ thankyou
+#: thankyou_options.php:447
+msgid "Compact"
+msgstr "压缩"
+
+#@ thankyou
+#: thankyou_options.php:452
+msgid "Form and Color"
+msgstr "表格和颜色"
+
+#@ thankyou
+#: thankyou_options.php:481
+msgid "Custom button image URL"
+msgstr "自定义图像URL"
+
+#@ thankyou
+#: thankyou_options.php:488
+msgid "Width, px"
+msgstr "宽，像素"
+
+#@ thankyou
+#: thankyou_options.php:489
+msgid "Height, px"
+msgstr "高，像素"
+
+#@ thankyou
+#: thankyou_options.php:500
+msgid "Misc"
+msgstr "杂项"
+
+#@ thankyou
+#: thankyou_options.php:504
+msgid "Check IP-address"
+msgstr "检查IP-地址"
+
+#@ thankyou
+#: thankyou_options.php:509
+msgid "Only one Thanks for post for one IP-address limit"
+msgstr "一个IP地址仅允许感谢一篇文章"
+
+#@ thankyou
+#: thankyou_options.php:510
+msgid "Time limit:"
+msgstr "时间限制："
+
+#@ thankyou
+#: thankyou_options.php:512
+msgid "Forever"
+msgstr "永远"
+
+#@ thankyou
+#: thankyou_options.php:514
+msgid "Only for this period"
+msgstr "仅在选定时间内"
+
+#@ thankyou
+#: thankyou_options.php:516
+msgid "seconds"
+msgstr "秒"
+
+#@ thankyou
+#: thankyou_options.php:521
+msgid "Display settings shortcuts"
+msgstr "短码显示设置"
+
+#@ thankyou
+#: thankyou_options.php:526
+msgid "Add shortcuts next to the buttons for settings quick access"
+msgstr "在按钮旁边添加短码用于快速访问"
+
+#@ thankyou
+#: thankyou_options.php:531
+msgid "Return to Defaults"
+msgstr "恢复默认"
+
+#@ thankyou
+#: thankyou_options.php:531
+msgid "Restore the default values for all settings"
+msgstr "所有设置恢复默认"
+
+#@ thankyou
+#: thankyou_options.php:532
+msgid "Reset Counters"
+msgstr "重新计数"
+
+#@ thankyou
+#: thankyou_options.php:532
+msgid "Reset all thanks counters for the all posts"
+msgstr "重置所有文章感谢计数"
+
+#@ thankyou
+#: thankyou_options.php:537
+msgid "Save Changes"
+msgstr "保存设置"
+
+#@ thankyou
+#: thankyou_options.php:538
+msgid "Cancel"
+msgstr "取销"
+
+#@ thankyou
+#: thankyou_options.php:538
+msgid "Cancel not saved changes"
+msgstr "取消无法保存设置"
+
+#@ thankyou
+#: thankyou_options.php:540
+msgid "Button DIV Style Preview"
+msgstr "按钮DIV风格预览"
+
+#@ thankyou
+#: thankyou_options.php:549
+#: thankyou_statistics.php:160
+#: thankyou_statistics.php:532
+msgid "Post Title"
+msgstr "文章标题"
+
+#@ thankyou
+#: thankyou_lib.php:260
+#: thankyou_lib.php:298
+#: thankyou_lib.php:341
+msgid "operation is prohibited"
+msgstr "设置被禁止"
+
+#@ thankyou
+#: thankyou_statistics.php:70
+msgid "None"
+msgstr "空"
+
+#@ thankyou
+#: thankyou_statistics.php:138
+msgid "Back to main statistics"
+msgstr "返回主统计"
+
+#@ thankyou
+#: thankyou_statistics.php:144
+#: thankyou_statistics.php:235
+msgid "Not available"
+msgstr "暂无可用"
+
+#@ thankyou
+#: thankyou_statistics.php:151
+#, php-format
+msgid "Details for &ldquo;%s&rdquo;"
+msgstr "细节 &ldquo;%s&rdquo;"
+
+#@ thankyou
+#: thankyou_statistics.php:159
+#: thankyou_statistics.php:531
+msgid "Post Id"
+msgstr "文章ID"
+
+#@ thankyou
+#: thankyou_statistics.php:161
+#: thankyou_statistics.php:533
+msgid "Thanks Quant"
+msgstr "感谢数"
+
+#@ thankyou
+#: thankyou_statistics.php:166
+#: thankyou_statistics.php:169
+#: thankyou_statistics.php:610
+msgid "View Post"
+msgstr "查看文章"
+
+#@ thankyou
+#: thankyou_statistics.php:169
+#: thankyou_statistics.php:610
+#, php-format
+msgid "View \"%s\""
+msgstr "浏览 \"%s\""
+
+#@ thankyou
+#: thankyou_statistics.php:170
+#: thankyou_statistics.php:611
+#, php-format
+msgid "Edit \"%s\""
+msgstr "编辑 \"%s\""
+
+#@ thankyou
+#: thankyou_statistics.php:170
+#: thankyou_statistics.php:611
+msgid "Edit Post"
+msgstr "编辑文章"
+
+#@ thankyou
+#: thankyou_statistics.php:172
+#: thankyou_statistics.php:613
+msgid "Reset this post counter"
+msgstr "重置文章计数"
+
+#@ thankyou
+#: thankyou_statistics.php:173
+#, php-format
+msgid "You are about to reset this post '%s' thanks counter. Click 'Cancel' to do nothing, 'OK' to reset it."
+msgstr "你将要重置文章'%s'感谢计数。点击'撤销'取消, 'OK'重轩."
+
+#@ thankyou
+#: thankyou_statistics.php:173
+#: thankyou_statistics.php:614
+msgid "Reset Counter"
+msgstr "重置计数"
+
+#@ thankyou
+#: thankyou_statistics.php:202
+#: thankyou_statistics.php:465
+#: thankyou_statistics.php:636
+#, php-format
+msgid "Displaying %s&#8211;%s of %s"
+msgstr "显示%s&#8211;%s of %s"
+
+#@ thankyou
+#: thankyou_statistics.php:216
+msgid "IP address"
+msgstr "IP地址"
+
+#@ thankyou
+#: thankyou_statistics.php:217
+#: thankyou_statistics.php:534
+msgid "Last Thank Date"
+msgstr "上次感谢时间"
+
+#@ thankyou
+#: thankyou_statistics.php:235
+msgid "Look up IP country"
+msgstr "检查IP国家"
+
+#@ thankyou
+#: thankyou_statistics.php:414
+msgid "Show all post dates"
+msgstr "显示所有文章日期"
+
+#@ thankyou
+#: thankyou_statistics.php:435
+msgid "View all categories"
+msgstr "浏览所在目录"
+
+#@ thankyou
+#: thankyou_statistics.php:445
+msgid "Show Posts without Thanks"
+msgstr "显示无感谢文章"
+
+#@ thankyou
+#: thankyou_statistics.php:446
+msgid "Rows per page: "
+msgstr "每页多少项"
+
+#@ thankyou
+#: thankyou_statistics.php:457
+msgid "Refresh"
+msgstr "刷新"
+
+#@ thankyou
+#: thankyou_statistics.php:493
+#: thankyou_statistics.php:508
+msgid "descending"
+msgstr "降序"
+
+#@ thankyou
+#: thankyou_statistics.php:494
+#: thankyou_statistics.php:509
+msgid "Ascending order"
+msgstr "按升序"
+
+#@ thankyou
+#: thankyou_statistics.php:498
+#: thankyou_statistics.php:513
+msgid "ascending"
+msgstr "升序"
+
+#@ thankyou
+#: thankyou_statistics.php:499
+#: thankyou_statistics.php:514
+msgid "Descending order"
+msgstr "按降序"
+
+#@ thankyou
+#: thankyou_statistics.php:521
+#, php-format
+msgid "Click to sort in %s order"
+msgstr "点击按%s种类"
+
+#@ thankyou
+#: thankyou_statistics.php:609
+msgid "View details"
+msgstr "查看细节"
+
+#@ thankyou
+#: thankyou_statistics.php:614
+#, php-format
+msgid ""
+"You are about to reset this post '%s' thanks counter.\n"
+" Click 'Cancel' to do nothing, 'OK' to reset it."
+msgstr ""
+"你将要重置文章 '%s'的感谢计数\n"
+"点击'Cancel' 撤销， 'OK'重置"
+
+#@ thankyou
+#: thankyou_statistics.php:653
+msgid "No posts with thanks found"
+msgstr "暂无感谢文章"
+
+#@ thankyou
+#. translators: plugin header field 'Name'
+#: thankyou.php:0
+msgid "Thank You Counter Button"
+msgstr "感谢统计按钮"
+
+#@ thankyou
+#. translators: plugin header field 'PluginURI'
+#: thankyou.php:0
+msgid "http://www.shinephp.com/thank-you-counter-button-wordpress-plugin/"
+msgstr "http://www.shinephp.com/thank-you-counter-button-wordpress-plugin/"
+
+#@ thankyou
+#. translators: plugin header field 'Author'
+#: thankyou.php:0
+msgid "Vladimir Garagulya"
+msgstr "Vladimir Garagulya"
+
+#@ thankyou
+#. translators: plugin header field 'AuthorURI'
+#: thankyou.php:0
+msgid "http://www.shinephp.com"
+msgstr "http://www.shinephp.com"
+
+#@ thankyou
+#. translators: plugin header field 'Version'
+#: thankyou.php:0
+msgid "1.7.3"
+msgstr "1.7.3"
+
+#@ thankyou
+#: thankyou_options.php:140
+msgid ""
+"All thanks counters for all posts will be set to 0,\n"
+" all thanks click history will be cleared, Continue?"
+msgstr ""
+"你的所在文章感谢计数都将归零,\n"
+"所在感谢历史都将清除，要继续吗？"
+

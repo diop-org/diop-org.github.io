@@ -1,0 +1,65 @@
+/* 
+    Document   : thankyou.css
+    Created on : 05.10.2009, 9:08:06
+    Author     : Vladimir Garagulya vladimir@shinephp.com
+    Description: Thank You Counter Button WordPress Plugin CSS
+*/
+
+/* 
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+.thanks_large {    
+  width: 120px;
+  height: 40px;
+  font-size: 14px;
+}
+
+.thanks_compact {  
+  width: 100px;
+  height: 26px;
+  font-size: 12px;
+}
+
+.thanks_black, .thanks_black1 {
+  color: #FFFFFF;
+}
+
+.thanks_green, .thanks_green1 {
+  color: #FFFFFF;
+}
+
+.thanks_blue, .thanks_blue1 {
+  color: #FFFFFF;
+}
+
+
+.thanks_red, .thanks_red1 {
+  color: #FFFFFF;
+}
+
+.thanks_brown, .thanks_brown1 {
+  color: #FFFFFF;
+}
+
+.thanks_grey, .thanks_grey1 {
+  color: #000000;
+}
+
+input.thanks_button {
+  cursor: pointer;
+  border: none;
+  background: transparent;
+}
+
+div.thanks_settings_shortcuts {
+  float: left;
+  display: inline-table;
+  vertical-align: middle;
+  margin-left: 2px;
+}
+
+img.thanks_shortcuts {
+  display: block;
+  padding: 1px;
+}

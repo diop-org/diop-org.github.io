@@ -1,0 +1,2 @@
+#bar{background:#1041b4;}#bar li a:hover{background:#ff4c00;}
+html > body #bar{background:#1041b4 url(images/overlay60.png);}html > body #bar li a:hover{background:#ff4c00 url(images/overlay60.png);}

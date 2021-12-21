@@ -1,0 +1,62 @@
+ul.top_navigation ul {
+	position: absolute;
+	top: -999em;
+	width: 120px; /* left offset of submenus need to match (see below) */
+	list-style: none;
+}
+ul.top_navigation ul li {
+	width: 100%;
+	left: -18px;
+}
+ul.top_navigation ul li a {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	text-shadow: 1px 1px 1px #fff;
+	color: #424242;
+	text-decoration: none;
+}
+ul.top_navigation ul li a:hover {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	text-shadow: 1px 1px 1px #fff;
+	color: #08a5ff;
+	text-decoration: none;
+}
+
+ul.top_navigation li:hover ul,
+ul.top_navigation li.sfHover ul {
+	left: -25px;
+	top: 30px; /* match top ul list item height */
+	z-index: 99;
+	background: #cacaca;
+	padding: 8px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	text-align: center;
+}
+ul.top_navigation li:hover li ul,
+ul.top_navigation li.sfHover li ul {
+	top: -999px;
+}
+ul.top_navigation li li:hover ul,
+ul.top_navigation li li.sfHover ul {
+	left: 128px; /* match ul width */
+	top: -5px;
+}
+ul.top_navigation li li:hover ul li a,
+ul.top_navigation li li.sfHover ul li a {
+	font-size: 14px;
+}
+ul.top_navigation li li:hover ul li a:hover,
+ul.top_navigation li li.sfHover ul li a:hover {
+	font-size: 14px;
+}
+ul.top_navigation li li:hover li ul,
+ul.top_navigation li li.sfHover li ul {
+	top: -999em;
+}
+ul.top_navigation li li li:hover ul,
+ul.top_navigation li li li.sfHover ul {
+	left: 128px; /* match ul width */
+	top: 0;
+}

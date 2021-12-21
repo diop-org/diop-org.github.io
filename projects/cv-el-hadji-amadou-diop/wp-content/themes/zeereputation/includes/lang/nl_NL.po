@@ -1,0 +1,503 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: zeeReputation\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-07-22 17:37+0100\n"
+"PO-Revision-Date: 2011-07-22 17:37+0100\n"
+"Last-Translator: themezee.com <contact@themezee.com>\n"
+"Language-Team: themezee.com\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: gettext;gettext_noop;_e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: Nederlands\n"
+"X-Poedit-Country: NEDERLAND\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: C:\\xampp\\htdocs\\wordpress\\wp-content\\themes\\zeeReputation\n"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/404.php:9
+msgid "404 Error: Not found"
+msgstr "404 Fout: Pagina niet gevonden!"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/404.php:12
+msgid "The page you trying to reach does not exist, or has been moved. Please use the menus or the search box to find what you are looking for"
+msgstr "Deze pagina bestaat niet of is verplaatst. Probeer de juiste pagina te vinden via het menu of via de zoekbox."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/archive.php:5
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/archive.php:6
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/archive.php:7
+msgid "Archive for"
+msgstr "Archief voor "
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/archive.php:8
+msgid "Tag Archive for"
+msgstr "Tag Archief voor "
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/archive.php:9
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/template-sitemap.php:49
+msgid "Archives"
+msgstr "Archieven"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/archive.php:20
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/comments.php:17
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/index.php:21
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/search.php:17
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/single.php:14
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/slide.php:36
+msgid "No comments"
+msgstr "Geen reakties"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/archive.php:20
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/comments.php:17
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/index.php:21
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/search.php:17
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/single.php:14
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/slide.php:36
+msgid "One comment"
+msgstr "Een reactie"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/archive.php:20
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/comments.php:17
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/index.php:21
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/search.php:17
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/single.php:14
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/slide.php:36
+#, php-format
+msgid "% comments"
+msgstr "% commentaren / reacties"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/archive.php:21
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/index.php:22
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/page.php:10
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/search.php:18
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/single.php:15
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/template-sitemap.php:15
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/template-slider.php:23
+msgid "Edit"
+msgstr "Bewerken"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/archive.php:26
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/index.php:27
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/search.php:23
+msgid "&raquo; Read more.."
+msgstr "&raquo; Lees Verder..."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/archive.php:41
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/index.php:42
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/search.php:36
+msgid "&laquo; Older Entries"
+msgstr "&laquo; Oudere Berichten"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/archive.php:41
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/index.php:42
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/search.php:36
+msgid "Recent Entries &raquo;"
+msgstr "Recente Berichten &raquo;"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/comments.php:8
+msgid "Enter password to view comments."
+msgstr "Voer uw wachtwoord in om de reacties te bekijken."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/comments.php:40
+msgid "Comments are closed."
+msgstr "Reacties gesloten."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/search.php:6
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/search.php:43
+msgid "Search results for "
+msgstr "Zoekresultaten voor "
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/search.php:48
+msgid "No matches. Please try again, or use the navigation menus to find what you search for."
+msgstr "Geen resultaten gevonden. Probeer het opnieuw, of gebruik het menu om te vinden wat u zoekt."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/single.php:27
+msgid "Categories: "
+msgstr "Categorie&euml;n:"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/single.php:28
+msgid "Tags: "
+msgstr "Tags:"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/template-sitemap.php:28
+msgid "Latest Posts"
+msgstr "Laatste Berichten"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/template-sitemap.php:39
+msgid "Pages"
+msgstr "Pagina's"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/template-sitemap.php:44
+msgid "Categories"
+msgstr "Categorie&euml;n"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/template-sitemap.php:54
+msgid "Posts by Category"
+msgstr "Berichten per Categorie"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/template-sitemap.php:57
+msgid "Category"
+msgstr "Categorie"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/includes/admin/theme-admin.php:5
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/includes/admin/theme-admin.php:31
+msgid "Options"
+msgstr "Opties"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/includes/admin/theme-admin.php:33
+msgid "It is completely optional, but if you like the Theme I would appreciate it if you keep the credit link at the bottom."
+msgstr "Het is helemaal niet verplicht, maar als u van dit Thema houdt zou ik het op prijs stellen indien u de link naar ThemeZee in de Footer behoudt."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/includes/admin/theme-admin.php:36
+msgid "Theme settings updated successfully."
+msgstr "Instellingen met succes bijgewerkt."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/includes/admin/theme-settings.php:7
+msgid "Theme Settings"
+msgstr "Themainstellingen"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/includes/admin/theme-settings.php:10
+msgid "Featured Post Slider"
+msgstr "Berichtenslider"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/includes/admin/theme-settings.php:13
+msgid "Social Media Buttons"
+msgstr "SocialMedia Buttons"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/includes/admin/theme-settings.php:16
+msgid "125x125 Ad Spots"
+msgstr "125x125 Ad Spots / Banners"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/includes/admin/theme-settings.php:23
+msgid "Blue"
+msgstr "Blauw"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/includes/admin/theme-settings.php:24
+msgid "Brown"
+msgstr "Bruin"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/includes/admin/theme-settings.php:25
+msgid "Green"
+msgstr "Groen"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/includes/admin/theme-settings.php:26
+msgid "Grey"
+msgstr "Grijs"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/includes/admin/theme-settings.php:27
+msgid "Orange"
+msgstr "Oranje"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/includes/admin/theme-settings.php:28
+msgid "Purple"
+msgstr "Lichtpaars"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/includes/admin/theme-settings.php:29
+msgid "Standard"
+msgstr "Standaard"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/includes/admin/theme-settings.php:30
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/includes/admin/theme-settings.php:62
+msgid "Custom Color"
+msgstr "Persoonlijke Kleur"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/includes/admin/theme-settings.php:40
+msgid "Paste the full Image URL of your logo."
+msgstr "Voer hier de complete URL van uw logo-bestand in."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/includes/admin/theme-settings.php:46
+msgid "Footer Content"
+msgstr "Footer inhoud"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/includes/admin/theme-settings.php:47
+msgid "Enter here the content which is displayed in the footer."
+msgstr "Voer hier de tekst in die getoond wordt in de voet van de pagina."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/includes/admin/theme-settings.php:54
+msgid "Please select your color scheme here."
+msgstr "Kies hier het gewenste kleurenschema."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/includes/admin/theme-settings.php:63
+msgid "Select a custom color here (You have to select the 'custom color' option above)."
+msgstr "Kies hier een persoonlijke kleur. (Kies vooraf in het veld hierboven 'persoonlijke kleur')."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/includes/admin/theme-settings.php:69
+msgid "Custom CSS"
+msgstr "Eigen CSS"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/includes/admin/theme-settings.php:70
+msgid "Insert your own custom css code into the head of the theme."
+msgstr "Voer hier uw eigen CSS Code in (wordt opgeslagen in de head-sectie van het thema)."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/includes/admin/theme-settings.php:78
+msgid "Show Post Slider?"
+msgstr "Berichtenslider weergeven?"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/includes/admin/theme-settings.php:79
+msgid "Check this if you want to show the Featured Post Slider."
+msgstr "Plaats een vinkje indien u de berichtenslider wenst te activeren."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/includes/admin/theme-settings.php:85
+msgid "Slider Title"
+msgstr "Slider Titel"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/includes/admin/theme-settings.php:86
+msgid "Enter here your headline which is displayed above the featured posts."
+msgstr "Voer hier de titel in die boven de berichtenslider wordt weergegeven."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/includes/admin/theme-settings.php:104
+msgid "Slider Content"
+msgstr "Inhoud Berichtenslider"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/includes/admin/theme-settings.php:110
+msgid "Show latest posts"
+msgstr "Toon de laatste berichten"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/includes/admin/theme-settings.php:111
+msgid "Show latest posts from category \"featured\""
+msgstr "Laatste berichten van de categorie \"featured\""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/includes/admin/theme-settings.php:112
+msgid "Show latest posts with post_meta_key \"featured\""
+msgstr "Laatste berichten met de Meta Key \"featured\""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/includes/admin/theme-settings.php:113
+msgid "Show latest posts from custom category(enter ID below)"
+msgstr "Laatste berichten van een bepaalde categorie (ID van de categorie hieronder instellen)"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/includes/admin/theme-settings.php:117
+msgid "category ID"
+msgstr "categorie ID"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/includes/admin/theme-settings.php:118
+msgid "Please enter the category ID you'd like to include in the slideshow.(You have to tick the last option above)"
+msgstr "Voer hier de categorie ID in die u in de slider wenst weer te geven. (Kies vooraf de laatste optie hierboven)."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/includes/admin/theme-settings.php:124
+msgid "Number of Posts"
+msgstr "Aantal berichten"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/includes/admin/theme-settings.php:125
+msgid "Enter the number how much posts should be displayed in the post slider."
+msgstr "Voer hier het aantal berichten in dat u in de slider wenst weer te geven."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/includes/admin/theme-settings.php:134
+msgid "Activate SocialMedia Buttons?"
+msgstr "SocialMedia Buttons aktiveren?"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/includes/admin/theme-settings.php:135
+msgid "Check this to activate the SocialMedia Button Widget."
+msgstr "Zet een vinkje om het Social Media Widget te aktiveren."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/includes/admin/theme-settings.php:142
+msgid "Enter your RSS URL (e.g. Feedburner Feed) here."
+msgstr "Voer hier de URL in van uw RSS-feed (bijvoorbeeld : Feedburner URL)"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/includes/admin/theme-settings.php:149
+msgid "Enter your Email URL (e.g. Feedburner Email Subscription) here."
+msgstr "Voer hier de URL in van uw Email Abonnenten-feed (bijvoorbeeld : Feedburner Email Subscription URL)"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/includes/admin/theme-settings.php:156
+msgid "Enter the URL to your Twitter Profile here."
+msgstr "Voer hier de URL in van uw Twitter pagina."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/includes/admin/theme-settings.php:163
+msgid "Enter the URL to your Facebook Profile here."
+msgstr "Voer hier de URL in van uw Facebook pagina."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/includes/admin/theme-settings.php:170
+msgid "Enter the URL to your Google+ profile."
+msgstr "Voer hier de URL in van uw Google+ profiel."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/includes/admin/theme-settings.php:177
+msgid "Enter the URL to your Tumblr Blog here."
+msgstr "Voer hier de URL in van uw Tumblr Blog."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/includes/admin/theme-settings.php:184
+msgid "Enter the URL to your LinkedIn Profile here."
+msgstr "Voer hier de URL in van uw LinkedIn profiel."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/includes/admin/theme-settings.php:191
+msgid "Enter the URL to your Xing Profile here."
+msgstr "Voer hier de URL in van uw Xing profiel."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/includes/admin/theme-settings.php:198
+msgid "Enter the URL to your Delicious Profile here."
+msgstr "Voer hier de URL in van uw Delicious profiel."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/includes/admin/theme-settings.php:205
+msgid "Enter the URL to your Digg Profile here."
+msgstr "Voer hier de URL in van uw Digg profiel."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/includes/admin/theme-settings.php:212
+msgid "Enter the URL to your Flickr Profile here."
+msgstr "Voer hier de URL in van uw Flickr profiel."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/includes/admin/theme-settings.php:219
+msgid "Enter the URL to your Youtube Profile here."
+msgstr "Voer hier de URL in van uw Youtube profiel."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/includes/admin/theme-settings.php:226
+msgid "Enter the URL to your Vimeo Profile here."
+msgstr "Voer hier de URL in van uw Vimeo profiel."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/includes/admin/theme-settings.php:235
+msgid "Rotate banners?"
+msgstr "Banners roteren?"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/includes/admin/theme-settings.php:236
+msgid "Check this to randomly rotate the ad spots."
+msgstr "Zet een vinkje als u wenst dat de banners willekeurig van plaats veranderen."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/includes/admin/theme-settings.php:242
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/includes/admin/theme-settings.php:256
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/includes/admin/theme-settings.php:270
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/includes/admin/theme-settings.php:284
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/includes/admin/theme-settings.php:298
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/includes/admin/theme-settings.php:312
+msgid "Ad Spot Image URL"
+msgstr "Banner illustratie URL"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/includes/admin/theme-settings.php:243
+msgid "Enter the image URL for this ad spot."
+msgstr "Voer de URL van het beeldbestand in."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/includes/admin/theme-settings.php:249
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/includes/admin/theme-settings.php:263
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/includes/admin/theme-settings.php:277
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/includes/admin/theme-settings.php:291
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/includes/admin/theme-settings.php:305
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/includes/admin/theme-settings.php:319
+msgid "Ad Spot Destination"
+msgstr "Banner link"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/includes/admin/theme-settings.php:250
+msgid "Enter the URL where this ad spot points to."
+msgstr "Voer de URL (link) van de pagina in waar deze banner naar verwijst."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/includes/plugins/theme_ads_widget.php:5
+msgid "Show your 125x125 Ad Spots"
+msgstr "125x125 Banners Weergeven"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/includes/plugins/theme_ads_widget.php:46
+msgid "Go to WP-Admin-> Appearance-> \"Theme\" Options to configure this widget"
+msgstr "Ga naar WP-Admin-> Weergave \"Themas\" -> Opties om dit widget te configureren."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/includes/plugins/theme_ads_widget.php:64
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/includes/plugins/theme_socialmedia_widget.php:109
+msgid "Title"
+msgstr "Titel"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/includes/plugins/theme_socialmedia_widget.php:5
+msgid "Show your Social Media Buttons"
+msgstr "SocialMedia Buttons weergeven"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeReputation/includes/plugins/theme_socialmedia_widget.php:24
+msgid "Go to WP-Admin-> Appearance-> \"Theme\" Options to activate and configure this widget"
+msgstr "Ga naar WP-Admin-> Weergave \"Themas\" -> Opties om dit widget te configureren."
+
+#~ msgid "Theme Layout"
+#~ msgstr "Theme Layout"
+
+#~ msgid "Please paste your Google Analytics(or other) tracking code here."
+#~ msgstr "Hier Google Analytics Code (oder anderen) Tracking Code eintragen."
+
+#~ msgid "Darkblue"
+#~ msgstr "Dunkelblau"
+
+#~ msgid "Darkgreen"
+#~ msgstr "Dunkelgrün"
+
+#~ msgid "Red"
+#~ msgstr "Rot"
+
+#~ msgid "Archive for the year"
+#~ msgstr "Archiv für das Jahr"
+
+#~ msgid "'s Options has been updated at"
+#~ msgstr "'s Optionen wurden gespeichert um"
+
+#~ msgid "o'clock"
+#~ msgstr "Uhr"
+
+#~ msgid "Save All Changes"
+#~ msgstr "Änderungen speichern"
+
+#~ msgid "Upload picture"
+#~ msgstr "Bild hochladen"
+
+#~ msgid "125x125 Ad Spots - can be activated as widget into sidebar"
+#~ msgstr "125x125 Banner - müssen als Widget in der Sidebar aktiviert werden"
+
+#~ msgid "Leave a Reply"
+#~ msgstr "Kommentar hinterlassen"
+
+#~ msgid "Leave a Reply to %s"
+#~ msgstr "Antworten auf %s"
+
+#~ msgid "You must be logged in to post a comment."
+#~ msgstr "Du musst eingeloggt sein, um einen Kommentar zu hinterlassen."
+
+#~ msgid "Logged in as"
+#~ msgstr "Eingeloggt als"
+
+#~ msgid "(required)"
+#~ msgstr "(erforderlich)"
+
+#~ msgid "E-mail (will not be published)"
+#~ msgstr "Email (wird nicht veröffentlicht)"
+
+#~ msgid "Submit"
+#~ msgstr "Abschicken"
+
+#~ msgid "Enter your Feedburner URL here."
+#~ msgstr "Hier kannst du deine Feedburner URL eintragen."
+
+#~ msgid "Please select the sidebar position here (left or right)."
+#~ msgstr "Wähle hier die Sidebar Position (links oder rechts)"
+
+#~ msgid ""
+#~ "Build your tabbed area by placing widgets here. IMPORTANT: DO NOT PLACE "
+#~ "THE THEME TABBED WIDGET IN THIS AREA!! Place the THEME TABBED widget in "
+#~ "another widget area."
+#~ msgstr ""
+#~ "Gestalte deine Tabs, indem du hier Widgets platzierst. Jedes Widget "
+#~ "ergibt einen Tab. WICHTIG: PLATZIERE HIER NICHT DAS THEME TABBED WIDGET! "
+#~ "Das Theme Tabbed Widget gehört in einen anderen Widget Bereich."
+
+#~ msgid "Show built-in Tab Widget"
+#~ msgstr "Dein Widget zur Anzeige von Tabs"
+
+#~ msgid "Show your latest Tweets"
+#~ msgstr "Letzte Tweets anzeigen"
+
+#~ msgid "Latest Tweets"
+#~ msgstr "Letzte Tweets"
+
+#~ msgid "More updates on Twitter"
+#~ msgstr "Twitter"
+
+#~ msgid "User"
+#~ msgstr "Account"
+
+#~ msgid "Number of tweets to show"
+#~ msgstr "Anzahl der Tweets"
+
+#~ msgid "(at most 15)"
+#~ msgstr "(höchstens 15)"
+
+#~ msgid "Show link to Twitter"
+#~ msgstr "Link zu Twitter zeigen?"
+
+#~ msgid "Link label"
+#~ msgstr "Linktext"
+
+#~ msgid "No replies"
+#~ msgstr "Keine Kommentare"
+
+#~ msgid "One reply"
+#~ msgstr "Ein Kommentar"
+
+#~ msgid "% replies"
+#~ msgstr "% Kommentare"

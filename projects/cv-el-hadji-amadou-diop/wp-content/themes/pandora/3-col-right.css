@@ -1,0 +1,38 @@
+#primary {
+width:240px;  /*+10px padding*/
+float:left;
+padding:0 0 0 10px;
+}
+
+#secondary {
+width:240px;
+float:right;
+padding:0 0 0 10px;
+}
+
+.content-mini{
+width:498px; /*-2px border*/
+}
+
+.post-gallery-list{
+	width:239px;
+}
+
+#entry-content-container{
+	width:478px;
+}
+/*imgs*/
+#entry-content-container img{
+	max-width:470px;
+	height:auto;
+}
+.wp-caption-text, .wp-caption{
+	max-width:478px !important;
+}
+.entry-author-container img{
+	max-width:320px;
+	height:auto;
+}
+.entry-author-container .wp-caption-text, .entry-author-container .wp-caption{
+	max-width:328px !important;
+}

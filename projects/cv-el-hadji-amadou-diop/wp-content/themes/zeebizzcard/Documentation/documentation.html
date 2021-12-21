@@ -1,0 +1,147 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>Documentation of zeeBizzCard</title>
+	
+	<link rel="stylesheet" href="inc/style.css" type="text/css" media="screen">
+</head>
+
+
+<body id="top">
+	
+	<h1>zeeBizzCard - Documentation</h1>
+	<div id="wrapper">
+		
+		<h3>Thanks for Downloading zeeBizzCard</h3>
+		<p>
+			<ul id="theme_info">
+				<li>Theme Author: <a href="http://themezee.com">ThemeZee</a></li>
+				<li>Email: <a href="mailto:support@themezee.com">support@themezee.com</a></li>
+			</ul>
+			If you have any questions that are beyond the scope of this help file, please see also my
+			<a href="http://themezee.com/wordpress-theme-setup-tutorial/">online wordpress documentation</a>. Thanks so much!
+		</p>
+		
+		<h3>Table of Contents</h3>
+		<ul id="contents">
+			<li><a href="#requirements">A) Requirements</a></li>
+			<li><a href="#installation">B) Theme Installation</a></li>
+			<li><a href="#setup">C) Theme Setup</a></li>
+			<li><a href="#panel">D) Theme Options</a></li>
+			<li><a href="#templates">E) Page Templates</a></li>
+			<li><a href="#shortcodes">F) Shortcodes</a></li>
+			<li><a href="#sources">G) Sources</a></li>
+		</ul>
+
+		<h3 id="requirements">A) Requirements - <a href="#top">top</a></h3>
+
+		<p>The theme has been tested on all major browsers including Firefox 4,5 & 6, Opera 10 & 11, Internet Explorer 8 & 9 and Safari 5.1. Your browser should have JavaScript enabled to make this theme work! 
+		For example the DropDown Navigation and the Content Slider need Javascript to work.</p>
+		<p>The theme works on the latest Wordpress version without any problems. Previous versions have not been tested and are not supported. I suggest to update your wordpress installation, especially due to security flaws.</p>  
+
+		
+		<h3 id="installation">B) Theme Installation - <a href="#top">top</a></h3>
+		
+		<ol>
+			<li><b>Automatic Installation</b>
+				<p>Go to <code>WP-Admin > Appearance > Themes > Install Themes > Upload</code> and choose the theme zip folder. </p>
+			</li>
+			<li><b>Manual Installation</b>
+				<p>Upload the theme files to your wordpress theme folder <code>wp-content/themes</code> and activate the theme in your wordpress admin panel. That's it!</p>
+			</li>
+		</ol>
+		
+		<p>To find out more about installing WordPress themes please also see the <a href="http://codex.wordpress.org/Using_Themes#Using_Themes">WordPress documentation.</a>
+		
+		<h3 id="setup">C) Theme Setup - <a href="#top">top</a></h3>
+		<p>Afterwards you should read a few more detailed explanations how to completely setup your downloaded theme.</p>
+		
+		<ol>
+			<li><b>Pagination</b>
+				<p>The theme includes css styles for the 'wp_pagenavi' plugin. Simply download the plugin <a href="http://wordpress.org/extend/plugins/wp-pagenavi/">here</a> and install it to use pagination. Then deactivate the plugin css in the plugin options page to use the CSS of the theme.</p>
+			</li>
+			<li><b>Contact Form</b>
+				<p>The theme includes css styles for the 'Contact Form 7' plugin. Simply download the plugin <a href="http://wordpress.org/extend/plugins/contact-form-7/">here</a> and build your contact form in the plugin options page. Then you can include your form easily in every page via a simple shortcode.</p>
+			</li>
+			<li><b>Personal Picture</b>
+				<p>The theme uses the wordpress custom header function to display your personal profile picture at the sidebar. 
+				You can upload your own picture by clicking on <code>WP-Admin > Appearance > Header</code>. If you upload more than one picture, you can
+				choose the Random Mode, which shows a different image on each page. </p>
+				
+				<p>You can also choose an individual picture at every page by using the post_thumbnail function. Just edit a page, click on
+				<code>Set featured image</code>, upload your picture and click <code>Use as featured image</code></p>
+			</li>
+		</ol>
+		
+		<h3 id="panel">D) Theme Options - <a href="#top">top</a></h3>
+		
+		<p>The theme contains an own admin page for further settings. Login to your Wordpress admin panel and go to <code>WP-Admin > Appearance > Theme Options</code>.
+		There are several settings to change the logo, layout, colors and fonts of your theme. Furthermore you can manage the Featured Post Slider, your Personal Details and Networks. Every theme option is quite well explained so I hope there shouldn't be any questions.</p>
+		
+		<p>These settings should definitely reduce the launch time for your wordpress business card. For any other changes which can't be made with the admin page you have to manually change the files.</p>
+		<img src="inc/theme-options.png" />
+		
+		<h3 id="templates">E) Page Templates - <a href="#top">top</a></h3>
+		<p>With WordPress you can use different types of templates for a page. In order to choose your page template you have to create a new page or edit an existing page.
+		You will find the Page Attributes area on your sidebar beside the editor screen. From that area you can choose your page template.</p>
+		<img src="inc/page-templates.png" />
+		
+		<p>I have included a few page templates with this theme.</p>
+		<ol>
+			<li><b>Networks Template</b>
+				<p>This template shows all network buttons like twitter, facebook etc.</p>
+			</li>
+			<li><b>Slider Template</b>
+				<p>Shows a static page with the featured posts slider included.</p>
+			</li>
+			<li><b>Sitemap Template</b>
+				<p>Shows a Sitemap with the latest posts, pages, categories and archives.</p>
+			</li>
+			<li><b>Portfolio Templates (2 or 3 columns)</b>
+				<p>The portfolio page templates shows the latest portfolio items. The Portfolio is managed with custom post types and has a own menu in WP-Admin to create and edit portfolio items.</p>
+			</li>
+		</ol>
+		
+		<h3 id="shortcodes">F) Shortcodes - <a href="#top">top</a></h3>
+		<p>My card theme isn't bloated with a bunch of shortcodes and uses only a few, but important shortcodes to handle the business card features. You can insert 
+		all shortcodes easily by using the included buttons in the visual editor screen.</p>
+		<img src="inc/shortcodes.png" />
+		<ol>
+			<li><b>Resume Shortcode</b> 
+				<p>Add Job Title, Organisation, date and a description and your ready. Using Shortcodes for the Resume is the most flexible and powerful option you can have.</p>
+			</li>
+			<li><b>Skills Shortcode</b>
+				<p>Add your skill name, your skill level from 1-5 stars and an optional description.</p>
+			</li>
+			<li><b>Plugin Shortcode</b>
+				<p>Here you can easily create a shortcode to include the theme card plugins like the 'Personal Details' Box and 'Network Buttons'</p>
+			</li>
+		</ol>
+		<img src="inc/shortcodes2.png" />
+		<h3 id="sources">G) Sources - <a href="#top">top</a></h3>
+		
+		<p>I've used the following images, icons or other files as listed. </p>
+		<p>
+			(1) Social Media Bookmark Icon by <a href="http://www.nouveller.com/general/free-social-media-bookmark-icon-pack-the-ever-growing-icon-set/">nouveller.com</a><br/>
+			(2) Default Header Image Avatar by <a href="http://www.scionlife.com/misc/avatars.swf">scionlife.com</a><br/>
+			(3) All Fonts by <a href="http://code.google.com/apis/webfonts/">Google Font API</a>
+		</p>
+
+		<h3>Enjoy! - <a href="#top">top</a></h3>
+		<p>Once again, thank you so much for downloading this theme. If you like zeeBizzCard and want to help keep this theme free and actively developed donate a few bucks. </p> 
+		<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+			<input type="hidden" name="cmd" value="_s-xclick">
+			<input type="hidden" name="hosted_button_id" value="TZLS9Y4BF8D4C">
+			<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+			<img alt="" border="0" src="https://www.paypalobjects.com/de_DE/i/scr/pixel.gif" width="1" height="1">
+		</form>
+
+		<p>Also, don't forget to follow me on <a href="http://twitter.com/ThemeZee" target="_blank">Twitter</a> or
+		<a href="http://www.facebook.com/ThemeZee" target="_blank">Facebook</a>.</p>
+		
+		<p><a href="#top">Go To Table of Contents</a></p>
+
+	</div>
+	
+</body>
+</html>

@@ -1,0 +1,91 @@
+/* Print Style Sheet */
+
+@media print {
+body { background:white; color:black; margin:0 }
+
+#wrapper{
+width: 850px;
+margin: 0px auto;
+padding: 0;
+text-align:left;
+font-size: 75%;
+line-height:20px;
+background: #fff;
+border-left: 2px solid #fff;
+border-right: 2px solid #fff;
+}
+
+#header {display:none}
+#content {width: 850px; margin-left:0; 
+     float:none; 
+     width:auto}
+#comments {display:block}
+#sidebar {display:none}
+#footer {display:block}
+#tabs {display:none}
+}
+
+.post{
+margin: 0 0 20px 0;
+padding: 0 5px 5px 5px;
+}
+
+.sticky-box {display:none}
+
+.date{
+float:left;
+text-align:center;
+font-weight:800;
+margin: 0 2px 0 0;
+padding: 0 2px;
+color: #444;
+}
+
+.dateDay{
+display:block;
+font-size: 16px;
+line-height: 16px;
+text-align:center;
+}
+
+.dateMonth, .dateYear{
+display:block;
+font-size: 11px;
+padding:0;
+line-height: 12px;
+}
+
+div.date {
+height:52px;
+width:68px;
+padding:9px;
+float:left;
+line-height: 1;
+}
+
+div.date .month{
+text-align:left;
+margin-left:14px;
+margin-bottom:8px;
+font-size:12px;
+font-weight:bold;
+color:#ffffff;
+}
+
+div.date .nr{
+text-align:center;
+margin-right:12px;
+margin-top:-3px;
+color:#000000;
+font-size:22px;
+font-weight:bold;
+}
+
+div.date .year{
+text-align:center;
+margin-right:14px;
+color:#000000;
+font-size:10px;
+font-weight:bold;
+margin-top:2px;
+}

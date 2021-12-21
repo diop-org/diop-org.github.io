@@ -1,0 +1,16 @@
+#primary, #sidebar .widget, #thumbnails .rel, #thumbnails .controls, nav#navigation  {
+	background: transparent url(white/bg-content.png) 0 0 repeat
+}
+
+#welcomeTeaser, .max_widget_teaser, #site-title {
+	background: none;
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#D8FFFFFF,endColorstr=#D8FFFFFF)"; /* IE8 */    
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#D8FFFFFF,endColorstr=#D8FFFFFF);   /* IE6 & 7 */      
+	zoom: 1;
+}
+
+#thumbnails .rel, #thumbnails .controls { -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#7FFFFFFF,endColorstr=#7FFFFFFF)"; /* IE8 */  }
+
+/** template-grid-fullsize.php **/
+#primary.portfolio-fullsize-scroller,
+#primary.portfolio-fullsize-grid { -ms-filter: none; filter: none; background: none !important; }

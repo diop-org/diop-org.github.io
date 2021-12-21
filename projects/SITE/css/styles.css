@@ -1,0 +1,306 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	background-image: url(../images/bg.jpg);
+	background-repeat: repeat-x;
+	background-position: left top;
+	margin: 0px;
+	background-color: #F6F6F6;
+}
+img {
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+}
+h1 {
+	color:#09F;
+	font-size:16px;
+	text-transform:uppercase;
+}
+ 
+
+#slider {
+	margin: auto;
+	height: 396px;
+	width: 1004px;
+}
+#header {
+	height: 182px;
+	position: absolute;
+	width: 100%;
+	left: 0px;
+	top: 0px;
+	z-index:200;
+}
+#middle {
+	height: 408px;
+	position: absolute;
+	width: 100%;
+	left: 0px;
+	top: 111px;
+	background-image: url(../images/bg_middle.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	z-index:300;
+}
+#middle_in {
+	background-image: url(../images/bg_middle_in.png);
+	background-repeat: repeat-y;
+	background-position: center top;
+	margin: auto;
+	width: 985px;
+	background-color: #FFF;
+}
+.clear {
+	clear: both;
+}
+
+
+#navigation {
+	background-image: url(../images/bg_nav.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	margin: auto;
+	height: 40px;
+	width: 1004px;
+	
+}
+/*********************************/
+			/* Menu horizontal (items flottants) */
+			/*********************************/
+			#nav {
+				list-style: none ;
+				margin: 0 ;
+				padding: 0 ;
+				overflow: hidden ;
+				/* Création du contexte de formatage */
+				}
+			#nav li {
+	background-image:url(../images/separateur.png);
+	background-repeat:no-repeat;
+	background-position:left top;
+	float: left;
+	margin-right: 1px;
+	color: #333;
+	height:40px;
+	padding-top: 0;
+	padding-right: 2px;
+	padding-bottom: 0;
+	padding-left: 3px;
+				}
+			#nav li a {
+				display: block ;
+				color:#006;
+				font: 1em "Trebuchet MS",Arial,sans-serif ;
+				line-height: 3em ;
+				padding:0 15px;
+				text-align: center ;
+				text-decoration: none ;
+				text-transform:uppercase;
+				height:40px;
+				width:70px;
+				}
+			#nav li a:hover, #nav li a:focus, #nav li a:active {
+	text-decoration: none;
+	background-image: url(../images/bg_nav_on.png);
+	background-repeat: repeat-x;
+	background-position: left top;
+				}
+
+#header_in {
+	height: 184px;
+	width: 1004px;
+	margin: auto;
+}
+#logo {
+	background-image: url(../images/bg_logo.png);
+	float: left;
+	height: 184px;
+	width: 278px;
+	color: #333;
+	padding-left: 60px;
+	background-repeat: no-repeat;
+}
+#header_in_right {
+	background-image: url(../images/bg_header.png);
+	background-repeat: repeat-x;
+	float: right;
+	height: 184px;
+	width: 666px;
+}
+
+
+#contener {
+	width: 100%;
+}
+#slogan {
+	background-image: url(../images/txt_heavy.png);
+	background-repeat: no-repeat;
+	background-position: right top;
+	float: right;
+	width: 650px;
+	padding-top: 30px;
+	color: #CB6600;
+	text-align: right;
+	margin-right: 10px;
+	margin-top: 5px;
+	text-transform: uppercase;
+}
+.info {
+	text-align: right;
+	margin: 0px;
+}
+
+#middle_in_in {
+	background-image: url(../images/ombre.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	width: 985px;
+	background-color: #FFF;
+	padding-top: 15px;
+	margin: auto;
+}
+#middle_in_left {
+	float: left;
+	width: 700px;
+	min-height: 350px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 15px;
+	background-image: url(../images/ombre%20-%20Copie.png);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+#middle_in_left a {
+	text-decoration: none;
+	color: #09F;
+	font-style: italic;
+}
+
+#middle_in_left  h1 {
+	margin: 0px;
+}
+.txt_bloc {
+	text-align: justify;
+}
+#middleslider {
+	margin: auto;
+	height: 330px;
+	width: 930%;
+	padding-left: 15px;
+	padding-top: 15px;
+	padding-right: 5px;
+}
+
+.txt_titre_bloc {
+	color: #CB2600;
+	font-size: 14px;
+	text-align: center;
+}
+
+
+#middle_in_right {
+	float: right;
+	width: 269px;
+	padding-top: 15px;
+	margin-top: 15px;
+	padding-left: 5px;
+}
+.chp_txt {
+	color: #666;
+	border: 1px solid #999;
+	width: 175px;
+	background-color: #EBEBEB;
+}
+.bloc_produits {
+	background-image: url(../images/heavy_parts.png);
+	background-repeat: no-repeat;
+	float: left;
+	width: 200px;
+	padding-top: 10px;
+	background-position: center top;
+	text-align: center;
+	padding-right: 10px;
+	padding-left: 10px;
+	height: 280px;
+	margin: 5px;
+	border: 1px solid #999;
+	border-radius: 5px;
+}
+#middle_bottom {
+	background-image: url(../images/bg_moddle_bottom.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	height: 20px;
+	width: 987px;
+	margin-top: auto;
+	margin-right: auto;
+	margin-bottom: 15px;
+	margin-left: auto;
+}
+#footer {
+	background-image: url(../images/bg_footer.jpg);
+	background-repeat: repeat-x;
+	background-position: center top;
+	height: 34px;
+	width: 100%;
+}
+#footer_in {
+	margin: auto;
+	width: 987px;
+}
+#footer_left {
+	float: left;
+	width: 400px;
+	padding-top: 10px;
+}
+#footer_right {
+	float: right;
+	width: 400px;
+	text-align: right;
+}
+
+#env_nav {
+	float: left;
+	width: 850px;
+}
+
+#accueil {
+	float: left;
+	height: 40px;
+	width: 100px;
+	padding-right: 15px;
+	padding-left: 15px;
+	text-align: center;
+	margin-left: 13px;
+}
+
+.chp_txt_2 {
+	width:250px;
+	height:20px;
+	border: 1px solid #999;
+	background-color: #F8F8F8;
+}
+.zn_txt {
+	width:250px;
+	height:60px;
+	border: 1px solid #999;
+	background-color:#F8F8F8;
+}
+.zn_txt_2 {
+	width:300px;
+	height:120px;
+	border: 1px solid #999;
+	background-color:#F8F8F8;
+}
+ 
+#header .wrapper{
+	background: url(../images/header2.gif) bottom left no-repeat;
+}
+#featured .wrapper{
+	padding: 10px 0 10px 0;
+}

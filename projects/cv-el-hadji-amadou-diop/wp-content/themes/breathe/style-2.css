@@ -1,0 +1,8 @@
+/* -- This is where you can modify the styles of the theme without touching the original stylesheet.  Just locate the code that you want to modify and past it into this style sheet and make your changes -- */
+
+
+/* ----------[ TOP ADS - MAKES ADS GO TO CENTER ]------------- */
+.top-ads {
+         text-align:center;    
+}
+

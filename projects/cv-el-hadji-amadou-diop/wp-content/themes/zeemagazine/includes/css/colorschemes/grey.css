@@ -1,0 +1,33 @@
+a, a:link, a:visited{
+	color: #555555;
+}
+#header {
+	border-bottom: 1px solid #555555;
+}
+#sidebar a, #sidebar ul {
+	color: #555555;
+}
+#head {
+	border-bottom: 1px solid #555555;
+}
+#navi {
+	background: #555555;
+}
+.post {
+	border-bottom: 1px dashed #555555;
+}
+.post-title, .page-title, .post-title a:link, .post-title a:visited {
+	color: #555555;
+}
+#slideshow .post-title a{  
+    color: #555555;
+}
+.comment-reply-link {
+	color: #555555 !important;
+}
+.wp-pagenavi .current {
+    background-color: #555555;
+}
+#foot {
+	background: #555555;
+}

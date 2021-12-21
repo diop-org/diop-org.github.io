@@ -1,0 +1,33 @@
+a, a:link, a:visited{
+	color: #00aa08;
+}
+#header {
+	border-bottom: 1px solid #00aa08;
+}
+#sidebar a, #sidebar ul {
+	color: #00aa08;
+}
+#head {
+	border-bottom: 1px solid #00aa08;
+}
+#navi {
+	background: #00aa08;
+}
+.post {
+	border-bottom: 1px dashed #00aa08;
+}
+.post-title, .page-title, .post-title a:link, .post-title a:visited {
+	color: #00aa08;
+}
+#slideshow .post-title a{  
+    color: #00aa08;
+}
+.comment-reply-link {
+	color: #00aa08 !important;
+}
+.wp-pagenavi .current {
+    background-color: #00aa08;
+}
+#foot {
+	background: #00aa08;
+}

@@ -1,0 +1,20 @@
+
+/*Text Color*/
+h1, h2, h3, h4, h5, h6, .widgettitle, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, .content h2 a, .popular li h2, .popular li ul li a.poptitle, h2.postitle a, a.read, .nxt_page a, .prv_page a, #wp-calendar thead, .foot a, #commentform p a, .fn a, .citeping a, .comment-body p a, .post p a, #cancel-comment-reply-link, .error a, .search_try, .post table a, .postcontent a  { color:#02a0b4;}
+
+/*Menu*/
+#menu{background:url(../images/menubg2.png) no-repeat;}
+.topmenu ul li ul.sub-menu, .topmenu ul li ul.children {background: url(../images/sub-menu_top2.png); background-position: top; background-repeat:no-repeat;}
+.sub-menu-bottom{ background: url(../images/sub-menu_bottom2.png) no-repeat; width:159px; height:20px; float:left;}
+.topmenu ul li ul.sub-menu li, .topmenu ul li ul.children li {background:url(../images/sub-menu_bg2.png) repeat-y;}
+.topmenu ul li ul.sub-menu li a, .topmenu ul li ul.children li a{background:url(../images/sub-menu_border2.png) bottom repeat-x;}
+.topmenu ul li ul.sub-menu li ul.sub-menu li a, .topmenu ul li ul.children li ul.children li a{color:#b8f7ff;}
+/*Menu For IE only*/
+.topmenu ul li a{ text-shadow:0 0 1px #065862\9; font-size:14px\9;}
+
+/*Submit Button*/
+#submit{background:url(../images/submit2.png) no-repeat;}
+
+/*Slider Control*/
+#prevBtn a, #nextBtn a,#slider1next a, #slider1prev a{background:url(../images/sl_left2.png) no-repeat 0 0;}
+#nextBtn a, #slider1next a{ background:url(../images/sl_right2.png) no-repeat 0 0;}

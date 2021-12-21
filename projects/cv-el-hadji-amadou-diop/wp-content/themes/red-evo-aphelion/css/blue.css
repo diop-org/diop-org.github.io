@@ -1,0 +1,67 @@
+/* CSS Document */
+body{
+background:#054b6e url(../images/blue/bg_main.jpg) center top no-repeat;
+}
+
+#header #top .moduletable h3{
+color:#32b1f1;
+background:url(../images/blue/toph3bg.gif) no-repeat;
+}
+
+.moduletable h3, .moduletable_menu h3, .moduletable_text h3{
+background:url(../images/blue/h3bg.jpg) top left no-repeat;
+}
+
+a, ul.menu a:hover, li#current a, li.parent li#current a, li#current li a:hover, #bottom li a:hover, a.mainlevel:hover, a#active_menu.mainlevel{
+color:#32b1f1;
+}
+
+ul.menu a:hover, li#current a,  a.mainlevel:hover, a#active_menu.mainlevel{
+background:url(../images/blue/arrow_active.png) no-repeat;
+background-position:3px 9px;
+}
+
+.middle a, h2,.contentheading{
+color:#62b625;
+}
+
+.button{
+background:#3eb7f3 url(../images/blue/buttonbg.gif) top left repeat-x;
+}
+
+.middle ul li{
+background:url(../images/blue/bullet.png) no-repeat;
+}
+
+#reflection{
+background:url(../images/blue/reflection.jpg) top left repeat-x;
+}
+#reflection-l{
+background:url(../images/blue/reflection-l.jpg) top left no-repeat;}
+
+#reflection-r{
+background:url(../images/blue/reflection-r.jpg) top right no-repeat;}
+
+#container{
+background:url(../images/blue/containerbg_l.jpg) top left repeat-y;
+}
+#container .bgright{
+background:url(../images/blue/containerbg_r.jpg) top right repeat-y;
+}
+
+#header .bgleft{
+background:url(../images/blue/headerbg_l.jpg) top left no-repeat;
+}
+#header .bgright{
+background:url(../images/blue/headerbg_r.jpg) top right no-repeat;
+} 
+
+li.parent li#current a, li#current li a:hover, ul.menu ul a:hover{
+background:url(../images/blue/arrow_subactive.png) no-repeat;
+background-position:4px 10px;
+}
+
+#user3 ul li a:hover{
+background: transparent url(../images/blue/topmenu-bg.jpg) repeat-x;
+background-position:0px 1px;
+}

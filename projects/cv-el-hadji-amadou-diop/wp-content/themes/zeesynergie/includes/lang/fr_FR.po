@@ -1,0 +1,429 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: zeeSynergie\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-04-14 15:25+0100\n"
+"PO-Revision-Date: 2012-04-14 16:30+0100\n"
+"Last-Translator: froozeify <froozeify@mail.com>\n"
+"Language-Team: froozeify <froozeify@mail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_c\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"Plural-Forms: nplurals=2;plural=n>2\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:10
+msgid "404 Error: Not found"
+msgstr "Erreur 404 : non trouvé"
+
+#: ../404.php:13
+msgid "The page you trying to reach does not exist, or has been moved. Please use the menus or the search box to find what you are looking for"
+msgstr "La page que vous essayez d'atteindre n'existe pas, ou a été déplacée. Merci d'utiliser les menus ou la boîte de recherche pour trouver ce que vous recherchez"
+
+#: ../404.php:18
+#: ../template-sitemap.php:29
+msgid "Latest Posts"
+msgstr "Derniers articles"
+
+#: ../404.php:29
+#: ../template-sitemap.php:40
+msgid "Pages"
+msgstr "Pages"
+
+#: ../archive.php:6
+#: ../archive.php:7
+#: ../archive.php:8
+msgid "Archive for"
+msgstr "Archive pour"
+
+#: ../archive.php:9
+msgid "Tag Archive for"
+msgstr "Archive de mots clefs pour"
+
+#: ../archive.php:10
+#: ../template-sitemap.php:50
+msgid "Archives"
+msgstr "Archives"
+
+#: ../archive.php:20
+#: ../index.php:21
+#: ../page.php:11
+#: ../search.php:17
+#: ../single.php:14
+#: ../slide.php:36
+#: ../template-full.php:16
+#: ../template-sitemap.php:16
+#: ../template-slider.php:23
+msgid "Edit"
+msgstr "Editer"
+
+#: ../archive.php:23
+#: ../comments.php:16
+#: ../index.php:24
+#: ../search.php:20
+#: ../single.php:17
+#: ../slide.php:39
+msgid "No comments"
+msgstr "Aucun commentaire"
+
+#: ../archive.php:23
+#: ../comments.php:16
+#: ../index.php:24
+#: ../search.php:20
+#: ../single.php:17
+#: ../slide.php:39
+msgid "One comment"
+msgstr "Un commentaire"
+
+#: ../archive.php:23
+#: ../comments.php:16
+#: ../index.php:24
+#: ../search.php:20
+#: ../single.php:17
+#: ../slide.php:39
+#, php-format
+msgid "% comments"
+msgstr "% commentaires"
+
+#: ../archive.php:32
+#: ../index.php:33
+#: ../search.php:29
+msgid "Read more"
+msgstr "Lire la suite"
+
+#: ../archive.php:38
+#: ../index.php:39
+#: ../search.php:34
+#: ../single.php:33
+#: ../slide.php:53
+msgid "Category: "
+msgstr "Catégorie:"
+
+#: ../archive.php:39
+#: ../index.php:40
+#: ../search.php:35
+#: ../single.php:34
+#: ../slide.php:54
+msgid "Tags: "
+msgstr "Mots clefs"
+
+#: ../archive.php:54
+#: ../index.php:53
+#: ../search.php:47
+msgid "&laquo; Older Entries"
+msgstr "&laquo; Articles plus anciens"
+
+#: ../archive.php:54
+#: ../index.php:53
+#: ../search.php:47
+msgid "Recent Entries &raquo;"
+msgstr "Articles plus récents &raquo;"
+
+#: ../comments.php:8
+msgid "Enter password to view comments."
+msgstr "Entrez le mot de passe pour voir les commentaires."
+
+#: ../comments.php:41
+msgid "Comments are closed."
+msgstr "Les commentaires sont fermés."
+
+#: ../search.php:7
+#: ../search.php:54
+msgid "Search results for "
+msgstr "Résultats de la recherche pour"
+
+#: ../search.php:59
+msgid "No matches. Please try again, or use the navigation menus to find what you search for."
+msgstr "Aucun resultat. merci d'essayez de nouveau, ou utilisez les menus de navigation pour trouver ce que vous recherchez."
+
+#: ../template-sitemap.php:45
+msgid "Categories"
+msgstr "Catégories"
+
+#: ../template-sitemap.php:55
+msgid "Posts by Category"
+msgstr "Articles par catégorie"
+
+#: ../template-sitemap.php:58
+msgid "Category"
+msgstr "Catégorie"
+
+#: ../includes/admin/theme-admin.php:5
+#: ../includes/admin/theme-admin.php:31
+msgid "Options"
+msgstr "Options"
+
+#: ../includes/admin/theme-admin.php:33
+msgid "It is completely optional, but if you like the Theme I would appreciate it if you keep the credit link at the bottom."
+msgstr "C'est complètement facultatif, mais si vous aimez ce thème, je vous serez reconnaissant de gardez le lien de crédit situé en bas de la page."
+
+#: ../includes/admin/theme-admin.php:36
+msgid "Theme settings updated successfully."
+msgstr "Paramètres du thème mis à jour avec succès."
+
+#: ../includes/admin/theme-settings.php:7
+msgid "Theme Settings"
+msgstr "Paramètres du thème"
+
+#: ../includes/admin/theme-settings.php:10
+msgid "Featured Post Slider"
+msgstr "Slideur d'article en vedette"
+
+#: ../includes/admin/theme-settings.php:13
+msgid "Social Media Buttons"
+msgstr "Boutons sociaux"
+
+#: ../includes/admin/theme-settings.php:16
+msgid "125x125 Ad Spots"
+msgstr "125x125 spots publicitaires"
+
+#: ../includes/admin/theme-settings.php:23
+msgid "Blue"
+msgstr "bleu"
+
+#: ../includes/admin/theme-settings.php:24
+msgid "Darkblue"
+msgstr "Bleu foncé"
+
+#: ../includes/admin/theme-settings.php:25
+msgid "Darkgreen"
+msgstr "Vert foncé"
+
+#: ../includes/admin/theme-settings.php:26
+msgid "Green"
+msgstr "Vert"
+
+#: ../includes/admin/theme-settings.php:27
+msgid "Grey"
+msgstr "Gris"
+
+#: ../includes/admin/theme-settings.php:28
+msgid "Orange"
+msgstr "Orange"
+
+#: ../includes/admin/theme-settings.php:29
+msgid "Purple"
+msgstr "Violet"
+
+#: ../includes/admin/theme-settings.php:30
+msgid "Red"
+msgstr "Rouge"
+
+#: ../includes/admin/theme-settings.php:31
+msgid "Standard"
+msgstr "Standard"
+
+#: ../includes/admin/theme-settings.php:32
+#: ../includes/admin/theme-settings.php:64
+msgid "Custom Color"
+msgstr "Couleur personnalisée"
+
+#: ../includes/admin/theme-settings.php:42
+msgid "Paste the full Image URL of your logo."
+msgstr "Collez le URL complet de votre logo."
+
+#: ../includes/admin/theme-settings.php:48
+msgid "Footer Content"
+msgstr "Contenu du pied de page"
+
+#: ../includes/admin/theme-settings.php:49
+msgid "Enter here the content which is displayed in the footer."
+msgstr "Saissez ici le contenu qui sera affiché dans le pied de page."
+
+#: ../includes/admin/theme-settings.php:56
+msgid "Please select your color scheme here."
+msgstr "Merci de sélectionnez ici le jeu de couleurs."
+
+#: ../includes/admin/theme-settings.php:65
+msgid "Select a custom color here (You have to select the 'custom color' option above)."
+msgstr "Sélectionnez une couleur personnalisée ici (Vous devez sélectionner l'option 'couleur personnalisée' ci-dessus)."
+
+#: ../includes/admin/theme-settings.php:71
+msgid "Custom CSS"
+msgstr "CSS personnalisé"
+
+#: ../includes/admin/theme-settings.php:72
+msgid "Insert your own custom css code into the head of the theme."
+msgstr "Insérez votre propre code personnalisé css dans la tête du thème."
+
+#: ../includes/admin/theme-settings.php:80
+msgid "Show Post Slider?"
+msgstr "Afficher le slideur pour les d'article?"
+
+#: ../includes/admin/theme-settings.php:81
+msgid "Check this if you want to show the Featured Post Slider."
+msgstr "Cochez cette case si vous souhaitez afficher le slideur pour les articles en vedette."
+
+#: ../includes/admin/theme-settings.php:87
+msgid "Slider Title"
+msgstr "Titre du slideur"
+
+#: ../includes/admin/theme-settings.php:88
+msgid "Enter here your headline which is displayed above the featured posts."
+msgstr "Indiquez ici votre titre qui sera affiché au-dessus des articles en vedette."
+
+#: ../includes/admin/theme-settings.php:106
+msgid "Slider Content"
+msgstr "Contenu du slideur"
+
+#: ../includes/admin/theme-settings.php:112
+msgid "Show latest posts"
+msgstr "Voir les derniers articles"
+
+#: ../includes/admin/theme-settings.php:113
+msgid "Show latest posts from category \"featured\""
+msgstr "Voir les derniers articles de la catégorie \"featured\""
+
+#: ../includes/admin/theme-settings.php:114
+msgid "Show latest posts with post_meta_key \"featured\""
+msgstr "Voir les derniers articles avec comme clef méta \"featured\""
+
+#: ../includes/admin/theme-settings.php:115
+msgid "Show latest posts from custom category(enter ID below)"
+msgstr "Voir les derniers articles de la catégorie personnalisée (entrer l'ID ci-dessous)"
+
+#: ../includes/admin/theme-settings.php:119
+msgid "category ID"
+msgstr "ID de la catégorie"
+
+#: ../includes/admin/theme-settings.php:120
+#, fuzzy
+msgid "Please enter the category ID you'd like to include in the slideshow.(You have to tick the last option above)"
+msgstr "Merci d'entrer l'ID de la catégorie que vous souhaitez inclure dans le slideshow/slideur"
+
+#: ../includes/admin/theme-settings.php:126
+msgid "Number of Posts"
+msgstr "Nombre d'articles"
+
+#: ../includes/admin/theme-settings.php:127
+msgid "Enter the number how much posts should be displayed in the post slider."
+msgstr "Entrez le nombre d'article qui doivent être affichés dans le slideur d'article."
+
+#: ../includes/admin/theme-settings.php:136
+msgid "Activate SocialMedia Buttons?"
+msgstr "Activer les boutons sociaux?"
+
+#: ../includes/admin/theme-settings.php:137
+msgid "Check this to activate the SocialMedia Button Widget."
+msgstr "Cochez cette case pour activer le Widget des boutons sociaux."
+
+#: ../includes/admin/theme-settings.php:143
+msgid "Show SocialMedia Buttons in Header?"
+msgstr "Montrer les boutons sociaux dans l'en-tête?"
+
+#: ../includes/admin/theme-settings.php:144
+msgid "Check this to activate the SocialMedia Buttons in Header."
+msgstr "Cochez cette case pour activer le Widget des boutons sociaux dans l'en-tête."
+
+#: ../includes/admin/theme-settings.php:151
+msgid "Enter your RSS URL (e.g. Feedburner Feed) here."
+msgstr "Entrez ici votre URL du flux RSS (ex : Feedburner Flux)."
+
+#: ../includes/admin/theme-settings.php:158
+msgid "Enter your Email URL (e.g. Feedburner Email Subscription) here."
+msgstr "Entrez ici votre adresse mail (ex : Feedburner Email Subscription)."
+
+#: ../includes/admin/theme-settings.php:165
+msgid "Enter the URL to your Twitter Profile here."
+msgstr "Entrez ici l' URL de votre profil Twitter."
+
+#: ../includes/admin/theme-settings.php:172
+msgid "Enter the URL to your Facebook Profile here."
+msgstr "Entrez ici l'URL de votre profil Facebook."
+
+#: ../includes/admin/theme-settings.php:179
+msgid "Enter the URL to your Google+ profile."
+msgstr "Entrez ici l'URL de votre profil Google+."
+
+#: ../includes/admin/theme-settings.php:186
+msgid "Enter the URL to your Tumblr Blog here."
+msgstr "Entrez ici l'URL de votre blog Tumblr."
+
+#: ../includes/admin/theme-settings.php:193
+msgid "Enter the URL to your LinkedIn Profile here."
+msgstr "Entrez ici l'URL de votre profil LinkedIn."
+
+#: ../includes/admin/theme-settings.php:200
+msgid "Enter the URL to your Xing Profile here."
+msgstr "Entrez ici l'URL de votre profil Xing."
+
+#: ../includes/admin/theme-settings.php:207
+msgid "Enter the URL to your Delicious Profile here."
+msgstr "Entrez ici l'URL de votre profil Delicious."
+
+#: ../includes/admin/theme-settings.php:214
+msgid "Enter the URL to your Digg Profile here."
+msgstr "Entrez ici l'URL de votre profil Digg."
+
+#: ../includes/admin/theme-settings.php:221
+msgid "Enter the URL to your Flickr Profile here."
+msgstr "Entrez ici l'URL de votre profil Filckr."
+
+#: ../includes/admin/theme-settings.php:228
+msgid "Enter the URL to your Youtube Profile here."
+msgstr "Entrez ici l'URL de votre profil Youtube."
+
+#: ../includes/admin/theme-settings.php:235
+msgid "Enter the URL to your Vimeo Profile here."
+msgstr "Entrez ici l'URL de votre profil Vimeo."
+
+#: ../includes/admin/theme-settings.php:244
+msgid "Rotate banners?"
+msgstr "Bannières rotative ?"
+
+#: ../includes/admin/theme-settings.php:245
+msgid "Check this to randomly rotate the ad spots."
+msgstr "Cochez cette case pour faire tourner au hasard les spots publicitaires."
+
+#: ../includes/admin/theme-settings.php:251
+#: ../includes/admin/theme-settings.php:265
+#: ../includes/admin/theme-settings.php:279
+#: ../includes/admin/theme-settings.php:293
+#: ../includes/admin/theme-settings.php:307
+#: ../includes/admin/theme-settings.php:321
+msgid "Ad Spot Image URL"
+msgstr "URL de l'image de l'annonce publicitaire"
+
+#: ../includes/admin/theme-settings.php:252
+msgid "Enter the image URL for this ad spot."
+msgstr "Entrez l'URL de l'image pour ce spot publicitaire."
+
+#: ../includes/admin/theme-settings.php:258
+#: ../includes/admin/theme-settings.php:272
+#: ../includes/admin/theme-settings.php:286
+#: ../includes/admin/theme-settings.php:300
+#: ../includes/admin/theme-settings.php:314
+#: ../includes/admin/theme-settings.php:328
+msgid "Ad Spot Destination"
+msgstr "Destination du spot publicitaire"
+
+#: ../includes/admin/theme-settings.php:259
+msgid "Enter the URL where this ad spot points to."
+msgstr "Entrez l'URL où ce spot publicitaire pointe."
+
+#: ../includes/plugins/theme_ads_widget.php:5
+msgid "Show your 125x125 Ad Spots"
+msgstr "Montrez votre 125x125 spots publicitaires"
+
+#: ../includes/plugins/theme_ads_widget.php:46
+msgid "Go to WP-Admin-> Appearance-> \"Theme\" Options to configure this widget"
+msgstr "Allez à WP-Admin-> Apparence-> \"Theme\" Options pour configurer ce widget"
+
+#: ../includes/plugins/theme_ads_widget.php:64
+#: ../includes/plugins/theme_socialmedia_widget.php:109
+msgid "Title"
+msgstr "Titre"
+
+#: ../includes/plugins/theme_socialmedia_widget.php:5
+msgid "Show your Social Media Buttons"
+msgstr "Montrez vos boutons sociaux"
+
+#: ../includes/plugins/theme_socialmedia_widget.php:24
+msgid "Go to WP-Admin-> Appearance-> \"Theme\" Options to activate and configure this widget"
+msgstr "Allez à WP-Admin-> Apparence-> \"Theme\" Options pour activer et configurer ce widget"
+

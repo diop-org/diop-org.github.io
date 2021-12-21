@@ -1,0 +1,86 @@
+/* LIGHT STYLESHEET */
+
+#wrapper { background-color: #fff; border-top: 3px #000 solid; text-shadow: #fff 1px 1px; }
+#header { background-color: #eee; text-shadow: #eee 1px 1px; }
+.main-menu { background-color: #000; text-shadow: #000 1px 1px; letter-spacing: -1px; font-weight: 700; }
+.main-menu ul li a { background-color: #000; color: #fff; }
+.main-menu ul li a:hover { background-color: #0080ff; text-shadow: #0080ff 1px 1px; }
+.main-menu ul .current-menu-item a, .main-menu ul .current_page_item a { background-color: #151515; text-shadow: #151515 1px 1px; }
+.widget { color: #666; font-size: 13px; }
+.widget a { color: #666; }
+.widget a:hover { color: #000; }
+.widget #s { background: #fff url(images/search_icon.png) no-repeat left center; color: #666; border-color: #666; text-shadow: #fff 1px 1px; }
+.widget #s:focus { background-color: #eee; text-shadow: #eee 1px 1px; }
+.widget-title { background: url(images/widget_title_pattern.png) repeat-x bottom left; color: #333; }
+#wp-calendar td, #wp-calendar th, #wp-calendar caption { border-color: #bbb; }
+#wp-calendar #today { background-color: #eee; }
+.widget_tag_cloud a { background-color: #000; color: #fff; text-shadow: #000 1px 1px; }
+.widget_tag_cloud a:hover { background-color: #0080ff; color: #fff; text-shadow: #0080ff 1px 1px; }
+.widget-tab { background-color: #ddd; text-shadow: #ddd 1px 1px; border-color: #ccc; }
+.widget-tab:first-child { border-left-color: #ccc; }
+.current-tab { background-color: #fff; text-shadow: #fff 1px 1px; border-bottom-color: #fff; }
+#crumbs { color: #777; }
+#crumbs a { color: #777; }
+.entry-title { color: #333; border-bottom-color: #ccc; }
+.entry-title a { color :#333; }
+.entry-info { background-color: #eee; text-shadow: #eee 1px 1px; color: #777; }
+.entry-info a { color: #777; }
+.entry-info a:hover { color: #000; }
+.entry-date { background: url(images/date_icon.png) no-repeat left center; }
+.entry-author { background: url(images/author_icon.png) no-repeat left center; }
+.comments-link { background: url(images/comments_icon.png) no-repeat left center; }
+.post-edit-link { background: url(images/edit_icon.png) no-repeat left center; }
+.entry-content { color: #666; }
+.entry-content a { color: #0080ff; }
+.entry-content a:hover { text-decoration: underline; }
+.entry-content .more-link { color: #aaa; }
+.entry-content .more-link:hover { color: #333; text-decoration: none; }
+.entry-content .page-link span, .entry-content .page-link a:hover span { background-color: #0080ff; color: #fff; text-shadow: #0080ff 1px 1px; }
+.entry-content .page-link a span { background-color: #000; color: #fff; text-shadow: #000 1px 1px; }
+.entry-content .page-link .pages-title { color: #fff; background-color: #000; text-shadow: #000 1px 1px; }
+.entry-content blockquote { background: url(images/quote_icon.png) no-repeat top left; }
+.entry-content table { border-color: #aaa; }
+.entry-content table td, .entry-content table th { border-color: #aaa; }
+.entry-content table caption { border-color: #aaa; }
+.entry-content table th { background-color: #ddd; text-shadow: #ddd 1px 1px; }
+.entry-content input[type="text"], .entry-content input[type="password"], .entry-content textarea { border-color: #777; background-color: #fff; color: #777; }
+.entry-content input[type="submit"], .entry-content input[type="reset"], .entry-content input[type="button"] { background-color: #000; border-color: #000; color: #fff; text-shadow: #000 1px 1px; }
+.entry-content input[type="submit"]:hover, .entry-content input[type="reset"]:hover, .entry-content input[type="button"]:hover { background-color: #0080ff; border-color: #0080ff; text-shadow: #0080ff 1px 1px; }
+.entry-utility { border-top-color: #ccc; color: #999; }
+.entry-utility a { color: #999; }
+.entry-utility a:hover { color: #333; }
+.wp-caption img, .entry-attachment img, .gallery-thumb img, .gallery-item img { border-color: #eee; }
+.post-navigation a { background-color: #000; color: #fff; text-shadow: #000 1px 1px; }
+.post-navigation a:hover { background-color: #0080ff; text-shadow: #0080ff 1px 1px; }
+.navigation a { background-color: #000; color: #fff; text-shadow: #000 1px 1px; }
+.navigation a:hover, .navigation .current { background-color: #0080ff; text-shadow: #0080ff 1px 1px; }
+#footer-widget-area { background-color: #eee; border-top-color: #ddd; text-shadow: #eee 1px 1px; }
+#footer-widget-area .current-tab { background-color: #eee; border-bottom-color: #eee; }
+#footer-credits { color: #777; background-color: #f5f5f5; border-top-color: #ddd; text-shadow: #f5f5f5 1px 1px; border-bottom-color: #ccc; }
+#footer-credits a { color: #0080ff; }
+#footer-credits a:hover { text-decoration: underline; }
+#comments-title { color: #333; }
+.comment-navigation a { background-color: #000; color: #fff; text-shadow: #000 1px 1px; }
+.comment-navigation a:hover { background-color: #0080ff; text-shadow: #0080ff 1px 1px; }
+.comment-meta, .comment-ping { color: #666; }
+.comment-meta a, .comment-ping a { color: #0080ff; }
+.comment-meta a:hover, .comment-ping a:hover { text-decoration: underline; }
+.comment-status, .comment-info { color: #666; }
+.comment-status a, .comment-info a { color: #0080ff; }
+.comment-status a:hover, .comment-info a:hover { text-decoration: underline; }
+.comment-content { color: #666; }
+.comment-content a { color: #0080ff; }
+.comment-content a:hover { text-decoration: underline; }
+.comment-content blockquote { background: url(images/quote_icon.png) no-repeat top left; }
+.comment-content table { border-color: #aaa; }
+.comment-content table td, .comment-content table th { border-color: #aaa; }
+.comment-content table caption { border-color: #aaa; }
+.comment-content table th { background-color: #ddd; text-shadow: #ddd 1px 1px; }
+.commentlist li.even { background-color: #eee; text-shadow: #eee 1px 1px; }
+#respond { color: #666; font-size: 13px; }
+#respond a { color: #0080ff; }
+#respond a:hover { text-decoration: underline; }
+#reply-title { background: url(images/widget_title_pattern.png) repeat-x bottom left; color: #333; }
+#commentform input, #commentform textarea { background-color: #fff; border-color: #777; color: #666; }
+#commentform input[type="button"], #commentform input[type="reset"], #commentform input[type="submit"] { background-color: #000; border-color: #000; color: #fff; text-shadow: #000 1px 1px; }
+#commentform input[type="button"]:hover, #commentform input[type="reset"]:hover, #commentform input[type="submit"]:hover { background-color: #0080ff; border-color: #0080ff; text-shadow: #0080ff 1px 1px; }

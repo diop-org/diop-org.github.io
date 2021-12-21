@@ -1,0 +1,60 @@
+/* EDITOR STYLESHEET */
+html .mceContentBody { max-width: 640px; }
+* { font-family: "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "Geneva", Helvetica, Arial, sans-serif; color: #222; line-height: 150%; font-size: 13px; }
+.left { float: left; }
+.right { float: right; }
+.clear { clear: both; content: '.'; font-size: 1px; visibility: hidden; height: 1px; max-height: 1px; line-height: 1px; }
+a img { border: 0; }
+a { color: #0080ff; text-decoration: none; -webkit-transition: 250ms linear all; -moz-transition: 250ms linear all; transition: 250ms linear all; }
+a:hover { text-decoration: underline; }
+h1, h2, h3, h4, h5, h6 { clear: both; word-wrap: break-word; margin-bottom: 15px; }
+h1 { font-size: 170%; }
+h2 { font-size: 150%; }
+h3 { font-size: 135%; }
+h4 { font-size: 120%; }
+h5 { font-size: 110%; }
+h6 { font-size: 100%; }
+p { margin-bottom: 15px; }
+dl { margin: 0 1.625em; }
+dt { font-weight: bold; }
+dd { margin-bottom: 1.625em; }
+strong { font-weight: bold; }
+cite, em, i { font-style: italic; }
+pre { font-family: "Courier 10 Pitch", Courier, monospace; line-height: 1.5; margin-bottom: 1.625em; padding: 0.75em 1.625em; overflow-x: auto; /* Use horizontal scroller if needed; for Firefox 2, not needed in Firefox 3 */ white-space: pre-wrap; /* css-3 */ white-space: -moz-pre-wrap !important; /* Mozilla, since 1999 */ white-space: -pre-wrap; /* Opera 4-6 */ white-space: -o-pre-wrap; /* Opera 7 */ word-wrap: break-word; /* Internet Explorer 5.5+ */ }
+code, kbd { font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace; }
+abbr, acronym, dfn { border-bottom: 1px dotted; cursor: help; }
+address { display: block; margin: 0 0 1.625em; }
+sup, sub { font-size: 10px; height: 0; line-height: 1; position: relative; vertical-align: baseline; }
+sup { bottom: 1ex; }
+sub { top: .5ex; }
+input[type="text"], input[type="password"], textarea { padding: 4px 6px; border: 1px #222 solid; font-family: "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "Geneva", Helvetica, Arial, sans-serif; }
+textarea { font-size: 13px; overflow: auto; }
+input[type="submit"], input[type="reset"], input[type="button"] { cursor: pointer; padding: 3px 6px; font-family: "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "Geneva", Helvetica, Arial, sans-serif; background-color: #000; text-shadow: #000 1px 1px; color: #fff; font-weight: 700; }
+input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover { background-color: #0080ff; text-shadow: #0080ff 1px 1px; }
+table { border: 1px #222 solid; }
+table td, table th { border: 1px #222 solid; padding: 5px; }
+table caption { border: 1px #222 solid; padding: 5px; border-bottom: 0 none; }
+table th { background-color: #ccc; text-shadow: #ccc 1px 1px; }
+li { margin-bottom: 10px; font-size: 13px; }
+li li { font-size: 13px; }
+ul, ul ul { list-style: disc; margin-left: 20px; }
+ol { list-style: decimal; margin-left: 25px; }
+ol ol { margin-left: 20px; }
+ul ul, ol ol { margin-top: 10px; }
+ol ol { list-style: upper-alpha; }
+ol ol ol { list-style: lower-roman; }
+ol ol ol ol { list-style: lower-alpha; }
+br { margin-bottom: 0 !important; }
+blockquote { padding: 15px; margin: 0; background-color: #eee; border: 1px #ddd solid; font-family: Georgia, serif; font-style: italic; }
+.alignleft, img.alignleft { margin: 10px 20px 5px 0 !important; display: inline; float: left; }
+.alignright, img.alignright { margin: 10px 10px 5px 20px !important; display: inline; float: right; }
+.aligncenter, img.aligncenter { margin: 10px auto !important; display: block; clear: both; }
+.alignnone, img.alignnone { /* not sure about this one */ }
+img { max-width: 100%; }
+.entry-thumb img { max-width: 100%; height: auto; }
+img[class*="align"], img[class*="wp-image-"], img[class*="attachment-"] { height: auto; /* Make sure images with WordPress-added height and width attributes are scaled correctly */ }
+img.size-full, img.size-large { max-width: 100%; height: auto; /* Make sure images with WordPress-added height and width attributes are scaled correctly */ }
+embed, object, iframe { max-width: 100%; }
+.wp-caption, .attachment { max-width: 100%; background: none !important; border: 0 none !important; padding: 0 !important; }
+.wp-caption img, .attachment img { max-width: 100% !important; border: 5px #eee solid; }
+.wp-caption .wp-caption-text, .attachment .entry-caption p { margin-bottom: 10px; padding: 0 !important; word-wrap: break-word; line-height: 135%; margin-top: 5px; text-align: center; color: #222; }

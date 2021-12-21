@@ -1,0 +1,606 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Thank You Counter Button 1.0.02\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-11-21 22:18+0700\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Vladimir <vladimir@shinephp.com>\n"
+"Language-Team: ShinePHP.com <vladimir@shinephp.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Turkish\n"
+"X-Poedit-Country: TURKEY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../thankyou_widgets.php:14
+msgid "the latest or the most thanked post titles with total thanks quant"
+msgstr "Toplam teşekkür sayısı ile en fazla teşekkür alan yada yeni makale başlıkları"
+
+#: ../thankyou_widgets.php:15
+#: ../thankyou_widgets.php:25
+msgid "Thanks Stat"
+msgstr "Teşekkür İstatistikleri"
+
+#: ../thankyou_widgets.php:78
+#: ../thankyou_widgets.php:236
+msgid "Total quant of thanks: "
+msgstr "Toplam Teşekkür Sayısı"
+
+#: ../thankyou_widgets.php:107
+msgid "Title:"
+msgstr "Başlık"
+
+#: ../thankyou_widgets.php:110
+msgid "Number of posts to show:"
+msgstr "Gösterilecek Makale Sayısı"
+
+#: ../thankyou_widgets.php:122
+#: ../thankyou_widgets.php:314
+msgid "What posts to show:"
+msgstr "Hani Makaleler Gösterilecek"
+
+#: ../thankyou_widgets.php:124
+#: ../thankyou_widgets.php:317
+msgid "Latest thanked"
+msgstr "En son Teşekkür alan"
+
+#: ../thankyou_widgets.php:125
+#: ../thankyou_widgets.php:318
+msgid "Most thanked"
+msgstr "En Fazla Teşekkür Edilen"
+
+#: ../thankyou_widgets.php:126
+msgid "Total quant of thanks"
+msgstr "Toplam Teşekkür Sayısı"
+
+#: ../thankyou_widgets.php:131
+#: ../thankyou_widgets.php:330
+msgid "Display total quant of thanks"
+msgstr "Toplam Teşekkür Sayısını Göster"
+
+#: ../thankyou_widgets.php:242
+msgid "Check Full Statistics"
+msgstr "Tüm İstatistikleri Göster"
+
+#: ../thankyou_widgets.php:246
+msgid "Plugin author home page"
+msgstr "Plugin Yapımcısının Sayfası"
+
+#: ../thankyou_widgets.php:253
+msgid "No thanks yet"
+msgstr "Henüz  teşekkür edilmemiş"
+
+#: ../thankyou_widgets.php:309
+msgid "Posts number to show:"
+msgstr "Gösterilecek Makale Sayısı"
+
+#: ../thankyou_widgets.php:335
+msgid "Display Full Statistics link"
+msgstr "Tüm İstatistikler Linkini Göster"
+
+#: ../thankyou_widgets.php:340
+msgid "Display plugin author link"
+msgstr "Plugin Yapımcısının Linkini Göster"
+
+#: ../thankyou_widgets.php:351
+msgid "Latest Thanks"
+msgstr "En Son Teşekkürler"
+
+#: ../thankyou_widgets.php:353
+msgid "Most Thanked"
+msgstr "En Fazla Teşekkür Alanlar"
+
+#: ../thankyou.php:38
+msgid "Thank You Counter Button requires WordPress 3.0 or newer."
+msgstr "Teşekkür Butonu WordPress 3.0 yada daha üst sürümleri gerektirir."
+
+#: ../thankyou.php:38
+msgid "Please update!"
+msgstr "Lütfen Güncelleyin"
+
+#: ../thankyou.php:47
+msgid "Every time a new visitor clicks the \"Thank you\" button, one point is added to the total \"thanks\" counter for this post."
+msgstr "Bu Makale için ziyaretçi teşekkür butonuna her tıkladığında toplam teşekkür sayısına bir puan eklenir."
+
+#: ../thankyou.php:101
+msgid "Thank You Counter Button Plugin"
+msgstr "Teşekkür Butonu Eklentisi"
+
+#: ../thankyou.php:117
+#: ../thankyou.php:193
+#: ../thankyou.php:488
+#: ../thankyou_options.php:547
+msgid "Settings"
+msgstr "Ayarlar"
+
+#: ../thankyou.php:118
+msgid "Statistics"
+msgstr "İstatistikler"
+
+#: ../thankyou.php:176
+#: ../thankyou.php:178
+msgid "You left &ldquo;Thanks&rdquo; already for this post"
+msgstr "Bu makaleye zaten teşekkür ettiniz"
+
+#: ../thankyou.php:179
+msgid "Click to left &ldquo;Thanks&rdquo; for this post"
+msgstr "Bu makaleye teşekkür etmek için soldaki teşekkür butonuna tıklayın"
+
+#: ../thankyou.php:194
+#: ../thankyou_options.php:548
+#: ../thankyou_statistics.php:606
+#: ../thankyou_statistics.php:609
+#, php-format
+msgid "View statistics details for \"%s\""
+msgstr "\"%s\" için istatistikleri göster"
+
+#: ../thankyou.php:195
+#: ../thankyou_options.php:549
+msgid "Hide these shortcuts"
+msgstr "Kısayolları Gizle"
+
+#: ../thankyou.php:195
+msgid "Do you really want to hide these shortcuts?"
+msgstr "Gerçekten gizlemek istiyormusunuz?"
+
+#: ../thankyou.php:392
+#: ../thankyou_lib.php:285
+msgid "Thank You"
+msgstr "Teşekkürler"
+
+#: ../thankyou.php:498
+#: ../thankyou_options.php:55
+msgid "Changelog"
+msgstr "Değişiklikler"
+
+#: ../thankyou.php:499
+msgid "Additional Documentation"
+msgstr "Yardımcı Döküman"
+
+#: ../thankyou_options.php:35
+msgid "Default Settings are restored"
+msgstr "Varsayılan ayarlar geri yüklendi"
+
+#: ../thankyou_options.php:37
+msgid "All Thanks Counters are cleared"
+msgstr "Tüm Teşekkür Sayaçları sıfırlandı"
+
+#: ../thankyou_options.php:51
+msgid "About this Plugin:"
+msgstr "Plugin hakkında"
+
+#: ../thankyou_options.php:52
+msgid "Author's website"
+msgstr "Yapımcının Websitesi"
+
+#: ../thankyou_options.php:53
+msgid "Plugin webpage"
+msgstr "Plugin Anasayfası"
+
+#: ../thankyou_options.php:54
+msgid "Additional documentation"
+msgstr "Yardımcı Döküman"
+
+#: ../thankyou_options.php:56
+msgid "FAQ"
+msgstr "SSS"
+
+#: ../thankyou_options.php:57
+msgid "Donate"
+msgstr "Bağış Yap"
+
+#: ../thankyou_options.php:59
+msgid "More plugins from"
+msgstr "Daha Fazla Plugin"
+
+#: ../thankyou_options.php:73
+#: ../thankyou_options.php:88
+msgid "No items found."
+msgstr "Öğe Bulunamadı"
+
+#: ../thankyou_options.php:76
+msgid "Recent Posts:"
+msgstr "Yeni Makaleler:"
+
+#: ../thankyou_options.php:91
+msgid "Greetings:"
+msgstr "Teşekkürler:"
+
+#: ../thankyou_options.php:92
+msgid "It's me, the author"
+msgstr "O Benim, Yapımcı"
+
+#: ../thankyou_options.php:93
+msgid "for the help with Belarusian translation"
+msgstr "Rusça çeviri yardımı için"
+
+#: ../thankyou_options.php:94
+msgid "for the help with Dutch translation"
+msgstr "Flemenkçe çeviri yardımı için"
+
+#: ../thankyou_options.php:95
+msgid "for the help with French translation, ideas, source code contributions and new versions testing"
+msgstr "fransızca çeviri yardımı ve yeni firirler, kaynak kodları,yeni versiyon testleri için"
+
+#: ../thankyou_options.php:96
+msgid "for the help with German translation"
+msgstr "Almanca çeviri yardımı için"
+
+#: ../thankyou_options.php:97
+msgid "for the help with Hungarian translation"
+msgstr "Macarca çeviri yardımı için"
+
+#: ../thankyou_options.php:98
+msgid "for the help with Iranian translation"
+msgstr "Farsça çeviri yardımı için"
+
+#: ../thankyou_options.php:99
+#: ../thankyou_options.php:100
+msgid "for the help with Italian translation"
+msgstr "İtalyanca çeviri yardımı için"
+
+#: ../thankyou_options.php:101
+msgid "for the help with Spanish translation, ideas and new versions testing"
+msgstr "İspanyolca çeviri yardımı, yeni firkirler ve yeni versiyon testleri için"
+
+#: ../thankyou_options.php:102
+msgid "For the help with Turkish translation"
+msgstr " Türkçe Çeviri Yardımı İçin"
+
+#: ../thankyou_options.php:104
+msgid "for setting page layout idea and html markup examples"
+msgstr "ayar sayfası fikri ve html örnekleri için"
+
+#: ../thankyou_options.php:105
+msgid "for the excelent JQuery color picker"
+msgstr "Jquery renk seçici için"
+
+#: ../thankyou_options.php:106
+msgid "for the form input slider code"
+msgstr "form kaydırma kodu için"
+
+#: ../thankyou_options.php:107
+msgid "for the cute online button image generator"
+msgstr "Online buton oluşturucu için"
+
+#: ../thankyou_options.php:138
+msgid "All settings for TYCB plugin will be return to the default values, Continue?"
+msgstr "Teşekür butonu için tüm ayarlar varsayılan ayarlara dönecektir, devam edilsin mi?"
+
+#: ../thankyou_options.php:140
+msgid ""
+"All thanks counters for all posts will be set to 0,\\n"
+" all thanks click history will be cleared, Continue?"
+msgstr "Tüm teşekkür geçmişi silinecektir, devam edilsin mi?"
+
+#: ../thankyou_options.php:321
+#: ../thankyou_options.php:325
+msgid "Display"
+msgstr "Görünüm"
+
+#: ../thankyou_options.php:330
+msgid "Display button at Pages"
+msgstr "Butonu sayfalarda göster"
+
+#: ../thankyou_options.php:333
+msgid "Display button at Home page, Categories/Tags archive pages"
+msgstr "Butonu anasayfada,kategorilerde ve etiket arşivlerinde göster"
+
+#: ../thankyou_options.php:338
+msgid "Do not show button for selected categories"
+msgstr "Butonu seçilen kategorilerde gösterme"
+
+#: ../thankyou_options.php:393
+msgid "Position in the Post text"
+msgstr "Makale yazısı içinde buton pozisyonu"
+
+#: ../thankyou_options.php:397
+msgid "Before"
+msgstr "Önce"
+
+#: ../thankyou_options.php:399
+msgid "At first page of multipaged posts only"
+msgstr "Çoklu sayfaları makalelerin sadece ilk sayfasında"
+
+#: ../thankyou_options.php:403
+msgid "After"
+msgstr "Sonra"
+
+#: ../thankyou_options.php:405
+msgid "At last page of multipaged posts only"
+msgstr "Çoklu sayfaları makalelerin sadece son sayfasında"
+
+#: ../thankyou_options.php:409
+msgid "Shortcode [thankyou]"
+msgstr "Kısayol kodu [thankyou]"
+
+#: ../thankyou_options.php:410
+msgid "Manual"
+msgstr "Manuel"
+
+#: ../thankyou_options.php:416
+msgid "Button Caption"
+msgstr "Buton Yazısı"
+
+#: ../thankyou_options.php:423
+msgid "Button Styling"
+msgstr "Buton Stili"
+
+#: ../thankyou_options.php:425
+msgid "Add style to the div:"
+msgstr "Div koduna yeni stil ekle"
+
+#: ../thankyou_options.php:428
+#: ../thankyou_options.php:432
+#: ../thankyou_options.php:485
+msgid "e.g.,"
+msgstr "örn.,"
+
+#: ../thankyou_options.php:429
+msgid "to the Caption font:"
+msgstr "Buton Yazı Fontu"
+
+#: ../thankyou_options.php:433
+msgid "font color: "
+msgstr "Yazı rengi"
+
+#: ../thankyou_options.php:438
+msgid "Size"
+msgstr "Boyut"
+
+#: ../thankyou_options.php:443
+msgid "Normal"
+msgstr "Normal"
+
+#: ../thankyou_options.php:446
+msgid "Compact"
+msgstr "Sıkışık(compact)"
+
+#: ../thankyou_options.php:451
+msgid "Form and Color"
+msgstr "Form Ve Renk"
+
+#: ../thankyou_options.php:480
+msgid "Custom button image URL"
+msgstr "Geçerli buton resim adresi"
+
+#: ../thankyou_options.php:487
+msgid "Width, px"
+msgstr "Genişlik, px"
+
+#: ../thankyou_options.php:488
+msgid "Height, px"
+msgstr "Yükseklik, px"
+
+#: ../thankyou_options.php:499
+msgid "Misc"
+msgstr "Diğer"
+
+#: ../thankyou_options.php:503
+msgid "Check IP-address"
+msgstr "IP adresini kontrol et"
+
+#: ../thankyou_options.php:508
+msgid "Only one Thanks for post for one IP-address limit"
+msgstr "Her bir IP adresi için sadece bir teşekkür"
+
+#: ../thankyou_options.php:509
+msgid "Time limit:"
+msgstr "Zaman Limiti:"
+
+#: ../thankyou_options.php:511
+msgid "Forever"
+msgstr "Sonsuz"
+
+#: ../thankyou_options.php:513
+msgid "Only for this period"
+msgstr "Sadece bu zaman aralıklarında"
+
+#: ../thankyou_options.php:515
+msgid "seconds"
+msgstr "saniye"
+
+#: ../thankyou_options.php:520
+msgid "Display settings shortcuts"
+msgstr "Ayar kısayollarını göster"
+
+#: ../thankyou_options.php:525
+msgid "Add shortcuts next to the buttons for settings quick access"
+msgstr "Hızlı ayarlar için butonun yanına kısayollar ekle"
+
+#: ../thankyou_options.php:530
+msgid "Return to Defaults"
+msgstr "Varsayılan ayarlara geri dön"
+
+#: ../thankyou_options.php:530
+msgid "Restore the default values for all settings"
+msgstr "Tüm ayarları varsayılan ayarlara çevir"
+
+#: ../thankyou_options.php:531
+msgid "Reset Counters"
+msgstr "Sayaçları Sıfırla"
+
+#: ../thankyou_options.php:531
+msgid "Reset all thanks counters for the all posts"
+msgstr "Tüm makaleler için teşekkür sayaçlarını sıfırla"
+
+#: ../thankyou_options.php:536
+msgid "Save Changes"
+msgstr "Kaydet"
+
+#: ../thankyou_options.php:537
+msgid "Cancel"
+msgstr "İptal"
+
+#: ../thankyou_options.php:537
+msgid "Cancel not saved changes"
+msgstr "İptal edildi, ayarlar kaydedilmedi"
+
+#: ../thankyou_options.php:539
+msgid "Button DIV Style Preview"
+msgstr "Buton div stili önizleme"
+
+#: ../thankyou_options.php:548
+#: ../thankyou_statistics.php:160
+#: ../thankyou_statistics.php:532
+msgid "Post Title"
+msgstr "Makale Başlığı"
+
+#: ../thankyou_lib.php:260
+#: ../thankyou_lib.php:298
+#: ../thankyou_lib.php:341
+msgid "operation is prohibited"
+msgstr "işlem yasaklandı"
+
+#: ../thankyou_statistics.php:70
+msgid "None"
+msgstr "Hiçbiri"
+
+#: ../thankyou_statistics.php:138
+msgid "Back to main statistics"
+msgstr "İstatistiklere Geri Dön"
+
+#: ../thankyou_statistics.php:144
+#: ../thankyou_statistics.php:235
+msgid "Not available"
+msgstr "Uygun Değil"
+
+#: ../thankyou_statistics.php:151
+#, php-format
+msgid "Details for &ldquo;%s&rdquo;"
+msgstr "&ldquo;%s&rdquo; için detaylar"
+
+#: ../thankyou_statistics.php:159
+#: ../thankyou_statistics.php:531
+msgid "Post Id"
+msgstr "Yazı kimliği"
+
+#: ../thankyou_statistics.php:161
+#: ../thankyou_statistics.php:533
+msgid "Thanks Quant"
+msgstr "Teşekkür Sayısı"
+
+#: ../thankyou_statistics.php:166
+#: ../thankyou_statistics.php:169
+#: ../thankyou_statistics.php:610
+msgid "View Post"
+msgstr "Makaleyi Göster"
+
+#: ../thankyou_statistics.php:169
+#: ../thankyou_statistics.php:610
+#, php-format
+msgid "View \"%s\""
+msgstr "\"%s\" Görüntüle"
+
+#: ../thankyou_statistics.php:170
+#: ../thankyou_statistics.php:611
+#, php-format
+msgid "Edit \"%s\""
+msgstr "\"%s\" Düzenle"
+
+#: ../thankyou_statistics.php:170
+#: ../thankyou_statistics.php:611
+msgid "Edit Post"
+msgstr "Makaleyi Düzenle"
+
+#: ../thankyou_statistics.php:172
+#: ../thankyou_statistics.php:613
+msgid "Reset this post counter"
+msgstr "Bu makale sayacını resetle"
+
+#: ../thankyou_statistics.php:173
+#, php-format
+msgid "You are about to reset this post '%s' thanks counter. Click 'Cancel' to do nothing, 'OK' to reset it."
+msgstr "'%s' ait teşekkür sayacını sıfırlamak üzeresiniz. İptal etmek için 'İptal' devam etmek için ise 'Tamam' tıklayın."
+
+#: ../thankyou_statistics.php:173
+#: ../thankyou_statistics.php:614
+msgid "Reset Counter"
+msgstr "Sayacı Resetle"
+
+#: ../thankyou_statistics.php:202
+#: ../thankyou_statistics.php:465
+#: ../thankyou_statistics.php:636
+#, php-format
+msgid "Displaying %s&#8211;%s of %s"
+msgstr "Toplam %s den/dan %s&#8211;%s görüntüleniyor"
+
+#: ../thankyou_statistics.php:216
+msgid "IP address"
+msgstr "İP adresi"
+
+#: ../thankyou_statistics.php:217
+#: ../thankyou_statistics.php:534
+msgid "Last Thank Date"
+msgstr "Son Teşekkür Tarihi"
+
+#: ../thankyou_statistics.php:235
+msgid "Look up IP country"
+msgstr "İP Ülkesini Göster"
+
+#: ../thankyou_statistics.php:414
+msgid "Show all post dates"
+msgstr "Tüm makale tarihlerini göster"
+
+#: ../thankyou_statistics.php:435
+msgid "View all categories"
+msgstr "Tü kategorileri göster"
+
+#: ../thankyou_statistics.php:445
+msgid "Show Posts without Thanks"
+msgstr "Teşekkür edilmeyen makaleleri göster"
+
+#: ../thankyou_statistics.php:446
+msgid "Rows per page: "
+msgstr "Her bir sayfada:"
+
+#: ../thankyou_statistics.php:457
+msgid "Refresh"
+msgstr "Yenile"
+
+#: ../thankyou_statistics.php:493
+#: ../thankyou_statistics.php:508
+msgid "descending"
+msgstr "azalan"
+
+#: ../thankyou_statistics.php:494
+#: ../thankyou_statistics.php:509
+msgid "Ascending order"
+msgstr "Artan sıralama"
+
+#: ../thankyou_statistics.php:498
+#: ../thankyou_statistics.php:513
+msgid "ascending"
+msgstr "artan"
+
+#: ../thankyou_statistics.php:499
+#: ../thankyou_statistics.php:514
+msgid "Descending order"
+msgstr "Azalan sıralama"
+
+#: ../thankyou_statistics.php:521
+#, php-format
+msgid "Click to sort in %s order"
+msgstr "%s sıralamak için tıklayın"
+
+#: ../thankyou_statistics.php:609
+msgid "View details"
+msgstr "Detayları Göster"
+
+#: ../thankyou_statistics.php:614
+#, php-format
+msgid ""
+"You are about to reset this post '%s' thanks counter.\n"
+" Click 'Cancel' to do nothing, 'OK' to reset it."
+msgstr ""
+"'%s' ait teşekkür sayacını sıfırlamak üzeresiniz.\n"
+"İptal etmek için 'İptal' devam etmek için ise 'Tamam' tıklayın."
+
+#: ../thankyou_statistics.php:653
+msgid "No posts with thanks found"
+msgstr "Teşekkür edilen makale bulunamadı"
+

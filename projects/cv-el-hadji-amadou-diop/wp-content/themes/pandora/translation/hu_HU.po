@@ -1,0 +1,612 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: fgg\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-07-17 22:14+0100\n"
+"PO-Revision-Date: 2011-07-17 22:14+0100\n"
+"Last-Translator: david\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: c:\\pandora\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:14
+msgid "Not Found"
+msgstr "Nincs találat"
+
+#: 404.php:16
+msgid "Apologies, but we were unable to find what you were looking for. Perhaps  searching will help."
+msgstr "Sajnálom, de amit keresel az nem létezik. Talán a Kereső tud segíteni."
+
+#: 404.php:20
+#: functions.php:358
+#: search.php:61
+msgid "Find"
+msgstr "Keresés"
+
+#: archive.php:15
+#, php-format
+msgid "Daily Archives: <span>%s</span>"
+msgstr "Bejegyzések naponta: <span>%s</span>"
+
+#: archive.php:17
+#, php-format
+msgid "Monthly Archives: <span>%s</span>"
+msgstr "Bejegyzések havonta: <span>%s</span>"
+
+#: archive.php:19
+#, php-format
+msgid "Yearly Archives: <span>%s</span>"
+msgstr "Bejegyzések évente: <span>%s</span>"
+
+#: archive.php:21
+msgid "Blog Archives"
+msgstr "Archívum"
+
+#: archive.php:27
+#: archive.php:57
+#: author.php:20
+#: author.php:65
+#: category.php:17
+#: category.php:60
+#: index.php:29
+#: tag.php:15
+#: tag.php:58
+msgid "<span class=\"meta-nav\">&laquo;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&laquo;</span> Régebbiek"
+
+#: archive.php:28
+#: archive.php:58
+#: author.php:21
+#: author.php:66
+#: category.php:18
+#: category.php:61
+#: index.php:30
+#: tag.php:16
+#: tag.php:59
+msgid "Newer posts <span class=\"meta-nav\">&raquo;</span>"
+msgstr "Frissebbek <span class=\"meta-nav\">&raquo;</span>"
+
+#: archive.php:36
+#: archive.php:42
+#: archive.php:49
+#: author.php:32
+#: author.php:38
+#: author.php:48
+#: category.php:27
+#: category.php:33
+#: category.php:43
+#: index.php:57
+#: index.php:65
+#: index.php:71
+#: index.php:106
+#: index.php:112
+#: index.php:122
+#: index.php:144
+#: index.php:150
+#: index.php:157
+#: index.php:170
+#: search.php:23
+#: single.php:25
+#: single.php:31
+#: single.php:41
+#: tag.php:25
+#: tag.php:31
+#: tag.php:41
+#, php-format
+msgid "Permalink to %s"
+msgstr "Egyedi cím ehhez: %s"
+
+#: author.php:14
+#, php-format
+msgid "Author Archives: <span class=\"vcard\">%s</span>"
+msgstr "Az ő arhívuma: <span class=\"vcard\">%s</span>"
+
+#: author.php:51
+#: category.php:46
+#: index.php:91
+#: index.php:125
+#: search.php:30
+#: single.php:55
+#: tag.php:44
+#, php-format
+msgid "By %s"
+msgstr "Írta: %s"
+
+#: author.php:51
+#: category.php:46
+#: index.php:91
+#: index.php:125
+#: search.php:30
+#: single.php:55
+#: tag.php:44
+#, php-format
+msgid "View all posts by %s"
+msgstr "Az összes cikk tőle: %s"
+
+#: author.php:52
+#: category.php:47
+#: index.php:92
+#: index.php:126
+#: search.php:31
+#: single.php:56
+#: tag.php:45
+#, php-format
+msgid "Posted in %s"
+msgstr "Kategóriák: %s"
+
+#: author.php:53
+#: category.php:48
+#: comments.php:45
+#: comments.php:75
+#: index.php:93
+#: index.php:127
+#: page-1-col.php:21
+#: page.php:17
+#: single.php:57
+#: tag.php:46
+msgid "Edit"
+msgstr "Szerkesztés"
+
+#: author.php:54
+#: category.php:49
+#: index.php:80
+#: index.php:128
+#: search.php:32
+#: tag.php:47
+msgid "Comments (0)"
+msgstr "Nincs hozzászólás"
+
+#: author.php:54
+#: category.php:49
+#: index.php:80
+#: index.php:128
+#: search.php:32
+#: tag.php:47
+msgid "Comments (1)"
+msgstr "Egy hozzászólás"
+
+#: author.php:54
+#: category.php:49
+#: index.php:80
+#: index.php:128
+#: search.php:32
+#: tag.php:47
+msgid "Comments (%)"
+msgstr "% hozzászólás"
+
+#: author.php:59
+#: category.php:54
+#: index.php:94
+#: index.php:133
+#: single.php:69
+#: tag.php:52
+msgid "Tagged: "
+msgstr "Címkék: "
+
+#: category.php:12
+msgid "Category Archives:"
+msgstr "Kategória:"
+
+#: comments.php:10
+msgid "This post is protected. Enter the password to view any comments."
+msgstr "Ez egy védett cikk. Írd be a jelszót, hogy megnézhesd a hozzászólásokat."
+
+#: comments.php:29
+#, php-format
+msgid "<span>%d</span> Comments"
+msgstr "<span>%d</span> Hozzászólás"
+
+#: comments.php:29
+msgid "<span>One</span> Comment"
+msgstr "<span>Egy</span> Hozzászólás"
+
+#: comments.php:41
+#, php-format
+msgid "Posted %1$s at %2$s <span class=\"meta-sep\">|</span> <a href=\"%3$s\" title=\"Permalink to this comment\">Permalink</a>"
+msgstr "ekkor írta: %1$s - %2$s <span class=\"meta-sep\">|</span> <a href=\"%3$s\" title=\"Permalink to this comment\">Link ehhez</a>"
+
+#: comments.php:48
+msgid "\t\t\t\t\t<span class='unapproved'>Your comment is awaiting moderation.</span>\n"
+msgstr "\t\t\t\t\t<span class='unapproved'>A hozzászólásod a moderátor jóváhagyására vár.</span>\n"
+
+#: comments.php:64
+#, php-format
+msgid "<span>%d</span> Trackbacks"
+msgstr "<span>%d</span> Trackbacks"
+
+#: comments.php:64
+msgid "<span>One</span> Trackback"
+msgstr "<span>Egy</span> Visszakövetési link"
+
+#: comments.php:71
+#, php-format
+msgid "By %1$s on %2$s at %3$s"
+msgstr "Írta: %1$s ekkor: %2$s - %3$s"
+
+#: comments.php:76
+msgid "\\t\\t\\t\\t\\t<span class=\"unapproved\">Your trackback is awaiting moderation.</span>\\n"
+msgstr "\\t\\t\\t\\t\\t<span class=\"unapproved\">A visszakövetési linked a moderátor jóváhagyására vár.</span>\\n"
+
+#: comments.php:91
+msgid "Post a Comment"
+msgstr "Szólj hozzá!"
+
+#: comments.php:94
+#, php-format
+msgid "You must be <a href=\"%s\" title=\"Log in\">logged in</a> to post a comment."
+msgstr "Kötelező <a href=\"%s\" title=\"Log in\">bejelentkezni</a> a hozzászóláshoz."
+
+#: comments.php:102
+#, php-format
+msgid "<span class=\"loggedin\">Logged in as <a href=\"%1$s\" title=\"Logged in as %2$s\">%2$s</a>.</span> <span class=\"logout\"><a href=\"%3$s\" title=\"Log out of this account\">Log out?</a></span>"
+msgstr "<span class=\"loggedin\">Bejelentkezve: <a href=\"%1$s\" title=\"Logged in as %2$s\">%2$s</a>.</span> <span class=\"logout\">Kiléphetsz <a href=\"%3$s\" title=\"Log out of this account\">ide kattintva</a>.</span>"
+
+#: comments.php:109
+msgid "Your email is <em>never</em> shared."
+msgstr "Az email címed nem kerül nyilvánosságra."
+
+#: comments.php:109
+msgid "Required fields are marked <span class=\"required\">*</span>"
+msgstr "A kötelező mezőket ez jelzi: <span class=\"required\">*</span>"
+
+#: comments.php:111
+msgid "Name"
+msgstr "Név"
+
+#: comments.php:111
+#: comments.php:114
+msgid "<span class=\"required\">*</span>"
+msgstr "<span class=\"required\">*</span>"
+
+#: comments.php:114
+msgid "Email"
+msgstr "Email"
+
+#: comments.php:117
+msgid "Website"
+msgstr "Honlap"
+
+#: comments.php:122
+msgid "Comment"
+msgstr "Üzenet:"
+
+#: comments.php:125
+msgid "Post Comment"
+msgstr "Küldés"
+
+#: functions.php:357
+#: functions.php:465
+#: functions.php:467
+msgid "Search"
+msgstr "Keresés"
+
+#: functions.php:386
+#: functions.php:439
+msgid "Title:"
+msgstr "Cím:"
+
+#: functions.php:387
+msgid "Button Text:"
+msgstr "Gomb felirat:"
+
+#: functions.php:396
+#: functions.php:474
+#: functions.php:476
+#: sidebar-side.php:6
+msgid "Meta"
+msgstr "Irányítópult"
+
+#: functions.php:415
+#: functions.php:483
+#: functions.php:484
+msgid "RSS Links"
+msgstr "RSS linkek"
+
+#: functions.php:420
+msgid "Posts RSS feed"
+msgstr "Bejegyzések RSS csatornája"
+
+#: functions.php:420
+#: sidebar-footer.php:14
+msgid "All posts"
+msgstr "Minden bejegyzés"
+
+#: functions.php:421
+msgid "Comments RSS feed"
+msgstr "Hozzászólások RSS csatornája"
+
+#: functions.php:421
+#: sidebar-footer.php:15
+msgid "All comments"
+msgstr "Minden hozzászólás"
+
+#: functions.php:463
+msgid "A search form for your blog (pandora)"
+msgstr "Egy keresési form a blogod számára (pandora)"
+
+#: functions.php:472
+msgid "Log in/out and administration links (pandora)"
+msgstr "Ki/Belépés és adminisztrációs linkek (pandora)"
+
+#: functions.php:481
+msgid "RSS links for both posts and comments (pandora)"
+msgstr "RSS linkek a bejegyzésekhez és a kommentekhez (pandora)"
+
+#: header.php:8
+#: sidebar-footer.php:14
+#, php-format
+msgid "%s latest posts"
+msgstr "%s legutolsó bejegyzések"
+
+#: header.php:9
+#: sidebar-footer.php:15
+#, php-format
+msgid "%s latest comments"
+msgstr "%s legutolsó hozzászólások"
+
+#: search.php:13
+msgid "Search Results for:"
+msgstr "Találatok a következőre:"
+
+#: search.php:16
+#: search.php:48
+msgid "<span class=\"meta-nav\">&laquo;</span> Older results"
+msgstr "<span class=\"meta-nav\">&laquo;</span> Korábbi találatok"
+
+#: search.php:17
+#: search.php:49
+msgid "Newer results <span class=\"meta-nav\">&raquo;</span>"
+msgstr "Frissebb találatok <span class=\"meta-nav\">&raquo;</span>"
+
+#: search.php:25
+#, php-format
+msgid "%1$s &#8211; %2$s"
+msgstr "%1$s &#8211; %2$s"
+
+#: search.php:33
+msgid "Tagged "
+msgstr "Címkék"
+
+#: search.php:38
+msgid "Read More <span class=\"meta-nav\">&raquo;</span>"
+msgstr "Tovább <span class=\"meta-nav\">&raquo;</span>"
+
+#: search.php:55
+msgid "Nothing Found"
+msgstr "Nincs találat"
+
+#: search.php:57
+msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+msgstr "Sajnos nincs találat a keresett kritériumra. Kérlek próbáld meg újra más kulcsszavakkal!"
+
+#: sidebar-footer.php:5
+msgid "About site"
+msgstr "Az oldalról"
+
+#: sidebar-footer.php:12
+msgid "RSS Feeds"
+msgstr "RSS csatorna"
+
+#: sidebar-footer.php:20
+msgid "Links"
+msgstr "Linkek"
+
+#: sidebar-side.php:17
+msgid "Pages"
+msgstr "Oldalak"
+
+#: sidebar-side.php:32
+msgid "Archives"
+msgstr "Archívum"
+
+#: sidebar-side.php:37
+msgid "Categories"
+msgstr "Kategóriák"
+
+#: single.php:60
+#, php-format
+msgid "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Szólj hozzá</a> vagy használd a visszakövetési linket: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Visszakövetési link</a>."
+
+#: single.php:62
+#, php-format
+msgid "Comments are closed, but you can leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "A hozzászólás lezárva, de használhatod a visszakövetési linket: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Visszakövetési link</a>."
+
+#: single.php:64
+msgid "Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">post a comment</a>."
+msgstr "A visszakövetési linkek lezárva, de <a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Hozzászólhatsz</a>."
+
+#: single.php:66
+msgid "Both comments and trackbacks are currently closed."
+msgstr "A kommentek és a visszakövetési címek lezárva."
+
+#: tag.php:12
+msgid "Tag Archives:"
+msgstr "Felcímkézve ezzel:"
+
+#: extendeds/admin/admin_panel.php:16
+msgid "<h3>Hey, I'm Pandora. Set up my properities^^</h3><p>I can more. I am WP3+ ready for Navi Menu Bar what you can setup <a href=\""
+msgstr "<h3>Hali! Pandora vagyok. Állítsd be a tulajdonságaimat^^</h3><p>Többre is képes vagyok. Felkészültem a WP3-ra a Navi menü miatt, amit beállíthatsz <a href=\""
+
+#: extendeds/admin/admin_panel.php:16
+msgid "/wp-admin/nav-menus.php\">this link</a>.<br />If you want to other styles on your site (Big Blog style, Portal sytle or Clan Page style), you can choose from these in this page.<br />You can choose from 4 Post List sytle (List view, Gallery view, Classic view, Featured view). If you wanna switch off all sidebars please find the Pages/Edit Page/Page Properity tab and choose the Page-1-Col option.<br />You can setup your copyright text and name of the site's sikenner and upload new logos, icons on this Pandora Page. Look up to <a href=\"http://belicza.com/\" target=\"_blank\">Belicza.com</a> for more info. It's so easy:)</p>"
+msgstr "/wp-admin/nav-menus.php\">ezen a linken</a>.<br />Ha szeretnél más stílusokat az oldaladon (Óriás blog stílus, Portál stílus vagy Klán oldal stílus), akkor választhatsz közülük ezen az oldalon.<br />4 bejegyzés listázó stílus közül választhatsz (Lista nézet, Galéria nézet, Klasszikus nézet, Kiemelt nézet). Ha ki akarod kapcsolni az összes sidebart, kérlek menj az Oldalak/Oldal szerkesztése/Oldal tulajdonságok fülre és válaszd a Page-1-Col megjelenést.<br />Beállíthatod a saját copyright szövegedet és az oldalad grafikusának a nevét valamint feltölthetsz új logókat, ikonokat itt a Pandora oldalon. További infókért nézz fel a <a href=\"http://belicza.com/\" target=\"_blank\">Belicza.com</a> oldalra. Olyan egyszerű:)</p>"
+
+#: extendeds/admin/admin_panel.php:19
+msgid "Number of the images in Slider:"
+msgstr "Képek száma a sliderben:"
+
+#: extendeds/admin/admin_panel.php:20
+msgid "Featured image of the Post appears only if width of the Featured image is minimum 1000 pixels."
+msgstr "A bejegyzés kiemelt képe csak akkor jelenik meg, ha a kiemelt kép szélessége legalább 1000 képpont."
+
+#: extendeds/admin/admin_panel.php:25
+msgid "Newest Posts/Page:"
+msgstr "Legújabb bejegyzések/oldal"
+
+#: extendeds/admin/admin_panel.php:26
+msgid "Number of the newest Posts on the Index page. It is display Featured view. It's so big."
+msgstr "A legújabb bejegyzések száma a kezdőoldalon. A Kiemelt nézetben jelenik meg. Meglehetősen nagy."
+
+#: extendeds/admin/admin_panel.php:31
+msgid "Normal Posts/Page:"
+msgstr "Nomrál bejegyzések/oldal:"
+
+#: extendeds/admin/admin_panel.php:32
+msgid "Number of the not new but not old Posts on the Index page. They have normal sizes (Classic view)."
+msgstr "A nem új, de nem is régi bejegyzések száma a kezdőoldalon. Átlagos méretűek (Klasszikus nézet)."
+
+#: extendeds/admin/admin_panel.php:37
+msgid "Old Posts/Page:"
+msgstr "Régi bejegyzések/oldal"
+
+#: extendeds/admin/admin_panel.php:38
+msgid "Number of the old Posts on the Index page. Only Featured images titles and dates are displayed, it is look like a gallery."
+msgstr "A régi bejegyzések száma a kezdőoldalon. Csak a kiemelt képek, a címek és a dátumok jelennek meg, úgy néz ki mint egy galéria."
+
+#: extendeds/admin/admin_panel.php:43
+msgid "Archive Posts/Page:"
+msgstr "Archivált bejegyzsések/oldal:"
+
+#: extendeds/admin/admin_panel.php:44
+msgid "Number of the oldest Posts on the Index page. Only titles and dates are displayed. It is look like an easy list."
+msgstr "A legrégebbi bejegyzések száma a kezdőoldalon. Csak a címek és a dátumok jelennek meg. Egy egyszerű listára hasonlít."
+
+#: extendeds/admin/admin_panel.php:49
+msgid "Logo URL:"
+msgstr "Logo URL:"
+
+#: extendeds/admin/admin_panel.php:50
+msgid "Enter Your Logo's URL instead Pandora logo on Login Panel."
+msgstr "Írd be a logo URL-jét helyettesítve a Pandora logot a Bejelentkező oldalon."
+
+#: extendeds/admin/admin_panel.php:55
+msgid "Main Logo URL:"
+msgstr "Fő  Logo URL:"
+
+#: extendeds/admin/admin_panel.php:56
+msgid "Enter Your Logo's URL. It will appear on top of the index page instead the Pandora smile."
+msgstr "Írd be a logod URL-jét. A kezdőoldal tetején fog megjelenni Pandora mosolya helyett."
+
+#: extendeds/admin/admin_panel.php:61
+msgid "Favicon:"
+msgstr "Favicon:"
+
+#: extendeds/admin/admin_panel.php:62
+msgid "Paste the full URL of Png/Gif image that will represent your website's favicon (16px x 16px)."
+msgstr "Írd be a teljes elérési útját a Png/Gif képnek, amely a honlapod ikonja lesz a böngészőben (16 képpont x 16 képpont)."
+
+#: extendeds/admin/admin_panel.php:67
+msgid "Only two columns - Big Blog style"
+msgstr "Csak két oszlop - Óriás blog stílus"
+
+#: extendeds/admin/admin_panel.php:68
+msgid "Mark this if you wanna only two columns on index (one for content and one for primary sidebar."
+msgstr "Jelöld be, ha csak kettő oszlopot szeretnél a kezdőoldalon (egy a tartalomnak és egy az elsődleges sidebarnak)."
+
+#: extendeds/admin/admin_panel.php:73
+msgid "Three columns - Clan Page style"
+msgstr "Három oszlop - Klán oldal stílus"
+
+#: extendeds/admin/admin_panel.php:74
+msgid "Mark this if you wanna three columns on index (one for primary sidebar, one for content and one for secondary sidebar."
+msgstr "Jelöld be, ha három oszlopot szeretnél a kezdőoldalon (egy az elsődleges sidebarnak egy a tartalomnak és egy a másodlagos sidebarnak)."
+
+#: extendeds/admin/admin_panel.php:79
+msgid "Three columns - Portal style"
+msgstr "Három oszlop - Portál stílus"
+
+#: extendeds/admin/admin_panel.php:80
+msgid "Mark this if you wanna three columns on index (one for content and two for primary and secondary sidebars on right side."
+msgstr "Jelöld be, ha három oszlopot szeretnél a kezdőoldalon (egy a tartalomnak, és kettő az elsődleges és másodlagos sidebarnak)."
+
+#: extendeds/admin/admin_panel.php:85
+msgid "Footer copyright text:"
+msgstr "A lábléc copyright szövege:"
+
+#: extendeds/admin/admin_panel.php:86
+msgid "Enter the text for your copyright license. It will be in the footer."
+msgstr "Írd be a copyright szerződés szövegét. Az oldal láblécében lesz."
+
+#: extendeds/admin/admin_panel.php:92
+msgid "Google Analytics Code:"
+msgstr "Google Analytics kód:"
+
+#: extendeds/admin/admin_panel.php:93
+msgid "You can paste your Google Analytics or other tracking code in this box. This will be automatically added to the footer."
+msgstr "Beillesztheted ide a Google Analytics kódodat vagy egyéb látogatotságot mérő kódot A beillesztett kódok automatikusan hozzáadódnak a lábléchez."
+
+#: extendeds/admin/admin_panel.php:98
+msgid "Skinner name:"
+msgstr "Grafikus neve:"
+
+#: extendeds/admin/admin_panel.php:99
+msgid "This theme created by belicza.com, but if you changed something, upload your logo, your images, your design then please enter your name or your site here."
+msgstr "Ez a témát a belicza.com készítette, de ha megváltoztattál benne  valamit, feltöltötted a logodat, a képeidet, a designodat, akkor kérlek írd be a neved vagy a honlapod nevét."
+
+#: extendeds/admin/admin_panel.php:247
+#: extendeds/admin/admin_panel.php:267
+msgid "Go to Top"
+msgstr "Ugrás fel!"
+
+#: extendeds/admin/admin_panel.php:325
+msgid "Skinned by "
+msgstr "Módosította: "
+
+#: extendeds/admin/admin_panel.php:337
+msgid "Setup your copyright text in Admin Page/Pandora options"
+msgstr "Állítsd be a copyright szöveged az Admin oldal/Pandora beállításoknál."
+
+#: extendeds/admin/admin_panel.php:342
+msgid "Pandora theme &copy; is created by"
+msgstr "A Pandora témát &copy; készítette a "
+
+#: extendeds/admin/admin_panel.php:344
+msgid "for <a href=\"http://wordpress.org/\" target=\"_blank\" rel=\"generator\" title=\"WordPress\">WordPress Engine</a> &copy."
+msgstr "a <a href=\"http://wordpress.org/\" target=\"_blank\" rel=\"generator\" title=\"WordPress\">WordPress</a> &copy motorjára."
+
+#: extendeds/admin/admin_panel.php:345
+msgid "Licenced on "
+msgstr "Érvényes licensz: "
+
+#: functions/main-menu.php:5
+msgid "Main menu on the top of the site"
+msgstr "Főmenü az oldal tetején"
+
+#: functions/main-menu.php:60
+msgid "Oh my God! You have no menu. No problem! Go to the admin page and click to Menu button and create a new menu! It's so easy^^ :::: "
+msgstr "Jaj Istenem! Nincsen menüd. Semmi baj! Menj az admin oldalra, kattints a Menü gombra és hozz létre egy új menüt! Olyan egyszerű^^ ::::"
+
+#: functions/main-menu.php:61
+msgid "- Don't forget you can choose from many options on Pandora Page!"
+msgstr "- Ne feledd, rengeteg beállításból választhatsz a Pandora oldalon!"
+
+#: functions/slider.php:41
+msgid "This is the Pandora theme by belicza.com. Pandora has many extended options in Pandora menu of the Dashboard. You should set a style. It's so easy :)"
+msgstr "Ez a Pandora téma a belicza.com-tól. Pandorának nagyon sok extra beállítása van a Vezérlőpult Pandora menüjében. Ki kellene választanod egy stílust. Annyira egyszerű :)"
+
+#: functions/slider.php:50
+msgid "Post a text and upload an thumbnail image with 1000 pixels width for working Slider..."
+msgstr "Írj bejegyzést és tölts fel hozzá egy 1000 képpont széles kiemelt képet a Slider beindításához."
+
+#: functions/user-desc.php:11
+msgid "Webpage"
+msgstr "Honlap"
+
+#: functions/user-desc.php:12
+msgid "Description"
+msgstr "Bemutatkozás"
+
+#: functions/windows.php:5
+msgid "Error"
+msgstr "Hiba!"
+
+#: functions/windows.php:8
+msgid "This page is not exist!"
+msgstr "Ilyen oldal nem létezik."
+

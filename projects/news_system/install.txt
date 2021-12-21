@@ -1,0 +1,22 @@
+//LAST UPDATE
+// 27-09-2007
+
+1 -create a database call it - news or something
+
+then, using PHPmyAdmin - insert the file (News_sql.sql) for the creation of the table.
+
+2-
+edit config.php and chnage:
+
+$dbhost="localhost";  #SQL Database Hostname (Most is: localhost)
+$dbusername="user";   #SQL Username
+$dbpassword="pass";   #SQL Password
+$dbname="news_sysem"; #SQL Database Name
+
+
+#for support please email me: m@maaking.com
+# over skype my id is: maaking
+
+thank you
+
+Enjoy! ;)

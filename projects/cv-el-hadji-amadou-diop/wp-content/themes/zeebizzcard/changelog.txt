@@ -1,0 +1,14 @@
+===================================
+zeeBizzCard Changelog
+===================================
+
+Version 1.0.2
+-----------------------------------
+- replace 'wp_print_styles' hooks with 'wp_enqueue_scripts' because of incompatibility with WordPress 3.3
+- remove $_SERVER variable from comments.php
+- replace TEMPLATEPATH with get_template_directory_uri()
+- fix a CSS bug of displaying Tags on single posts
+
+Version 1.0.1
+-----------------------------------
+Final Version

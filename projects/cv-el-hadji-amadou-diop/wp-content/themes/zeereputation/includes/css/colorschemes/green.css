@@ -1,0 +1,18 @@
+#header {
+	background: #406600 url(green/head.png) repeat-x;
+}
+#footer{
+	background: #406600 url(green/head.png) repeat-x;
+}
+a, a:link, a:visited{
+	color: #406600;
+}
+.post h2, .type-page h2, .attachment h2, .post h2 a:link, .post h2 a:visited, #page {
+	color: #406600;
+}
+#comments h3, #respond h3 {
+	color: #406600;
+}
+.wp-pagenavi .current {
+    background-color: #406600;
+}

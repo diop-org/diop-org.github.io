@@ -1,0 +1,283 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: iBlogPro\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-10-24 18:18+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: R.B.O. Janssen <rbojanssen@me.com>\n"
+"Language-Team: R.B.O. Janssen <rbojanssen@me.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Dutch\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Country: NETHERLANDS\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: _authorinfo.php:7
+msgid "About the author"
+msgstr "Over de auteur"
+
+#: _authorinfo.php:10
+msgid "Visit Authors Website"
+msgstr "Bezoek website van auteur"
+
+#: _defaultaccordion.php:3
+msgid "Photos"
+msgstr "Foto's"
+
+#: _defaultaccordion.php:11
+#: _defaultflowbar.php:17
+msgid "Categories"
+msgstr "Categorieen"
+
+#: _defaultaccordion.php:16
+msgid "Tag Cloud"
+msgstr "Tags"
+
+#: _defaultaccordion.php:21
+msgid "Archives"
+msgstr "Archieven"
+
+#: _defaultaccordion.php:26
+msgid "Meta"
+msgstr "Meta"
+
+#: _defaultaccordion.php:32
+msgid "Entries (RSS)"
+msgstr "Berichten (RSS)"
+
+#: _defaultaccordion.php:33
+msgid "Comments (RSS)"
+msgstr "Reacties (RSS)"
+
+#: _defaultflowbar.php:30
+msgid "Tags"
+msgstr "Tags"
+
+#: _post_footer.php:6
+#: _post_footer.php:23
+msgid "Edit Post"
+msgstr "Bewerk..."
+
+#: _post_footer.php:7
+msgid "If you enjoyed this article, please consider sharing it!"
+msgstr "Leuk artikel? Deel het!"
+
+#: _post_footer.php:20
+msgid "View Comments"
+msgstr "Bekijk reacties"
+
+#: _post_footer.php:20
+msgid "Comments"
+msgstr "Reacties"
+
+#: _post_footer.php:28
+msgid "View Full Post &raquo;"
+msgstr "Bekijk volledig bericht &raquo;"
+
+#: _post_footer.php:32
+msgid "Leave A Response"
+msgstr "Reageer"
+
+#: _posts.php:15
+#: _posts.php:22
+msgid "Permanent Link To"
+msgstr "Vaste link naar"
+
+#: _posts.php:25
+msgid "On"
+msgstr "Op"
+
+#: _posts.php:25
+msgid "In"
+msgstr "In"
+
+#: _posts.php:25
+msgid "by"
+msgstr "door"
+
+#: _posts.php:37
+msgid "<p><strong>Pages:</strong>"
+msgstr "<p><strong>Pagina's:</strong>"
+
+#: _posts.php:37
+msgid "number"
+msgstr "aantal"
+
+#: _posts.php:51
+msgid "Tagged with: "
+msgstr "Tags:"
+
+#: _posts.php:66
+msgid "Nothing Found"
+msgstr "Niets gevonden"
+
+#: _posts.php:67
+msgid "Sorry, what you are looking for isn't here."
+msgstr "Helaas, niks gevonden."
+
+#: comments.php:8
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "Dit bericht is beveiligd met een wachtwoord. Voer wachtwoord in om reacties te zien."
+
+#: comments.php:17
+msgid "No Response &#187;"
+msgstr "Geen reacties &#187;"
+
+#: comments.php:17
+msgid "1 Response &#187;"
+msgstr "1 Reactie &#187;"
+
+#: comments.php:17
+msgid "to &#8220;"
+msgstr "op &#8220;"
+
+#: comments.php:33
+msgid "Comments are closed."
+msgstr "Reageren niet mogelijk."
+
+#: comments.php:43
+msgid "Leave a Reply"
+msgstr "Plaats reactie"
+
+#: comments.php:43
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "Reageer op %s"
+
+#: comments.php:50
+msgid "You must be"
+msgstr "U moet"
+
+#: comments.php:50
+msgid "logged in"
+msgstr "ingelogd zijn"
+
+#: comments.php:50
+msgid "to post a comment."
+msgstr "om een reactie te plaatsen."
+
+#: comments.php:57
+msgid "Logged in as"
+msgstr "Ingelogd als"
+
+#: comments.php:57
+msgid "Log out of this account"
+msgstr "Log uit"
+
+#: comments.php:57
+msgid "Log out &raquo;"
+msgstr "Log uit &raquo;"
+
+#: comments.php:62
+msgid "Name"
+msgstr "Naam"
+
+#: comments.php:65
+msgid "Mail (will not be published)"
+msgstr "Email (zal niet getoond worden)"
+
+#: comments.php:65
+msgid "(required)"
+msgstr "(verplicht)"
+
+#: comments.php:68
+msgid "Website"
+msgstr "Website"
+
+#: comments.php:73
+msgid "You can use these tags:"
+msgstr "Bruikbare tags:"
+
+#: comments.php:78
+msgid "Submit Comment"
+msgstr "Plaats reactie"
+
+#: footer.php:10
+msgid "Looking for something?"
+msgstr "Zoekt u iets?"
+
+#: footer.php:11
+msgid "Use the form below to search the site:"
+msgstr "Gebruik onderstaand formulier om door de site te zoeken:"
+
+#: footer.php:14
+msgid "Still not finding what you're looking for? Drop a comment on a post or contact us so we can take care of it!"
+msgstr "Nog steeds niet gevonden wat u zocht? Laat een bericht achter en wij zullen het bekijken!"
+
+#: footer.php:23
+msgid "Visit our friends!"
+msgstr "Bezoek onze vrienden!"
+
+#: footer.php:23
+msgid "A few highly recommended friends..."
+msgstr "Aanbevolen vrienden..."
+
+#: footer.php:31
+msgid "All entries, chronologically..."
+msgstr "Alle berichten, chronologisch"
+
+#: searchform.php:3
+#: includes/functions/sidebar_setup.php:58
+msgid "Search"
+msgstr "Zoeken"
+
+#: searchform.php:5
+msgid "Go"
+msgstr "Ga"
+
+#: sidebar.php:25
+msgid "Learn More About Advertising Here"
+msgstr "Leer meer over reclame hier"
+
+#: sidebar.php:51
+#: sidebar.php:62
+msgid "No widgets have been added to this sidebar. Add some widgets to your this sidebar in your admin."
+msgstr "Geen 'widgets' geplaatst in deze kolom. Voeg een paar 'widgets' toe aan deze kolom in het admin gedeelte."
+
+#: includes/admin/edit_page.php:67
+#: includes/admin/edit_post.php:54
+msgid "Update"
+msgstr "Updaten"
+
+#: includes/plugins/twitter.php:67
+msgid "No recent Twitter posts."
+msgstr "Geen recente Twitter berichten."
+
+#: includes/plugins/twitter.php:97
+#, php-format
+msgid "%s ago"
+msgstr "%s geleden"
+
+#: includes/plugins/twitter.php:99
+msgid "Y/m/d"
+msgstr "d-M-Y"
+
+#: includes/plugins/twitter.php:101
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+#: includes/plugins/twitter.php:101
+msgid "Y/m/d H:i:s"
+msgstr "d-M-Y H:i"
+
+#: includes/plugins/twitter.php:241
+msgid "Twitter Widgets"
+msgstr "Twitter Widgets"
+
+#: includes/plugins/twitter.php:242
+msgid "How many Twitter widgets would you like?"
+msgstr "Hoeveel Twitter widgets wil je gebruiken?"
+
+#: includes/plugins/twitter.php:246
+msgid "Save"
+msgstr "Op[slaan"
+
+#: includes/plugins/twitter.php:260
+#, php-format
+msgid "Twitter #%d"
+msgstr "Twitter #%d"
+

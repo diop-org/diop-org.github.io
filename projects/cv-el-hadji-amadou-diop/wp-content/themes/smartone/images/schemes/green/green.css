@@ -1,0 +1,37 @@
+#nav-back {background:url("nav-back-green.png") repeat-x left top #578254;border-bottom-color:#68ba5a;}
+#access a {color:#a7f595;text-shadow:1px 1px 0 #456d41;}
+li.current_page_item a .item-left {background-image:url("item-left-green.png");}
+li.current_page_item a .item-right {background-image:url("item-right-green.png");}
+#access ul ul a {background:#578254;border-bottom-color:#659762;} 
+#access li:hover > a,
+#access ul ul :hover > a {color: #fff;}
+#access li.current_page_parent li a,
+#access li.current_page_item ul li a, 
+#access li.current_page_ancestor li.page_item a,
+#access li.current_page_parent li.current_page_item .page_item a, 
+#access li.current_page_ancestor li.current_page_ancestor li.page_item a,
+#access li.current_page_ancestor li.current_page_ancestor li.current_page_item li.page_item a,
+#access li.current_page_ancestor li.current_page_ancestor li.current_page_ancestor li.page_item a {color:#a7f595;text-shadow:1px 1px 0 #456d41;background:#578254;}
+li.current_page_item {color:#fff;background:#62b25c url('item-back-green.png') bottom left repeat-x;}
+#access li.current_page_parent li a:hover,
+#access li.current_page_item ul li a:hover,
+#access li.current_page_ancestor li.page_item a:hover, 
+#access li.current_page_parent li.current_page_item a,
+#access li.current_page_ancestor li.current_page_parent a,
+#access li.current_page_ancestor li.current_page_ancestor a,
+#access li.current_page_parent li.current_page_item .page_item a:hover,
+#access li.current_page_ancestor li.current_page_ancestor li.page_item a:hover,
+#access li.current_page_ancestor li.current_page_ancestor li.current_page_item a,
+#access li.current_page_ancestor li.current_page_ancestor li.current_page_ancestor a,
+#access li.current_page_ancestor li.current_page_ancestor li.current_page_item li.page_item a:hover,
+#access li.current_page_ancestor li.current_page_ancestor li.current_page_ancestor li.page_item a:hover,
+#access li.current_page_ancestor li.current_page_ancestor li.current_page_ancestor li.current_page_item a {
+	color: #fff;
+  background:#62b25c url('item-back-green.png') bottom left repeat-x;
+  }
+#access li.current_page_item a,#access li.current_page_parent a,#access li.current_page_ancestor a {
+	color: #fff;
+  background:#62b25c url('item-back-green.png') bottom left repeat-x;
+  text-shadow:1px 1px 0 #333;
+}
+#site-title a, a {color:#466e42;}

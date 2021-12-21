@@ -1,0 +1,42 @@
+===================================
+zeeDisplay Changelog
+===================================
+
+Version 1.1
+-----------------------------------
+- add new Theme Options panel with tabs, sidebar and image upload (better usability)
+- add more Social Media Buttons (e.g Pinterest Button)
+- improved jQuery Navigation Menus (now with CSS Fallback if javascript deactivated)
+
+Version 1.0.7
+-----------------------------------
+- replace wp_print_styles() with wp_enqueue_scripts() because of incompatibility with WordPress 3.3
+
+Version 1.0.6
+-----------------------------------
+- added Google+ to SocialMedia Buttons
+- increased timeout for Slideshow
+- renamed custom page templates
+
+Version 1.0.5
+-----------------------------------
+- fixed css bug with nested blockquotes
+- fixed css bug to display long lines within a <pre> tag
+- fixed a css bug with floating of comment navi
+- fixed css bug with captioned images
+- added "themezee_" slug to some functions/constants which were too generic
+- added search term in search.php
+- changed displaying of tags to show only an icon when post has tags
+- added edit_post_link function to show 'Edit' Link in Frontend
+- improved theme options page without global variables (more secure)
+- added wp_link_pages to archive.php and index.php
+- added 'Page with Slider' page template
+- replace the constant ZEE_LANG with 'themezee_lang' string for translation
+- fixed comment gravatar bug
+- fixed displaying text elements in comments (lists, blockquotes)
+- added new css styles for theme option panel
+- added settings updated info at theme option panel
+
+Version 1.0.4
+-----------------------------------
+Final Version

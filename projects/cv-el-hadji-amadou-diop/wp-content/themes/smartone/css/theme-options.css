@@ -1,0 +1,16 @@
+#setContainer {
+clear:both;
+padding:0.2em;
+position:relative;
+font:14px/1.5 "Segoe UI",Calibri,"Myriad Pro",Myriad,"Trebuchet MS",Helvetica,Arial,sans-serif;
+-moz-border-radius:4px;
+background:none repeat scroll 0 0 #FFFFFF;
+border:1px solid #AAAAAA;
+color:#222222;
+}
+td, textarea, input, select {
+font:14px/1.5 "Segoe UI",Calibri,"Myriad Pro",Myriad,"Trebuchet MS",Helvetica,Arial,sans-serif;
+}
+input.button-primary {
+font-size:15px !important;
+}

@@ -1,0 +1,464 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Core 1.0\n"
+"Report-Msgid-Bugs-To: http://cyberchimps.com/forum\n"
+"POT-Creation-Date: 10-17-11\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: core/actions/archive-actions.php:32
+#@ core
+msgid "Archive for the &#8216;"
+msgstr "Arhiva za &#8216;"
+
+#: core/actions/archive-actions.php:32
+#@ core
+msgid "&#8217; Category:"
+msgstr "&#8217; Kategorija:"
+
+#: core/actions/archive-actions.php:35
+#@ core
+msgid "Posts Tagged &#8216;"
+msgstr "Članaka označeno &#8216;"
+
+#: core/actions/archive-actions.php:35
+#@ core
+msgid "&#8217;:"
+msgstr "&#8217;:"
+
+#: core/actions/archive-actions.php:38
+#: core/actions/archive-actions.php:41
+#@ core
+msgid "Archive for"
+msgstr "Arhiva za"
+
+#: core/actions/archive-actions.php:44
+#@ core
+msgid "Archive for:"
+msgstr "Arhiva za:"
+
+#: core/actions/archive-actions.php:47
+#@ core
+msgid "Author Archive:"
+msgstr "Autor arhive:"
+
+#: core/actions/archive-actions.php:50
+#@ core
+msgid "Blog Archives:"
+msgstr "Blog arhive:"
+
+#: core/actions/comments-actions.php:49
+#@ core
+msgid "No Responses"
+msgstr "Nema odgovora"
+
+#: core/actions/comments-actions.php:49
+#@ core
+msgid "One Response"
+msgstr "Jedan odgovor"
+
+#: core/actions/comments-actions.php:49
+#@ core
+msgid "% Responses"
+msgstr "% odgovora"
+
+#: core/actions/comments-actions.php:89
+#@ core
+msgid "You must be"
+msgstr "Moraš biti"
+
+#: core/actions/comments-actions.php:89
+#@ core
+msgid "logged in"
+msgstr "prijavljen"
+
+#: core/actions/comments-actions.php:89
+#@ core
+msgid "to post a comment."
+msgstr "da bi dodao komentar"
+
+#: core/actions/footer-actions.php:45
+#@ core
+msgid "Recent Posts"
+msgstr "Posljednji članci"
+
+#: core/actions/footer-actions.php:52
+#: sidebar.php:26
+#@ core
+msgid "Archives"
+msgstr "Arhive"
+
+#: core/actions/footer-actions.php:59
+#: core/actions/footer-actions.php:63
+#: sidebar.php:40
+#: sidebar.php:44
+#@ core
+#@ ifeature
+msgid "WordPress"
+msgstr "WordPress"
+
+#: core/actions/footer-actions.php:63
+#: sidebar.php:44
+#@ core
+msgid "http://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+#: core/actions/footer-actions.php:63
+#: sidebar.php:44
+#@ core
+msgid "Powered by WordPress, state-of-the-art semantic personal publishing platform."
+msgstr "Powered by WordPress, state-of-the-art semantic personal publishing platform."
+
+#: core/actions/global-actions.php:153
+#@ core
+msgid "Published on"
+msgstr "Publicirano"
+
+#: core/actions/global-actions.php:154
+#@ core
+msgid "by"
+msgstr "od"
+
+#: core/actions/global-actions.php:155
+#@ core
+msgid "in"
+msgstr "u"
+
+#: sidebar.php:19
+#@ core
+msgid "Pages"
+msgstr "Stranice"
+
+#: functions.php:397
+#: sidebar.php:33
+#@ default
+#@ core
+msgid "Categories"
+msgstr "Kategorije"
+
+#: sidebar.php:50
+#@ ifeature
+msgid "Subscribe"
+msgstr "Pretplati se"
+
+#: sidebar.php:52
+#@ core
+msgid "Entries (RSS)"
+msgstr "Članaka (RSS)"
+
+#: core/actions/footer-actions.php:38
+#@ core
+msgid "Footer Widgets"
+msgstr ""
+
+#: core/actions/global-actions.php:86
+#@ core
+msgid "Read more…"
+msgstr "(cijeli članak)..."
+
+#: core/actions/global-actions.php:128
+#@ core
+msgid "No Comments"
+msgstr "Nema komentara"
+
+#: core/actions/global-actions.php:128
+#: core/widgets/tabbed-widget.php:75
+#: core/widgets/tabbed-widget.php:102
+#@ core
+#@ ifeature
+msgid "1 Comment"
+msgstr "1 komentar"
+
+#: core/actions/global-actions.php:128
+#: core/widgets/tabbed-widget.php:75
+#: core/widgets/tabbed-widget.php:102
+#@ core
+#@ ifeature
+msgid "% Comments"
+msgstr "% komentara"
+
+#: core/actions/global-actions.php:187
+#@ core
+msgid "Tags: "
+msgstr ""
+
+#: core/actions/pagination-actions.php:49
+#@ core
+msgid "of" 
+msgstr "od"
+
+#: core/actions/pagination-actions.php:49
+#: core/core-functions.php:244
+#@ core
+#@ default
+msgid "Page"
+msgstr "Stranica"
+
+#: core/actions/pagination-actions.php:50
+#@ core
+msgid "&laquo; First"
+msgstr "&laquo; Prva"
+
+#: core/actions/pagination-actions.php:51
+#@ core
+msgid "&lsaquo; Previous"
+msgstr "&lsaquo; Prethodna"
+
+#: core/actions/pagination-actions.php:61
+#@ core
+msgid "Next &rsaquo;"
+msgstr "Slijedeća &rsaquo;"
+
+#: core/actions/pagination-actions.php:62
+#@ core
+msgid "Last &raquo;"
+msgstr "Zadnja &raquo;"
+
+#: core/actions/pagination-actions.php:73
+#@ core
+msgid "Pages:"
+msgstr "Stranice: "
+
+#: core/classy-options/classy-options-framework/classy-options.php:98
+#@ default
+msgid "Save Options"
+msgstr ""
+
+#: core/classy-options/classy-options-framework/classy-options.php:102
+#@ ifeature
+msgid "CyberChimps Store"
+msgstr ""
+
+#: core/classy-options/classy-options-framework/classy-options.php:103
+#@ ifeature
+msgid "Support"
+msgstr ""
+
+#: core/classy-options/classy-options-framework/classy-options.php:104
+#@ ifeature
+msgid "Documentation"
+msgstr ""
+
+#: core/classy-options/classy-options-framework/classy-options.php:105
+#@ ifeature
+msgid "Forum"
+msgstr ""
+
+#: core/classy-options/classy-options-framework/classy-options.php:106
+#@ ifeature
+msgid "Twitter"
+msgstr ""
+
+#: core/classy-options/classy-options-framework/classy-options.php:107
+#@ ifeature
+msgid "Facebook"
+msgstr ""
+
+#: core/classy-options/classy-options-framework/classy-options.php:108
+#@ ifeature
+msgid "CyberChimps Pro"
+msgstr ""
+
+#: core/classy-options/classy-options-framework/classy-options.php:127
+#@ default
+msgid "Restore Defaults"
+msgstr ""
+
+#: core/classy-options/classy-options-framework/classy-options.php:127
+#@ default
+msgid "Click OK to reset. Any theme settings will be lost!"
+msgstr ""
+
+#: core/classy-options/classy-options-framework/classy-options.php:157
+#@ optionsframework
+msgid "Default options restored."
+msgstr ""
+
+#: core/classy-options/classy-options-framework/classy-options.php:166
+#@ optionsframework
+msgid "Options Imported"
+msgstr ""
+
+#: core/classy-options/classy-options-framework/classy-options.php:169
+#@ optionsframework
+msgid "Invalid Data for Import"
+msgstr ""
+
+#: core/classy-options/classy-options-framework/classy-options.php:226
+#@ optionsframework
+msgid "Options saved."
+msgstr ""
+
+#: core/classy-options/classy-options-framework/options-medialibrary-uploader.php:26
+#@ default
+msgid "Options Framework Internal Container"
+msgstr ""
+
+#: core/classy-options/classy-options-framework/options-medialibrary-uploader.php:128
+#@ default
+msgid "Upload"
+msgstr ""
+
+#: core/classy-options/classy-options-framework/options-medialibrary-uploader.php:151
+#@ optionsframework
+msgid "View File"
+msgstr ""
+
+#: core/classy-options/classy-options-framework/options-medialibrary-uploader.php:288
+#@ optionsframework
+msgid "Gallery"
+msgstr ""
+
+#: core/classy-options/classy-options-framework/options-medialibrary-uploader.php:288
+#@ optionsframework
+msgid "Previously Uploaded"
+msgstr ""
+
+#: core/core-functions.php:128
+#, php-format
+#@ default
+msgid "<cite class=\"fn\">%s</cite> <span class=\"says\"></span>"
+msgstr ""
+
+#: core/core-functions.php:131
+#@ core
+msgid "Your comment is awaiting moderation."
+msgstr "Tvoj komentar očekuje odobrenje."
+
+#: core/core-functions.php:135
+#, php-format
+#@ core
+msgid "%1$s at %2$s"
+msgstr "%1$s u %2$s"
+
+#: core/core-functions.php:135
+#@ core
+msgid "(Edit)"
+msgstr ""
+
+#: core/widgets/tabbed-widget.php:14
+#@ ifeature
+msgid "A tabbed widget that display popular posts, recent posts, comments and tags."
+msgstr ""
+
+#: core/widgets/tabbed-widget.php:25
+#@ ifeature
+msgid "iFeature Tabbed Widget"
+msgstr ""
+
+#: core/widgets/tabbed-widget.php:75
+#: core/widgets/tabbed-widget.php:102
+#@ ifeature
+msgid "No comments"
+msgstr "Nema komentara"
+
+#: core/widgets/tabbed-widget.php:118
+#: core/widgets/tabbed-widget.php:122
+#@ ifeature
+msgid "on "
+msgstr "u "
+
+#: core/widgets/tabbed-widget.php:166
+#@ default
+msgid "Popular Title:"
+msgstr ""
+
+#: core/widgets/tabbed-widget.php:171
+#@ default
+msgid "Recent Title:"
+msgstr ""
+
+#: core/widgets/tabbed-widget.php:176
+#@ default
+msgid "Comment Title:"
+msgstr ""
+
+#: core/widgets/tabbed-widget.php:181
+#@ default
+msgid "Tag Title:"
+msgstr ""
+
+#: functions.php:207
+#@ default
+msgid "iFeature Slides"
+msgstr ""
+
+#: functions.php:208
+#@ default
+msgid "Slides"
+msgstr ""
+
+#: functions.php:223
+#@ default
+msgid "Carousel"
+msgstr ""
+
+#: functions.php:224
+#@ default
+msgid "Posts"
+msgstr ""
+
+#: functions.php:395
+#@ default
+msgctxt "column name"
+msgid "Title"
+msgstr ""
+
+#: functions.php:396
+#@ default
+msgid "Image"
+msgstr ""
+
+#: functions.php:398
+#@ default
+msgid "Author"
+msgstr ""
+
+#: functions.php:399
+#@ default
+msgid "Date"
+msgstr ""
+
+#: functions.php:426
+#@ default
+msgid "No Category."
+msgstr ""
+
+#: functions.php:507
+#@ default
+msgid "Header Menu"
+msgstr ""
+
+#: functions.php:507
+#@ default
+msgid "Footer Menu"
+msgstr ""
+
+#: functions.php:507
+#@ default
+msgid "Sub Menu"
+msgstr ""
+
+#: searchform.php:15
+#@ core
+msgid "Search"
+msgstr "Traži..."
+
+#: sidebar.php:53
+#@ core
+msgid "Comments (RSS)"
+msgstr ""
+

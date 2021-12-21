@@ -1,0 +1,7 @@
+/* IE STYLE SHEET */
+
+.widget p.last, .widget div.last { margin-bottom: 0; }
+.widget ul li.last { margin-bottom: 0; }
+.entry-content .last { margin-bottom: 0; }
+blockquote .last { margin-bottom: 0; }
+.entry-thumb img { width: 100%; height: auto; }

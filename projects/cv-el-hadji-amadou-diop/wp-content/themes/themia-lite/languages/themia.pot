@@ -1,0 +1,179 @@
+# Copyright (C) 2011 Themia Lite
+# This file is distributed under the same license as the WordPress package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Themia Lite 1.1.4\n"
+"Report-Msgid-Bugs-To: admin@inkthemes.com"
+"POT-Creation-Date: 2011-10-11 16:47:23+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2011-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Inkthemes\n"
+
+#: archive.php:37 
+msgid "Blog Archives"
+msgstr ""
+
+#: loop.php:37 
+msgid "Sorry, no posts matched your criteria."
+msgstr ""
+
+#: sidebar.php:13 
+msgid "Archives"
+msgstr ""
+
+#: sidebar.php:21 
+msgid "Categories"
+msgstr ""
+
+#: archive.php:31 
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: archive.php:33 
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: archive.php:35 
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: archive.php:54 
+msgid "&larr; Older posts"
+msgstr ""
+
+#: archive.php:56 
+msgid "Newer posts &rarr;"
+msgstr ""
+
+#: attachment.php:13 
+msgid "Return to %s"
+msgstr ""
+
+#: attachment.php:16 
+msgid "<span>&larr;</span> %s"
+msgstr ""
+
+#: attachment.php:23 
+msgid "By %2$s"
+msgstr ""
+
+#: attachment.php:23 
+msgid "View all posts by %s"
+msgstr ""
+
+#: attachment.php:29 
+msgid "Published %2$s"
+msgstr ""
+
+#: attachment.php:35 
+msgid "Full size is %s pixels"
+msgstr ""
+
+#: attachment.php:35 
+msgid "Link to full-size image"
+msgstr ""
+
+#: attachment.php:40 
+#: attachment.php:79 
+msgid "Edit"
+msgstr ""
+
+#: attachment.php:76 
+msgid "Continue reading &rarr;"
+msgstr ""
+
+#: attachment.php:77 
+msgid "Pages:"
+msgstr ""
+
+#: author.php:14 
+msgid "Author Archives: %s"
+msgstr ""
+
+#: author.php:20 
+msgid "About %s"
+msgstr ""
+
+#: category.php:17 
+msgid "Category Archives: %s"
+msgstr ""
+
+#: search.php:20 
+msgid "Search Results for: %s"
+msgstr ""
+
+#: inkthemes-functions.php:55
+msgid "Main Menu"
+msgstr ""
+
+#: inkthemes-functions.php:81
+#: inkthemes-functions.php:83
+msgid "Home"
+msgstr ""
+
+#: inkthemes-functions.php:171 
+msgid "Page"
+msgstr ""
+
+#: inkthemes-functions.php:226
+msgid "This entry was posted in %1$s and tagged %2$s. Bookmark the."
+msgstr ""
+
+#: inkthemes-functions.php:228
+msgid "This entry was posted in %1$s. Bookmark the."
+msgstr ""
+
+#: inkthemes-functions.php:230
+msgid "Bookmark the."
+msgstr ""
+
+#: inkthemes-functions.php:263 
+msgid "Primary Widget Area"
+msgstr ""
+
+#: inkthemes-functions.php:265
+msgid "The primary widget area"
+msgstr ""
+
+#: inkthemes-functions.php:273
+msgid "Secondary Widget Area"
+msgstr ""
+
+#: inkthemes-functions.php:275
+msgid "The secondary widget area"
+msgstr ""
+
+#: inkthemes-functions.php:283
+msgid "First Footer Widget Area"
+msgstr ""
+
+#: inkthemes-functions.php:285
+msgid "The first footer widget area"
+msgstr ""
+
+#: inkthemes-functions.php:293
+msgid "Second Footer Widget Area"
+msgstr ""
+
+#: inkthemes-functions.php:295
+msgid "The second footer widget area"
+msgstr ""
+
+#: inkthemes-functions.php:303
+msgid "Third Footer Widget Area"
+msgstr ""
+
+#: inkthemes-functions.php:305
+msgid "The third footer widget area"
+msgstr ""
+
+#: inkthemes-functions.php:313
+msgid "Fourth Footer Widget Area"
+msgstr ""
+
+#: inkthemes-functions.php:315
+msgid "The fourth footer widget area"
+msgstr ""

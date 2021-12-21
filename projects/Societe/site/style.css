@@ -1,0 +1,123 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color: #999;
+	margin: 0px;
+}
+#contener {
+	margin: auto;
+	width: 1000px;
+	background-color: #00F;
+}
+#header {
+	height: 100px;
+	background-color: #0F0;
+	border-radius:15px;
+}
+#header_1 {
+	height: 35px;
+	margin-top: 15px;
+	background-color: #063;
+}
+#header_1_1 {
+	border-radius:15px;
+	height: 35px;
+	float: left;
+	width: 500px;
+	background-color: #969;
+}
+#header_1_2 {
+	border-radius:15px;
+	height: 35px;
+	float: left;
+	width: 500px;
+}
+
+
+
+#menu {
+	box-shadow:6px 6px 0px black;
+	border-radius:15px;
+	margin-top: 15px;
+	background-color: #0F6;
+}
+
+#acc {
+	float: left;
+	width: 200px;
+}
+#prod {
+	float: left;
+	width: 200px;
+}
+#Pa {
+	float: left;
+	width: 200px;
+}
+#cont {
+	float: left;
+	width: 200px;
+}
+#Admin {
+	float: left;
+	width: 200px;
+}
+#middle {
+	margin-top: 15px;
+	background-color: #039;
+}
+
+#middle_1 {
+	float: left;
+	width: 200px;
+}
+.formul {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+#middle_2 {
+	border-radius:15px;
+	float: left;
+	width: 600px;
+	margin-left: 10px;
+	background-color: #C06;
+	height: 400px;
+}
+#middle_3 {
+	border-radius:15px;
+	float: left;
+	width: 175px;
+	margin-left: 10px;
+	background-color: #C06;
+	height: 400px;
+}
+
+#middle_1_1 {
+	border-radius:15px;
+	height: 200px;
+	background-color: #F6C;
+}
+#middle_1_2 {
+	border-radius:15px;
+	height: 200px;
+	background-color: #FFF;
+	margin-top: 10px;
+}
+#footer {
+	height: 25px;
+	margin-top: 10px;
+	background-color: #FFF;
+	border-radius:15px;
+}
+#middle_2 input{
+	border-radius:15px;
+}
+#header_1_2 input{
+	border-radius:15px;
+}
+
+.clear {
+	clear: both;
+}

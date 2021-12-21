@@ -1,0 +1,11 @@
+#mantle-image {
+	overflow: hidden;
+}
+
+#mantle {
+	margin-top: -17px; /* Oh my god what is is this I don't even */
+}
+
+body.page-template-homepage-php #mantle-dots {
+	margin-top: -17px;
+}

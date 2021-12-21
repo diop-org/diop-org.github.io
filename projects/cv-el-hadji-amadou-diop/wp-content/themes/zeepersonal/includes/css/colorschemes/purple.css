@@ -1,0 +1,20 @@
+a, a:link, a:visited,
+#sidebar ul li h2,
+.post h2, .attachment h2,
+.post h2 a:link, .post h2 a:visited,
+.postmeta a:link, .postmeta a:visited,
+.postinfo a:link, .postinfo a:visited,
+#comments a:link, #comments a:visited, #respond a:link, #respond a:visited,
+.bottombar ul li h2,
+#comments h3, #respond h3
+{
+	color: #8b20c8;
+}
+#sidebar ul li h2, .bottombar ul li h2,
+#commentform input, #commentform textarea {
+	border-left: 3px solid #8b20c8;
+}
+.post h2, .type-page h2,
+#comments h3, #respond h3 {
+	border-left: 5px solid #8b20c8;
+}

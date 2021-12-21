@@ -1,0 +1,4 @@
+#bar{background:#176001;}#bar li a:hover{background:#b70011;}
+html > body #bar{background:#176001 url(images/overlay.png);}html > body #bar li a:hover{background:#b70011 url(images/overlay.png);}
+a:hover{color:#176001;}
+#title a:hover{color:#b70011!important;}

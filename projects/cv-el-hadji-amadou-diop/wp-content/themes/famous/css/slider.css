@@ -1,0 +1,84 @@
+#slider {
+	width: 970px;
+	margin-top: 10px; padding: 0;
+}
+
+#slider .head {
+	width: 970px; height: 4px;
+	background: url(../images/style0/slider-head.png) no-repeat left top;
+}
+
+#slider .body {
+	padding: 12px 15px 8px 15px;
+	background: url(../images/style0/slider-body.png) repeat-y left top;
+}
+
+#slider .foot {
+	width: 970px; height: 10px;
+	background: url(../images/style0/slider-foot.png) no-repeat left top;
+}
+
+#slider .slides {
+	width: 940px;
+	position: relative;
+	overflow: hidden;
+}
+
+#slider .controls {
+	width: 108px;
+	margin: 0 auto; padding-top: 13px;
+	overflow: hidden;
+}
+
+#slider .controls li {
+	width: 10px;
+	float: left;
+	margin: 0;
+	list-style: none;
+	padding: 0;
+}
+
+#slider .controls a {
+	float: left;
+	width: 10px; height: 10px;
+	margin-right: 8px;
+	display: block;
+	text-indent: -999999px;
+	background-image: url(../images/style0/slider-step.png);
+}
+
+#slider .controls a.activeSlide {
+	background-image: url(../images/style0/slider-step-active.png);
+}
+
+#slider .controls a:hover {
+	background-image: url(../images/style0/slider-step-hover.png);
+}
+
+#slider .next {
+	position: absolute;
+	float: right;
+	width: 25px; height: 28px;
+	margin: 14px 0 0 900px;
+	background: url(../images/slider-next.png) no-repeat left top;
+	z-index: 90;
+	display: block;
+}
+
+#slider .next:hover {
+	background-image: url(../images/slider-next-hover.png);
+}
+
+#slider .prev {
+	position: absolute;
+	float: right;
+	width: 25px; height: 28px;
+	margin: 14px 0 0 860px;
+	background: url(../images/slider-prev.png) no-repeat left top;
+	z-index: 90;
+	display: block;
+}
+
+#slider .prev:hover {
+	background-image: url(../images/slider-prev-hover.png);
+}

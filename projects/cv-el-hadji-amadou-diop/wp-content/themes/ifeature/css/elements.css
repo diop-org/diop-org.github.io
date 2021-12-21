@@ -1,0 +1,110 @@
+/* Page Elements */
+
+div.timer {display: none;}
+
+.caption_title {font-size:16px;}
+
+.slider_nav {
+	height: 50px;
+	width: 99.8%;
+	margin-top: -45px !important;
+	box-shadow:0 0 4px #AAAAAA;
+	border-left: 1px solid #CCC;
+	border-right: 1px solid #BBB;
+	border-bottom: 1px solid #BBB;
+	border-radius: 0px 0px 4px 4px;
+	-moz-border-radius: 0px 0px 4px 4px;
+	margin: auto;
+	margin-bottom: 20px;
+	background: #f8f8f8; /* Old browsers */
+	background: -moz-linear-gradient(top,  #f8f8f8 0%, #ededed 40%, #dddddd 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f8f8), color-stop(40%,#ededed), color-stop(100%,#dddddd)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #f8f8f8 0%,#ededed 40%,#dddddd 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #f8f8f8 0%,#ededed 40%,#dddddd 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #f8f8f8 0%,#ededed 40%,#dddddd 100%); /* IE10+ */
+	background: linear-gradient(top,  #f8f8f8 0%,#ededed 40%,#dddddd 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8f8f8', endColorstr='#dddddd',GradientType=0 ); /* IE6-9 */
+}
+
+/*============================*/
+/*======= Twitter Bar ========*/
+/*============================*/
+
+#twitterbar {
+	overflow: hidden;
+	margin: auto;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	box-shadow: none;
+	border: 1px solid #CCC;
+    background: #ffffff;
+	background: -moz-linear-gradient(top,  #ffffff 0%, #f9f9f9 75%, #f4f4f4 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(75%,#f9f9f9), color-stop(100%,#f4f4f4));
+	background: -webkit-linear-gradient(top,  #ffffff 0%,#f9f9f9 75%,#f4f4f4 100%);
+	background: -o-linear-gradient(top,  #ffffff 0%,#f9f9f9 75%,#f4f4f4 100%);
+	background: -ms-linear-gradient(top,  #ffffff 0%,#f9f9f9 75%,#f4f4f4 100%);
+	background: linear-gradient(top,  #ffffff 0%,#f9f9f9 75%,#f4f4f4 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f4f4f4',GradientType=0 );
+}
+
+#twittertext {
+	padding: 10px 15px 10px 15px;
+	font-size: 14px;
+}
+
+/*============================*/
+/*======= Bread Crumbs =======*/
+/*============================*/
+
+#crumbs {
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	box-shadow: none;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background: #ffffff;
+	background: -moz-linear-gradient(top,  #ffffff 0%, #f9f9f9 75%, #f4f4f4 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(75%,#f9f9f9), color-stop(100%,#f4f4f4));
+	background: -webkit-linear-gradient(top,  #ffffff 0%,#f9f9f9 75%,#f4f4f4 100%);
+	background: -o-linear-gradient(top,  #ffffff 0%,#f9f9f9 75%,#f4f4f4 100%);
+	background: -ms-linear-gradient(top,  #ffffff 0%,#f9f9f9 75%,#f4f4f4 100%);
+	background: linear-gradient(top,  #ffffff 0%,#f9f9f9 75%,#f4f4f4 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f4f4f4',GradientType=0 );
+}
+
+.crumbs_text {padding: 2px 0 7px 15px;}
+
+/*============================*/
+/*====== Product Element =====*/
+/*============================*/
+
+#product_container {
+	border: 1px solid #ccc;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	box-shadow:none;
+	background: #ffffff;
+	background: -moz-linear-gradient(top,  #ffffff 0%, #f9f9f9 75%, #f4f4f4 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(75%,#f9f9f9), color-stop(100%,#f4f4f4));
+	background: -webkit-linear-gradient(top,  #ffffff 0%,#f9f9f9 75%,#f4f4f4 100%);
+	background: -o-linear-gradient(top,  #ffffff 0%,#f9f9f9 75%,#f4f4f4 100%);
+	background: -ms-linear-gradient(top,  #ffffff 0%,#f9f9f9 75%,#f4f4f4 100%);
+	background: linear-gradient(top,  #ffffff 0%,#f9f9f9 75%,#f4f4f4 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f4f4f4',GradientType=0 );
+}
+
+#productwrap {
+	padding: 20px;
+}
+
+#product_text {color: #222; padding: 0px 0 20px 0;}
+.product_text_wrap {}
+#product_text.six.columns {margin-left: 1%;}
+#product_media.six.columns {margin-left: 0%;}
+.product_text_title {font-size: 24px;color: #000;font-weight:bold;}
+.product_text_text {font-size: 14px;}
+
+#product_media {padding: 0px 0 20px 0;}

@@ -1,0 +1,867 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: zeeBizzCard\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-11-02 19:51+0100\n"
+"PO-Revision-Date: 2011-11-02 19:53+0100\n"
+"Last-Translator: themezee.com <contact@themezee.com>\n"
+"Language-Team: themezee.com\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: gettext;gettext_noop;_e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: C:\\xampp\\htdocs\\wordpress\\wp-content\\themes\\zeeBizzCard\n"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/404.php:9
+msgid "404 Error: Not found"
+msgstr "404 Fehler: Seite nicht gefunden"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/404.php:12
+msgid "The page you trying to reach does not exist, or has been moved. Please use the menus or the search box to find what you are looking for"
+msgstr "Diese Seite existiert nicht oder nicht mehr. Bitte verwende die Navigation oder die Suchbox, um die richtige Seite zu finden."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/404.php:17
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/template-sitemap.php:28
+msgid "Latest Posts"
+msgstr "Letzte Artikel"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/404.php:28
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/template-sitemap.php:39
+msgid "Pages"
+msgstr "Seiten"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/archive.php:5
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/archive.php:6
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/archive.php:7
+msgid "Archive for"
+msgstr "Archiv für"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/archive.php:8
+msgid "Tag Archive for"
+msgstr "Tag Archiv für"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/archive.php:9
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/template-sitemap.php:49
+msgid "Archives"
+msgstr "Archive"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/archive.php:20
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/comments.php:16
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/index.php:21
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/search.php:17
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/single.php:14
+msgid "No comments"
+msgstr "Keine Kommentare"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/archive.php:20
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/comments.php:16
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/index.php:21
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/search.php:17
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/single.php:14
+msgid "One comment"
+msgstr "Ein Kommentar"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/archive.php:20
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/comments.php:16
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/index.php:21
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/search.php:17
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/single.php:14
+#, php-format
+msgid "% comments"
+msgstr "% Kommentare"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/archive.php:25
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/index.php:26
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/portfolio-two-column.php:52
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/search.php:22
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/single-portfolio.php:13
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/single.php:19
+msgid "Read more"
+msgstr "Weiterlesen"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/archive.php:42
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/index.php:41
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/portfolio-three-column.php:62
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/portfolio-two-column.php:67
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/search.php:36
+msgid "&laquo; Older Entries"
+msgstr "&laquo; Ältere Beiträge"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/archive.php:42
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/index.php:41
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/portfolio-three-column.php:62
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/portfolio-two-column.php:67
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/search.php:36
+msgid "Recent Entries &raquo;"
+msgstr "Neuere Beiträge &raquo;"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/comments.php:8
+msgid "Enter password to view comments."
+msgstr "Passwort erforderlich, um Kommentare zu sehen."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/comments.php:39
+msgid "Comments are closed."
+msgstr "Kommentare sind geschlossen."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/footer.php:7
+msgid "WordPress BizzCard Theme"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/functions.php:132
+msgid "Portfolio"
+msgstr "Portfolio"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/page.php:10
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/portfolio-three-column.php:15
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/portfolio-two-column.php:15
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/template-networks.php:15
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/template-sitemap.php:15
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/search.php:6
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/search.php:43
+msgid "Search results for "
+msgstr "Suchergebnisse für "
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/search.php:48
+msgid "No matches. Please try again, or use the navigation menus to find what you search for."
+msgstr "Diese Seite existiert nicht oder nicht mehr. Bitte verwende die Navigation oder die Suchbox, um die richtige Seite zu finden."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/template-sitemap.php:44
+msgid "Categories"
+msgstr "Kategorien"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/template-sitemap.php:54
+msgid "Posts by Category"
+msgstr "Artikel per Kategorie"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/template-sitemap.php:57
+msgid "Category"
+msgstr "Kategorie"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/theme-admin.php:5
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/theme-admin.php:15
+msgid "Theme Options"
+msgstr "Theme Einstellungen"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/theme-admin.php:20
+msgid "Theme settings updated successfully."
+msgstr "Theme Einstellungen erfolgreich gespeichert."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/theme-admin.php:39
+msgid "Theme Developer"
+msgstr "Theme Entwickler"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/theme-admin.php:51
+msgid "Donate"
+msgstr "Spenden"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/theme-admin.php:54
+msgid "If you like zeeBizzCard and want to help keep this theme free and actively developed donate a few bucks. Thanks!"
+msgstr "Du magst zeeBizzCard?? Spende ein paar Cent, um das Theme und die aktive Entwicklung zu unterstützen. Danke!"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/theme-admin.php:66
+msgid "Theme Info"
+msgstr "Theme Info"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/theme-admin.php:69
+msgid "<strong>zeeBizzCard</strong> is a clean and elegant styled Business Card Theme for WordPress that fits perfectly for a sleek homepage for personalities, freelancers, entrepreneurs or small business owners."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/theme-functions.php:6
+msgid "General"
+msgstr "Allgemein"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/theme-functions.php:7
+msgid "About Me"
+msgstr "Über mich"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/theme-functions.php:8
+msgid "Colors"
+msgstr "Farben"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/theme-functions.php:9
+msgid "Fonts"
+msgstr "Schriften"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/theme-functions.php:10
+msgid "Post Slider"
+msgstr "Artikel Slider"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/theme-functions.php:11
+msgid "Networks"
+msgstr "Netzwerke"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-about.php:7
+msgid "Your Personal Details"
+msgstr "Persönliche Daten"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-about.php:10
+msgid "Contact Information"
+msgstr "Kontakt Informationen"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-about.php:21
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/plugins/theme-plugin-about.php:12
+msgid "Name"
+msgstr "Name"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-about.php:22
+msgid "Paste your name here."
+msgstr "Trage hier deinen Namen ein."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-about.php:28
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/plugins/theme-plugin-about.php:21
+msgid "Date of Birth"
+msgstr "Geburtsdatum"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-about.php:29
+msgid "Paste your date of birth here."
+msgstr "Hier Geburtsdatum eintragen."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-about.php:35
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/plugins/theme-plugin-about.php:30
+msgid "Nationality"
+msgstr "Nationalität"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-about.php:36
+msgid "Paste your nationality here."
+msgstr "Hier Nationalität eintragen."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-about.php:42
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/plugins/theme-plugin-about.php:39
+msgid "Address"
+msgstr "Adresse"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-about.php:43
+msgid "Paste your address here."
+msgstr "Trage hier deine Adresse ein. (Straße, PLZ, Ort)"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-about.php:49
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/plugins/theme-plugin-about.php:48
+msgid "Home Town"
+msgstr "Heimatort"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-about.php:50
+msgid "Paste your home town here."
+msgstr "Trage hier deinen Heimatort ein."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-about.php:59
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/plugins/theme-plugin-about.php:57
+msgid "Website"
+msgstr "Webseite"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-about.php:60
+msgid "Paste your website here."
+msgstr "Hier kannst du deine Webseite eintragen."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-about.php:66
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/plugins/theme-plugin-about.php:66
+msgid "Email"
+msgstr "Email"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-about.php:67
+msgid "Paste your email address here."
+msgstr "Trage hier deine Email Adresse ein."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-about.php:73
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/plugins/theme-plugin-about.php:75
+msgid "Telephone"
+msgstr "Telefon"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-about.php:74
+msgid "Paste your telephone number here."
+msgstr "Trage hier deine Telefonnummer ein."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-about.php:80
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/plugins/theme-plugin-about.php:84
+msgid "vCard"
+msgstr "vCard"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-about.php:81
+msgid "Paste your download url for your vCard here."
+msgstr "Hier Download Link zur vCard Datei eintragen."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-colors.php:7
+msgid "Predefined Color Schemes"
+msgstr "Vordefinierte Farbschemen"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-colors.php:10
+msgid "Custom Colors"
+msgstr "Eigene Farben"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-colors.php:13
+msgid "Font Colors"
+msgstr "Schriftfarben"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-colors.php:16
+msgid "Background Colors"
+msgstr "Hintergrund Farben"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-colors.php:24
+msgid "Blue"
+msgstr "Blau"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-colors.php:25
+msgid "Green"
+msgstr "Grün"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-colors.php:26
+msgid "Orange"
+msgstr "Orange"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-colors.php:27
+msgid "Purple"
+msgstr "Lila"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-colors.php:28
+msgid "Red"
+msgstr "Rot"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-colors.php:29
+msgid "Teal"
+msgstr "Tuerkis"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-colors.php:30
+msgid "Standard"
+msgstr "Standard"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-colors.php:38
+msgid "Please select your color scheme here."
+msgstr "Bitte wähle hier dein bevorzugtes Farbschema."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-colors.php:46
+msgid "Active Custom Colors?"
+msgstr "Eigene Farben aktivieren?"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-colors.php:47
+msgid "Check this to activate the Custom Color Function."
+msgstr "Haken setzen, um eigene Farben zu verwenden."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-colors.php:55
+msgid "Link Color"
+msgstr "Linkfarbe"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-colors.php:56
+msgid "Select the color of links here."
+msgstr "Hier Linkfarbe festlegen"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-colors.php:62
+msgid "Post Title Color"
+msgstr "Farbe der Artikelüberschrift"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-colors.php:63
+msgid "Select the color of post titles here."
+msgstr "Hier die Farbe der Artikelüberschriften festlegen."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-colors.php:71
+msgid "Logo Background Color"
+msgstr "Logo Hintergrundfarbe"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-colors.php:72
+msgid "Select the background color of logo here."
+msgstr "Hier Hintegrundfarbe des Logos festlegen."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-colors.php:78
+msgid "Navigation Background Color"
+msgstr "Hintergrundfarbe der Navigation"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-colors.php:79
+msgid "Select the background color of navigation here."
+msgstr "Hier Hintergrundfarbe der Navigation festlegen."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-colors.php:85
+msgid "Sidebar Background Color"
+msgstr "Hintergrundfarbe Sidebar Titel"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-colors.php:86
+msgid "Select the background color of sidebar title here."
+msgstr "Hier Hintergrundfarbe des Sidebar Titels festlegen."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-fonts.php:7
+msgid "Activate Custom Fonts"
+msgstr "Eigene Schriftarten aktivieren"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-fonts.php:10
+msgid "Font Families"
+msgstr "Schriftarten"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-fonts.php:13
+msgid "Font Sizes"
+msgstr "Schriftgrößen"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-fonts.php:45
+msgid "Active Custom Fonts?"
+msgstr "Sollen benutzerdefinierte Schriftarten aktiviert werden?"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-fonts.php:46
+msgid "Check this to activate Custom Fonts."
+msgstr "Haken setzen, um benutzerdefinierte Schriftarten zu aktivieren"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-fonts.php:52
+msgid "Text Font"
+msgstr "Textschriftart"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-fonts.php:53
+msgid "Select the font family of text here."
+msgstr "Lege hier die Schriftart von normalen Text fest."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-fonts.php:60
+msgid "Navigation Font"
+msgstr "Navigation Schriftart"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-fonts.php:61
+msgid "Select the navigation font here."
+msgstr "Hier Schriftart der Navigation festlegen."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-fonts.php:68
+msgid "Title Font"
+msgstr "Titel Schriftart"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-fonts.php:69
+msgid "Select the title font here."
+msgstr "Hier Schriftart der Artikelüberschriften festlegen."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-fonts.php:78
+msgid "Size of Text"
+msgstr "Schriftgröße vom Text"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-fonts.php:79
+msgid "Choose the font size of text in points (default: 10pt)."
+msgstr "Lege hier die Schriftgröße des Textens in Punkten fest (Standard: 10pt)."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-fonts.php:85
+msgid "Size of Navigation"
+msgstr "Schriftgröße der Navigation"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-fonts.php:86
+msgid "Choose the font size of navigation in points (default: 9pt)."
+msgstr "Lege hier die Schriftgröße der Navigation in Punkten fest (Standard: 9pt)."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-fonts.php:92
+msgid "Size of Page Title"
+msgstr "Schriftgröße der Seitenüberschrift."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-fonts.php:93
+msgid "Choose the font size of page titles in points (default: 26pt)"
+msgstr "Lege hier die Schriftgröße von Seiten Überschriften fest. (Standard: 26pt)"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-fonts.php:99
+msgid "Size of Post Title"
+msgstr "Schriftgröße der Artikelüberschrift"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-fonts.php:100
+msgid "Choose the font size of post tiles in points (default: 22pt)"
+msgstr "Lege hier die Schriftgröße von Artikelüberschriften fest (Standard: 22pt)."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-general.php:7
+msgid "Layout Settings"
+msgstr "Layout Einstellungen"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-general.php:19
+msgid "Paste the full Image URL of your logo."
+msgstr "Trage hier die volle Bild URL zu deinem Logo ein."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-general.php:25
+msgid "Sidebar Options"
+msgstr "Sidebar Optionen"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-general.php:31
+msgid "Left Sidebar"
+msgstr "Sidebar links"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-general.php:32
+msgid "Right Sidebar"
+msgstr "Sidebar rechts"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-general.php:36
+msgid "Rounded Corners"
+msgstr "Runde Ecken"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-general.php:42
+msgid "Yes, use rounded corners."
+msgstr "Ja, verwende runde Ecken."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-general.php:43
+msgid "No, squared design please"
+msgstr "Nein, keine runden Ecken bitte."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-general.php:47
+msgid "Footer Content"
+msgstr "Footer Inhalt"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-general.php:48
+msgid "Enter here the content which is displayed in the footer."
+msgstr "Hier Inhalt eingeben, der im Footer angezeigt wird."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-general.php:54
+msgid "Custom CSS"
+msgstr "Eigenes CSS"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-general.php:55
+msgid "Place your Custom CSS code here."
+msgstr "Hier eigenen CSS Code eintragen."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-slider.php:7
+msgid "Featured Posts Slider"
+msgstr "Artikel Slider"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-slider.php:18
+msgid "Show Post Slider?"
+msgstr "Artikel Slider anzeigen?"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-slider.php:19
+msgid "Check this if you want to show the Featured Post Slider."
+msgstr "Haken setzen wenn der Featured Artikel Slider angezeigt werden soll."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-slider.php:25
+msgid "Slider Title"
+msgstr "Slider Titel"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-slider.php:26
+msgid "Enter here your headline which is displayed above the featured posts."
+msgstr "Hier Überschrift für den Artikel Slider eintragen."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-slider.php:44
+msgid "Slider Content"
+msgstr "Slider Inhalt"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-slider.php:50
+msgid "Show latest posts"
+msgstr "Letzte Artikel anzeigen"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-slider.php:51
+msgid "Show latest posts from category \"featured\""
+msgstr "Letzte Artikel aus der Kategorie \"featured\" anzeigen"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-slider.php:52
+msgid "Show latest posts with post_meta_key \"featured\""
+msgstr "Letzte Artikel mit Meta Key \"featured\" anzeigen"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-slider.php:53
+msgid "Show latest posts from custom category(enter ID below)"
+msgstr "Letzte Artikel einer bestimmten Kategorie anzeigen (ID unten eingeben)"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-slider.php:57
+msgid "category ID"
+msgstr "Kategorie ID"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-slider.php:58
+msgid "Please enter the category ID you'd like to include in the slideshow.(You have to tick the last option above)"
+msgstr "Bitte trage hier die Kategorie ID ein, welche im Slider angezeigt werden soll. (Oben die letzte Option auswählen)"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-slider.php:64
+msgid "Number of Posts"
+msgstr "Anzahl der Artikel"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-slider.php:65
+msgid "Enter the number how much posts should be displayed in the post slider."
+msgstr "Hier Anzahl der Artikel eintragen, die im Slider angezeigt werden sollen."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-social.php:7
+msgid "Social Media Buttons"
+msgstr "SocialMedia Buttons"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-social.php:19
+msgid "Activate SocialMedia Buttons?"
+msgstr "SocialMedia Buttons aktivieren? "
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-social.php:20
+msgid "Check this to activate the SocialMedia Button Widget."
+msgstr "Haken setzen, um das SocialMedia Button Widget zu aktivieren."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-social.php:27
+msgid "Enter the URL to your Twitter Profile here."
+msgstr "Hier URL zum Twitter Account eintragen."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-social.php:34
+msgid "Enter the URL to your Facebook Profile here."
+msgstr "Hier URL zum Facebook Profil eintragen."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-social.php:41
+msgid "Enter the URL to your Google+ profile."
+msgstr "Hier URL zum Google+ Profil eintragen."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-social.php:48
+msgid "Enter the URL to your LinkedIn Profile here."
+msgstr "Hier URL zum LinkedIn Profil eintragen."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-social.php:55
+msgid "Enter the URL to your Xing Profile here."
+msgstr "Hier URL zum Xing Profil eintragen."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-social.php:62
+msgid "Enter the URL to your MySpace Profile here."
+msgstr "Hier URL zum MySpace Profil eintragen."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-social.php:69
+msgid "Enter the URL to your Blogger Profile here."
+msgstr "Hier URL zu Blogger eintragen."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-social.php:76
+msgid "Enter the URL to your Tumblr Blog here."
+msgstr "Hier URL zum Tumblr Blog eintragen."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-social.php:83
+msgid "Enter the URL to your Typepad Blog here."
+msgstr "Hier URL zum Typepad Blog eintragen."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-social.php:90
+msgid "Enter the URL to your Wordpress.com Blog here."
+msgstr "Hier URL zum Wordpress.comr Blog eintragen."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-social.php:97
+msgid "Enter the URL to your Gowalla Profile here."
+msgstr "Hier URL zum Gowalla Profil eintragen."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-social.php:104
+msgid "Enter the URL to your Flickr Profile here."
+msgstr "Hier URL zum Twitter Profil eintragen."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-social.php:111
+msgid "Enter the URL to your Soundcloud Profile here."
+msgstr "Hier URL zum Soundcloud Profil eintragen."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-social.php:118
+msgid "Enter the URL to your Spotify Profile here."
+msgstr "Hier URL zum Spotify Profil eintragen."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-social.php:125
+msgid "Enter the URL to your Last.fm Profile here."
+msgstr "Hier URL zum Last.fm Profil eintragen."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-social.php:132
+msgid "Enter the URL to your Youtube Profile here."
+msgstr "Hier URL zum Youtube Profil eintragen."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-social.php:139
+msgid "Enter the URL to your Vimeo Profile here."
+msgstr "Hier URL zum Vimeo Profil eintragen."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-social.php:146
+msgid "Enter the URL to your DeviantART Profile here."
+msgstr "Hier URL zum DeviantART  Profil eintragen."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-social.php:153
+msgid "Enter the URL to your Dribbble Profile here."
+msgstr "Hier URL zum Dribbble Profil eintragen."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-social.php:160
+msgid "Enter the URL to your Delicious Profile here."
+msgstr "Hier URL zum Delicious Profil eintragen."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-social.php:167
+msgid "Enter the URL to your Digg Profile here."
+msgstr "Hier URL zum Digg Profil eintragen."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-social.php:174
+msgid "Enter the URL to your Reddit Profile here."
+msgstr "Hier URL zum Reddit Profil eintragen."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-social.php:181
+msgid "Enter the URL to your StumpleUpon Profile here."
+msgstr "Hier URL zum StumbleUpon Profil eintragen."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-social.php:188
+msgid "Enter your RSS URL (e.g. Feedburner Feed) here."
+msgstr "Hier RSS URL eintragen. (z.B. Feedburner URL)"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-social.php:195
+msgid "Enter your Email URL (e.g. Feedburner Email Subscription) here."
+msgstr "Hier Email Abonnenten URL eintragen. (z.B. Feedburner Email Subscription URL)"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-social.php:202
+msgid "Enter the URL to your Friendfeed Profile here."
+msgstr "Hier URL zum Friendfeed Profil eintragen."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/admin/options/options-social.php:209
+msgid "Enter your Skype Contact here."
+msgstr "Hier kannst du Skype Kontaktadresse eintragen."
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/plugins/theme-plugin-about.php:85
+msgid "Download vCard"
+msgstr "Download vCard"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/plugins/theme-widget-socialmedia.php:5
+msgid "Show your Social Media Buttons"
+msgstr "SocialMedia Buttons anzeigen"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/plugins/theme-widget-socialmedia.php:176
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/plugins/theme-widget-twitter.php:65
+msgid "Title"
+msgstr "Titel"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/plugins/theme-widget-twitter.php:6
+msgid "Show your latest Tweets"
+msgstr "Letzte Tweets anzeigen"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/plugins/theme-widget-twitter.php:13
+msgid "Latest Tweets"
+msgstr "Letzte Tweets"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/plugins/theme-widget-twitter.php:16
+msgid "More updates on Twitter"
+msgstr "Twitter"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/plugins/theme-widget-twitter.php:71
+msgid "User"
+msgstr "Account"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/plugins/theme-widget-twitter.php:77
+msgid "Number of tweets to show"
+msgstr "Anzahl der Tweets"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/plugins/theme-widget-twitter.php:79
+msgid "(at most 15)"
+msgstr "(höchstens 15)"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/plugins/theme-widget-twitter.php:84
+msgid "Show link to Twitter"
+msgstr "Link zu Twitter zeigen?"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\zeeBizzCard/includes/plugins/theme-widget-twitter.php:88
+msgid "Link label"
+msgstr "Linktext"
+
+#~ msgid "SocialMedia"
+#~ msgstr "SocialMedia"
+
+#~ msgid ""
+#~ "It is completely optional, but if you like the Theme I would appreciate "
+#~ "it if you keep the credit link at the bottom."
+#~ msgstr ""
+#~ "Falls dir dieses Theme gefällt, würde ich mich freuen wenn du den Link zu "
+#~ "ThemeZee im Footer beibehältst."
+
+#~ msgid "125x125 Ad Spots"
+#~ msgstr "125x125 Banner Spots"
+
+#~ msgid "Brown"
+#~ msgstr "Braun"
+
+#~ msgid "Darkblue"
+#~ msgstr "Dunkelblau"
+
+#~ msgid "Darkgreen"
+#~ msgstr "Dunkelgrün"
+
+#~ msgid "Grey"
+#~ msgstr "Grau"
+
+#~ msgid ""
+#~ "Select a custom color here (You have to select the 'custom color' option "
+#~ "above)."
+#~ msgstr ""
+#~ "Konfiguriere hier deine bevorzugte Farbe. (Oben muss  'custom color'  "
+#~ "auswählt sein)"
+
+#~ msgid "Insert your own custom css code into the head of the theme."
+#~ msgstr ""
+#~ "Trage hier deinen eigenen CSS Code in den Kopfbereich des Themes ein."
+
+#~ msgid "Rotate banners?"
+#~ msgstr "Banner rotieren?"
+
+#~ msgid "Check this to randomly rotate the ad spots."
+#~ msgstr "Haken setzen, um alle Banner zufällig rotieren zu lassen"
+
+#~ msgid "Ad Spot Image URL"
+#~ msgstr "Banner Bild URL"
+
+#~ msgid "Enter the image URL for this ad spot."
+#~ msgstr "Trage hier die Banner URL ein."
+
+#~ msgid "Ad Spot Destination"
+#~ msgstr "Banner Ziel"
+
+#~ msgid "Enter the URL where this ad spot points to."
+#~ msgstr "Trage hier die Zieladresse (Link) des Banners ein."
+
+#~ msgid "Show your 125x125 Ad Spots"
+#~ msgstr "Anzeige deiner 125x125 Banner"
+
+#~ msgid ""
+#~ "Go to WP-Admin-> Appearance-> \"Theme\" Options to configure this widget"
+#~ msgstr ""
+#~ "Gehe zu WP-Admin-> Design-> \"Theme\" Optionen, um das Widget zu "
+#~ "konfigurieren."
+
+#~ msgid ""
+#~ "Go to WP-Admin-> Appearance-> \"Theme\" Options to activate and configure "
+#~ "this widget"
+#~ msgstr ""
+#~ "Gehe zu WP-Admin-> Design-> \"Theme\" Optionen, um das Widget zu "
+#~ "aktivieren und konfigurieren."
+
+#~ msgid "Please paste your Google Analytics(or other) tracking code here."
+#~ msgstr "Hier Google Analytics Code (oder anderen) Tracking Code eintragen."
+
+#~ msgid "Tags: "
+#~ msgstr "Tags:"
+
+#~ msgid "Archive for the year"
+#~ msgstr "Archiv für das Jahr"
+
+#~ msgid "'s Options has been updated at"
+#~ msgstr "'s Optionen wurden gespeichert um"
+
+#~ msgid "o'clock"
+#~ msgstr "Uhr"
+
+#~ msgid "Save All Changes"
+#~ msgstr "Änderungen speichern"
+
+#~ msgid "Upload picture"
+#~ msgstr "Bild hochladen"
+
+#~ msgid "125x125 Ad Spots - can be activated as widget into sidebar"
+#~ msgstr "125x125 Banner - müssen als Widget in der Sidebar aktiviert werden"
+
+#~ msgid "Leave a Reply"
+#~ msgstr "Kommentar hinterlassen"
+
+#~ msgid "Leave a Reply to %s"
+#~ msgstr "Antworten auf %s"
+
+#~ msgid "You must be logged in to post a comment."
+#~ msgstr "Du musst eingeloggt sein, um einen Kommentar zu hinterlassen."
+
+#~ msgid "Logged in as"
+#~ msgstr "Eingeloggt als"
+
+#~ msgid "(required)"
+#~ msgstr "(erforderlich)"
+
+#~ msgid "E-mail (will not be published)"
+#~ msgstr "Email (wird nicht veröffentlicht)"
+
+#~ msgid "Submit"
+#~ msgstr "Abschicken"
+
+#~ msgid "Please select the sidebar position here (left or right)."
+#~ msgstr "Wähle hier die Sidebar Position (links oder rechts)"
+
+#~ msgid ""
+#~ "Build your tabbed area by placing widgets here. IMPORTANT: DO NOT PLACE "
+#~ "THE THEME TABBED WIDGET IN THIS AREA!! Place the THEME TABBED widget in "
+#~ "another widget area."
+#~ msgstr ""
+#~ "Gestalte deine Tabs, indem du hier Widgets platzierst. Jedes Widget "
+#~ "ergibt einen Tab. WICHTIG: PLATZIERE HIER NICHT DAS THEME TABBED WIDGET! "
+#~ "Das Theme Tabbed Widget gehört in einen anderen Widget Bereich."
+
+#~ msgid "Show built-in Tab Widget"
+#~ msgstr "Dein Widget zur Anzeige von Tabs"
+
+#~ msgid "No replies"
+#~ msgstr "Keine Kommentare"
+
+#~ msgid "One reply"
+#~ msgstr "Ein Kommentar"
+
+#~ msgid "% replies"
+#~ msgstr "% Kommentare"

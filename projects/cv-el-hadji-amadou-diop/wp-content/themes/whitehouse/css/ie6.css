@@ -1,0 +1,20 @@
+#nav {
+	position: relative;
+	z-index:500;
+}
+#s{width: 186px;float:left;}
+#searchsubmit{
+	padding-left: 2px !important;
+	padding-right: 2px !important;
+	font-size: .9em !important;
+	float:left;
+}
+
+#morefoot #morefootbg .wcontain{width: 295px !important;overflow:hidden;}
+#morefoot #s{
+	width: 160px;
+}
+
+#nav ul li a{
+	background: transparent;
+}

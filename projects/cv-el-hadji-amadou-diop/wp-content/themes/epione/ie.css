@@ -1,0 +1,6 @@
+.sframe{ display:none;}
+#slider img{width:420px; height:225px; float:left; margin-left:25px; margin-top:22px; border:solid 2px #111;}
+.popular_posts{}
+#menu-topmenu ul.sub-menu{ position:absolute; z-index:888888; margin:0; padding:5px 0px 20px 0px; width:159px; background:url(images/sub-menu_bottom1.png); background-position: left bottom; background-repeat:no-repeat; padding-top:0px;}
+#slider{ margin-top:0px;}
+.topmenu ul li a{ text-shadow:0 0 1px #5a1018;}

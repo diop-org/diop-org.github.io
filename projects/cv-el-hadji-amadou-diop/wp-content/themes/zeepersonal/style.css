@@ -1,0 +1,915 @@
+/*======================================
+Theme Name: zeePersonal
+Theme URI: http://themezee.com/zeepersonal
+Description: A dark and mysterious theme for a personal blog with great features: Custom Logo, Several predefined Color Schemes, Unlimited Colors via Colorpicker, Content Slider, 125x125 Banner Widget, SocialMedia Buttons Widget, Dropdown Navigation, Theme Option Panel, Footer Sidebar and more
+Version: 1.1
+Author: ThemeZee
+Author URI: http://themezee.com
+Tags:  two-columns, dark, custom-background, sticky-post, custom-menu, threaded-comments, translation-ready, theme-options, fixed-width, custom-colors, custom-header, editor-style, right-sidebar, white, light
+License: GNU General Public License v2.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+======================================*/
+
+/*============================ RESET ============================*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, font, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+/*============================ SETUP ============================*/
+html {
+	font-size: 100.01%;
+}
+body {
+	font-family: Verdana, Arial;
+	font-size: 0.8em;
+	border: 0;
+	color: #111;
+	background: url(images/background.png) no-repeat #171717;
+}
+ul, ol {
+	list-style: none;
+}
+img {
+	border: none;
+}
+.clear {
+	clear: both;
+}
+a, a:link, a:visited{
+	color: #333;
+	text-decoration: underline;
+}
+a:hover, a:active {
+	color: #777;
+	text-decoration: none;
+}
+input, textarea {
+	background-color: #f5f5f5; 
+	margin: 5px;
+	border-top: 1px solid #eee;
+	border-left: 1px solid #eee;
+	border-right: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	color: #333;
+}
+/*============================ WRAPPER ============================*/
+#wrapper {
+	width: 100%;
+}
+#header {
+	padding: 0;
+	background: url(images/bg.png) repeat;
+	margin: 20px 0;
+}
+#custom_header_bg {
+	width: 930px;
+	margin: 20px auto;
+	padding: 15px;
+	background: url(images/bg.png) repeat;
+}
+/*============================ STRUCTURE ============================*/
+#wrap {
+	width: 980px;
+	margin: 0 auto;
+	padding: 5px;
+}
+#content {
+	float: left;
+	width: 590px;
+	margin: 5px 10px;
+	background: url(images/bg.png) repeat;
+	padding: 15px;
+}
+.fullwidth {
+	width: 930px !important;
+}
+
+/*============================ SIDEBAR ============================*/
+#sidebar {
+	margin-left: 650px;
+	margin-top: 5px;
+	width: 290px;
+	padding: 15px 15px 1px 15px;
+	background: url(images/bg.png) repeat;
+}
+#sidebar ul li h2 {
+	color: #333;
+	font-size: 1.3em;
+	margin: 0 0 10px 0;
+	padding: 5px 10px;
+	background: #ddd;
+	border-left: 3px solid #444;
+}
+#sidebar ul li {
+	margin-bottom: 15px;
+	padding: 5px;
+	background: #fff;
+}
+#sidebar ul li ul, #sidebar ul li div{
+	margin-bottom: 5px;
+	padding: 0 10px;
+	color: #333;
+}
+#sidebar ul li ul {
+	list-style: url(images/sidebar_arrow.png) inside;
+}
+#sidebar a, #sidebar ul {
+	font-size: 1.0em;
+	text-decoration: none;
+}
+#sidebar a:link, #sidebar a:visited  {
+	color: #222;
+}
+#sidebar a:hover, #sidebar a:active {
+	color:#555;
+}
+#sidebar ul ul li {
+	margin: 0;
+	padding: 5px 0;
+	border: 0;
+}
+#sidebar .children {
+	margin-top: 5px;
+	margin-left: 10px;
+	background: none;
+}
+/* Theme SocialMedia Widget */
+#socialmedia_buttons img{
+	margin: 0px;
+}
+
+/* Theme Ads Widget */
+#ads img{
+	margin: 1px;
+}
+
+/* Theme Search Widget */
+#searchform div {
+	padding: 0 !important;
+}
+.screen-reader-text {
+	display: none;
+}
+#s {
+	padding: 6px 5px;
+	font-size: 1.0em;
+	font-weight: bold;
+	color: #333;
+	width: 170px;
+	border: none;
+	background: #ddd;
+}
+#searchsubmit {
+	margin-left: 5px;
+	border: none;
+	padding: 5px 10px;
+	color: #333;
+	font-size: 1.0em;
+	font-weight: bold;
+	cursor: pointer;
+	background: #ddd;
+}
+#searchsubmit:hover {
+	color: #fff;
+	background: #333;
+}
+/*============================ HEADER ============================*/
+#head {
+	width: 960px;
+	margin: 0 auto;
+}
+#logo {
+	float: left;
+	margin-left: 15px;
+}
+#logo img {
+	border: 0;
+	padding: 0;
+}
+#logo h1 {
+	margin: 10px;
+	font-size: 2.3em;
+	color: #fff;
+	font-family: Impact, Tahoma, Arial;
+}
+/*============================ NAVIGATION ============================*/
+#navi {
+	float: right;
+}
+#nav, #nav ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	list-style-position: outside;
+	position: relative;
+}
+#nav li{
+	float:left;
+	position:relative;
+}
+#nav a{
+	display: block;
+	font-family: Verdana, Arial;
+	font-size: 1.1em;
+	font-weight: bold;
+	padding: 10px 20px;
+	margin: 10px 0;
+	color: #fff;
+}
+#nav a:link, #nav a:visited{
+	text-decoration: none;
+}
+#nav a:hover{
+	background: url(images/bg.png) repeat;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-khtml-border-radius: 10px;
+	border-radius: 10px;
+}
+#nav ul {
+	position: absolute;
+	display: none;
+	z-index: 99;
+	background: #fff;
+}
+#nav ul a {
+	width: 170px;
+	margin: 0;
+	padding: 15px;
+	float: left;
+	border-bottom: 1px solid #ddd;
+	color: #333;
+}
+#nav ul a:hover {
+	background: #eee;
+	color: #222;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	-khtml-border-radius: 0;
+	border-radius: 0;
+}
+#nav ul ul{
+	top: 0;
+	margin-top: -1px;
+	border-top: 1px solid #ddd;
+	border-left: 1px solid #ddd;
+}
+#nav li ul ul {
+	margin-left: 200px;
+}
+#nav li:hover ul ul, #nav li:hover ul ul ul, #nav li:hover ul ul ul ul{
+	display:none;
+}
+#nav li:hover ul, #nav li li:hover ul, #nav li li li:hover ul, #nav li li li li:hover ul{
+	display:block;
+}
+#nav li.current_page_item a, #navi li.current-menu-item a{
+	text-decoration: underline;
+}
+/*============================ More_Posts, Calendar ============================*/
+#wp-calendar {
+	width: 100%;
+}
+#wp-calendar caption {
+	color: #555;
+	font-size: 0.9em;
+	font-weight: bold;
+	margin: 0 0 5px 5px;
+	text-align: left;
+}
+#wp-calendar th{
+	color: #333;
+	font-size: 0.9em;
+	font-weight: bold;
+}
+#wp-calendar td{
+	text-align: center;
+}
+.more-link {
+	padding: 5px 10px;
+	text-decoration: none !important;
+	color: #fff !important;
+	font-size: 0.9em;
+	font-weight: bold;
+	background: #333;
+}
+.more-link:hover {
+	background: #555;
+}
+.more_posts a{
+	color: #fff;
+}
+/*============================ POST ============================*/
+.post, .type-page{
+	background: #fff;
+	padding: 15px;
+	margin-bottom: 30px;
+}
+.sticky {
+	border-left: 4px dashed #555;
+	margin-left: 15px;
+}
+.post h2, .type-page h2 {
+	margin: 0 0 5px 0;
+	font-size: 2.0em;
+	font-weight: normal;
+	color: #333;
+	background: #ddd;
+	padding: 5px 10px;
+	border-left: 5px solid #444;
+}
+.post h2 a:link, .post h2 a:visited {
+	color: #333;
+	text-decoration: none;
+}
+.post h2 a:hover, .post h2 a:active {
+	color:#555;
+}
+.entry {
+	line-height: 1.5em;
+	margin: 25px 0;
+}
+.entry h1, .comment h1 {
+	font-size: 1.8em;
+	margin: 10px 0;
+}
+.entry h2, .comment h2 {
+	font-size: 1.6em;
+	margin: 10px 0;
+	border: none !important;
+	background: none;
+	padding: 0;
+}
+.entry h3, .comment h3 {
+	font-size: 1.4em;
+	margin: 10px 0;
+}
+.entry h4, .comment h4 {
+	font-size: 1.3em;
+	margin: 15px 0 0 0;
+}
+.entry h5, .comment h5 {
+	font-size: 1.2em;
+	margin: 10px 0 0 0;
+	font-weight: bold;
+}
+.entry h6, .comment h6 {
+	font-size: 1.0em;
+	margin: 5px 0 0 0;
+	font-weight: bold;
+}
+.entry p {
+	margin: 5px 0 15px 0;
+}
+.arh {
+	font-size: 1.4em;
+	color: #333;
+	padding: 10px 15px;
+	margin: 0 0 20px 0;
+	background: #fff;
+}
+.postmeta {
+	padding: 2px 5px;
+	margin-bottom: 10px;
+	color: #333;
+	border-bottom: 1px solid #ddd;
+}
+.postmeta a:link, .postmeta a:visited {
+	color: #333;
+	text-decoration: underline;
+}
+.postmeta a:hover, .postmeta a:active {
+	color:#444;
+	text-decoration: none;
+}
+.postinfo {
+	background: #e5e5e5;
+	padding: 3px 8px;
+	color: #333;
+}
+.postinfo a:link, .postinfo a:visited {
+	color: #333;
+	text-decoration: underline;
+}
+.postinfo a:hover, .postinfo a:active {
+	color:#444;
+	text-decoration: none;
+}
+/*============================ Text Elements ============================*/
+.entry ul, .comment ul{
+	list-style: square inside;
+	margin: 0 0 20px 1.5em;
+}
+.entry ol, .comment ol{
+	list-style: decimal inside;
+	margin: 0 0 20px 1.5em;
+}
+.entry ol ol, .comment ol ol{
+	list-style: upper-alpha inside;
+}
+.entry ol ol ol, .comment ol ol ol{
+	list-style: lower-roman inside;
+}
+.entry ol ol ol ol, .comment ol ol ol ol{
+	list-style: lower-alpha inside;
+}
+.entry ul ul, .comment ul ul,
+.entry ol ol, .comment ol ol,
+.entry ul ol, .comment ul ol
+.entry ol ul, .comment ol ul {
+	margin-bottom: 5px;
+}
+dl {
+	margin: 10px 0 20px 0;
+}
+dt {
+	font-weight: bold;
+}
+dd {
+	margin-bottom: 20px;
+}
+strong {
+	font-weight: bold;
+}
+cite,
+em,
+i {
+	font-style: italic;
+}
+big {
+	font-size: 1.3em;
+}
+ins {
+	padding: 1px 2px;
+	background: #ffa;
+	text-decoration: none;
+}
+code, pre {
+	padding: 3px 8px;
+	margin: 0 1px;
+	background: #eeeeee;
+	color: #222 !important;
+	font-size: 0.9em;
+	font-family: Monospace, "Courier New", Courier;
+	overflow: auto;
+}
+del, strike, s{
+	text-decoration: line-through;
+}
+pre {
+	font-family: "Courier 10 Pitch", Courier, monospace;
+}
+small {
+	font-size: 0.7em;
+}
+abbr,
+acronym {
+	border-bottom: 1px dotted #666;
+	cursor: help;
+}
+sup,
+sub {
+	height: 0;
+	line-height: 1;
+	position: relative;
+	vertical-align: baseline;
+	font-size: 0.8em;
+}
+sup {
+	bottom: 1ex;
+}
+sub {
+	top: .5ex;
+}
+.entry var, .entry kbd, .entry tt {
+	font-size: 1.1em;
+	font-family: "Courier 10 Pitch", Courier, monospace;
+}
+blockquote {
+	margin-left: 30px;
+	padding: 15px;
+	font-size: 16px;
+	font-weight: normal;
+	font-style: italic;
+	text-align: justify;
+	color: #666;
+}
+blockquote:before { 
+	content:open-quote;
+	color: #777;
+	font-size: 60px;
+	line-height: 15px;
+	float: left;
+	margin-left: -40px;
+	font-family: "Times New Roman";
+}
+blockquote:after{ 
+	content:close-quote;
+	color: #777;
+	font-size: 60px;
+	line-height: 15px;
+	float: right;
+	margin-top: -10px;
+	font-family: "Times New Roman";
+}
+.entry table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	border: 1px solid #ddd;
+	margin: 20px 0;
+	text-align: left;
+	width: 100%;
+}
+.entry tr th,
+.entry thead th {
+	color: #555;
+	font-size: 1.0em;
+	font-weight: bold;
+	line-height: 1.0em;
+	padding: 5px 15px;
+}
+.entry tr td {
+	border-top: 1px solid #ddd;
+	padding: 5px 15px;
+}
+.entry tr.odd td {
+	background: #eee;
+}
+/*============================ POST Images ============================*/
+.entry img {
+	max-width: 100%;
+	height: auto;
+}
+.wp-caption  {
+	margin: 5px;
+	max-width: 100%;
+	padding: 6px 3px;
+	border: 1px solid #ddd;
+	text-align: center;
+}
+.wp-caption-text {
+	margin: 0 !important;
+	padding: 0;
+	font-size: 0.8em;
+	text-align: center;
+}
+.alignleft { 
+	float: left; 
+	display: inline; 
+	margin: 10px 15px 10px 5px;
+}
+.alignright	{
+	float: right; 
+	display: inline; 
+	margin: 10px 5px 10px 15px;
+}
+.aligncenter {
+	margin: 10px auto; 
+	display: block;
+}
+.wp-post-image {
+	padding: 5px;
+	border: 1px solid #ddd;
+}
+.gallery {
+     margin: 10px auto;
+}
+.gallery-item {
+    float: left;
+    margin-top: 10px;
+    text-align: center;
+    width: 33%;
+}
+.gallery-caption {
+	padding: 0 5px;
+}
+/*============================ Featured Posts Slider ============================*/
+#content-slider {
+	margin: 0 0 30px 0;
+	padding: 10px;
+	background: #fff;
+}
+#slideshow {  
+    width: 570px;
+    padding: 0;  
+    margin:  0;
+}
+#slideshow .post {
+	margin: 0;
+	padding: 0;
+	width: 570px;
+}
+#slide_panel {
+	float: left;
+	width: 570px;
+	padding: 10px;
+	background: #eee;
+}
+#slide_head {
+	float: left;
+	font-size: 1.4em;
+	color: #333;
+}
+#slide_keys {
+	float: right;
+	margin-top: 5px;
+}
+#slide_keys a:link, #slide_keys a:visited {
+	font-size: 1.2em;
+	font-family: arial, verdana;
+	cursor: pointer;
+	margin-right: 5px;
+	padding: 5px;
+	font-weight: bold !important;
+	text-decoration: none;
+	color: #333;
+}
+#slide_keys a:hover {
+	text-decoration: underline;
+}
+/*============================ Comments ============================*/
+#comments, #respond {
+	padding: 15px;
+	background-color: #fff;
+}
+#comments h3, #respond h3 {
+	font-size: 1.6em;
+	font-weight: normal;
+	color: #333;
+	background: #ddd;
+	padding: 5px 10px;
+	border-left: 5px solid #444;
+}
+/* Reset #comments h3 */ 
+.comment h3 {
+	margin: 10px 0 !important;
+	border: none !important;
+	background: none !important;
+}
+#comments a:link, #comments a:visited, #respond a:link, #respond a:visited {
+	color: #666;
+	text-decoration: underline;
+}
+#comments a:hover, #comments a:active, #respond a:hover, #respond a:active{
+	color: #333;
+	text-decoration: none;
+}
+.comment-meta a, .comment-meta a:link, .comment-meta a:visited{
+	color: #222 !important;
+	text-decoration: none !important;
+}
+.comment_navi {
+	margin: 10px;
+	font-size: 0.9em;
+	font-weight: bold;
+}
+.comment_navi .alignright {
+	float: right;
+}
+.commentlist {
+	text-align: left;
+}
+.commentlist .comment {
+	margin: 15px 0 10px;
+	padding: 10px 5px 10px 85px;
+	list-style: none;
+	border-top: 2px solid #ddd;
+}
+.commentlist .comment .comment {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+.comment-author img {
+	float: left;
+	margin: 5px 15px 15px -75px;
+	border: 5px solid #ddd;
+}
+.comment-author .says {
+	display: none;
+}
+.comment-author .fn {
+	line-height: 30px;
+	color: #333;
+	font-weight: bold;
+	font-size: 1.3em;
+	font-style: normal;
+}
+#comments .children {
+	margin-left: 15px;
+}
+#comments .children .comment {
+	margin-top: 10px;
+	padding: 15px;
+	border-top: 2px solid #ddd;
+}
+.commentlist p {
+	margin: 10px 0 10px 10px;
+	padding: 5px;
+}
+.comment-reply-link {
+	clear: left;
+	text-decoration: underline !important;
+}
+.bypostauthor .fn{
+	border-left: 3px solid #333;
+	padding: 0 5px;
+	background: #ddd;
+}
+.bypostauthor .comment .fn {
+	border: none;
+	padding: 0;
+	background: none;
+}
+#commentform {
+	margin: 5px 10px 0 0;
+}
+#commentform p {
+	margin: 5px 0 10px 10px;
+}
+#commentform input {
+	display: block;
+	width: 250px;
+	padding: 6px 5px;
+	font-size: 1.0em;
+	font-weight: bold;
+	color: #333;
+	background: #ddd;
+	border-left: 3px solid #444;
+	margin: 0 0 15px 0;
+	font-family: Arial, Verdana;
+}
+.comment-form-comment {
+	padding-right: 10px;
+}
+#commentform textarea {
+	display:block;
+	width: 100%;
+	padding: 10px 5px;
+	font-size: 1.0em;
+	font-family: Arial, Verdana;
+	font-weight: bold;
+	color: #333;
+	border: none;
+	background: #ddd;
+	border-left: 3px solid #444;
+	margin: 0 10px 20px 0;
+}
+#commentform #submit {
+	border: none;
+	padding: 5px 10px;
+	color: #333;
+	font-size: 1.0em;
+	font-weight: bold;
+	cursor: pointer;
+	background: #ddd;
+}
+#commentform #submit:hover {
+	color: #fff;
+	background: #333;
+}
+#commentform label {
+	font-size: 1.0em;
+	font-weight: bold;
+}
+.nocomments {
+	margin: 10px;
+	padding: 0;
+	color: #fff;
+}
+/*============================ WP-Pagenavi ============================*/
+.wp-pagenavi {
+	margin: 10px 5px 5px 5px;
+}
+.wp-pagenavi .pages {
+    float: right;
+	margin-right: 10px;
+	color: #fff;
+}
+.wp-pagenavi a {
+    margin: 0 5px 0 0;
+    padding: 4px 5px;
+    color: #ddd !important;
+    text-align: center;
+	font-size: 1.2em;
+	font-weight: bold;
+	text-decoration: none;
+}
+.wp-pagenavi a:hover {
+	text-decoration: underline;
+}
+.wp-pagenavi .current {
+    margin: 0 5px 0 0;
+    padding: 4px 8px;
+    color: #fff;
+	text-decoration: underline;
+	font-size: 1.2em;
+	font-weight: bold;
+    text-align: center;
+}
+/*============================ BOTTOM BAR ============================*/
+#bottombar_left {
+	float: left;
+	width: 273px;
+	padding: 15px;
+	background: url(images/bg.png) repeat;
+}
+#bottombar_center {
+	width: 273px;
+	margin-left: 328px;
+	margin-right: 328px;
+	padding: 15px;
+	background: url(images/bg.png) repeat;
+}
+#bottombar_right {
+	float: right;
+	width: 273px;
+	padding: 15px;
+	background: url(images/bg.png) repeat;
+}
+.bottombar {
+	width: 960px;
+	margin: 20px auto;
+}
+.bottombar ul li h2 {
+	color: #333;
+	font-size: 1.3em;
+	margin: 0 0 10px 0;
+	padding: 5px 10px;
+	background: #ddd;
+	border-left: 3px solid #444;
+}
+.bottombar ul li {
+	margin-bottom: 15px;
+	padding: 5px;
+	background: #fff;
+}
+.bottombar ul li ul, .bottombar ul li div{
+	margin-bottom: 5px;
+	padding: 0 10px;
+	color: #333;
+}
+.bottombar ul li ul {
+	list-style: url(images/sidebar_arrow.png) inside;
+}
+.bottombar a, .bottombar ul {
+	font-size: 1.0em;
+	text-decoration: none;
+}
+.bottombar a:link, .bottombar a:visited  {
+	color: #222;
+}
+.bottombar a:hover, .bottombar a:active {
+	color:#555;
+}
+.bottombar ul ul li {
+	margin: 0;
+	padding: 5px 0;
+	border: 0;
+}
+.bottombar .children {
+	margin-top: 5px;
+	margin-left: 10px;
+	background: none;
+}
+/*============================ FOOT ============================*/
+#footer {
+	clear: both;
+	margin: 20px 0;
+	padding: 15px 0;
+	line-height: 1.3em;
+	background: url(images/bg.png) repeat;
+	color: #eee;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+#footer a {
+	color: #fff;
+}
+#footer a:hover {
+	color: #888;
+	text-decoration: none;
+}
+#foot {
+	width: 950px;
+	margin: 0 auto;
+}
+.credit_link {
+	float: right;
+	font-size: 0.8em;
+	font-weight: normal;
+}

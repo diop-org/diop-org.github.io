@@ -1,0 +1,12 @@
+#logo, #sidebar ul li h2, #navi, #navi ul li ul {
+	background-color: #f55200;
+}
+.type-page .page-title, .post .post-title, .attachment .post-title {
+	color: #f55200;
+}
+.post .post-title a:link, .post .post-title a:visited {
+	color: #f55200;
+}
+a, a:link, a:visited {
+	color: #f55200;
+}

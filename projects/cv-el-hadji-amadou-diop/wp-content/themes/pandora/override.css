@@ -1,0 +1,25 @@
+.pandora_search .text, .pandora_search .button,.sf-menu a, .pandora_search{
+border:1px solid black !important;
+}
+
+.sf-menu a, .pandora_search{
+background-color:purple !important;
+background: -moz-linear-gradient( top, #800080, #BA55D3) !important;
+background:	-webkit-gradient(linear, left top, left bottom, from(#800080), to(#BA55D3)) !important;
+color:white;
+
+}
+
+.sub-menu  a{
+background-color:white !important;
+background: -moz-linear-gradient( top, #fff, #fff) !important; /* CSS 3 */
+background:	-webkit-gradient(linear, left top, left bottom, from(#fff), to(#fff)) !important;
+border:1px solid #aaa !important;
+}
+
+.sub-menu  a:hover{
+background-color:purple !important;
+background: -moz-linear-gradient( top, purple, purple) !important;
+background:	-webkit-gradient(linear, left top, left bottom, from(purple), to(purple)) !important;
+border:1px solid black !important;
+}

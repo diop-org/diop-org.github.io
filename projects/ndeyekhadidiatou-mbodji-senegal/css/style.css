@@ -1,0 +1,186 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-image: url(../images/bg_container.png);
+	margin: 0px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+#container {
+	margin: auto;
+	width: 1010px;
+	background-image: url(../images/bg_body.png);
+	background-repeat: repeat-x;
+}
+#header {
+	width: 1010px;
+}
+#h1 {
+	float: left;
+	width: 130px;
+	margin-left: 150px;
+}
+#h2 {
+	float: left;
+	width: 625px;
+	height: 120px;
+	margin-left: 10px;
+}
+.lamda {
+	clear: both;
+}
+
+#barre {
+	background-image: url(../images/barre_menu.png);
+	background-repeat: repeat-x;
+	height: 30px;
+	border-radius:15px;
+}
+#middle {
+	width: 970px;
+	color: #FFF;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+#m1 {
+	width: 590px;
+	float: left;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 18px;
+	font-weight: normal;
+	font-style: normal;
+	text-align: justify;
+	color: #066;
+	background-repeat: repeat-x;
+	background-image: url(../images/bg-m.png);
+	border-radius:15px;
+	border-top-color: #333;
+	border-right-color: #333;
+	border-bottom-color: #333;
+	border-left-color: #333;
+	margin: 10px;
+	min-height: 350px;
+	padding: 10px;
+}
+#m2 {
+	width: 320px;
+	float: right;
+	border-radius:15px;
+	background-image: url(../images/bg-m.png);
+	background-repeat: repeat-x;
+	min-height: 350px;
+	margin: 10px;
+}
+.rs {
+	margin-top: 10px;
+}
+
+
+#m2-1 {
+	height: 250px;
+	border-radius:15px;
+	margin-bottom: 5px;
+	background-image: url(../images/bg-m.png);
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+
+}
+#m2-2 {
+	height: 105px;
+	margin: 0px;
+}
+.reseauxsociaux {
+	margin-left: 10px;
+}
+
+
+
+#footer {
+	height: 20px;
+	width: 1010px;
+	background-image: url(../images/bg-footer.gif);
+	background-repeat: repeat-x;
+	padding: 5;
+	color: #066;
+}
+img {
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+}
+
+.t1 {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #119AA3;
+	font-style: italic;
+	text-transform: capitalize;
+	font-variant: normal;
+}
+.im1 {
+	margin-top: 5px;
+	margin-right: 40px;
+	margin-left: 30px;
+}
+#nav {
+				list-style: none ;
+				margin: 0 ;
+				padding: 0 ;
+				overflow: hidden ;	
+				}
+			#nav li {
+	float: left;
+	width: 200px;
+	margin-right: 1px;
+	color: #fff;				
+				}
+			#nav li a {
+				display: block ;
+				
+				font: 1em "Trebuchet MS",Arial,sans-serif ;
+				line-height: 1em ;
+				padding: 4px 0 ;
+				text-align: center ;
+				text-decoration: none ;
+				}
+			#nav li a:hover, #nav li a:focus, #nav li a:active{
+				background:#9FC;
+
+				text-decoration: underline ;
+				}
+#slogan {
+	height: 30px;
+	width: 1000px;
+	padding: 5px;
+}
+#slogan {
+	height: 30px;
+	width: 278px;
+}
+.formu {
+	height: 30px;
+	width: 150px;
+	background-image: url(../images/formu.png);
+}
+
+#S1 {	float: left;
+	width: 720px;
+}
+#cv {	float: right;
+	width: 278px;
+	text-align: right;
+}
+#slogan {
+	padding: 5px;
+	height: 30px;
+	width: 1000px;
+}
+.formu1 {
+	height: 100px;
+	width: 250px;
+	background-image: url(../images/formu1.png);
+}

@@ -1,0 +1,12 @@
+English language is in php files.
+
+hu_HU.po file contain the english and Hungarian words.
+
+If you wanna create other translation, then:
+- Download Poedit.exe
+- Open hu_HU.po in Poedit
+- Look the English words at left side in Poedit, translate them to your language and override the Hungarian words at right side.
+- Save as "yourlanguage_YOURCOUNTRY", simple: in Polish pl_PL.po
+- when you saved .po file, then create an .mo file automaticly. This .mo file is the translation file. Po file is only for edit the translation.
+
+If you wanna use English language, then you don't need any po or mo files.

@@ -1,0 +1,871 @@
+/*
+
+Theme Name: Breathe
+
+Theme URI: http://www.paulcracknell.net/
+
+Description: Breathe Wordpress Theme now has its own Options Page to support Goodle Advertising, changing the header picture, welcome message box as well.  The theme also supports dropdown categories menus, a separate page menu, it is widget-ready, Gravitar ready and has automatic thumbnails generated on the front page as well as excerpts.  The sleek design includes an Author box and unique comments boxes at the end of posts. A working version, set up instructions and version update information can be located on the theme homepage (www.paulcracknell.net).
+
+
+Version: 2.1
+
+Author: Paul Cracknell
+
+Author URI: For set up information of this Theme please visit http://www.paulcracknell.net/
+
+Tags: black, white, red, two-columns, fixed-width
+
+The CSS, XHTML and design is released under GPL:
+	http://www.opensource.org/licenses/gpl-license.php
+        Header image from Wikimedia commons. Unknown photographer.
+
+*/
+
+/* ----------[ DEFAULT ]------------- */
+
+html {	margin:0;
+	padding:0;
+}
+
+body {	font:76%  Helvetica, Tahoma, Arial,sans-serif;
+	margin: 0;
+	padding: 0;
+	color:#333;
+	background: /*#e9e9e7*/ url( images/bg.jpg) center top repeat-x;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin:0;
+	padding:0;
+	font-weight:500;
+}
+
+p {	margin: 0 0 15px 0;
+	padding: 10px;
+	line-height:20px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+        text-align: justify;
+}
+
+ul, ol {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+img {	border: none;
+        overflow: hidden;
+}
+
+table, td {
+        border-collapse:collapse;
+}
+
+table, td, img {
+        border:0;
+}
+
+td, tr {vertical-align:top; 
+        text-align:left;
+}
+
+#respond {}
+
+li.depth-1 {}
+
+
+/* ----------[ LINKS ]------------- */
+
+a:link {color: #ff0000;
+	text-decoration: none;
+	font-weight: 500;
+}
+
+a:visited {
+	color: #ff0000;
+	text-decoration: none;
+	font-weight: 500;
+}
+
+a:hover {
+	color: #ff9933;
+	text-decoration: underline;
+	font-weight: 500;
+}
+
+a:active {
+	color: #ff9933;
+	text-decoration: none;
+	font-weight: 500;
+}
+
+
+/* ----------[ BASIC STUFF ]------------- */
+
+.additional-meta {
+        font-size: xx-small; 
+        padding: 0 0 0 15px;
+}
+
+blockquote {
+        font-style:oblique
+}
+
+.float-left {
+        float:left;
+}
+
+.float-right {
+        float: right;
+}
+
+.entry-meta {
+        margin:10px; 
+        padding:5px; 
+        border-top: 1px solid #ccc; 
+        border-bottom: 1px solid #ccc;
+}
+
+
+/* ----------[ LISTS ]------------- */
+
+ul {
+        margin:0;
+        padding:0;
+}
+
+ul li {	padding:0;
+}
+
+li {
+        list-style-type:none;
+}
+
+.disc { list-style-type:disc
+}
+
+
+/* ----------[ LISTS INSIDE OF POSTS ]------------- */
+
+.entry-content ul ol {
+         margin-left:0;
+}
+
+.entry-content ul li {
+         margin-left:10px; 
+         list-style:disc; 
+         list-style-position:inside
+}
+
+.entry-content ul li ol {
+         margin-left:10px;
+}
+
+.entry-content ol li {
+        margin-left:5px; 
+        list-style: decimal; 
+        list-style-position:inside;
+        padding:10px;
+}
+
+.entry-content ol li li {
+        margin-left:5px;
+}
+
+
+/* ----------[ HEADINGS ]------------- */
+
+h2.entry-title {
+        background: url(images/title-bg.gif) no-repeat;
+        height:40px;color: #fff; 
+        padding: 7px 0 0 20px;
+}
+
+h2.entry-title a:link {
+        color:#fff;
+}
+
+h2.entry-title a:visited {
+        color:#fff;
+}
+
+h2.entry-title a:hover {
+        color:#fff;
+        text-decoration: underline;
+}
+
+h2#comments{
+        margin:20px auto 10px;
+        font-size:140%;
+}
+
+
+/* ----------[ HEADINGS INSIDE POSTS ]------------- */
+
+.entry-content h3 {font-size:140%;}
+
+.entry-content h4 {font-size:120%;}
+
+.entry-content h5 {font-size:100%;}
+
+.entry-content h6 {font-size:90%;}
+
+
+/* ----------[ MAIN DIVS ]------------- */
+
+
+/* ----------[ CONTAINERS ]------------- */
+
+#wrapper {
+	margin: 10px auto 0 auto;
+	display:block;
+	padding: 0 15px;
+	width: 950px;
+	background: #fff url( images/top.gif) center top no-repeat;
+	position: relative;
+}
+
+#header {
+	margin: 0;
+	padding: 0;
+	width: 950px;
+	height: 20.2em;
+	clear: both;
+	background:  url( images/header.jpg) left 45px no-repeat;
+}
+
+
+/* ----------[ POSTS ]------------- */
+
+.post-index {margin:0 0 10px;}
+
+#post-single {margin:0 0 20px;}
+
+.posts-wrap {
+        float:left;
+        clear:none;
+        margin: 0 10px 10px 0;
+	padding: 10px 20px 10px 10px;
+	width: 600px;
+}
+
+
+/* ----------[ READ MORE AT THE END OF EACH EXCERPT ON FRONT PAGE ]------------- */
+
+.more {
+	float:left;
+        padding:0px;
+        margin:0px 20px 20px 10px;
+        clear:both;
+}
+
+
+/* ----------[ THIS IS THE LINE UNDER EACH STORY ON THE FRONT PAGE ]------------- */
+
+.lastline {
+	margin: 10px 0px 20px 0;
+	padding: 0px;
+        height:5px;
+	width: 600px;
+        clear:both;
+}
+
+
+/* ----------[ SIDEBARS ]------------- */
+
+.sidebar-wrap {
+        margin:10px auto;
+        overflow:hidden; 
+        float:left; 
+        clear:none;
+        width:300px;
+}
+
+.sidebar {
+        width:99%;
+        clear:none;
+}
+
+.block-1 {
+        float:right;
+}
+
+
+/* ----------[ 404 PAGE ]------------- */
+
+.error404 {
+       margin:0;
+       width:100%;
+       text-align:center;
+}
+
+.error404 h1,.error404 h2 {
+       margin: 10px auto;
+}
+
+
+/* ----------[ COMMENTS ON POST PAGES ]------------- */
+
+.commentlist {}
+
+.avatar img {
+	float:left;
+        margin:0px 10px 10px 40px;
+        padding:5px;
+        border:1px solid #000;
+}
+
+.quote {
+	background: url(images/bg_quote.gif) no-repeat top right;
+        min-height:50px;
+}
+
+p.quote  {
+        font-size:12px;
+}
+
+.commentlist li {
+ 	padding: 5px 18px 22px 18px;
+	margin-top:15px;
+	background:#454545 url(images/bg_commentlist.jpg) bottom no-repeat;
+        color:#fff;
+}
+
+.cite {height:50px;
+       padding:10px;
+       font-style:normal;
+       display:block;
+}
+.cite a:link, .commentlist cite a:visited {
+	text-decoration:none;
+}
+
+.commentlist cite a:hover, .commentlist cite a:active {
+	text-decoration:underline;
+}
+
+.response {
+	font-weight:bold;
+        font-size:150%;
+}
+
+div.comments-wrap {
+        margin:15px auto; 
+        padding:0;
+}
+
+li.comment,li.trackback, li.pingback {
+        margin: 10px auto;
+}
+
+ul.children {
+        margin-left:10px;
+}
+
+ul.commentlist, ul.pinglist {
+        margin:10px 0;
+}
+
+div.reply {}
+
+textarea#comment {
+        overflow:auto
+}
+
+
+/* ----------[ ALIGNMENTS ]------------- */
+
+img.alignright {
+         float:right;
+         clear:none;
+         margin:0 0 1em 1em;
+         overflow: hidden;
+}
+
+img.alignleft {
+         float:left;
+         clear:none;
+         margin:0 1em 1em 0;
+         overflow: hidden;
+}
+
+img.aligncenter {
+        display: block; 
+        margin:1em auto; 
+        text-align:center;
+        overflow: hidden;
+}
+
+img.alignnone {
+        margin:0 0.5em 0 0;
+        overflow: hidden;
+}
+
+
+/* ----------[ HEADER ]------------- */
+
+
+/* ----------[ HEAD ]------------- */
+
+#top {	margin: 0 auto 10px auto;
+	padding: 10px 0 0 0;
+	width: 950px;
+	background-color: #fff;
+}
+
+
+/* ----------[ SEARCH BAR LOCATED IN THE TOP NAVIGATION BAR ]------------- */
+
+#search {
+        position:absolute;
+	left:700px;
+	top:107px; 
+        margin: 0 0 0px 0; 
+        padding:0px 24px 0px 45px; 
+        overflow:hidden;
+}
+
+
+/* ----------[ INPUT FOR SEARCH ]------------- */
+
+.input {border: 1px solid #006; 
+} 
+
+h2.search-nothing{
+        font-size:17px;
+        font-weight:900;
+}
+
+/* =self clearing
+
+----------------- */
+
+/*** see http://www.positioniseverything.net/easyclearing.html
+
+   for explanation of Tony Aslett's elegant hack ***/
+
+.clearfloat:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.clearfloat {
+	display: inline-block;
+}
+
+/* Hides from IE-mac */
+
+* html .clearfloat {
+	height: 1%;
+}
+
+.clearfloat {
+	display: block;
+}
+
+/* End hide from IE-mac */
+
+/*** end clearing hack ***/ 	
+
+
+/* ----------[ NAVIGATION TOP ABOVE THE IMAGE BLACK BAR SET FOR PAGES ]------------- */
+
+#nav {	padding: 12px 10px 10px 10px;
+	margin: 0;
+	width: 950px;
+	height: 18px;
+	background: url( images/topbar.jpg) left top no-repeat;
+}
+
+
+/* ----------[ DROP DOWN MENU TOP ]------------- */
+
+#dropmenu {
+         font-weight:bold; 
+         width:100%; 
+         margin:0 0 0px 0;
+}
+
+#dropmenu, #dropmenu ul {
+         margin:0; 
+         padding:0; 
+         list-style-type:none; 
+         list-style-position:outside; 
+         position:relative; 
+         line-height:15px; 
+         z-index:300; 
+         width:100%; 
+         font-weight:bold;
+}
+
+#dropmenu a {
+        display:block;
+        color:#ffffff;
+        text-decoration:none;
+        text-transform: uppercase;
+        padding:0px 0px 0px 15px;
+}
+
+#dropmenu li {
+        float:left;
+        padding:0 0 0 0px;
+}
+
+#dropmenu ul {
+        position:absolute;
+        left:-999em;
+        height:auto;
+        width:151px;
+        font-weight:normal;
+        margin:0px;
+        line-height:1; 
+        border:0;
+        border-top:1px solid #666666;
+}
+
+#dropmenu li li {
+        width:149px;
+        border-bottom:1px solid #666666;
+        border-left:0px solid #666666;
+        border-right:0px solid #666666;
+        font-weight:bold;
+        font-family:verdana,sans-serif;
+}
+
+#dropmenu li li a {
+        padding:4px 10px; 
+        width:130px;
+        font-size:12px;
+        color:#dddddd;
+}
+
+#dropmenu li ul ul {
+        margin:-21px 0 0 150px;
+}
+
+#dropmenu li li:hover {
+        background:#dddddd;
+}
+
+#dropmenu li ul li:hover a, #dropmenu li ul li li:hover a, #dropmenu li ul li li li:hover a, #dropmenu li ul li li li:hover a  {color:#ff0000;}
+
+#dropmenu li:hover a, #dropmenu li.sfhover a {
+        text-decoration:none;
+        color:#ff0000;
+}
+
+#dropmenu li:hover li a, #dropmenu li li:hover li a, #dropmenu li li li:hover li a, #dropmenu li li li li:hover li a {
+        color:#dddddd;
+}
+
+#dropmenu li:hover ul ul, #dropmenu li:hover ul ul ul, #dropmenu li:hover ul ul ul ul, #dropmenu li.sfhover ul ul, #dropmenu li.sfhover ul ul ul, #dropmenu li.sfhover ul ul ul ul  {
+        left:-999em;
+}
+
+#dropmenu li:hover ul, #dropmenu li li:hover ul, #dropmenu li li li:hover ul, #dropmenu li li li li:hover ul, #dropmenu li.sfhover ul, #dropmenu li li.sfhover ul, #dropmenu li li li.sfhover ul, #dropmenu li li li li.sfhover ul  {
+        left:auto;
+        background:#444444;
+}
+
+#dropmenu li:hover, #dropmenu li.sfhover {
+        text-decoration:none;
+}
+
+
+/* ----------[ BREADCRUMB - THIS IS THE BOTTOM NAVIGATION UNDER THE PICTURE IN THE HEADER ]------------- */
+
+.breadcrumb {
+        position:relative; 
+        z-index:9999;
+        background:url(images/bottombar.jpg) no-repeat;
+        margin: 5px 0px 10px 0px;
+	padding: 0 0 2px 0;
+	height:40px;
+        width:auto;
+}
+
+.breadcrumb li {
+	margin: 0;
+	padding: 0;
+	display: inline;
+}
+
+
+/* ----------[ NAVIGATION - NEXT POST OR PREVIOUS POST ]------------- */
+	
+.navigation-index {}
+
+.nav-next {
+       float:right;
+       clear:none;
+       width:48%; 
+       text-align:right;
+       padding-bottom:10px;
+}
+
+.nav-prev {
+       float:left;
+       clear:none;
+       width:48%; 
+       text-align:left;
+       padding-bottom:10px;
+}
+
+
+/* ----------[ FOOTER ]------------- */
+
+#footer {
+	border-top:#888 solid 1px;
+	background-color: #fff;
+	clear: both;
+	margin: 0 auto 0 auto;
+	padding: 10px 10px 15px 10px;
+	width: 930px;
+	font-size: 0.9em;
+}
+
+#footer p {
+	margin: 0;
+	padding: 0;
+	font-family: tahoma;
+}
+
+#footer p.footlinx {
+	margin: 0;
+	padding: 0;
+	float: right;
+}
+
+#footer p.footaccom {
+	margin: 20px 0 0 0;
+	padding: 0;
+	text-align: center;
+}
+
+#footer p a {
+	color: #666;
+	text-decoration: none;
+}
+
+#footer p a:hover {
+	color: #666;
+	text-decoration: underline;
+}
+
+
+/* ----------[ TOP HEADING - YOUR SITE NAME USUALLY ]------------- */
+
+#top h1 {
+	margin: 0;
+	padding: 5px 20px 5px 10px;
+	font-size: 48px;
+        word-spacing: -4px;
+	text-transform: uppercase;
+	font-family: "Arial Black";
+	line-height: 0.7em;
+	float: left;
+}
+
+#top h1 a {
+	color:#000;
+	font-weight: 600;
+	text-decoration: none;
+}
+
+#top h1 span.black {
+	color:#df1104;
+	font-size: 30px;
+	margin: 0;
+	padding: 0;
+	display: block;
+	text-transform: lowercase;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ----------[ WIDGET SIDEBAR RIGHT BORDERS ]------------- */
+
+.widget-top {
+	margin: 10px 0 0 0;
+	padding: 0;
+	height: 16px;
+	background: url(images/widget-top2.gif) left bottom no-repeat;
+}
+
+.widget-bot {
+	margin: 0 0 20px 0;
+	padding: 0;
+	height: 16px;
+	background: url(images/widget-bottom2.gif) left top no-repeat;
+	clear: both;
+}
+
+.widget li {
+	margin: 0;
+	padding: 5px 0 5px 15px;
+	font-size: 0.9em;
+	border-bottom: #ccc dashed 1px;
+	background: url(images/widget-bullet.png) no-repeat left 7px;
+}
+
+.widget li a {
+	color:#333;
+	text-decoration:none;
+}
+
+.widget li a:hover {
+	color:#333;
+	text-decoration: underline;
+}
+
+.widget {
+	margin: 0;
+	padding: 0 5px;
+	list-style: none;
+	width: 268px;
+	border-left: #888 solid 1px;
+	border-right: #888 solid 1px;
+}
+
+h3.widgettitle {
+	margin: 0 0 15px 0;
+	padding: 7px 10px;
+	background: url(images/h-bg-1.gif) left center no-repeat;
+	color: #fff;
+	font-size: 1em;
+        width:270px;
+}
+
+
+/* ----------[ GET IMAGE - ARTICLE IMAGES ON FRONT PAGE OF BLOG ]------------- */
+
+img.custom-image {
+        background: url(images/thumbnail.jpg) no-repeat; 
+}
+
+img.thumbnail {
+        float: left;
+        border: 1px solid black; 
+        margin: 15px; 
+        padding: 5px;height:100px;
+        width:100px; 
+}
+
+
+/* ----------[ EXCEERPT FOR THE FRONT PAGE 70 CHARACTERS RECOMMENDED ]------------- */
+
+.excerpt {
+        padding:0 10px 30px 0;
+}
+
+
+/* ----------[ COMMENTS FRONT PAGE LINK ]------------- */
+
+.comments {
+        float:right; 
+        font-size:1.01em; 
+        font-weight:normal;
+        text-transform:none; 
+        line-height:1.01em; 
+        overflow:hidden; 
+        margin:0 20px 0 0; 
+        padding-left:20px;
+        clear:both;
+        background: url(images/comment-grey-bubble.png) no-repeat;
+}
+
+
+/* ----------[ AUTHOR BOX ABOVE THE COMMENTS ]------------- */
+
+#authorbox{
+        background:#EFEFEF;
+        border:1px solid #CECFD0;
+        width:600px;
+        margin:0 auto;
+        margin-top:10px;
+        margin-bottom:10px;
+        overflow:hidden;
+}
+
+#authorbox h4{
+        font-size:16px;
+        color:#191919;
+        margin:0;
+        padding:10px 10px 5px 10px;
+}
+
+.authortext{
+        padding-left:100px;
+}
+
+#authorbox img{
+        margin:0;
+        padding:10px;
+        float:left;
+}
+
+#authorbox p{
+        color:#191919;
+        margin:0;
+        padding:0px 10px 10px 10px;
+}
+
+#authorbox h4 > a{
+        text-decoration:none;
+}
+
+#authorbox p{
+        color:#191919;
+}
+
+
+/* ----------[ ARCHIVE PAGE ]------------- */
+
+h2.archive-title {
+        padding:10px;
+}
+
+
+/* ----------[ WELCOME BOX ]------------- */
+
+.welcome {
+        background:#EFEFEF;
+        border:1px solid #CECFD0;
+        width:580px;
+        margin:0 auto;
+        margin-top:10px;
+        margin-bottom:10px;
+        padding:10px;
+        overflow:hidden;
+}
+
+/* ----------[ TOP ADS ]------------- */
+
+.top-ads {
+        background:#EFEFEF;
+        border:1px solid #CECFD0;
+        width:580px;
+        margin:0 auto;
+        margin-top:10px;
+        margin-bottom:10px;
+        padding:10px;
+        overflow:hidden;
+}
+
+
+/* ----------[ BOTTOM ADS ]------------- */
+
+.bottom-ads {
+        background:#EFEFEF;
+        border:1px solid #CECFD0;
+        width:580px;
+        margin:0 auto;
+        margin-top:10px;
+        margin-bottom:10px;
+        padding:10px;
+        overflow:hidden;
+        min-height:100px;
+}
+

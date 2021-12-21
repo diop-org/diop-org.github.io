@@ -1,0 +1,1 @@
+<ul><?php wp_list_categories('hide_empty=0&show_count=1&depth=1&title_li='); ?></ul>

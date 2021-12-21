@@ -1,0 +1,43 @@
+/*  
+Theme Name: Station
+
+Theme URI: http://www.pagelines.com/themes/stationpro
+
+Description: ** Supports 3.0 Menus ** Station is a professional yet free WordPress theme built on the PageLines CMS framework. It has thumbs, widget, options, localization and more! Designed and developed by <a href="http://www.pagelines.com">PageLines</a>.
+
+Version: 2.1.2
+
+Author: PageLines
+
+Author URI: http://www.pagelines.com
+
+Tags: theme-options, dark, black, two-columns, fixed-width, threaded-comments, custom-header, custom-colors, translation-ready
+
+License: GNU General Public License v2.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+*/
+
+/* Get Reset CSS */
+@import url('core/css/reset.css');
+
+/* Get Core CSS */
+@import url('core/css/wp_core.css');
+
+/* Get Theme CSS */
+@import url('css/theme.css');
+
+/* Your custom styling can go in: custom.css ** Just don't replace this file on Updates */
+@import url('css/custom.css');
+
+/* For WP.org theme repository checklist */
+.alignright {}
+.alignleft {}
+.alignnone {}
+.aligncenter {}
+.avatar {}
+.wp-caption {}
+.gallery {}
+.wp-smiley {}
+
+

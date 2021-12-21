@@ -1,0 +1,216 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-01-02 11:05+0100\n"
+"PO-Revision-Date: 2012-01-02 11:05+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: comments.php:1
+#, php-format
+#@ nwc
+msgid "One Response to %2$s"
+msgid_plural "%1$s Responses to %2$s"
+msgstr[0] "ein Kommentar für %2$s"
+msgstr[1] "%1$s Kommentare zu %2$s"
+
+#: comments.php:6
+#@ nwc
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr "Dieser Beitrag ist Passwort geschützt. Geben Sie bitte das Passwort ein, um alle Kommentare anzuzeigen."
+
+#: comments.php:36
+#@ nwc
+msgid "<p class=\"comment-notes\">Required fields are marked <span class=\"required\">*</span></p>"
+msgstr "<p class=\"comment-notes\">Pflichtfelder sind mit <span class=\"required\">*</span> markiert</p>"
+
+#: comments.php:38
+#@ nwc
+msgid "Comment"
+msgstr "Kommentar"
+
+#: comments.php:40
+#, php-format
+#@ nwc
+msgid "You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags and attributes: %s"
+msgstr "Du kannst folgende <abbr title=\"HyperText Markup Language\">HTML</abbr> Tags und Attribute benutzen: %s"
+
+#: comments.php:43
+#@ nwc
+msgid "Leave a Reply"
+msgstr "Hinterlasse eine Antwort"
+
+#: comments.php:44
+#, php-format
+#@ nwc
+msgid "Leave a Reply to %s"
+msgstr "Hinterlasse eine Antwort für %s"
+
+#: comments.php:45
+#@ nwc
+msgid "Cancel reply"
+msgstr "Antwort abbrechen"
+
+#: comments.php:46
+#, php-format
+#@ nwc
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of this account\">Log out?</a>"
+msgstr "Eingeloggt als <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Ausloggen\">Ausloggen?</a>"
+
+#: functions.php:179
+#@ nwc
+msgid "Name"
+msgstr "Name"
+
+#: functions.php:182
+#@ nwc
+msgid "E-Mail"
+msgstr "E-Mail"
+
+#: functions.php:185
+#@ nwc
+msgid "Website"
+msgstr "Website"
+
+#: functions.php:197
+#, php-format
+#@ nwc
+msgid "<cite class=\"fn\">%s</cite> <span class=\"says\">says:</span>"
+msgstr "<cite class=\"fn\">%s</cite> <span class=\"says\">sagte:</span>"
+
+#: functions.php:200
+#@ nwc
+msgid "Your comment is awaiting moderation."
+msgstr "Dein Kommentar wartet auf Moderation."
+
+#: functions.php:204
+#, php-format
+#@ nwc
+msgid "%1$s at %2$s"
+msgstr "%1$s um %2$s"
+
+#: functions.php:205
+#@ nwc
+msgid "(Edit)"
+msgstr "(Bearbeiten)"
+
+#: functions.php:209
+#@ nwc
+msgid "Reply"
+msgstr "Antworten"
+
+#: index.php:19
+#: index.php:48
+#: page.php:12
+#: single.php:12
+#@ nwc
+msgid "Edit This"
+msgstr "Bearbeiten"
+
+#  zfa
+#: index.php:22
+#: index.php:51
+#: single.php:16
+#@ nwc
+msgid "Categories:"
+msgstr "Kategorien:"
+
+#: index.php:22
+#: index.php:51
+#: single.php:16
+#@ nwc
+msgid "Tags:&nbsp;"
+msgstr "Schlagwörter:&nbsp;"
+
+#: index.php:25
+#: index.php:54
+#: page.php:15
+#: single.php:20
+#@ nwc
+msgid "(more...)"
+msgstr "(weiterlesen …)"
+
+#: index.php:28
+#: index.php:57
+#: single.php:24
+#@ nwc
+msgid "No Comments"
+msgstr "Keine Kommentare"
+
+#: index.php:28
+#: index.php:57
+#: single.php:24
+#@ nwc
+msgid "1 Comment"
+msgstr "1 Kommentar"
+
+#: index.php:28
+#: index.php:57
+#: single.php:24
+#@ nwc
+msgid "% Comments"
+msgstr "% Kommentare"
+
+#  zfa
+#: index.php:28
+#: index.php:57
+#: single.php:24
+#@ nwc
+msgid "Comments are closed."
+msgstr "Kommentare sind geschlossen."
+
+#: single.php:14
+#@ nwc
+msgid "You are here:"
+msgstr "Sie sind hier:"
+
+#: 404.php:7
+#@ nwc
+msgid "Not Found"
+msgstr "Not Found"
+
+#: 404.php:8
+#@ nwc
+msgid "Page not found"
+msgstr "Seite nicht fefunden"
+
+#: comments.php:37
+#@ nwc
+msgid "Submit Comment"
+msgstr "Kommentar abschicken"
+
+#: index.php:21
+#: index.php:50
+#: single.php:15
+#@ nwc
+msgid "Publish on:"
+msgstr "Publiziert am:"
+
+#: search.php:8
+#@ nwc
+msgid "Sorry, no posts matched your criteria."
+msgstr "Entschuldigung, es wurde kein passender Artikel gefundena."
+
+#: comments.php:24
+#@ nwc
+msgid "Older Comments"
+msgstr "&laquo; ältere Kommentare"
+
+#: comments.php:24
+#@ nwc
+msgid "Newer Comments"
+msgstr "neuere Kommentare &raquo;"
+

@@ -1,0 +1,130 @@
+/*this style created by belicza.com for free PANDORA wp theme*/
+.pandora-nav, .pandora-nav ul{
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	list-style-position:outside;
+	position:relative;
+	line-height:1.5em;
+}
+/*main buttons*/
+.pandora-nav a{
+	display:block;
+	font-size:24px;
+	padding:19px 25px 19px 25px;
+	border:1px solid #aaa;
+	text-decoration:none;
+	-moz-border-radius:15px;
+	-khtml-border-radius:15px;
+	-webkit-border-radius:15px;
+	border-radius:15px 15px 15px 15px;
+	background:white;
+	background:-moz-linear-gradient( top, #ccc, #fff);
+	background:-webkit-gradient(linear, left top, left bottom, from(#ccc), to(#fff));
+	text-decoration:none;
+}
+
+.pandora-nav a:hover,
+.pandora-nav .current_page_item a, .pandora-nav .current-menu-item a, .pandora-nav .current_page_parent a, .pandora-nav .current_menu_parent a, .pandora-nav .current_page_ancestor a, .pandora-nav .current_menu_ancestor a{
+	background:purple;
+	background:-moz-linear-gradient( top, #800080, #BA55D3);
+	background:-webkit-gradient(linear, left top, left bottom, from(#800080), to(#BA55D3));
+	color:#fff !important;
+	border:1px solid black;
+	text-decoration:none !important;
+}
+.pandora-nav .sub-menu a{
+	color:purple !important;
+}
+/*space between buttons*/
+.pandora-nav li{
+	float:left;
+	position:relative;
+	margin:0 10px 0 10px;
+}
+
+.pandora-nav ul {
+	position:absolute;
+	display:none;
+	width:12em;
+	top:1.5em;
+	-moz-box-shadow: 10px 5px 15px #222;
+	-webkit-box-shadow: 10px 5px 15px #222;
+	box-shadow: 10px 5px 15px #222;
+}
+/*sub menu links*/
+.pandora-nav li ul a,
+.pandora-nav .sub-menu .current_page_item ul a, .pandora-nav .sub-menu .current-menu-item ul a{
+	font-size:16px;
+	color:purple !important;
+	padding:10px;
+	width:12em;
+	height:auto;
+	float:left;
+	-moz-border-radius:0;
+	-khtml-border-radius:0;
+	-webkit-border-radius:0;
+	border-radius:0 0 0 0;
+	background:white !important;
+	background:-moz-linear-gradient( top, #fff, #fff);
+	background:-webkit-gradient(linear, left top, left bottom, from(#fff), to(#fff));
+	border:1px solid #aaa !important;
+}
+.pandora-nav li ul a:hover,
+.pandora-nav .sub-menu .current_page_item a, .pandora-nav .sub-menu .current-menu-item a,
+.pandora-nav .sub-menu .current_page_item ul a:hover, .pandora-nav .sub-menu .current-menu-item ul a:hover{
+	background:purple !important;
+	background:-moz-linear-gradient( top, purple, purple);
+	background:-webkit-gradient(linear, left top, left bottom, from(purple), to(purple));
+	color:white !important;
+	border:1px solid black !important;
+}
+/*sub block*/
+.pandora-nav li ul{
+	width:13em;
+	height:auto;
+	float:left;
+	margin-top:40px;
+}
+/*sub block elements*/
+.pandora-nav li ul li{
+	margin:0;
+}
+/*sub-sub block*/
+.pandora-nav li ul li ul{
+	margin-left:22px;
+}
+.pandora-nav ul ul{
+	top:auto;
+}	
+
+.pandora-nav li ul ul {
+	left:12em;
+	margin:0px 0 0 10px;
+}
+.pandora-nav li:hover ul ul, .pandora-nav li:hover ul ul ul, .pandora-nav li:hover ul ul ul ul{
+	display:none;
+}
+.pandora-nav li:hover ul, .pandora-nav li li:hover ul, .pandora-nav li li li:hover ul, .pandora-nav li li li li:hover ul{
+	display:block;
+}
+.sub-menu{
+	z-index:999;
+}
+/*WP CSS elements*/
+/*-----tree of the current menu*/
+.pandora-nav .current_page_item ul, .pandora-nav .current_page_item ul:hover{
+	margin-top:40px !important;
+}
+.pandora-nav .current_page_item ul ul, .pandora-nav .current_page_item ul:hover ul{
+	margin-top:0 !important;
+	margin-left:22px !important;
+}
+/*-----tree of the current sub menus*/
+.pandora-nav .sub-menu .current_page_item{
+	margin-left:0 !important;
+}
+.pandora-nav .sub-menu .current_page_item ul{
+	margin-left:22px !important;
+	margin-top:0 !important;
+}

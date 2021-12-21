@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color: #999;
+	margin: 0px;
+}
+#contener {
+	margin: auto;
+	width: 1000px;
+	background-color: #00F;
+}
+#header {
+	height: 100px;
+	background-color: #0F0;
+}
+#header_1 {
+	height: 75px;
+	margin-top: 15px;
+	background-color: #063;
+}
+#header_1_1 {
+	height: 75px;
+	float: left;
+	width: 500px;
+	background-color: #969;
+}
+#header_1_2 {
+	height: 75px;
+	float: left;
+	width: 500px;
+}
+
+
+
+#menu {
+	margin-top: 15px;
+	background-color: #0F6;
+}
+
+#acc {
+	float: left;
+	width: 200px;
+}
+#prod {
+	float: left;
+	width: 200px;
+}
+#Pa {
+	float: left;
+	width: 200px;
+}
+#cont {
+	float: left;
+	width: 200px;
+}
+#Admin {
+	float: left;
+	width: 200px;
+}
+#middle {
+	margin-top: 15px;
+	background-color: #039;
+}
+
+#middle_1 {
+	float: left;
+	width: 200px;
+	background-color: #CF3;
+}
+#middle_2 {
+	float: left;
+	width: 790px;
+	margin-left: 10px;
+	background-color: #C06;
+	height: 400px;
+}
+#middle_1_1 {
+	height: 200px;
+	background-color: #F6C;
+}
+#middle_1_2 {
+	height: 200px;
+	margin-top: 10px;
+	background-color: #FFF;
+}
+#footer {
+	height: 25px;
+	margin-top: 10px;
+}
+.clear {
+	clear: both;
+}

@@ -1,0 +1,29 @@
+<?php
+/**
+ * Template Name: Full-width, no sidebar
+ * @package WordPress
+ * @subpackage Desire
+ */
+?>
+<?php global $options; ?>
+<?php get_header(); ?>
+<div id="container" style="width: 94%;">
+    <?php if($options['show_breadcrumbs']): ?>
+        <?php desire_breadcrumbs(); ?>
+    <?php endif; ?>
+    <?php if( have_posts()) : ?>
+        <?php while(have_posts()) : the_post(); ?>
+            <?php get_template_part('content', 'page'); ?>
+            <?php comments_template( '', true ); ?>
+        <?php endwhile; ?>
+    <?php else: ?>
+        <div id="post-0" <?php post_class(); ?>>
+            <h1 class="entry-title"><?php _e('No entries found','desire'); ?></h1>
+            <div class="entry-content">
+                <p><?php _e('Looks like there are no articles related to your search. Try searching again !','desire'); ?></p>
+                <p><?php get_search_form(); ?></p>
+            </div>
+        </div>
+    <?php endif; ?>
+</div>
+<?php get_footer(); ?>

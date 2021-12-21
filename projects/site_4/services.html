@@ -1,0 +1,149 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>moonbox | Services</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- Link to the site's main CSS style -->
+<link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+<!-- Link to the Superfish menu CSS style -->
+<link rel="stylesheet" type="text/css" media="screen" href="css/superfish.css" />
+<!-- Link to the Nivo Slider CSS style -->
+<link rel="stylesheet" type="text/css" media="screen" href="css/nivo-slider.css"  />
+<!-- Link to the Pretty Photo CSS style -->
+<link rel="stylesheet" type="text/css" media="screen" href="css/prettyPhoto.css" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
+<!-- Cufon scripts -->
+<script type="text/javascript" src="js/cufon-yui.js"></script>
+<script type="text/javascript" src="js/ScriptMT_700.font.js"></script>
+<script type="text/javascript" src="js/Androgyne_400.font.js"></script>
+<!-- Superfish scripts -->
+<script type="text/javascript" src="js/hoverIntent.js"></script>
+<script type="text/javascript" src="js/superfish.js"></script>
+<!-- Nivo Slider script -->
+<script src="js/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+<!-- Custom JS script -->
+<script src="js/custom.js" type="text/javascript"></script>
+<!-- PrettyPhoto script -->
+<script src="js/jquery.prettyPhoto.js" type="text/javascript"></script>
+<!-- Define which elements should be replaced with Cufon -->
+<script type="text/javascript">  
+Cufon.replace('#header #right_section ul.top_navigation li a.menulink', { fontFamily: 'Androgyne', hover: 'true', textShadow: '1px 1px 1px #fff' });
+Cufon.replace('h1', { fontFamily: 'ScriptMT', textShadow: '1px 1px 1px #fff' });
+Cufon.replace('h2', { fontFamily: 'ScriptMT', textShadow: '1px 1px 1px #fff' });
+</script>
+<!-- Superfish menu options -->
+<script type="text/javascript"> 
+$(document).ready(function(){ 
+	$("ul.top_navigation").superfish(); 
+}); 
+</script>
+<!-- Nivo Slider options -->
+<script type="text/javascript">
+$(window).load(function() {
+    $('#slider').nivoSlider();
+});
+</script>
+<!-- PrettyPhoto options -->
+<script type="text/javascript" charset="utf-8">
+$(document).ready(function(){
+	$("a[rel^='prettyPhoto']").prettyPhoto();
+});
+</script>
+</head>
+<body>
+<div id="wrapper">
+  <!-- Begin header -->
+  <div id="header">
+    <div id="left_section"> <a href="index.html"><img src="images/logo.png" width="349" height="130" border="0" alt="" class="logo" /></a> </div>
+    <div id="right_section">
+      <ul class="top_navigation">
+        <li><a class="menulink" href="index.html">home</a></li>
+        <li><a class="menulink" href="about.html">about</a></li>
+        <li><a class="menulink" href="services.html">services</a>
+          <ul>
+            <li><a href="#">Item</a></li>
+            <li><a href="#">Item</a></li>
+            <li><a href="#">Item</a>
+              <ul>
+                <li><a href="#">More Items</a></li>
+                <li><a href="#">More Items</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li><a class="menulink" href="portfolio.html">portfolio</a></li>
+        <li><a class="menulink" href="contact.html">contact</a></li>
+      </ul>
+    </div>
+  </div>
+  <!-- End header -->
+  <h1>We know a <span style="color:#08a5ff;">lot of stuff</span>. What we can do for you?</h1>
+  <div class="dotted_line"></div>
+  <!-- Begin top content -->
+  <div id="top_content">
+    <div id="top_content_left_coloumn">
+      <h2>Lorem ipsum</h2>
+      <p class="top_content_text"> Integer eget porta sem. Nam et sapien vitae lacus blandit pretium id nec nulla. Aenean tincidunt fringilla eros. <b>Mauris nibh leo, onsectetur a ultrices eget, bibendum a magna.</b> Pellentesque accumsan diam justo, et mollis purus. Nulla commodo, sapien at accumsan vestibulum, nisi purus tempor eros, ultrices imperdiet diam velit sed sapien. </p>
+      <ul class="check">
+        <li>websites</li>
+        <li>SEO</li>
+        <li>open-source apps</li>
+        <li>flash banners</li>
+      </ul>
+      And many many more... Feel free to <a href="contact.html"><strong>contact us</strong></a> or take a look at our <a href="portfolio.html"><strong>portfolio</strong></a>!
+      <p></p>
+    </div>
+    <div id="top_content_right_coloumn">
+      <h2>Latest projects</h2>
+      <a href="images/pic1_big.jpg" rel="prettyPhoto[pp_gal]" title="You can add caption to pictures."><span></span><img src="images/pic1.jpg" width="88" height="88" alt="" border="0" /></a> <a href="images/pic2_big.jpg" rel="prettyPhoto[pp_gal]"><img src="images/pic2.jpg" width="88" height="88" alt="" border="0" /></a> <a href="images/pic3_big.jpg" rel="prettyPhoto[pp_gal]"><img src="images/pic3.jpg" width="88" height="88" alt="" border="0" /></a> <a href="images/pic4_big.jpg" rel="prettyPhoto[pp_gal]"><img src="images/pic4.jpg" width="88" height="88" alt="" border="0" /></a> <a href="images/pic5_big.jpg" rel="prettyPhoto[pp_gal]"><img src="images/pic5.jpg" width="88" height="88" alt="" border="0" /></a> <a href="images/pic6_big.jpg" rel="prettyPhoto[pp_gal]"><img src="images/pic6.jpg" width="88" height="88" alt="" border="0" /></a> </div>
+  </div>
+  <!-- End top content -->
+  <div class="clear"></div>
+  <div class="dotted_line"></div>
+  <!-- Begin bottom content -->
+  <div id="bottom_content">
+    <div id="bottom_content_left_coloumn">
+      <h2>Dummy Text</h2>
+      <p class="bottom_content_text"><img src="images/pic7.jpg" width="88" height="88" alt="" />Integer eget porta sem. Nam et sapien vitae lacus blandit pretium id nec nulla. Aenean tincidunt fringilla eros. <b>Mauris nibh leo, onsectetur a ultrices eget, bibendum a magna.</b> Donec arcu magna, semper sed mattis vitae, ultrices et tellus. Pellentesque accumsan diam justo, et mollis purus. Nulla commodo, sapien at accumsan vestibulum, nisi purus tempor eros, ultrices imperdiet diam velit sed sapien.</p>
+    </div>
+    <div id="bottom_content_mid_coloumn">
+      <h2>Testimonials</h2>
+      <img src="images/blockquote.png" width="40" height="33" alt="" />
+      <p>Aliquam luctus quam at est fringilla at euismod orci laoreet. In sit amet commodo libero. Duis non risus sed augue consectetur volutpat. Nulla facilisi.<br />
+        <span class="name">John Doe, Company</span></p>
+      <img src="images/blockquote.png" width="40" height="33" alt="" />
+      <p>In vitae aliquam eros. Sed semper blandit arcu, eget aliquet diam tincidunt ut. Cras sapien velit.<br />
+        <span class="name">Michael Short, Company</span></p>
+    </div>
+    <div id="bottom_content_right_coloumn">
+      <h2>Twitter Feed</h2>
+      <p><img src="images/avatar.png" width="48" height="48" alt="" border="0" />now working on some new projects, we hope they'll be launched soon!<br />
+        <span class="date">2 days ago</span></p>
+      <div class="dotted_line_short"></div>
+      <p><img src="images/avatar.png" width="48" height="48" alt="" border="0" />we are looking for an expert web developer, XHTML, CSS, PHP required!<br />
+        <span class="date">5 days ago</span></p>
+      <div class="dotted_line_short"></div>
+      <p><img src="images/avatar.png" width="48" height="48" alt="" border="0" />we are glad to announce, that we have just launched our new website!<br />
+        <span class="date">8 days ago</span></p>
+    </div>
+  </div>
+  <!-- End bottom content -->
+  <div class="clear"></div>
+  <div class="dotted_line"></div>
+  <!-- Start footer -->
+  <div id="footer">
+    <div id="footer_left_coloumn"> <img src="images/footer_logo.png" width="222" height="34" alt="" /> </div>
+    <div id="footer_mid_coloumn">
+      <ul>
+        <li><a href="#"><img src="images/icons/facebook_32.png" width="32" height="32" alt="" border="0" /></a></li>
+        <li><a href="#"><img src="images/icons/flickr_32.png" width="32" height="32" alt="" border="0" /></a></li>
+        <li><a href="#"><img src="images/icons/twitter_32.png" width="32" height="32" alt="" border="0" /></a></li>
+        <li><a href="#"><img src="images/icons/vimeo_32.png" width="32" height="32" alt="" border="0" /></a></li>
+      </ul>
+    </div>
+    <div id="footer_right_coloumn"> <img src="images/footer_all_rights_reserved.png" width="229" height="23" alt="" /> </div>
+  </div>
+  <!-- End footer -->
+</div>
+</body>
+</html>

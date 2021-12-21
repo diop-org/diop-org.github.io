@@ -1,0 +1,42 @@
+== Changelog ==
+
+= Theme Name: Themia Lite =
+
+= Version: 1.2.7 =
+
+* Comments Form fixed.
+
+= Version: 1.2.6 =
+
+* Custom Menu Functionality fixed.
+
+= Version: 1.2.5 =
+
+* 404 Page showing no content.
+
+* Comment Reply Link.
+
+* InkThemes Admin Style.
+
+= Version: 1.2.4 =
+
+* Few scripts and styles enqueue.
+
+* Theme Option Panel optimized.
+
+* Updated few functions.
+
+= Version: 1.2.3 =
+
+* Child theme enabled.
+
+= Version: 1.2.2 =
+
+* Language translation enabled.
+
+* Update Theme option.
+
+* Update searchform.
+
+
+

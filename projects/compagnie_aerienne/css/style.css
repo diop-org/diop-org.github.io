@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin: 0px;
+}
+#menu_top {
+	text-align: left;
+	height: 25px;
+	width: 1000px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+.lamda {
+	clear: both;
+}
+#middle {
+	height: 400px;
+}
+#conteneur {
+	padding: 5px;
+	float: left;
+	width: 700px;
+	height: 350px;
+	margin-top: 5px;
+	margin-right: 10px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+}
+#contenu {
+	margin: auto;
+	width: 1010px;
+}
+#menu_right {
+	margin: 5px;
+	padding: 5px;
+	float: left;
+	width: 210px;
+	color: #FFF;
+}
+#nav {
+				list-style: none ;
+				margin: 0 ;
+				padding: 0 ;
+				overflow: hidden ;	/* Création du contexte de formatage */
+				}
+			#nav li {
+				float: left ;
+				width: 140px ;
+				border: 1px solid #600 ;
+				margin-right: 1px ;
+				color:#609;
+				background: #609;
+				border-radius:10px 10px 0px 0px;
+				}
+			#nav li a {
+				display: block ;
+				
+				color: #fff ;
+				font: 1em "Trebuchet MS",Arial,sans-serif ;
+				line-height: 1em ;
+				padding: 4px 0 ;
+				text-align: center ;
+				text-decoration: none ;
+				}
+			#nav li a:hover, #nav li a:focus, #nav li a:active {
+				
+				text-decoration: underline ;
+				}
+#menu_right td {
+	width:190px;
+	border-bottom:1px solid black;
+	letter-spacing:0.3em;
+	line-height:40px;
+	background:#636;
+	Text-align:center;
+	color: #FFF;
+
+}
+#colonne_right {
+	float: left;
+	height: 400px;
+	width: 250px;
+	color: #FFF;
+}
+#connexion {
+	height: 100px;
+	float: left;
+	width: 210px;
+}
+#footer {
+	margin: 10px;
+	width: 990px;
+}
+#menu_right  a {
+	color: #FFF;
+	text-decoration: none;
+}
+#conteneur table {
+	text-align: left;
+	border: 1px dashed #039;
+}

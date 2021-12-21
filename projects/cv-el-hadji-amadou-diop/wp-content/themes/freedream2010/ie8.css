@@ -1,0 +1,21 @@
+/*---:[ Needed Hack!!! IE8 styles for the 2010 FreeDream Theme ]:---*/
+
+
+#sidebar .button {
+	color: #fff;
+	font-size:26px;
+	border: none;
+	background: none;
+	margin-top: 12px;
+        
+}
+
+.widget-area ul ul {
+	font: 15px Arial, Helvetica, sans-serif;
+        line-height: 18px;
+	list-style-image: url(images/arrow.png);
+	padding:0px 2px;
+	margin-left: 0px;
+}
+
+/*---:[ -------- EOF ------------- ]:---*/

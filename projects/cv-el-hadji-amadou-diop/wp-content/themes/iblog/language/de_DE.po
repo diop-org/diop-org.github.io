@@ -1,0 +1,343 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: iBlogPro3 v3.5.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2009-10-26 11:48+0100\n"
+"Last-Translator: admin <tang@tangsworld.de>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: _authorinfo.php:7
+#@ iBlogPro
+msgid "About the author"
+msgstr "Über den Autor"
+
+#: _authorinfo.php:10
+#@ iBlogPro
+msgid "Visit Authors Website"
+msgstr "Besuchen SIe die Website des Autors"
+
+#: _defaultaccordion.php:3
+msgid "Photos"
+msgstr ""
+
+#: _defaultaccordion.php:11
+#: _defaultflowbar.php:17
+#@ iBlogPro
+msgid "Categories"
+msgstr "Kategorien"
+
+#: _defaultaccordion.php:16
+#@ iBlogPro
+msgid "Tag Cloud"
+msgstr "Tag Cloud"
+
+#: _defaultaccordion.php:21
+#: footer.php:31
+#@ iBlogPro
+msgid "Archives"
+msgstr "Archiv"
+
+#: _defaultaccordion.php:26
+#@ iBlogPro
+msgid "Meta"
+msgstr "Meta"
+
+#: _defaultaccordion.php:32
+#@ iBlogPro
+msgid "Entries (RSS)"
+msgstr "Einträge (RSS)"
+
+#: _defaultaccordion.php:33
+#@ iBlogPro
+msgid "Comments (RSS)"
+msgstr "Kommentare (RSS)"
+
+#: _defaultflowbar.php:30
+#@ iBlogPro
+msgid "Tags"
+msgstr "Tags"
+
+#: _post_footer.php:6
+#: _post_footer.php:23
+#@ iBlogPro
+msgid "Edit Post"
+msgstr "Bearbeiten"
+
+#: _post_footer.php:7
+#@ iBlogPro
+msgid "If you enjoyed this article, please consider sharing it!"
+msgstr "Wenn Ihnen dieser Artikel gefallen hat, teilen Sie ihn mit anderen!"
+
+#: _post_footer.php:20
+#@ iBlogPro
+msgid "View Comments"
+msgstr "Kommentare ansehen"
+
+#: _post_footer.php:20
+msgid "Comments"
+msgstr ""
+
+#: _post_footer.php:28
+#@ iBlogPro
+msgid "View Full Post &raquo;"
+msgstr "Ganzen Artikel ansehen &raquo;"
+
+#: _post_footer.php:32
+#@ iBlogPro
+msgid "Leave A Response"
+msgstr "Antworten"
+
+#: _posts.php:15
+#: _posts.php:22
+#@ iBlogPro
+msgid "Permanent Link To"
+msgstr "Permanent-Link zu"
+
+#: _posts.php:25
+msgid "On"
+msgstr ""
+
+#: _posts.php:25
+#@ iBlogPro
+msgid "In"
+msgstr "In"
+
+#: _posts.php:25
+#@ iBlogPro
+msgid "by"
+msgstr "Von"
+
+#: _posts.php:37
+#@ iBlogPro
+msgid "<p><strong>Pages:</strong>"
+msgstr "<p><strong>Seiten:</strong>"
+
+#: _posts.php:37
+msgid "number"
+msgstr ""
+
+#: _posts.php:51
+#@ iBlogPro
+msgid "Tagged with: "
+msgstr "Getagged mit:"
+
+#: _posts.php:66
+#@ iBlogPro
+msgid "Nothing Found"
+msgstr "Nichts gefunden"
+
+#: _posts.php:67
+#@ iBlogPro
+msgid "Sorry, what you are looking for isn't here."
+msgstr "Sorry, was SIe suchen befindet sich nicht hier."
+
+#: comments.php:8
+#@ iBlogPro
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "Dieser Beitrag ist durch ein Passwort geschützt. Geben Sie das Kennwort ein, um die Kommentare zu sehen."
+
+#: comments.php:17
+#@ iBlogPro
+msgid "No Response &#187;"
+msgstr "Keine Antwort &#187;"
+
+#: comments.php:17
+#@ iBlogPro
+msgid "1 Response &#187;"
+msgstr "1 Antwort &#187;"
+
+#: comments.php:17
+#@ iBlogPro
+msgid "% Response"
+msgid_plural "% Responses"
+msgstr[0] "% Antwort"
+msgstr[1] "% Antworten"
+
+#: comments.php:17
+msgid "to &#8220;"
+msgstr ""
+
+#: comments.php:33
+#@ iBlogPro
+msgid "Comments are closed."
+msgstr "Kommentare sind geschlossen."
+
+#: comments.php:43
+#@ iBlogPro
+msgid "Leave a Reply"
+msgstr "Hinterlassen Sie eine Antwort"
+
+#: comments.php:43
+#, php-format
+#@ iBlogPro
+msgid "Leave a Reply to %s"
+msgstr "Hinterlassen SIe eine Antwort für %s"
+
+#: comments.php:50
+#@ iBlogPro
+msgid "You must be"
+msgstr "Sie müssen"
+
+#: comments.php:50
+msgid "logged in"
+msgstr ""
+
+#: comments.php:50
+#@ iBlogPro
+msgid "to post a comment."
+msgstr "um einen Kommentar zu verfassen."
+
+#: comments.php:57
+#@ iBlogPro
+msgid "Logged in as"
+msgstr "Angemeldet als"
+
+#: comments.php:57
+#@ iBlogPro
+msgid "Log out of this account"
+msgstr "Aus diesem Konto abmelden"
+
+#: comments.php:57
+#@ iBlogPro
+msgid "Log out &raquo;"
+msgstr "Abmelden &raquo;"
+
+#: comments.php:62
+#@ iBlogPro
+msgid "Name"
+msgstr "Name"
+
+#: comments.php:65
+#@ iBlogPro
+msgid "Mail (will not be published)"
+msgstr "Mail (wird nicht veröffentlicht)"
+
+#: comments.php:65
+#@ iBlogPro
+msgid "(required)"
+msgstr "(erforderlich)"
+
+#: comments.php:68
+#@ iBlogPro
+msgid "Website"
+msgstr "Website"
+
+#: comments.php:73
+#@ iBlogPro
+msgid "You can use these tags:"
+msgstr "Sie können diese Tags benutzen:"
+
+#: comments.php:78
+#@ iBlogPro
+msgid "Submit Comment"
+msgstr "Kommentar abgeben"
+
+#: footer.php:10
+msgid "Looking for something?"
+msgstr ""
+
+#: footer.php:11
+msgid "Use the form below to search the site:"
+msgstr ""
+
+#: footer.php:14
+msgid "Still not finding what you're looking for? Drop a comment on a post or contact us so we can take care of it!"
+msgstr ""
+
+#: footer.php:23
+msgid "Visit our friends!"
+msgstr ""
+
+#: footer.php:23
+msgid "A few highly recommended friends..."
+msgstr ""
+
+#: footer.php:31
+msgid "All entries, chronologically..."
+msgstr ""
+
+#: includes/admin/edit_page.php:67
+#: includes/admin/edit_post.php:54
+msgid "Update"
+msgstr ""
+
+#: includes/functions/sidebar_setup.php:58
+#: searchform.php:3
+#@ iBlogPro
+msgid "Search"
+msgstr "Suchen"
+
+#: includes/plugins/twitter.php:67
+#@ iBlogPro
+msgid "No recent Twitter posts."
+msgstr "Keine aktuellen Twitter-Postings."
+
+#: includes/plugins/twitter.php:97
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: includes/plugins/twitter.php:99
+msgid "Y/m/d"
+msgstr ""
+
+#: includes/plugins/twitter.php:101
+#, php-format
+#@ twitter-for-wordpress
+msgid "%s"
+msgstr ""
+
+#: includes/plugins/twitter.php:101
+msgid "Y/m/d H:i:s"
+msgstr ""
+
+#: includes/plugins/twitter.php:215
+msgid "label"
+msgstr ""
+
+#: includes/plugins/twitter.php:241
+msgid "Twitter Widgets"
+msgstr ""
+
+#: includes/plugins/twitter.php:242
+msgid "How many Twitter widgets would you like?"
+msgstr ""
+
+#: includes/plugins/twitter.php:246
+msgid "Save"
+msgstr ""
+
+#: includes/plugins/twitter.php:260
+#, php-format
+msgid "Twitter #%d"
+msgstr ""
+
+#: searchform.php:5
+#@ iBlogPro
+msgid "Go"
+msgstr "Los"
+
+#: sidebar.php:25
+#@ iBlogPro
+msgid "Learn More About Advertising Here"
+msgstr "Hier erfahren Sie mehr über Werbung"
+
+#: sidebar.php:51
+#: sidebar.php:62
+#@ iBlogPro
+msgid "No widgets have been added to this sidebar. Add some widgets to your this sidebar in your admin."
+msgstr "In dieser Seitenleiste wurden noch keine Widgets aufgenommen. Fügen Sie einige Widgets im admin-Bereich hinzu."
+

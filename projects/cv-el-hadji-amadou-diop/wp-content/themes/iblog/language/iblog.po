@@ -1,0 +1,445 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: iBlog\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-08-18 10:19-0800\n"
+"PO-Revision-Date: 2010-08-18 10:19-0800\n"
+"Last-Translator: Andrew Powers <andrew@pagelines.com>\n"
+"Language-Team: PageLines <hello@pagelines.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_n\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: comments.php:12
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: comments.php:25
+#, php-format
+msgid "One Response to %2$s"
+msgstr ""
+
+#: comments.php:34
+msgid "<span class=\"meta-nav\">&larr;</span> Older Comments"
+msgstr ""
+
+#: comments.php:35
+msgid "Newer Comments <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: comments.php:48
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:15
+#: footer.php:19
+msgid "Home"
+msgstr ""
+
+#: footer.php:25
+msgid "Pages"
+msgstr ""
+
+#: footer.php:31
+msgid "Stay In Touch"
+msgstr ""
+
+#: footer.php:38
+msgid "More"
+msgstr ""
+
+#: sidebar.php:13
+#: sidebar.php:25
+msgid "Add Widgets"
+msgstr ""
+
+#: sidebar.php:16
+msgid "The accordion sidebar has been selected but doesn't have any widgets. Add some widgets to your secondary sidebar in the admin under appearance > widgets."
+msgstr ""
+
+#: sidebar.php:28
+msgid "The drag and drop sidebar has been selected but doesn't have any widgets. Add some widgets to your short sidebar in the admin under appearance > widgets."
+msgstr ""
+
+#: config/config_sidebars.php:6
+msgid "An option for the main sidebar. Graphical style: solid white/grey widgets with rounded corners."
+msgstr ""
+
+#: config/config_sidebars.php:23
+msgid "Primary Navigation"
+msgstr ""
+
+#: config/config_sidebars.php:24
+msgid "Footer Navigation"
+msgstr ""
+
+#: config/config_sidebars.php:25
+msgid "Footer Social Links"
+msgstr ""
+
+#: core/admin/admin_functions.php:186
+msgid "Theme Options"
+msgstr ""
+
+#: core/admin/admin_functions.php:188
+msgid "Feature Setup"
+msgstr ""
+
+#: core/admin/admin_functions.php:205
+msgid "Get "
+msgstr ""
+
+#: core/admin/admin_functions.php:206
+msgid "Demo"
+msgstr ""
+
+#: core/admin/admin_functions.php:208
+msgid "Theme Docs"
+msgstr ""
+
+#: core/admin/admin_functions.php:209
+msgid "Forum"
+msgstr ""
+
+#: core/admin/admin_functions.php:568
+msgid "Customer Feedback Form &raquo;"
+msgstr ""
+
+#: core/admin/class.metaoptions.php:109
+msgid "SELECT"
+msgstr ""
+
+#: core/admin/class.metaoptions.php:130
+msgid "Update Options"
+msgstr ""
+
+#: core/admin/option_templates.php:103
+#: core/admin/option_templates.php:166
+msgid "New Feature Slide"
+msgstr ""
+
+#: core/admin/option_templates.php:118
+#: core/admin/option_templates.php:212
+msgid "New Feature Box"
+msgstr ""
+
+#: core/admin/pagepost_setup.php:51
+#: core/admin/pagepost_setup.php:110
+msgid "Update"
+msgstr ""
+
+#: core/admin/post_types.php:10
+msgid "Slides"
+msgstr ""
+
+#: core/admin/post_types.php:11
+msgid "Slide"
+msgstr ""
+
+#: core/admin/post_types.php:26
+msgid "Boxes"
+msgstr ""
+
+#: core/admin/post_types.php:27
+msgid "Box"
+msgstr ""
+
+#: core/plugins/twitter.php:95
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: core/plugins/twitter.php:97
+msgid "Y/m/d"
+msgstr ""
+
+#: core/plugins/twitter.php:99
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: core/plugins/twitter.php:99
+msgid "Y/m/d H:i:s"
+msgstr ""
+
+#: core/plugins/twitter.php:242
+msgid "Twitter Widgets"
+msgstr ""
+
+#: core/plugins/twitter.php:243
+msgid "How many Twitter widgets would you like?"
+msgstr ""
+
+#: core/plugins/twitter.php:247
+msgid "Save"
+msgstr ""
+
+#: core/plugins/twitter.php:261
+#, php-format
+msgid "Twitter #%d"
+msgstr ""
+
+#: core/templates/functions_body.php:12
+msgid "Search"
+msgstr ""
+
+#: core/templates/functions_body.php:32
+msgid "The Latest"
+msgstr ""
+
+#: core/templates/functions_body.php:36
+msgid "Search Results For:"
+msgstr ""
+
+#: core/templates/functions_body.php:42
+msgid "Error 404"
+msgstr ""
+
+#: core/templates/functions_body.php:44
+#: core/templates/functions_sidebars.php:88
+#: library/_morefoot.php:53
+msgid "Archives"
+msgstr ""
+
+#: core/templates/functions_body.php:54
+msgid "&laquo; Previous Entries"
+msgstr ""
+
+#: core/templates/functions_body.php:55
+msgid "Next Entries &raquo;"
+msgstr ""
+
+#: core/templates/functions_body.php:115
+#: library/_authorinfo.php:7
+msgid "About the author"
+msgstr ""
+
+#: core/templates/functions_body.php:118
+#: library/_authorinfo.php:10
+msgid "Visit Authors Website"
+msgstr ""
+
+#: core/templates/functions_body.php:137
+#: core/templates/functions_body.php:141
+#: core/templates/functions_body.php:145
+#: core/templates/functions_body.php:148
+#: core/templates/functions_body.php:151
+#: core/templates/functions_body.php:154
+msgid "Share on"
+msgstr ""
+
+#: core/templates/functions_effects.php:50
+msgid "You have selected the carousel page template but the plugins aren't activated for the selected mode (either NextGen-Gallery or FlickrRSS). Options are set in page options. Default mode is FlickrRSS."
+msgstr ""
+
+#: core/templates/functions_effects.php:116
+msgid "(Edit Slide)"
+msgstr ""
+
+#: core/templates/functions_sidebars.php:11
+msgid "The secondary sidebar has been selected but doesn't have any widgets. Add some widgets to your secondary sidebar in the admin under appearance > widgets."
+msgstr ""
+
+#: core/templates/functions_sidebars.php:15
+msgid "The short sidebar has been selected but doesn't have any widgets. Add some widgets to your short sidebar in the admin under appearance > widgets."
+msgstr ""
+
+#: core/templates/functions_sidebars.php:30
+#: library/_contentsidebar.php:5
+msgid "The content sidebar has been activated on this page/post but doesn't have any widgets added to it. Add some widgets to this sidebar in appearance &gt; widgets in the admin."
+msgstr ""
+
+#: core/templates/functions_sidebars.php:41
+#: library/_morefoot.php:8
+msgid "Full width widgets selected but no widgets have been added."
+msgstr ""
+
+#: core/templates/functions_sidebars.php:62
+#: library/_morefoot.php:29
+msgid "Looking for something?"
+msgstr ""
+
+#: core/templates/functions_sidebars.php:63
+#: library/_morefoot.php:30
+msgid "Use the form below to search the site:"
+msgstr ""
+
+#: core/templates/functions_sidebars.php:66
+#: library/_morefoot.php:33
+msgid "Still not finding what you're looking for? Drop a comment on a post or contact us so we can take care of it!"
+msgstr ""
+
+#: core/templates/functions_sidebars.php:77
+#: library/_morefoot.php:43
+msgid "Visit our friends!"
+msgstr ""
+
+#: core/templates/functions_sidebars.php:77
+#: library/_morefoot.php:43
+msgid "A few highly recommended friends..."
+msgstr ""
+
+#: core/templates/functions_sidebars.php:88
+#: library/_morefoot.php:53
+msgid "All entries, chronologically..."
+msgstr ""
+
+#: core/templates/functions_sidebars.php:130
+msgid "RSS Feed"
+msgstr ""
+
+#: library/_defaultsidebar.php:7
+msgid "Categories"
+msgstr ""
+
+#: library/_defaultsidebar.php:19
+msgid "Articles"
+msgstr ""
+
+#: library/_defaultsidebar.php:30
+msgid "Tags"
+msgstr ""
+
+#: library/_defaultsidebar.php:42
+msgid "Links"
+msgstr ""
+
+#: library/_defaultsidebar.php:54
+msgid "Meta"
+msgstr ""
+
+#: library/_pagination.php:5
+msgid "Previous Entries"
+msgstr ""
+
+#: library/_pagination.php:6
+msgid "Next Entries"
+msgstr ""
+
+#: library/_post_footer.php:6
+#: library/_post_footer.php:24
+msgid "Edit Post"
+msgstr ""
+
+#: library/_post_footer.php:21
+msgid "View Comments"
+msgstr ""
+
+#: library/_post_footer.php:21
+msgid "Comments"
+msgstr ""
+
+#: library/_post_footer.php:29
+msgid "View Full Post &raquo;"
+msgstr ""
+
+#: library/_post_footer.php:33
+msgid "Leave A Response"
+msgstr ""
+
+#: library/_posts.php:15
+#: library/_posts.php:22
+msgid "Permanent Link To"
+msgstr ""
+
+#: library/_posts.php:31
+msgid "Permanent Link to"
+msgstr ""
+
+#: library/_posts.php:35
+msgid "On"
+msgstr ""
+
+#: library/_posts.php:36
+msgid "in"
+msgstr ""
+
+#: library/_posts.php:37
+msgid "by"
+msgstr ""
+
+#: library/_posts.php:38
+msgid "<strong>(Edit Post)</strong>"
+msgstr ""
+
+#: library/_posts.php:60
+msgid "<p>Continue reading &raquo;</p>"
+msgstr ""
+
+#: library/_posts.php:61
+msgid "<p><strong>Pages:</strong>"
+msgstr ""
+
+#: library/_posts.php:61
+msgid "number"
+msgstr ""
+
+#: library/_posts.php:62
+msgid "Edit"
+msgstr ""
+
+#: library/_posts.php:79
+msgid "Tagged with: "
+msgstr ""
+
+#: library/_posts.php:105
+msgid "Error 404 - Page Not Found"
+msgstr ""
+
+#: library/_posts.php:107
+msgid "Nothing Found"
+msgstr ""
+
+#: library/_posts.php:109
+msgid "Sorry, what you are looking for isn't here."
+msgstr ""
+
+#: library/_searchform.php:5
+msgid "Go"
+msgstr ""
+
+#: library/_subnav.php:23
+msgid "Search Results For"
+msgstr ""
+
+#: pro/sidebars_pro.php:5
+msgid "An accordion option for the main sidebar. **Important** This UI sidebar requires that widgets have titles to work.  If a title isn't added your HTML markup will break"
+msgstr ""
+
+#: pro/sidebars_pro.php:13
+msgid "Another option for the main sidebar.  **Important** This UI sidebar requires that widgets have titles to work.  If a title isn't added your HTML markup will break."
+msgstr ""
+
+#: pro/sidebars_pro.php:21
+msgid "If widgets are added, this sidebar shows up underneath any other \"primary\" sidebars."
+msgstr ""
+
+#: pro/sidebars_pro.php:29
+msgid "These widgets appear underneath your page/post content. Select the \"individual page\" checkbox option for them to appear."
+msgstr ""
+
+#: pro/sidebars_pro.php:38
+msgid "These widgets appear full-width underneath your page content and sidebar. Select the \"individual page\" option for them to appear."
+msgstr ""
+
+#: pro/sidebars_pro.php:46
+msgid "Left sidebar in \"morefoot\" element enabled in options."
+msgstr ""
+
+#: pro/sidebars_pro.php:54
+msgid "Middle sidebar in \"morefoot\" element enabled in options."
+msgstr ""
+
+#: pro/sidebars_pro.php:62
+msgid "Right sidebar in \"morefoot\" element enabled in options."
+msgstr ""
+
+#: pro/sidebars_pro.php:70
+msgid "Use this sidebar if you want to use widgets in your footer columns instead of the default."
+msgstr ""
+

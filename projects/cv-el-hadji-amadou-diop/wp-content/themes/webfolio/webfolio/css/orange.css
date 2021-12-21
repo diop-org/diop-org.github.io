@@ -1,0 +1,169 @@
+
+a {
+	color:#C64F07;
+}
+
+h1, h2, h3 {
+	color:#333;
+}
+
+h1 a{
+	color:#333;
+}
+
+h2 {
+	color:#333;
+}
+
+ /* LAYOUT STRUCTURE
+--------------------------------------------------*/
+
+#header {
+	background:url(../images/orange/bk_header.jpg) 0 0 no-repeat;
+}
+
+/* HEADER ELEMENTS
+------------------------------------------*/
+
+#logo span {
+	color:#b2b2b2;
+}
+
+/* -- main menu --*/
+
+#topMenu {
+	background:url(../images/orange/bk_topmenu.png) no-repeat;
+}
+
+#topMenu ul.sf-menu li {
+	border-right:1px solid #F5AE84;
+}
+
+#topMenu ul.sf-menu li a {
+	color:#F5D2BF;
+	text-shadow:#C24905 1px 1px;
+}
+
+#topMenu ul.sf-menu li li a {
+	color:#F5D2BF;
+}
+
+#topMenu ul.sf-menu li a:hover {
+	color:#FFF;
+}
+
+#topMenu ul.sf-menu li li {
+	border-bottom:1px solid #F36007;
+	
+}
+
+#topMenu ul.sf-menu li ul.children, #topMenu ul.sf-menu li ul.sub-menu {
+	border:1px solid #F76711;
+	border-bottom:1px solid #F76711;	
+	background:#CD4B04;
+}
+
+#topMenu ul.sf-menu li ul.children li a:hover, #topMenu ul.sf-menu li ul.sub-menu li a:hover,, #topMenu ul.sf-menu li.page_item ul li a:hover{
+	color:#fff;
+}
+
+#topMenu ul.sf-menu li ul.children li ul.children, #topMenu ul.sf-menu li ul.sub-menu li ul.sub-menu  {
+	border:1px solid #E1E632;
+}
+
+
+/* CONTENT ELEMENTS
+----------------------------------------------*/
+
+#colFull h1 ul li a{
+	color:#0093CA;	
+}
+
+#colFull h1 ul li a:hover {
+	text-decoration:underline;
+}
+
+.more-link {
+	background:url(../images/orange/but_readmore.png) 0 0 no-repeat;
+	color:#fff;
+}
+
+.blogPost .meta .date{
+	background:url(../images/orange/bk_date.png) 0 0 no-repeat;
+	color:#fff;
+}
+
+
+/* COL RIGHT
+-------------------------------------------*/
+
+#colRight h2{
+	color:#C64F07;
+}
+
+#colRight ul li {
+	background:url(../images/orange/bullet_list.png) 0 12px no-repeat;
+}
+
+#colRight ul li a{
+	color:#666;
+}
+
+#colRight ul li a:hover {
+	color:#C64F07;
+}
+
+/* FOOTER ELEMENTS
+--------------------------------------------*/
+
+#footer .footerBox h2  {
+	color:#B2B2B2;
+	border-bottom:1px solid #292929;
+}
+
+#footer .footerBox ul li {
+	border-bottom:1px solid #292929;
+	background:url(../images/orange/bullet_list.png) 0 13px no-repeat;
+}
+
+
+#footer .footerBox ul li a {
+	color:#515151;
+}
+
+#footer .footerBox ul li a:hover {
+	color:#C64F07;
+}
+
+#footer .footerBox ul#social li {
+	border-bottom:1px solid #292929;
+}
+
+#footer .footerBox ul#social li strong{
+	color:#efefef;
+}
+
+/*COMMENTS
+---------------------------------------------*/
+
+#colLeft h2.comments {
+	color:#16A3E1;
+}
+
+/* FORMS
+------------------------------------------- */
+
+#searchform input#searchsubmit {
+	background:url(../images/orange/but_search.jpg) 0 0 no-repeat;
+}
+
+#commentform input#submit{
+	background:url(../images/orange/but_send.png) 0 0 no-repeat;
+	color:#fff;
+}
+
+
+#contact input.submit {
+	background:url(../images/orange/but_send.png) 0 0 no-repeat;
+	color:#FFF;
+}

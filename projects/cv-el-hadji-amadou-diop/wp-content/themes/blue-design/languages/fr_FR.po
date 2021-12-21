@@ -1,0 +1,79 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: fr_FR\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-09-28 17:38+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+
+#: 404.php:16
+msgid "Page: "
+msgstr "Page: "
+
+#: 404.php:22
+msgid "The page you requested was not found. "
+msgstr "La page demandée est introuvable."
+
+#: 404.php:23
+msgid "The page may have been removed, may have changed location or may be temporarily unavailable."
+msgstr "Il est possible que la page ait été déplacée ou enlevée"
+
+#: archive.php:10
+msgid "Archive for the \""
+msgstr "Archive pour la \""
+
+#: archive.php:10
+msgid "\" category"
+msgstr "\" catégorie"
+
+#: archive.php:16
+msgid "Posts Tagged \""
+msgstr "Posts Tagged \""
+
+#: archive.php:22
+#: archive.php:28
+#: archive.php:34
+msgid "Archive for "
+msgstr "Archive pour"
+
+#: archive.php:40
+msgid "Author Archive"
+msgstr "Auteur archive"
+
+#: archive.php:46
+msgid "Blog Archives"
+msgstr "Archives du blog"
+
+#: archive.php:83
+#: index.php:40
+#: page.php:33
+#: search.php:40
+#: single.php:37
+msgid "Not Found"
+msgstr "Non trouvé"
+
+#: archive.php:87
+#: index.php:44
+#: page.php:37
+#: search.php:43
+#: single.php:41
+msgid "Sorry, but you are looking for something that isn&#39;t here."
+msgstr "Désolé, mais vous cherchez quelquechose qui n'est pas là"
+
+#: comments.php:11
+msgid "Enter the password to view comments."
+msgstr "Entrez le pour voir les commentaires"
+
+#: index.php:22
+msgid "Continue reading &raquo;"
+msgstr "Lire la suite &raquo;"
+

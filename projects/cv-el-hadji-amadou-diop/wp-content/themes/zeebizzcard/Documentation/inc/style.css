@@ -1,0 +1,129 @@
+/*============================ RESET ============================*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, font, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+	list-style: none;
+	color: none;
+	text-decoration: none;
+}
+body {
+	font-family: Verdana, Arial;
+	font-size: 1.0em;
+	background: #fff;
+}
+
+/*============================ Navigation ============================*/
+#menu {
+	float: right;
+	margin: 25px 0;
+}
+#menu li {
+	float: left;
+	margin: 0 0 0 5px;
+}
+#menu li a {
+	font-family: arial;
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #ffffff;
+	text-shadow: 2px 2px 2px #333333;
+	display: block;
+	padding: 10px 15px;
+		
+}
+#menu li a:hover {
+	color: #aaa;
+}
+#menu span {
+	display: block;
+	color: #c8c8c8;
+	font-size: 12px;
+	font-weight: normal;
+	text-shadow: 1px 1px 1px #222621;
+}
+/*============================ Content ============================*/
+#wrapper {
+	width: 850px;
+	font-size: 0.9em;
+	color: #111;
+	margin: 10px auto 40px auto;
+	padding: 10px 20px;
+	line-height: 1.5em;
+}
+a, a:link, a:visited {
+	color: #0971d9;
+}
+a:hover, a:active {
+	color: #1a4978;
+	text-decoration: underline;
+}
+img {
+	border: 3px solid #ddd;
+	padding: 3px;
+}
+form img {
+	border: none !important;
+}
+h1 {
+	margin: 40px auto 10px auto;
+	width: 870px;
+	font-size: 3.0em;
+	font-family: "Times New Roman", Verdana;
+	color: #555;
+	text-align: center;
+}
+h3 {
+	margin: 30px 0 20px 0;
+	padding: 8px;
+	border-bottom: 2px solid #ddd;
+	border-top: 1px solid #ddd;
+	font-size: 1.4em;
+	color: #555;
+}
+h3 a {
+	font-size: 0.7em;
+}
+p {
+	margin: 10px 0 20px 0;
+	font-size: 0.9em;
+	font-weight: normal;
+}
+#theme_info {
+	float: left;
+	font-weight: bold;
+	margin-right: 40px;
+}
+#contents {
+	margin-bottom: 50px;
+}
+#contents li {
+	margin: 5px;
+	color: #333;
+	font-size: 1.2em;
+}
+code {
+	padding: 1px 4px;
+	margin: 0 1px;
+	background: #e0e0e0;
+	font-size: 0.9em;
+	font-family: "Courier New", Courier, monospace;
+}
+ol, ol li{
+	list-style: decimal inside;
+	font-weight: bold;
+}

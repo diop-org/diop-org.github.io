@@ -1,0 +1,7 @@
+Scripts used in the template:
+
+DDSmoothMenu: http://www.dynamicdrive.com/dynamicindex1/ddsmoothmenu.htm
+Quicksand: http://razorjack.net/quicksand/
+PrettyPhoto: http://www.no-margin-for-errors.com/projects/prettyphoto-jquery-lightbox-clone/
+Twitter: http://code.google.com/p/twitterjs/
+Piecemaker: http://www.modularweb.net/

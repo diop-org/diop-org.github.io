@@ -1,0 +1,22 @@
+#footer{background-image: none;}
+#header{background-image: none;}
+#site{background-image: none;}
+#pagewrap{background-image: none;}
+
+#welcome{background-image: none;}
+
+#highlighttext{background-image: none !important;}
+#cred{width: 200px !important;margin-left:0px;left:450px;}
+
+#s{width: 186px;float:left;}
+#searchsubmit{
+	padding-left: 2px !important;
+	padding-right: 2px !important;
+	font-size: .9em !important;
+	float:left;
+}
+
+#morefoot #morefootbg .wcontain{width: 295px !important;overflow:hidden;}
+#morefoot #s{
+	width: 160px;
+}

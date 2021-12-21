@@ -1,0 +1,42 @@
+/* icons */
+	
+/*	#accordion .widget ul li a,  #drag_drop_sidebar .widget ul li a,  #flowbar .widget ul li a{
+		background: url(../images/icons/bullet_black.png) no-repeat 2px 7px;
+		padding-left: 23px;
+	}*/
+	
+		#sidebar .widget ul li ul li a{
+			background: none;
+		}
+		
+	#sidebar #accordion .widget_meta + div ul li a, #sidebar .widget_meta  ul li a {
+		background: url(../images/icons/bullet_black.png) no-repeat 0px 2px;
+		padding-left: 26px;
+	}
+	
+	#sidebar #accordion .widget_categories + div ul li a, #sidebar .widget_categories  ul li a{
+		background: url(../images/icons/folder-horizontal.png) no-repeat 0 2px;
+		padding-left: 26px;
+	}
+	#sidebar #accordion .widget_pages + div ul li a, #sidebar .widget_pages ul li a{
+		background: url(../images/icons/document.png) no-repeat 0 2px;
+		padding-left: 26px;
+	}
+		#sidebar #accordion .widget_pages + div ul li ul li a, #sidebar .widget_pages ul li ul li a{background:none;}
+	
+	#sidebar #accordion .widget_recent_entries + div ul li a, #sidebar .widget_recent_entries ul li a{
+		background: url(../images/icons/sticky-note-pin.png) no-repeat 0 2px;
+		padding-left: 26px;
+	}
+	#sidebar #accordion .widget_links + div ul li a, #sidebar .widget_links ul li a{
+		background: url(../images/icons/chain.png) no-repeat 0 2px;
+		padding-left: 26px;
+	}
+	#sidebar #accordion .widget_archive + div ul li a,  #sidebar .widget_archive ul li a{
+		background: url(../images/icons/calendar-list.png) no-repeat 0 2px;
+		padding-left: 26px;
+	}
+	#sidebar #accordion .widget_recent_comments + div ul li,  #sidebar .widget_recent_comments ul li{
+		background: url(../images/icons/comment.png) no-repeat 0 6px;
+		padding-left: 23px;
+	}

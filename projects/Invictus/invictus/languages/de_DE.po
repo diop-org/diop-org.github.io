@@ -1,0 +1,2989 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Invictus v2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2011-09-07 16:43+0000\n"
+"Last-Translator: doitmax <dennis.osterkamp@do-media.de>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: 404.php:20
+#@ invictus
+msgid "Sorry, this page was not found!"
+msgstr "Sorry, diese Seite wurde nicht gefunden!"
+
+#: 404.php:21
+#@ invictus
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for."
+msgstr "Es scheint, wir konnten nicht finden, wonach  du suchst."
+
+#: archive.php:19
+#, php-format
+#@ invictus
+msgid "Daily Archives: <span>%s</span>"
+msgstr "Tägliches Archiv: <span>% s</span>"
+
+#: archive.php:21
+#, php-format
+#@ invictus
+msgid "Monthly Archives: <span>%s</span>"
+msgstr "Monatliches Archiv: <span>% s</span>"
+
+#: archive.php:23
+#, php-format
+#@ invictus
+msgid "Yearly Archives: <span>%s</span>"
+msgstr "Jährliches Archiv: <span>% s</span>"
+
+#: archive.php:25
+#@ invictus
+msgid "Blog Archives"
+msgstr "Blog Archiv"
+
+#: archive.php:36
+#: archive.php:54
+#: single.php:15
+#: single.php:23
+#@ invictus
+msgid "Post navigation"
+msgstr "Beitrag Navigation"
+
+#: archive.php:37
+#: archive.php:55
+#@ invictus
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Ältere Beiträge"
+
+#: archive.php:38
+#: archive.php:56
+#@ invictus
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Neuere Beiträge <span class=\"meta-nav\">&rarr;</span>"
+
+#: archive.php:43
+#@ invictus
+msgid "Latest posts"
+msgstr "Neueste Beiträge"
+
+#: search-loop.php:52
+#@ invictus
+msgid "Comment"
+msgstr "Kommentar"
+
+#: search-loop.php:52
+#@ invictus
+msgid "Comments"
+msgstr "Kommentare"
+
+#: search-loop.php:54
+#, php-format
+#@ invictus
+msgid "<li>By <span>%1$s</span></li>"
+msgstr "<li>Von <span>%1$s</span> </li>"
+
+#: search-loop.php:55
+#, php-format
+#@ invictus
+msgid "<li>Posted on <span>%1$s</span></li>"
+msgstr "<li>Geschrieben am <span>%1$s</span> </li>"
+
+#: blog-loop.php:86
+#: blog-loop.php:100
+#: search-loop.php:79
+#@ invictus
+msgid "Continue Reading..."
+msgstr "Weiterlesen..."
+
+#: category.php:27
+#, php-format
+#@ invictus
+msgid "Category Archives: %s"
+msgstr "Kategorien-Archiv: % s"
+
+#: comments.php:18
+#@ invictus
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr "Dieser Beitrag ist passwortgeschützt. Geben Sie das Passwort ein, um Kommentare anzuzeigen."
+
+#: comments.php:35
+#, php-format
+#@ default
+msgid "%1$s Comment. Leave your Comment right now:"
+msgid_plural "%1$s Comments. Leave your Comment right now:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:41
+#: comments.php:60
+#@ invictus
+msgid "<span class=\"meta-nav\">&larr;</span> Older Comments"
+msgstr "<span class=\"meta-nav\">&larr;</span> Ältere Kommentare"
+
+#: comments.php:42
+#: comments.php:61
+#@ invictus
+msgid "Newer Comments <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Neuere Kommentare <span class=\"meta-nav\">&rarr;</span>"
+
+#: comments.php:72
+#@ invictus
+msgid "Comments are closed."
+msgstr "Kommentare sind geschlossen."
+
+#: comments.php:79
+#@ invictus
+msgid "Leave a Reply"
+msgstr "Hinterlasse eine Antwort"
+
+#: comments.php:80
+#@ default
+msgctxt "noun"
+msgid "Your Comment:"
+msgstr ""
+
+#: comments.php:81
+#, php-format
+#@ invictus
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of this account\">Log out?</a>"
+msgstr "Angemeldet als <a href=\"%1$s\">%2$s</a> . <a href=\"%3$s\" title=\"Melden Sie sich von diesem Konto ab\">Abmelden?</a>"
+
+#: comments.php:82
+#@ invictus
+msgid "Your email address will not be published."
+msgstr "Ihre E-Mail-Adresse wird nicht veröffentlicht."
+
+#: comments.php:83
+#, php-format
+#@ invictus
+msgid "You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags and attributes: %s"
+msgstr "Sie können diese <abbr title=\"HyperText Markup Language\">HTML-Tags</abbr> und Attribute verwenden: %s"
+
+#: comments.php:84
+#@ invictus
+msgid "Post Comment"
+msgstr "Kommentar hinzufügen"
+
+#: contact_us.php:21
+#: contact_us.php:26
+#: contact_us_standard.php:21
+#: contact_us_standard.php:26
+#@ invictus
+msgid "Your message has been sent</strong>. Thank you for your request!"
+msgstr "Ihre Nachricht wurde gesendet. Vielen Dank für Ihre Anfrage!"
+
+#: contact_us.php:30
+#: contact_us_standard.php:30
+#@ invictus
+msgid "Message delivery failed! Please try again."
+msgstr "Die Nachrichtenübermittlung ist fehlgeschlagen! Bitte versuchen Sie es erneut."
+
+#: contact_us.php:124
+#: contact_us_standard.php:123
+#: functions.php:945
+#@ invictus
+msgid "Phone"
+msgstr "Telefon"
+
+#: contact_us.php:125
+#: contact_us_standard.php:124
+#: functions.php:951
+#@ invictus
+msgid "Fax"
+msgstr "Fax"
+
+#: contact_us.php:126
+#: contact_us_standard.php:125
+#@ invictus
+msgid "eMail"
+msgstr "E-Mail"
+
+#: contact_us.php:141
+#: contact_us_standard.php:140
+#@ invictus
+msgid "Your Name"
+msgstr "Ihr Name"
+
+#: contact_us.php:145
+#: contact_us_standard.php:144
+#@ invictus
+msgid "Your eMail"
+msgstr "Ihre E-Mail"
+
+#: contact_us.php:149
+#: contact_us_standard.php:148
+#@ invictus
+msgid "Your Message"
+msgstr "Ihre Nachricht"
+
+#: contact_us.php:152
+#: contact_us_standard.php:151
+#@ invictus
+msgid "Send Message"
+msgstr "Nachricht senden"
+
+#: contact_us.php:154
+#: contact_us_standard.php:153
+#@ invictus
+msgid "Required Fields"
+msgstr "Pflichtangaben"
+
+#: content.php:22
+#, php-format
+#@ invictus
+msgid "<span class=\"sep\">Posted on </span><a href=\"%1$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%2$s\" pubdate>%3$s</time></a> <span class=\"sep\"> by </span> <span class=\"author vcard\"><a class=\"url fn n\" href=\"%4$s\" title=\"%5$s\">%6$s</a></span>"
+msgstr "<span class=\"sep\">Geschrieben am </span><a href=\"%1$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%2$s\" pubdate>%3$s</time></a> <span class=\"sep\"> by </span> <span class=\"author vcard\"><a class=\"url fn n\" href=\"%4$s\" title=\"%5$s\">%6$s</a></span>"
+
+#: content.php:27
+#, php-format
+#@ invictus
+msgid "View all posts by %s"
+msgstr "Alle Beiträge von %s"
+
+#: content.php:37
+#: content.php:41
+#@ invictus
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Weiterlesen <span class=\"meta-nav\">&rarr;</span>"
+
+#: content.php:42
+#: image.php:88
+#@ invictus
+#@ toolbox
+msgid "Pages:"
+msgstr "Seiten:"
+
+#: doitmax_fw/post_meta/photo.class.php:235
+#@ default
+msgid "Link to an external URL (remember http://)"
+msgstr ""
+
+#: doitmax_fw/post_meta/photo.class.php:203
+#@ invictus
+msgid "YouTube URL to show in Lightbox"
+msgstr "YouTube URL in Lightbox zeigen"
+
+#: doitmax_fw/post_meta/background.class.php:33
+#@ invictus
+msgid "Show a Fullsize Background Image for this photo post on the photo detail page."
+msgstr "Ein Fullsize Hintergrundbild auf der Foto Detail-Seite anzeigen für diesen Foto-Post."
+
+#: doitmax_fw/post_meta/background.class.php:49
+#@ invictus
+msgid "Random Fullsize Background Image from the current gallery."
+msgstr "Zufälliges Fullsize Hintergrundbild von der aktuellen Galerie."
+
+#: doitmax_fw/page_meta/background.class.php:43
+#: doitmax_fw/post_meta/background.class.php:56
+#: doitmax_fw/post_meta/blog.class.php:54
+#@ invictus
+#@ default
+msgid "URL for Fullsize Background Image"
+msgstr "URL für Fullsize Hintergrundbild."
+
+#: doitmax_fw/post_meta/background.class.php:61
+#@ invictus
+msgid "Leave blank to show the current featured image as background"
+msgstr "Leer lassen, um das aktuelle Featured Image als Hintergrund anzuzeigen"
+
+#: doitmax_fw/max_mass_upload.php:475
+#: doitmax_fw/post_meta/copyright.class.php:52
+#: gallery-loop.php:132
+#: single-gallery.php:219
+#@ invictus
+msgid "Location"
+msgstr "Ort"
+
+#: doitmax_fw/page_meta/gallery.class.php:48
+#@ invictus
+msgid "Available Galleries"
+msgstr "Verfügbare Galerien"
+
+#: doitmax_fw/page_meta/gallery.class.php:56
+#@ invictus
+msgid "Select photo order"
+msgstr "Foto-Reihenfolge wählen"
+
+#: doitmax_fw/page_meta/flickr.class.php:61
+#: doitmax_fw/page_meta/flickr.fullsize.class.php:61
+#@ invictus
+msgid "You can get the Flickr user ID here <a href=\"http://idgettr.com/\" target=\"_blank\">idgettr</a>"
+msgstr "Sie bekommen die Flickr-Benutzer-ID hier <a href=\"http://idgettr.com/\" target=\"_blank\">idgettr</a>"
+
+#: doitmax_fw/page_meta/flickr.class.php:72
+#: doitmax_fw/page_meta/flickr.fullsize.class.php:72
+#@ invictus
+msgid "You can get the Flickr group ID here <a href=\"http://idgettr.com/\" target=\"_blank\">idgettr</a>"
+msgstr "Sie bekommen die Flickr-Gruppe ID hier <a href=\"http://idgettr.com/\" target=\"_blank\">idgettr</a>"
+
+#: doitmax_fw/max_custom_post_type.php:6
+#@ default
+msgctxt "post type general name"
+msgid "Photos"
+msgstr ""
+
+#: doitmax_fw/max_custom_post_type.php:7
+#@ default
+msgctxt "post type singular name"
+msgid "Photo"
+msgstr ""
+
+#: doitmax_fw/max_custom_post_type.php:8
+#@ default
+msgctxt "gallery"
+msgid "Add New"
+msgstr ""
+
+#: doitmax_fw/max_custom_post_type.php:9
+#@ invictus
+msgid "Add A New Photo to a Gallery"
+msgstr "Füge ein neues Foto zu der Galerie hinzu"
+
+#: doitmax_fw/max_custom_post_type.php:10
+#@ invictus
+msgid "Edit Photo"
+msgstr "Foto bearbeiten"
+
+#: doitmax_fw/max_custom_post_type.php:11
+#@ invictus
+msgid "New Photo"
+msgstr "Neues Foto"
+
+#: doitmax_fw/max_custom_post_type.php:12
+#@ invictus
+msgid "View Photo"
+msgstr "Foto anzeigen"
+
+#: doitmax_fw/max_custom_post_type.php:13
+#@ invictus
+msgid "Search Photos"
+msgstr "Fotos durchsuchen"
+
+#: doitmax_fw/max_custom_post_type.php:14
+#@ invictus
+msgid "No Photos found"
+msgstr "Keine Fotos gefunden"
+
+#: doitmax_fw/max_custom_post_type.php:15
+#@ invictus
+msgid "No Photos found in Trash"
+msgstr "Keine Fotos im Papierkorb gefunden"
+
+#: doitmax_fw/max_custom_post_type.php:36
+#@ default
+msgctxt "taxonomy general name"
+msgid "Galleries"
+msgstr ""
+
+#: doitmax_fw/max_custom_post_type.php:37
+#@ default
+msgctxt "taxonomy singular name"
+msgid "Gallery"
+msgstr ""
+
+#: doitmax_fw/max_custom_post_type.php:38
+#@ invictus
+msgid "Search Galleries"
+msgstr "Durchsuche Galerien"
+
+#: doitmax_fw/max_custom_post_type.php:39
+#@ invictus
+msgid "Popular Galleries"
+msgstr "Beliebte Galerien"
+
+#: doitmax_fw/max_custom_post_type.php:40
+#@ invictus
+msgid "All Galleries"
+msgstr "Alle Galerien"
+
+#: doitmax_fw/max_custom_post_type.php:43
+#@ invictus
+msgid "Edit Galleries"
+msgstr "Galerien bearbeiten"
+
+#: doitmax_fw/max_custom_post_type.php:44
+#@ invictus
+msgid "Update Galleries"
+msgstr "Galerien updaten"
+
+#: doitmax_fw/max_custom_post_type.php:45
+#@ invictus
+msgid "Add New Gallery"
+msgstr "Neue Galerie hinzufügen"
+
+#: doitmax_fw/max_custom_post_type.php:46
+#@ invictus
+msgid "New Gallery Name"
+msgstr "Neuer Galeriename"
+
+#: doitmax_fw/max_custom_post_type.php:47
+#@ invictus
+msgid "Separate galleries with commas"
+msgstr "Galerien mit Kommas separieren"
+
+#: doitmax_fw/max_custom_post_type.php:48
+#@ invictus
+msgid "Add or remove Galleries"
+msgstr "Hinzufügen oder Entfernen von Galerien"
+
+#: doitmax_fw/max_custom_post_type.php:49
+#@ invictus
+msgid "Choose from the most used Galleries"
+msgstr "Wähle aus den am häufigsten verwendeten Galerien"
+
+#: doitmax_fw/max_custom_post_type.php:50
+#: doitmax_fw/max_custom_post_type.php:56
+#: doitmax_fw/max_mass_upload.php:256
+#@ invictus
+msgid "Galleries"
+msgstr "Gallerien"
+
+#: doitmax_fw/max_lib.php:28
+#@ invictus
+msgid "Page"
+msgstr "Seite"
+
+#: doitmax_fw/max_lib.php:28
+#@ default
+msgid "of"
+msgstr ""
+
+#: doitmax_fw/max_lib.php:29
+#: doitmax_fw/max_lib.php:40
+#@ invictus
+msgid "Next"
+msgstr "Nächste"
+
+#: doitmax_fw/max_lib.php:30
+#@ invictus
+msgid "Previous"
+msgstr "Vorherige"
+
+#: doitmax_fw/max_lib.php:41
+#@ invictus
+msgid "Last"
+msgstr "Letzte"
+
+#: doitmax_fw/max_lib.php:62
+#, php-format
+#@ default
+msgid "<span class=\"says\">by</span> %s"
+msgstr ""
+
+#. translators: 1: date, 2: time
+#: doitmax_fw/max_lib.php:68
+#, php-format
+#@ default
+msgid "%1$s"
+msgstr ""
+
+#: doitmax_fw/max_lib.php:68
+#: doitmax_fw/max_lib.php:85
+#@ invictus
+msgid "(Edit)"
+msgstr "(Edit)"
+
+#: doitmax_fw/max_lib.php:85
+#@ invictus
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: doitmax_fw/max_mass_upload.php:38
+#@ invictus
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Du verfügst nicht über ausreichende Berechtigungen, um auf diese Seite zuzugreifen."
+
+#: doitmax_fw/max_mass_upload.php:245
+#@ invictus
+msgid "This list shows all the images from your media library that are not attached to any post. You can create your posts easily from here with a few clicks."
+msgstr "Diese Liste zeigt Ihnen alle Bilder aus Ihrer Mediathek, die keinen Beitrag zugeordnet sind. Du kannst deine Beiträge von hier aus einfach  mit wenigen Klicks erstellen."
+
+#: doitmax_fw/max_mass_upload.php:255
+#: doitmax_fw/max_mass_upload.php:426
+#@ invictus
+msgid "File"
+msgstr "Datei"
+
+#: doitmax_fw/max_mass_upload.php:257
+#@ invictus
+msgid "Meta Information"
+msgstr "Meta Informationen"
+
+#: doitmax_fw/max_mass_upload.php:258
+#@ invictus
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: doitmax_fw/max_mass_upload.php:259
+#@ invictus
+msgid "Background Image "
+msgstr "Hintergrundbild"
+
+#: doitmax_fw/max_mass_upload.php:274
+#: doitmax_fw/max_mass_upload.php:412
+#@ invictus
+msgid "Title"
+msgstr "Titel"
+
+#: doitmax_fw/max_mass_upload.php:280
+#: doitmax_fw/max_mass_upload.php:419
+#@ invictus
+msgid "Tags"
+msgstr "Tags"
+
+#: doitmax_fw/max_mass_upload.php:286
+#@ invictus
+msgid "Changes made in this line will be incorporated into other lines."
+msgstr "Änderungen an dieser Zeile werden in andere Zeilen automatisch übernommen."
+
+#: doitmax_fw/max_mass_upload.php:345
+#: doitmax_fw/max_mass_upload.php:491
+#@ invictus
+msgid "Link type"
+msgstr "Link-Typ"
+
+#: doitmax_fw/max_mass_upload.php:351
+#: doitmax_fw/max_mass_upload.php:497
+#@ invictus
+msgid "Cropping"
+msgstr "Zuschneiden"
+
+#: doitmax_fw/max_mass_upload.php:375
+#: doitmax_fw/max_mass_upload.php:510
+#@ invictus
+msgid "Post Featured Image"
+msgstr "Beitrag Featured Image"
+
+#: doitmax_fw/max_mass_upload.php:381
+#: doitmax_fw/max_mass_upload.php:516
+#@ invictus
+msgid "Random Gallery Image"
+msgstr "Zufällige Galleriebild"
+
+#: doitmax_fw/max_mass_upload.php:387
+#: doitmax_fw/max_mass_upload.php:522
+#@ invictus
+msgid "Image from URL"
+msgstr "Bild von URL"
+
+#: doitmax_fw/max_mass_upload.php:394
+#: doitmax_fw/max_mass_upload.php:529
+#@ invictus
+msgid "No Background"
+msgstr "Kein Hintergrund"
+
+#: doitmax_fw/max_mass_upload.php:461
+#@ invictus
+msgid "&copy; Owner"
+msgstr "&copy; Inhaber"
+
+#: doitmax_fw/max_mass_upload.php:467
+#@ invictus
+msgid "&copy; Link"
+msgstr "&copy; Link"
+
+#: doitmax_fw/max_mass_upload.php:481
+#: gallery-loop.php:134
+#: gallery-loop.php:136
+#: single-gallery.php:220
+#@ invictus
+msgid "Date"
+msgstr "Datum"
+
+#: doitmax_fw/max_shortcodes.php:320
+#@ default
+msgid "Recent Posts"
+msgstr ""
+
+#: doitmax_fw/max_shortcodes.php:382
+#@ default
+msgid "Related Posts"
+msgstr ""
+
+#: doitmax_fw/max_shortcodes.php:428
+#@ invictus
+msgid "About the author"
+msgstr "Über den Autor"
+
+#: doitmax_fw/max_shortcodes.php:499
+#, php-format
+#@ default
+msgid "%s: Widget class not found. Make sure this widget exists and the class name is correct"
+msgstr ""
+
+#: doitmax_fw/max_widgets.php:15
+#@ invictus
+msgid "Blog Sidebar"
+msgstr "Blog Sidebar"
+
+#: doitmax_fw/max_widgets.php:15
+#@ invictus
+msgid "Blog Sidebar Widget Area"
+msgstr "Blog Sidebar Widget Area"
+
+#: doitmax_fw/max_widgets.php:16
+#@ invictus
+msgid "Homepage Sidebar"
+msgstr "Homepage Sidebar"
+
+#: doitmax_fw/max_widgets.php:16
+#@ invictus
+msgid "Homepage Widget Area"
+msgstr "Homepage Widget Area"
+
+#: doitmax_fw/max_widgets.php:17
+#@ invictus
+msgid "Blog Post Sidebar"
+msgstr "Blog Post Sidebar"
+
+#: doitmax_fw/max_widgets.php:17
+#@ invictus
+msgid "Blog Post Sidebar Widget Area"
+msgstr "Blog Post Sidebar Widget Area"
+
+#: doitmax_fw/max_widgets.php:18
+#@ invictus
+msgid "Gallery Project Page Sidebar"
+msgstr "Gallery Project Page Sidebar"
+
+#: doitmax_fw/max_widgets.php:18
+#@ invictus
+msgid "Gallery Project Page Template Widget Area"
+msgstr "Gallery Project Page Template Widget Area"
+
+#: doitmax_fw/max_widgets.php:19
+#@ invictus
+msgid "Gallery Sortable Sidebar"
+msgstr "Gallery Sortable Sidebar"
+
+#: doitmax_fw/max_widgets.php:19
+#@ invictus
+msgid "Gallery Sortable Template Widget Area"
+msgstr "Gallery Sortable Template Widget Area"
+
+#: doitmax_fw/max_widgets.php:20
+#@ invictus
+msgid "Gallery 4 Column Sidebar"
+msgstr "Gallery 4 Column Sidebar"
+
+#: doitmax_fw/max_widgets.php:20
+#@ invictus
+msgid "Gallery 4 Column Template Widget Area"
+msgstr "Gallery 4 Column Template Widget Area"
+
+#: doitmax_fw/max_widgets.php:21
+#@ invictus
+msgid "Gallery 3 Column Sidebar"
+msgstr "Gallery 3 Column Sidebar"
+
+#: doitmax_fw/max_widgets.php:21
+#@ invictus
+msgid "Gallery 3 Column Template Widget Area"
+msgstr "Gallery 3 Column Template Widget Area"
+
+#: doitmax_fw/max_widgets.php:22
+#@ invictus
+msgid "Gallery 2 Column Sidebar"
+msgstr "Gallery 2 Column Sidebar"
+
+#: doitmax_fw/max_widgets.php:22
+#@ invictus
+msgid "Gallery 2 Column Template Widget Area"
+msgstr "Gallery 2 Column Template Widget Area"
+
+#: doitmax_fw/max_widgets.php:23
+#@ invictus
+msgid "Gallery 1 Column Sidebar"
+msgstr "Gallery 1 Column Sidebar"
+
+#: doitmax_fw/max_widgets.php:23
+#@ invictus
+msgid "Gallery 1 Column Template Widget Area"
+msgstr "Gallery 1 Column Template Widget Area"
+
+#: doitmax_fw/max_widgets.php:24
+#@ invictus
+msgid "Tag Sidebar"
+msgstr "Tag Sidebar"
+
+#: doitmax_fw/max_widgets.php:24
+#@ invictus
+msgid "Tag Template Widget Area"
+msgstr "Tag Template Widget Area"
+
+#: doitmax_fw/max_widgets.php:25
+#@ invictus
+msgid "Gallery Flickr Sidebar"
+msgstr "Gallery Flickr Sidebar"
+
+#: doitmax_fw/max_widgets.php:25
+#@ invictus
+msgid "Gallery Flickr Template Widget Area"
+msgstr "Gallery Flickr Template Widget Area"
+
+#: doitmax_fw/max_widgets.php:26
+#@ invictus
+msgid "Gallery Taxonomy Sidebar"
+msgstr "Gallery Taxonomy Sidebar"
+
+#: doitmax_fw/max_widgets.php:26
+#@ invictus
+msgid "Gallery Taxonomy Template Widget Area"
+msgstr "Gallery Taxonomy Template Widget Area"
+
+#: doitmax_fw/max_widgets.php:27
+#@ invictus
+msgid "Sidebar left Template Sidebar"
+msgstr "Sidebar links Template Sidebar"
+
+#: doitmax_fw/max_widgets.php:27
+#@ invictus
+msgid "Sidebar for Custom Template with left sidebar"
+msgstr "Sidebar für Custom Template mit der linken Seitenleiste"
+
+#: doitmax_fw/max_widgets.php:28
+#@ invictus
+msgid "Sidebar Search Result"
+msgstr "Sidebar für Suchergebnisse"
+
+#: doitmax_fw/max_widgets.php:28
+#@ invictus
+msgid "Sidebar for Search results with left sidebar"
+msgstr "Sidebar für Suchergebnisse mit der linken Seitenleiste"
+
+#: doitmax_fw/max_widgets.php:29
+#@ invictus
+msgid "Sidebar Archive"
+msgstr "Sidebar-Archiv"
+
+#: doitmax_fw/max_widgets.php:29
+#@ invictus
+msgid "Sidebar for Archive with left sidebar"
+msgstr "Sidebar für Archive mit der linken Seitenleiste"
+
+#: doitmax_fw/max_widgets.php:30
+#@ invictus
+msgid "Sidebar Contact"
+msgstr "Sidebar Kontakt"
+
+#: doitmax_fw/max_widgets.php:30
+#@ invictus
+msgid "Sidebar for Contact page with left sidebar"
+msgstr "Sidebar für Kontakt-Seite mit der linken Seitenleiste"
+
+#: doitmax_fw/max_widgets.php:31
+#@ invictus
+msgid "Sidebar Fullsize Gallery"
+msgstr "Sidebar Fullsize Gallery"
+
+#: doitmax_fw/max_widgets.php:31
+#@ invictus
+msgid "Sidebar for fullsize gallery templates"
+msgstr "Sidebar für Fullsize Galerie Templates"
+
+#: doitmax_fw/max_wp_menu.php:7
+#@ default
+msgid "Primary Navigation"
+msgstr ""
+
+#: doitmax_fw/widgets/widget-flickr.php:11
+#@ invictus
+msgid "Custom Widget that displays your Flickr Stream."
+msgstr "Benutzerdefinierte Widget, dass Ihr Flickr-Stream angezeigt."
+
+#: doitmax_fw/widgets/widget-flickr.php:12
+#@ invictus
+msgid "Flickr Stream"
+msgstr "Flickr-Stream"
+
+#: doitmax_fw/widgets/widget-flickr.php:124
+#: doitmax_fw/widgets/widget-recent-photos.php:116
+#: doitmax_fw/widgets/widget-terms.php:158
+#: doitmax_fw/widgets/widget-twitter.php:116
+#: doitmax_fw/widgets/widget-video.php:111
+#@ invictus
+msgid "Title:"
+msgstr "Titel:"
+
+#: doitmax_fw/widgets/widget-flickr.php:130
+#@ invictus
+msgid "Flickr ID:"
+msgstr "Flickr-ID:"
+
+#: doitmax_fw/widgets/widget-flickr.php:136
+#@ invictus
+msgid "Number of Photos:"
+msgstr "Anzahl der Fotos:"
+
+#: doitmax_fw/widgets/widget-flickr.php:146
+#@ invictus
+msgid "Type (user or group):"
+msgstr "Type (Benutzer oder Gruppe):"
+
+#: doitmax_fw/widgets/widget-flickr.php:155
+#@ invictus
+msgid "Display (random or latest):"
+msgstr "Anzeige (zufällig oder letzte):"
+
+#: doitmax_fw/widgets/widget-recent-photos.php:11
+#@ default
+msgid "The most recent Photos on your site"
+msgstr ""
+
+#: doitmax_fw/widgets/widget-recent-photos.php:12
+#@ default
+msgid "Recent Photo Posts"
+msgstr ""
+
+#: doitmax_fw/widgets/widget-recent-photos.php:43
+#@ default
+msgid "Recent Photostream"
+msgstr ""
+
+#: doitmax_fw/widgets/widget-recent-photos.php:119
+#@ invictus
+msgid "Number of posts to show:"
+msgstr "Anzahl der Beiträg:"
+
+#: doitmax_fw/widgets/widget-teaser.php:11
+#@ invictus
+msgid "Custom Widget that displays the Welcome Teaser as Widget."
+msgstr "Benutzerdefinierte Widget, dass den Welcome Teaser als Widget anzeigt."
+
+#: doitmax_fw/widgets/widget-teaser.php:15
+#@ invictus
+msgid "Custom Welcome Teaser Widget"
+msgstr "Custom Welcome Teaser Widget"
+
+#: doitmax_fw/widgets/widget-teaser.php:106
+#@ invictus
+msgid "Teaser Text:"
+msgstr "Teaser Text:"
+
+#: doitmax_fw/widgets/widget-terms.php:11
+#@ default
+msgid "A list, dropdown, or cloud of taxonomy terms"
+msgstr ""
+
+#: doitmax_fw/widgets/widget-terms.php:12
+#@ default
+msgid "Taxonomy Terms"
+msgstr ""
+
+#: doitmax_fw/widgets/widget-terms.php:161
+#@ invictus
+msgid "Taxonomy:"
+msgstr "Taxonomy:"
+
+#: doitmax_fw/widgets/widget-terms.php:188
+#@ invictus
+msgid "Format:"
+msgstr "Format:"
+
+#: doitmax_fw/widgets/widget-terms.php:204
+#@ invictus
+msgid "Show post counts"
+msgstr "Anzahl der Beiträge anzeigen"
+
+#: doitmax_fw/widgets/widget-terms.php:207
+#@ invictus
+msgid "Show hierarchy"
+msgstr "Zeige Hierarchie"
+
+#: doitmax_fw/widgets/widget-twitter.php:11
+#@ invictus
+msgid "Custom Widget that displays recent tweets."
+msgstr "Custom Widget, dass die jüngsten Tweets angezeigt."
+
+#: doitmax_fw/widgets/widget-twitter.php:12
+#@ invictus
+msgid "Custom Recent Tweets"
+msgstr "Custom aktuelle Tweets"
+
+#: doitmax_fw/widgets/widget-twitter.php:123
+#@ invictus
+msgid "Twitter Username:"
+msgstr "Twitter Benutzername:"
+
+#: doitmax_fw/widgets/widget-twitter.php:130
+#@ invictus
+msgid "Number of tweets:"
+msgstr "Anzahl der Tweets:"
+
+#: doitmax_fw/widgets/widget-video.php:11
+#@ invictus
+msgid "Custom Widget that displays a YouTube or Vimeo Video."
+msgstr "Custom Widget, dass ein YouTube oder Vimeo Video anzeigt."
+
+#: doitmax_fw/widgets/widget-video.php:15
+#@ invictus
+msgid "Custom Video Widget"
+msgstr "Custom Video Widget"
+
+#: doitmax_fw/widgets/widget-video.php:117
+#@ invictus
+msgid "Embed Code:"
+msgstr "Embed Code:"
+
+#: doitmax_fw/widgets/widget-video.php:123
+#@ invictus
+msgid "Short Description:"
+msgstr "Kurzbeschreibung:"
+
+#: functions.php:248
+#: functions.php:750
+#@ invictus
+msgid "General"
+msgstr "Generell"
+
+#: functions.php:254
+#@ invictus
+msgid "Logo options"
+msgstr "Logo Optionen"
+
+#: functions.php:258
+#@ invictus
+msgid "Custom logo"
+msgstr "Benutzerdefiniertes Logo"
+
+#: functions.php:259
+#@ invictus
+msgid "Upload your own logo to use as site logo. (Should not be larger than 235x100px)"
+msgstr "Laden Sie Ihr eigenes Logo als Seiten-Logo zu verwenden. (Sollte nicht größer sein als 235x100px)"
+
+#: functions.php:264
+#@ invictus
+msgid "Custom Favicon"
+msgstr "Benutzerdefiniertes Favicon"
+
+#: functions.php:265
+#@ invictus
+msgid "Upload a 16px x 16px Png/Gif image that will represent your website's favicon."
+msgstr "Laden Sie ein 16px x 16px PNG/GIF Bild hoch, dass auf Ihrer Website als Favicon dargestellt wird."
+
+#: functions.php:270
+#@ invictus
+msgid "Post Options"
+msgstr "Post Optionen"
+
+#: functions.php:280
+#@ invictus
+msgid "Posts per page"
+msgstr "Beiträge pro Seite"
+
+#: functions.php:281
+#@ invictus
+msgid "Enter the number of post, that will be displayed on one page of your portfolio or blog."
+msgstr "Gebe die Anzahl der Beiträge ein, die auf einer Seite Ihres Portfolios oder Blog angezeigt werden."
+
+#: functions.php:289
+#@ invictus
+msgid "Blog Category"
+msgstr "Blog Kategorie"
+
+#: functions.php:290
+#@ invictus
+msgid "Choose the Cagetory of your Blog to display the Blog Posts in the correct Template file."
+msgstr "Wählen Sie die Kategorie Ihres Blogs, um die Blog Beiträge in der richtigen Template-Datei anzuzeigen."
+
+#: functions.php:296
+#@ invictus
+msgid "Show Full Blogpost"
+msgstr "Anzeigen des gesamten Blog-Beitrages"
+
+#: functions.php:297
+#@ invictus
+msgid "Check, if you want to show the full blog post instead of a short excerpt."
+msgstr "Einschalten, wenn du den vollständigen Blog-Post statt eines kurzen Auszug zeigen willst."
+
+#: functions.php:302
+#@ invictus
+msgid "Show Post Author"
+msgstr "Zeige den Author"
+
+#: functions.php:303
+#@ invictus
+msgid "Check, if you want to show the post author of a post on the blog post page."
+msgstr "Einschalten, wenn du den Autor eines Beitrags auf der Blog-Post Seite anzeigen willst."
+
+#: functions.php:308
+#@ invictus
+msgid "Others"
+msgstr "Sonstiges"
+
+#: functions.php:312
+#@ invictus
+msgid "Fade in Content after x milliseconds."
+msgstr "Den Content nach x Millisekunden einfaden."
+
+#: functions.php:313
+#@ invictus
+msgid "Select the milliseconds after your content is fade in to let user take a short look on your background images. 0 value means this option is deactivated."
+msgstr "Wähle die Millisekunden nachdem dein Content eingefadet wird, damit der Benutzer vorher einen kurzen Blick auf Ihre Hintergrundbildern werfen kann. Wert 0 bedeutet, dass diese Option deaktiviert ist."
+
+#: functions.php:321
+#@ invictus
+msgid "Google Analytics ID"
+msgstr "Google Analytics ID"
+
+#: functions.php:322
+#@ invictus
+msgid "Enter your Google Analytic ID to track your page visitors."
+msgstr "Gebe deine Google Analytics-ID ein, um die Besucher deiner Seite zu speichern."
+
+#: functions.php:327
+#@ invictus
+msgid "Custom CSS"
+msgstr "Benutzerdefiniertes CSS"
+
+#: functions.php:328
+#@ invictus
+msgid "Enter some CSS to your theme by adding it to this block."
+msgstr "Gebe einige CSS Anweisungen zu deinem Theme ein, indem du den CSS Code hier einfügst."
+
+#: functions.php:334
+#@ invictus
+msgid "Password protected text"
+msgstr "Passwortgeschützter Text"
+
+#: functions.php:335
+#@ invictus
+msgid "Enter the text wich is shown if a page or post is password protected."
+msgstr "Gebe den Text ein, der angezeigt, wenn eine Seite oder ein Beitrag durch ein Passwort geschützt ist."
+
+#: functions.php:344
+#@ invictus
+msgid "Homepage"
+msgstr "Homepage"
+
+#: functions.php:351
+#: functions.php:361
+#@ invictus
+msgid "Welcome Teaser"
+msgstr "Welcome Teaser"
+
+#: functions.php:355
+#@ invictus
+msgid "Show Welcome Teaser"
+msgstr "Zeige den Welcome Teaser"
+
+#: functions.php:356
+#@ invictus
+msgid "Check, if you want to show your Welcome Teaser on the Homepage"
+msgstr "Einschalten, wenn du den Willkommen Teaser auf der Homepage anzeigen willst."
+
+#: functions.php:362
+#@ invictus
+msgid "Change your \"Welcome Teaser on the Homepage."
+msgstr "Ändere deinen Welcome Teaser auf der Homepage."
+
+#: functions.php:368
+#@ invictus
+msgid "Welcome Teaser Font Size"
+msgstr "Welcome Teaser Schriftgröße"
+
+#: functions.php:369
+#@ invictus
+msgid "Select the fontsize for your Welcome Teaser in px"
+msgstr "Schriftgröße für deinen Welcome Teaser in px"
+
+#: functions.php:377
+#@ invictus
+msgid "Welcome Teaser Bold Font Size"
+msgstr "\"Fett\" Schriftgröße für den Welcome Teaser"
+
+#: functions.php:378
+#@ invictus
+msgid "Select the fontsize for the bold text of your Welcome Teaser in px"
+msgstr "Schriftgröße für den fett gedruckten Text des Welcome Teasers  in px"
+
+#: functions.php:386
+#@ invictus
+msgid "Other"
+msgstr "Sonstiges"
+
+#: functions.php:390
+#@ invictus
+msgid "Show Sidebar"
+msgstr "Sidebar anzeigen"
+
+#: functions.php:391
+#@ invictus
+msgid "Check, if you want to show a sidebar on your Homepage"
+msgstr "Eisnchalten, wenn du die Sidebar auf der Homepage anzeigen willst."
+
+#: functions.php:396
+#@ invictus
+msgid "Show Thumbnail Scroller on Homepage"
+msgstr "Zeige Thumbnail-Scroller auf der Homepage"
+
+#: functions.php:397
+#@ invictus
+msgid "Check, if you want to show the thumbnails on the homepage or not. By default the thumbnails are displayed."
+msgstr "Einschalten, wenn der Thumbnail-Scroller auf der Homepage angezeigt werden soll. Standardmäßig werden die Thumbnails angezeigt."
+
+#: functions.php:405
+#@ invictus
+msgid "Colors"
+msgstr "Farben"
+
+#: functions.php:411
+#@ invictus
+msgid "Main Colors"
+msgstr "Hauptfarben"
+
+#: functions.php:415
+#@ invictus
+msgid "Colour Scheme"
+msgstr "Farbschema"
+
+#: functions.php:416
+#@ invictus
+msgid "Select the colour scheme for the theme."
+msgstr "Wähle das Farbschema für das Theme."
+
+#: functions.php:423
+#@ invictus
+msgid "This is the main color for your theme (borders, current nav marker, nav pulldown background...)"
+msgstr "Dies ist die wichtigste Farbe für Ihr Theme (Ränder, Markierugen für die Navigation, Pulldown Hintergrund ...)"
+
+#: functions.php:429
+#@ invictus
+msgid "This is the link color for your theme."
+msgstr "Hier ist der Link Farbe für Ihr Theme."
+
+#: functions.php:434
+#@ invictus
+msgid "Navigation Link"
+msgstr "Navigations-Link"
+
+#: functions.php:435
+#@ invictus
+msgid "This is the color for your navigation links (normal and visited)."
+msgstr "Dies ist die Farbe die Navigations-Links (normal und besuchte)."
+
+#: functions.php:440
+#@ invictus
+msgid "Navigation Link Hover"
+msgstr "Navigation Link-Hover"
+
+#: functions.php:441
+#@ invictus
+msgid "This is the hover color for your navigation links (hover and active)."
+msgstr "Dies ist die Hover-Farbe für die Navigations-Links (hover und active)."
+
+#: functions.php:446
+#@ invictus
+msgid "Pulldown Link"
+msgstr "Pulldown-Link"
+
+#: functions.php:447
+#@ invictus
+msgid "This is the color for your pulldown links (normal and visited)."
+msgstr "Dies ist die Farbe für Pulldown-Links (normal und besuchte)."
+
+#: functions.php:452
+#@ invictus
+msgid "Pulldown Link Hover"
+msgstr "Pulldown-Link Hover"
+
+#: functions.php:453
+#@ invictus
+msgid "This is the hover color for your pulldown links (hover and active)."
+msgstr "Dies ist die Hover-Farbe für Pulldown-Links (hover und active)."
+
+#: functions.php:461
+#@ invictus
+msgid "Fonts"
+msgstr "Schriftarten"
+
+#: functions.php:468
+#@ invictus
+msgid "Main Font"
+msgstr "Hauptschriftart"
+
+#: functions.php:472
+#@ invictus
+msgid "Main Body Font Style"
+msgstr "Body Schriftart"
+
+#: functions.php:524
+#@ invictus
+msgid "Images"
+msgstr "Bilder"
+
+#: functions.php:531
+#@ invictus
+msgid "Photo project page settings"
+msgstr "Foto-Projekt-Seite Einstellungen"
+
+#: functions.php:547
+#@ invictus
+msgid "Show gallery images on photo project page"
+msgstr "Weitere Galeriebilder auf Foto-Projekt-Seite anzeigen"
+
+#: functions.php:553
+#@ invictus
+msgid "Number of photo page gallery images"
+msgstr "Anzahl der weiteren Galeriebilder"
+
+#: functions.php:562
+#@ invictus
+msgid "Show photo author"
+msgstr "Autor des Fotos anzeigen"
+
+#: functions.php:568
+#@ invictus
+msgid "Other settings"
+msgstr "Andere Einstellungen"
+
+#: functions.php:572
+#@ invictus
+msgid "Show image caption"
+msgstr "Bildunterschrift anzeigen"
+
+#: functions.php:578
+#@ invictus
+msgid "Fullsize grid image width"
+msgstr "Fullsize Grid Bildbreite"
+
+#: functions.php:579
+#@ invictus
+msgid "Set the width of a single image in the fullsize grid template"
+msgstr "Die Breite eines einzelnen Bildes im Fullsize Grid Template"
+
+#: functions.php:587
+#@ invictus
+msgid "Fullsize scroller image heigth"
+msgstr "Fullsize scroller Bildhöhe"
+
+#: functions.php:588
+#@ invictus
+msgid "Set the height of a single image in the fullsize scroller template"
+msgstr "Die Höhe eines einzelnen Bildes im Fullsize Scroller Template"
+
+#: functions.php:596
+#@ invictus
+msgid "Show image fade"
+msgstr "Bild verblassen"
+
+#: functions.php:597
+#@ invictus
+msgid "Show the image fade and background on mouseover."
+msgstr "Das Bild bei mouseover ausfaden und den Hintergrund anzeigen."
+
+#: functions.php:612
+#@ invictus
+msgid "Main Settings"
+msgstr "Haupteinstellungen"
+
+#: doitmax_fw/page_meta/flickr.class.php:92
+#: functions.php:616
+#@ invictus
+msgid "Number of images"
+msgstr "Anzahl der Bilder"
+
+#: functions.php:617
+#@ invictus
+msgid "Enter the number of images you want to show in the fullsize gallery."
+msgstr "Die Anzahl der Bilder, die in der Fullsize Gallery angezeigt wird."
+
+#: functions.php:625
+#@ invictus
+msgid "Featured galleries"
+msgstr "Gezeigte Galerien"
+
+#: functions.php:632
+#@ invictus
+msgid "Show overlay text"
+msgstr "Zeige Overlay-Text"
+
+#: functions.php:633
+#@ invictus
+msgid "Check, if you want to show a title and a small text as overlay on the fullsize gallery (remember that text might not be readable on light fullsize backgrounds)."
+msgstr "Einschalten, wenn Du den Titel und einem kleinen Text als Overlay in der Fullsize-Gallery anzeigen möchtes (Denke dran, dass Text möglicherweise nicht auf dem Hintergrund der Fullsize Gallery lesbar ist.)"
+
+#: functions.php:638
+#: functions.php:760
+#@ invictus
+msgid "Always fit images"
+msgstr "Bilder immer skalieren"
+
+#: functions.php:639
+#@ invictus
+msgid "Check, if you want the images never exceed browser width or height and always remain their original proportions."
+msgstr "Einschalten, wenn die Bilder die Breite und Höhe des Browser nicht überschreiten sollen und immer ihre ursprünglichen Proportionen beibehalten sollen."
+
+#: functions.php:644
+#@ invictus
+msgid "Use mouse move scrolling"
+msgstr "Verwende \"Mouse-Move\" Scrollen"
+
+#: functions.php:645
+#@ invictus
+msgid "Check, if you want to use the new mouse move scrolling on the thumbnails. Off will keep the old style scrolling. (since 2.0)"
+msgstr "Einschalten, wenn Du das neue \"Mouse-Move\" scrollen bei den Thumbnails verwenden möchtes. Ausgeschalten bleibt der alte Scroll-Stil erhalten. (Seit 2.0)"
+
+#: functions.php:650
+#@ invictus
+msgid "Autoplay slideshow"
+msgstr "Slideshow automatisch starten"
+
+#: functions.php:651
+#@ invictus
+msgid "Check, if you want to autoplay the slideshow for your fullsize gallery. (since 2.0)"
+msgstr "Einschalten, wenn die Slideshow der Fullsize Gallery automatisch starten soll. (Seit 2.0)"
+
+#: functions.php:656
+#@ invictus
+msgid "Overlay title"
+msgstr "Overlay Titel"
+
+#: functions.php:657
+#@ invictus
+msgid "Enter the text you want to show as title text on your homepage fullsize gallery."
+msgstr "Gebe den Text ein, der als Titel Text auf der Fullsize Gallery Homepage angezeigt werden soll."
+
+#: functions.php:662
+#@ invictus
+msgid "Overlay text"
+msgstr "Overlay-Text"
+
+#: functions.php:663
+#@ invictus
+msgid "Enter the text you want to show as description text on your homepage fullsize gallery."
+msgstr "Gebe den Text ein, der als Beschreibungstext auf deiner Fullsize Gallery Homepage angezeigt werden soll."
+
+#: functions.php:669
+#@ invictus
+msgid "Image order"
+msgstr "Bildreihenfolge"
+
+#: functions.php:670
+#@ invictus
+msgid "Choose the order of images displayed in the Fullsize Gallery on homepage."
+msgstr "Wähle die Reihenfolge der Bilder, die in der Fullsize Gallery auf der Homepage angezeigt werden."
+
+#: functions.php:274
+#@ invictus
+msgid "Show fullsize overlay"
+msgstr "Zeige den Fullsize Overlay"
+
+#: functions.php:676
+#@ invictus
+msgid "Overlay pattern"
+msgstr "Overlay-Muster"
+
+#: doitmax_fw/post_meta/slider.class.php:31
+#: functions.php:684
+#@ invictus
+msgid "Slider Settings"
+msgstr "Slider-Einstellungen"
+
+#: functions.php:700
+#@ invictus
+msgid "Thumbnail height"
+msgstr "Thumbnail Höhe"
+
+#: functions.php:701
+#@ invictus
+msgid "Set the height of the thumbnails in the scroller. The width is set proportional."
+msgstr "Stelle die Höhe der Thumbnails für den Scroller der Fullsize Gallery ein. Die Breite wird proportional berechnet."
+
+#: functions.php:709
+#@ invictus
+msgid "Thumbnail quality"
+msgstr "Thumbnail Qualität"
+
+#: functions.php:710
+#@ invictus
+msgid "Set quality value of the Thumbnails in percent."
+msgstr "Einstellung für die Qualität der Thumbnails in Prozent."
+
+#: functions.php:718
+#@ invictus
+msgid "Slide interval"
+msgstr "Slide-Intervall"
+
+#: functions.php:719
+#@ invictus
+msgid "The interval betweeen background slides in ms."
+msgstr "Das Intervall zwischen den einzelnen Slides der Bilder in einer Fullsize Gallery in ms."
+
+#: functions.php:727
+#@ invictus
+msgid "Animation speed"
+msgstr "Animations-Geschwindigkeit"
+
+#: functions.php:728
+#@ invictus
+msgid "The speed of the slides animation."
+msgstr "Die Geschwindigkeit der Slide-Animationen."
+
+#: functions.php:734
+#: functions.php:791
+#@ invictus
+msgid "Transition"
+msgstr "Übergang"
+
+#: functions.php:735
+#@ invictus
+msgid "Type of slide transition."
+msgstr "Art des Slide-Übergangs."
+
+#: functions.php:744
+#@ invictus
+msgid "Fullsize Flickr"
+msgstr "Fullsize Flickr"
+
+#: functions.php:754
+#@ invictus
+msgid "Flickr API Key - <a href=\"http://bit.ly/phYq8o\" target=\"_blank\"><small>You need to get your own!</small></a>"
+msgstr "Flickr API Key - <a href=\"http://bit.ly/phYq8o\" target=\"_blank\"><small>Du musst einen eigenen erstellen!</a></small>"
+
+#: functions.php:755
+#@ invictus
+msgid "Your Flickr API Key. Please create your own here: <a href=\"http://bit.ly/phYq8o\">http://bit.ly/phYq8o</a>"
+msgstr "Dein Flickr API Key. Bitte erstelle deinen eigenen hier: <a href=\"http://bit.ly/phYq8o\">http://bit.ly/phYq8o</a>"
+
+#: doitmax_fw/page_meta/flickr.fullsize.class.php:87
+#@ invictus
+msgid "Total slides"
+msgstr "Anzahl der Slides"
+
+#: doitmax_fw/page_meta/flickr.fullsize.class.php:93
+#@ invictus
+msgid "Enter the number of of pictures to pull from flickr."
+msgstr "Gebe die Anzahl der Bilder ein, die von Flickr geladen werden sollen."
+
+#: doitmax_fw/page_meta/flickr.class.php:98
+#: doitmax_fw/page_meta/flickr.fullsize.class.php:99
+#@ invictus
+msgid "Image size"
+msgstr "Bildgröße"
+
+#: doitmax_fw/page_meta/flickr.class.php:100
+#: doitmax_fw/page_meta/flickr.fullsize.class.php:101
+#@ invictus
+msgid "Middle, 640px on the longest side"
+msgstr "Mittel, 640px auf der längsten Seite"
+
+#: doitmax_fw/page_meta/flickr.class.php:101
+#: doitmax_fw/page_meta/flickr.fullsize.class.php:102
+#@ invictus
+msgid "Big, 1024px on the longest side"
+msgstr "Groß, 1024px auf der längsten Seite"
+
+#: doitmax_fw/page_meta/flickr.class.php:102
+#: doitmax_fw/page_meta/flickr.fullsize.class.php:103
+#@ invictus
+msgid "Original image, either JPG, GIF or PNG, depending on source format"
+msgstr "Original-Bild, entweder JPG, GIF oder PNG, je nach Quellformat"
+
+#: functions.php:761
+#@ invictus
+msgid "Image will never exceed browser width or height."
+msgstr "Bild wird nie größer sein als Browser-Breite oder Höhe."
+
+#: functions.php:766
+#@ invictus
+msgid "Show overlay"
+msgstr "Zeige Overlay"
+
+#: functions.php:767
+#@ invictus
+msgid "Enable or disable the fullsize overlay."
+msgstr "Aktivieren oder Deaktivieren des Fullsize Overlays."
+
+#: functions.php:772
+#@ invictus
+msgid "Slideshow"
+msgstr "Slideshow"
+
+#: functions.php:776
+#@ invictus
+msgid "Autoplay"
+msgstr "Autoplay"
+
+#: functions.php:777
+#@ invictus
+msgid "Check, slideshow starts playing automatically."
+msgstr "Einschalten, damit die Slideshow automatisch beginnt."
+
+#: functions.php:782
+#@ invictus
+msgid "Slideshow interval"
+msgstr "Slideshow Intervall"
+
+#: functions.php:783
+#@ invictus
+msgid "The interval betweeen each slides in ms."
+msgstr "Das Intervall zwischen den einzelnen Slides in ms."
+
+#: functions.php:792
+#@ invictus
+msgid "Type of transition for each slide"
+msgstr "Art des Übergangs für jeden Slide"
+
+#: doitmax_fw/page_meta/video.fullsize.class.php:118
+#: doitmax_fw/post_meta/photo.class.php:151
+#: functions.php:796
+#@ invictus
+msgid "None"
+msgstr "Keiner"
+
+#: functions.php:797
+#@ invictus
+msgid "Fade"
+msgstr "Verblassen"
+
+#: functions.php:798
+#@ invictus
+msgid "Slide Top"
+msgstr "Slide nach oben"
+
+#: functions.php:799
+#@ invictus
+msgid "Slide Rigth"
+msgstr "Slide nach rechts"
+
+#: functions.php:800
+#@ invictus
+msgid "Slide Bottom"
+msgstr "Slide nach unten"
+
+#: functions.php:801
+#@ invictus
+msgid "Slide Left"
+msgstr "Slide nach links"
+
+#: functions.php:805
+#@ invictus
+msgid "Transition speed"
+msgstr "Geschwindigkeit eines Übergangs"
+
+#: functions.php:806
+#@ invictus
+msgid "The speed of transition in ms."
+msgstr "Die Geschwindigkeit des Übergangs in ms."
+
+#: functions.php:814
+#@ invictus
+msgid "Control bar settings"
+msgstr "Einstellungen für Steuerleiste"
+
+#: functions.php:818
+#@ invictus
+msgid "Show navigation"
+msgstr "Navigation einblenden"
+
+#: functions.php:819
+#@ invictus
+msgid "Show slideshow controls or hide (play, pause, next, prev)."
+msgstr "Steuerleiste anzeigen oder auszublenden (Play, Pause, next, prev)."
+
+#: functions.php:824
+#@ invictus
+msgid "Show thumbnails"
+msgstr "Zeige Thumbnails"
+
+#: functions.php:825
+#@ invictus
+msgid "Show thumbnail navigation for prev and next images."
+msgstr "Zeige Thumbnail-Navigation für vorherige und nächste Bilder."
+
+#: functions.php:830
+#@ invictus
+msgid "Show slide numbers"
+msgstr "Zeige Slide-Nummern"
+
+#: functions.php:831
+#@ invictus
+msgid "Display actual and allover slide numbers on control bar."
+msgstr "Anzeige aktuelle und gesamte Slide-Anzahl auf der Steuerleiste."
+
+#: functions.php:836
+#@ invictus
+msgid "Show slide captions"
+msgstr "Zeige Slide-Beschriftungen"
+
+#: functions.php:837
+#@ invictus
+msgid "Display the slide caption for each image. (Pull from \"title\" in slides array of flickr images)."
+msgstr "Zeige die Beschriftung für jedes Bild. (Diese werden von dem Titel der Bilder von Flickr erstellt)."
+
+#: functions.php:845
+#@ invictus
+msgid "PrettyPhoto"
+msgstr "PrettyPhoto"
+
+#: functions.php:851
+#@ invictus
+msgid "Slideshow Interval"
+msgstr "Slideshow Intervall"
+
+#: functions.php:852
+#@ invictus
+msgid "Interval time of images in ms. Value \"false\" will disable the slideshow.\""
+msgstr "Intervallzeit von Bildern in ms. Wert  \"false\" deaktiviert die Slideshow."
+
+#: functions.php:860
+#@ invictus
+msgid "Animation Speed"
+msgstr "Animationsgeschwindigkeit"
+
+#: functions.php:861
+#@ invictus
+msgid "The Speed of the popup animation to open an image."
+msgstr "Die Geschwindigkeit der Popup-Animation, um ein Bild zu öffnen."
+
+#: functions.php:867
+#@ invictus
+msgid "Theme"
+msgstr "Theme"
+
+#: functions.php:868
+#@ invictus
+msgid "Choose from one of the five supplied themes."
+msgstr "Wähle eines der fünf mitgelieferten Themes."
+
+#: functions.php:874
+#@ invictus
+msgid "Show Lightbox Gallery"
+msgstr "Lightbox Galerie anzeigen"
+
+#: functions.php:875
+#@ invictus
+msgid "Check, if you want to show the lightbox gallery of prettyPhoto."
+msgstr "Einschalten, wenn Du die Lightbox Galerie von prettyPhoto anzeigen möchtest."
+
+#: functions.php:880
+#@ invictus
+msgid "Show Lightbox Title &amp; Description"
+msgstr "Lightbox Titel &amp; Beschreibung anzeigen"
+
+#: functions.php:881
+#@ invictus
+msgid "Check, if you want to show the title and description of a image open in prettyPhoto."
+msgstr "Einschalten, wenn Du den Titel und die Beschreibung eines Bildes, das in der prettyPhoto Lightbox geöffnet wird, anzeigen möchtest."
+
+#: functions.php:886
+#@ invictus
+msgid "Show social tools"
+msgstr "Zeige Social Tools"
+
+#: functions.php:887
+#@ invictus
+msgid "Check, if you want to show the social tools of Twitter &amp; Facebook in the lightbox."
+msgstr "Einschalten, wenn Du die Social Tools von Twitter &amp; Facebook in der Lightbox angezeigen möchtest."
+
+#: functions.php:896
+#@ invictus
+msgid "Contact"
+msgstr "Kontakt"
+
+#: functions.php:902
+#@ invictus
+msgid "Contact Form eMail"
+msgstr "Kontaktformular E-Mail"
+
+#: functions.php:903
+#@ invictus
+msgid "Enter the eMail thats used to send a you a contact request via contact formular."
+msgstr "Gebe die E-Mail-Adress ein, an die eine Kontaktanfrage via Kontaktformular geschickt wird."
+
+#: functions.php:908
+#@ invictus
+msgid "Show Sidebar Text"
+msgstr "Zeige Sidebar Text"
+
+#: functions.php:909
+#@ invictus
+msgid "Show the Info Sidebar Text on Contact Page on the right Sidebar"
+msgstr "Zeige den Info Text auf Kontaktseite in der rechten Sidebar an."
+
+#: functions.php:914
+#@ invictus
+msgid "Contact Sidebar Text"
+msgstr "Kontakt Sidebar Text"
+
+#: functions.php:915
+#@ invictus
+msgid "Enter the text \"Contact Info\" in the right Sidebar on Contact Us page."
+msgstr "Gebe den Text \"Contact Info\" in der rechten Sidebar auf Kontakt-Seite ein."
+
+#: functions.php:921
+#@ invictus
+msgid "Show Contact Info"
+msgstr "Kontaktinfo anzeigen"
+
+#: functions.php:922
+#@ invictus
+msgid "Show Info Box on Contact Page on the right Sidebar"
+msgstr "Die Info-Box auf Kontaktseite auf der rechten Sidebar anzeigen"
+
+#: functions.php:927
+#@ invictus
+msgid "Contact Info Header"
+msgstr "Kontakt Info-Header"
+
+#: functions.php:928
+#@ invictus
+msgid "Enter the headline of your Contact Infos."
+msgstr "Gebe die Überschrift Deiner Kontakt Informationen ein."
+
+#: functions.php:933
+#@ invictus
+msgid "Adress Line 1"
+msgstr "Addresszeile 1"
+
+#: functions.php:934
+#@ invictus
+msgid "Enter the first Adress Line."
+msgstr "Gebe die erste Adressezeile ein"
+
+#: functions.php:939
+#@ invictus
+msgid "Adress Line 2"
+msgstr "Adresszeile 2"
+
+#: functions.php:940
+#@ invictus
+msgid "Enter the second Adress Line."
+msgstr "Gebe die zweite Adresszeile ein"
+
+#: functions.php:946
+#@ invictus
+msgid "Enter your Phone Number. Leave blank to hide."
+msgstr "Gebe Deine Telefonnummer ein. Lasse diese Zeile leer, um sie zu verstecken."
+
+#: functions.php:952
+#@ invictus
+msgid "Enter your Fax Number. Leave blank to hide."
+msgstr "Gebe deine Fax-Nummer an. Lasse diese Zeile leer, um sie zu verstecken."
+
+#: functions.php:957
+#@ invictus
+msgid "Contact eMail"
+msgstr "Kontakt E-Mail"
+
+#: functions.php:958
+#@ invictus
+msgid "Enter your Company E-Mail. Leave blank to hide."
+msgstr "Gebe die E-Mail Adresse deiner Firma an. Lasse diese Zeile leer, um sie zu verstecken."
+
+#: functions.php:967
+#@ invictus
+msgid "Footer"
+msgstr "Fußzeile"
+
+#: functions.php:973
+#: gallery-loop.php:124
+#: gallery-loop.php:128
+#: single-gallery.php:211
+#: single-gallery.php:215
+#@ invictus
+msgid "Copyright"
+msgstr "Copyright"
+
+#: functions.php:974
+#@ invictus
+msgid "Enter your Copyright Text here."
+msgstr "Gebe Deinen Copyright-Text hier ein."
+
+#: functions.php:981
+#@ invictus
+msgid "Show Social links"
+msgstr "Zeige Social Links"
+
+#: functions.php:982
+#@ invictus
+msgid "Do you want to show social links in your site footer?"
+msgstr "Willst Du die Social Links in der Fußzeile deiner Seite zeigen?"
+
+#: functions.php:991
+#@ invictus
+msgid "Socials"
+msgstr "Socials"
+
+#: functions.php:997
+#@ invictus
+msgid "Social Icons"
+msgstr "Social Icons"
+
+#: functions.php:998
+#@ invictus
+msgid "Choose the social icons that will be displayed in your footer."
+msgstr "Wähle die Social Icons, die in der Fußzeile angezeigt werden sollen."
+
+#: functions.php:1004
+#@ invictus
+msgid "Open Blank"
+msgstr "In neuem Fenster öffnen"
+
+#: functions.php:1005
+#@ invictus
+msgid "Do you want to show social links in a blank Browser window?"
+msgstr "Willst Du links in einem neuem Browser-Fenster zeigen?"
+
+#: functions.php:1010
+#@ invictus
+msgid "Social Options"
+msgstr "Social Optionen"
+
+#: functions.php:1014
+#@ invictus
+msgid "Activate Social Sharing"
+msgstr "Aktivieren Social Sharing"
+
+#: functions.php:1015
+#@ invictus
+msgid "Do you want to show social sharing buttons for each blog or photo post?"
+msgstr "Willst Du die Social Sharing Funktion für jeden Blog oder eine Foto-Post anzeigen?"
+
+#: functions.php:1020
+#@ invictus
+msgid "Facebook"
+msgstr "Facebook"
+
+#: functions.php:1021
+#@ invictus
+msgid "Show the Facebook \"Like\" Button?"
+msgstr "Den Facebook \"Gefällt mir\" Button anzeigen?"
+
+#: functions.php:1026
+#@ invictus
+msgid "Facebook language"
+msgstr "Facebook Sprache"
+
+#: functions.php:1027
+#@ invictus
+msgid "Enter your language string for the like facebook button e.g. en_US, en_GB, de_DE, it_IT."
+msgstr "Die Sprache für die den facebook-Like-Button z. B. en_US, de_DE, de_DE, it_IT."
+
+#: functions.php:1032
+#@ invictus
+msgid "Twitter"
+msgstr "Twitter"
+
+#: functions.php:1033
+#@ invictus
+msgid "Show the Twitter Button?"
+msgstr "Twitter Button anzeigen?"
+
+#: functions.php:1038
+#@ invictus
+msgid "Google+"
+msgstr "Google +"
+
+#: functions.php:1039
+#@ invictus
+msgid "Show the Google+ Button?"
+msgstr "Google + Button anzeigen?"
+
+#: functions.php:1044
+#@ invictus
+msgid "Social Share Caption"
+msgstr "Social Share Beschreibung"
+
+#: functions.php:1045
+#@ invictus
+msgid "Enter the text which is shown near the share buttons of your posts."
+msgstr "Gebe den Text ein, der neben den Social Links angezeigt wird."
+
+#: functions.php:1080
+#@ invictus
+msgid "Your Password:"
+msgstr "Dein Passwort:"
+
+#: functions.php:1080
+#@ invictus
+msgid "Login"
+msgstr "Login"
+
+#: gallery-loop.php:151
+#: tag-loop.php:85
+#@ invictus
+msgid "No Entries found"
+msgstr "Keine Einträge gefunden"
+
+#: header.php:42
+#: header.php:54
+#: header_release.php:42
+#: header_release.php:54
+#, php-format
+#@ invictus
+msgid "Page %s"
+msgstr "Seite %s"
+
+#: header.php:186
+#: header_release.php:192
+#@ invictus
+msgid "Main menu"
+msgstr "Hauptmenü"
+
+#: header.php:187
+#: header_release.php:193
+#@ invictus
+msgid "Skip to content"
+msgstr "Direkt zum Inhalt"
+
+#: image.php:22
+#@ toolbox
+msgid "&larr; Previous"
+msgstr ""
+
+#: image.php:23
+#@ toolbox
+msgid "Next &rarr;"
+msgstr ""
+
+#: image.php:73
+#, php-format
+#@ invictus
+msgid "<li class=\"meta-prep meta-prep-entry-date\">Published </li> <li class=\"entry-date\"><abbr class=\"published\" title=\"%1$s\">%2$s</abbr></li><li> at <a href=\"%3$s\" title=\"Link to full-size image\" rel=\"prettyPhoto\">%4$s &times; %5$s</a></li><li>in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%7$s</a></li>"
+msgstr "<li class=\"meta-prep meta-prep-entry-date\">Veröffentlicht </li> <li class=\"entry-date\"><abbr class=\"published\" title=\"%1$s\">%2$s</abbr></li><li> at <a href=\"%3$s\" title=\"Link zur Vollansicht\" rel=\"prettyPhoto\">%4$s &times; %5$s</a></li><li>in <a href=\"%6$s\" title=\"Zurück zu %7$s\" rel=\"gallery\">%7$s</a></li>"
+
+#: search.php:22
+#, php-format
+#@ invictus
+msgid "Search Results for &quot;%s&quot;"
+msgstr "Suchergebnisse für &quot;%s&quot;"
+
+#: single.php:16
+#: single.php:24
+#@ invictus
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr "&larr;"
+
+#: single.php:17
+#: single.php:25
+#@ invictus
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr "&rarr;"
+
+#: template-fullsize-flickr.php:61
+#@ default
+msgid "Show previous Image"
+msgstr ""
+
+#: template-fullsize-flickr.php:62
+#@ default
+msgid "Show next Image"
+msgstr ""
+
+#: template-sortable.php:53
+#@ invictus
+msgid "All"
+msgstr "Alle"
+
+#: doitmax_fw/max_custom_page_meta.php:82
+#@ invictus
+msgid "Sortable grid settings"
+msgstr "Einstellungen für Sortable Grid"
+
+#: doitmax_fw/max_custom_page_meta.php:89
+#@ invictus
+msgid "Connect Galleries"
+msgstr "Galerien verknüpfen"
+
+#: doitmax_fw/max_custom_page_meta.php:92
+#@ invictus
+msgid "Choose the Galleries, you want to connect and display on this sortable portfolio page."
+msgstr "Wähle die Galerie, die Du auf dieser sortierbaren Portfolio-Seite anzeigen möchtest."
+
+#: doitmax_fw/max_custom_page_meta.php:98
+#@ invictus
+msgid "Image height"
+msgstr "Bildhöhe"
+
+#: doitmax_fw/max_custom_page_meta.php:103
+#@ invictus
+msgid "The height of one sortable image in px."
+msgstr "Die Höhe eines Bildes in der sortierbaren Galerie in px."
+
+#: doitmax_fw/max_custom_page_meta.php:109
+#@ invictus
+msgid "Image width"
+msgstr "Bildbreite"
+
+#: doitmax_fw/max_custom_page_meta.php:114
+#@ invictus
+msgid "The width of one sortable image in px."
+msgstr "Die Breite eines Bildes in der sortierbaren Galerie in px."
+
+#: doitmax_fw/max_custom_page_meta.php:122
+#: doitmax_fw/page_meta/flickr.class.php:132
+#@ invictus
+msgid "Fullsize Content"
+msgstr "Inhalt auf gesamter Breite"
+
+#: doitmax_fw/max_custom_page_meta.php:160
+#: doitmax_fw/page_meta/gallery.class.php:28
+#@ invictus
+msgid "Gallery Settings"
+msgstr "Galerie-Einstellungen"
+
+#: doitmax_fw/max_custom_page_meta.php:167
+#@ invictus
+msgid "No Portfolio Template selected!"
+msgstr "Kein Portfolio Template ausgewählt!"
+
+#: doitmax_fw/max_custom_page_meta.php:170
+#@ invictus
+msgid "You have to choose a portfolio template on the right panel and publish your page to select a gallery."
+msgstr "Du muss ein Portfolio-Template auf der rechten Seite auswählen und veröffentlichen, damit Du die Seite mit einer Galerie verbinden kannst."
+
+#: doitmax_fw/max_widgets.php:32
+#@ invictus
+msgid "Sidebar Fullsize Video"
+msgstr "Sidebar Fullsize Video"
+
+#: doitmax_fw/max_widgets.php:32
+#@ invictus
+msgid "Sidebar for fullsize video templates"
+msgstr "Sidebar für Fullsize Video-Templates."
+
+#: doitmax_fw/max_widgets.php:33
+#@ invictus
+msgid "Sidebar Fullsize Flickr"
+msgstr "Sidebar Fullsize Flickr"
+
+#: doitmax_fw/max_widgets.php:33
+#@ invictus
+msgid "Sidebar for fullsize flickr templates"
+msgstr "Sidebar für das Fullsize-Flickr-Template."
+
+#: doitmax_fw/page_meta/background.class.php:26
+#: doitmax_fw/post_meta/background.class.php:26
+#@ invictus
+msgid "Background Settings"
+msgstr "Hintergrund-Einstellungen"
+
+#: doitmax_fw/page_meta/background.class.php:33
+#@ invictus
+msgid "Show fullsize background?"
+msgstr "Vollbild-Hintergrund anzeigen?"
+
+#: doitmax_fw/page_meta/background.class.php:36
+#@ invictus
+msgid "Choose, if you want to show a fullsize background image for this page. <strong>Settings are disabled, when \"Fullsize Background\" gallery type was selected.</strong>"
+msgstr "Wähle, ob Du ein Vollbild-Hintergrundbild für diese Seite anzeigen möchtest. <strong>Einstellungen sind deaktiviert, wenn &quot;Fullsize Background&quot; Portfolio ausgewählt wurde.</strong>"
+
+#: doitmax_fw/page_meta/background.class.php:47
+#: doitmax_fw/post_meta/blog.class.php:58
+#@ invictus
+msgid "The URL of your video preview image file. Leave blank to show a random image from homepage fullsize featured galleries."
+msgstr "Die URL des Video-Vorschaubildes. Leer lassen, um ein zufälliges Bild aus der Homepage-Fullsize-Featured Galerie zu zeigen."
+
+#: doitmax_fw/page_meta/flickr.class.php:26
+#@ invictus
+msgid "Flickr Settings"
+msgstr "Flickr-Einstellungen"
+
+#: doitmax_fw/page_meta/flickr.class.php:33
+#: doitmax_fw/page_meta/flickr.fullsize.class.php:33
+#@ invictus
+msgid "Flickr image source"
+msgstr "Flickr Bildquelle"
+
+#: doitmax_fw/page_meta/flickr.class.php:34
+#: doitmax_fw/page_meta/flickr.fullsize.class.php:34
+#@ invictus
+msgid "Set"
+msgstr "Set"
+
+#: doitmax_fw/page_meta/flickr.class.php:35
+#: doitmax_fw/page_meta/flickr.fullsize.class.php:35
+#@ invictus
+msgid "User"
+msgstr "User"
+
+#: doitmax_fw/page_meta/flickr.class.php:36
+#: doitmax_fw/page_meta/flickr.fullsize.class.php:36
+#@ invictus
+msgid "Group"
+msgstr "Gruppe"
+
+#: doitmax_fw/page_meta/flickr.class.php:39
+#: doitmax_fw/page_meta/flickr.fullsize.class.php:39
+#@ invictus
+msgid "Choose the source of the images to be displayed on your page from flickr."
+msgstr "Wähle die Quelle der Bilder, die auf diesem Flickr Portfolio template angezeigt werden sollen."
+
+#: doitmax_fw/page_meta/flickr.class.php:46
+#: doitmax_fw/page_meta/flickr.fullsize.class.php:46
+#@ invictus
+msgid "Flickr set ID"
+msgstr "Flickr Set-ID"
+
+#: doitmax_fw/page_meta/flickr.class.php:50
+#: doitmax_fw/page_meta/flickr.fullsize.class.php:50
+#@ invictus
+msgid "The Flickr set ID can be found in URL of the respective set on Flickr. For example http://www.flickr.com/photos/markjsebastian/sets/<strong>72157594223783465</strong>"
+msgstr "Die Flickr ID findest du in der URL des jeweiligen Set. Zum Beispiel http://www.flickr.com/photos/markjsebastian/sets/ <strong>72157594223783465</strong>"
+
+#: doitmax_fw/page_meta/flickr.class.php:57
+#: doitmax_fw/page_meta/flickr.fullsize.class.php:57
+#@ invictus
+msgid "Flickr user ID"
+msgstr "Flickr-User-ID"
+
+#: doitmax_fw/page_meta/flickr.class.php:68
+#: doitmax_fw/page_meta/flickr.fullsize.class.php:68
+#@ invictus
+msgid "Flickr group ID"
+msgstr "Flickr-Group-ID"
+
+#: doitmax_fw/page_meta/flickr.class.php:78
+#: doitmax_fw/page_meta/flickr.fullsize.class.php:78
+#@ invictus
+msgid "Sorting"
+msgstr "Sortierung"
+
+#: doitmax_fw/page_meta/flickr.class.php:79
+#: doitmax_fw/page_meta/flickr.fullsize.class.php:79
+#@ invictus
+msgid "Date added"
+msgstr "Datum hinzugefügt"
+
+#: doitmax_fw/page_meta/flickr.class.php:80
+#: doitmax_fw/page_meta/flickr.fullsize.class.php:80
+#@ invictus
+msgid "Random"
+msgstr "Zufällig"
+
+#: doitmax_fw/page_meta/flickr.class.php:93
+#@ invictus
+msgid "Enter the number of Images you want to show in this flickr stream gallery."
+msgstr "Gebe die Anzahl der Bilder ein, die Du in dieser Flickr-Stream-Galerie anzeigen möchtest."
+
+#: doitmax_fw/page_meta/flickr.class.php:105
+#@ invictus
+msgid "Choose the size of the images pulled from flickr to show in the lightbox."
+msgstr "Wähle die Größe der Bilder, die in der Lightbox angzeigt werden. Diese Bilder werden von Flickr geladen."
+
+#: doitmax_fw/page_meta/flickr.class.php:111
+#@ invictus
+msgid "Show content fullwidth?"
+msgstr "Inhalt auf Gesamtbreite anzeigen?"
+
+#: doitmax_fw/page_meta/flickr.class.php:115
+#@ invictus
+msgid "Choose if you want to show the full browser width for this Flickr stream page template."
+msgstr "Wählen Sie, wenn Sie den vollen Browser-Breite für diese Flickr-Stream Seitenvorlage zeigen wollen."
+
+#: doitmax_fw/page_meta/flickr.class.php:121
+#: doitmax_fw/post_meta/photo.class.php:243
+#@ invictus
+msgid "Link target"
+msgstr "Link target"
+
+#: doitmax_fw/page_meta/flickr.class.php:124
+#@ invictus
+msgid "Select how the links to Flickr images are handled."
+msgstr "Wähle, wie die Links zu den Flickr Bilder geöffnet werden."
+
+#: doitmax_fw/page_meta/flickr.fullsize.class.php:26
+#@ invictus
+msgid "Flickr Fullsize Settings"
+msgstr "Flickr Fullsize-Einstellungen"
+
+#: doitmax_fw/page_meta/flickr.fullsize.class.php:106
+#@ invictus
+msgid "Choose the size of the images pulled from flickr to show as fullsize background."
+msgstr "Wähle die Größe der Bilder, die von Flickr geladen werden, um als Vollbild-Hintergrund angezeigt zu werden."
+
+#: doitmax_fw/page_meta/gallery.class.php:51
+#@ invictus
+msgid "Choose the Galleries, you want to connect to this portfolio page."
+msgstr "Wähle die Galerien, die mit dieser Portfolio-Seite verknüpft werden sollen."
+
+#: doitmax_fw/page_meta/gallery.class.php:57
+#@ invictus
+msgid "Select the order to show the photos of the gallery attached to this page."
+msgstr "Wähle die Reihenfolge der Fotos in dieser Galerie."
+
+#: doitmax_fw/page_meta/gallery.class.php:74
+#@ invictus
+msgid "Descending"
+msgstr "Absteigend"
+
+#: doitmax_fw/page_meta/gallery.class.php:74
+#@ invictus
+msgid "Ascending"
+msgstr "Aufsteigend"
+
+#: doitmax_fw/page_meta/gallery.class.php:92
+#@ invictus
+msgid "Hide thumbnail scroller"
+msgstr "Thumbnail-Scroller verstecken"
+
+#: doitmax_fw/page_meta/gallery.class.php:93
+#: doitmax_fw/page_meta/gallery.class.php:104
+#: doitmax_fw/page_meta/gallery.class.php:136
+#: doitmax_fw/page_meta/video.fullsize.class.php:142
+#: doitmax_fw/post_meta/photo.class.php:171
+#@ invictus
+msgid "No"
+msgstr "Nein"
+
+#: doitmax_fw/page_meta/gallery.class.php:94
+#: doitmax_fw/page_meta/gallery.class.php:105
+#: doitmax_fw/page_meta/gallery.class.php:136
+#: doitmax_fw/page_meta/video.fullsize.class.php:141
+#: doitmax_fw/post_meta/photo.class.php:170
+#@ invictus
+msgid "Yes"
+msgstr "Ja"
+
+#: doitmax_fw/page_meta/gallery.class.php:97
+#@ invictus
+msgid "Choose, if you want to hide the thumbnail scroller for this fullsize gallery on page load by default."
+msgstr "Wähle, ob der Thumbnail-Scroller für diese Fullsize-Galerie beim Laden der Seite standardmäßig ausgeblendet werden soll."
+
+#: doitmax_fw/page_meta/gallery.class.php:103
+#@ invictus
+msgid "Show title &amp; excerpt"
+msgstr "Titel &amp; Auszug anzeigen"
+
+#: doitmax_fw/page_meta/gallery.class.php:108
+#@ invictus
+msgid "Choose, if you want to show the title and excerpt on this fullsize gallery page (remember that text might not be readable on light fullsize backgrounds"
+msgstr "Wähle, ob der Titel und ein Auszug für diese Fullsize-Galerie angezeigt werden soll (denke daran, dass der Text möglicherweise nicht auf hellen Hintergrund gut lesbar ist)."
+
+#: doitmax_fw/page_meta/gallery.class.php:123
+#@ invictus
+msgid "Photos per page"
+msgstr "Fotos pro Seite"
+
+#: doitmax_fw/page_meta/gallery.class.php:124
+#@ invictus
+msgid "Enter the number of photos you want to show on this grid template per page."
+msgstr "Gebe die Anzahl der Fotos an, die Du in diesem Grid-Template pro Seite anzeigen möchtest."
+
+#: doitmax_fw/page_meta/gallery.class.php:135
+#@ invictus
+msgid "Show additional information?"
+msgstr "Zusätzliche Informationen anzeigen?"
+
+#: doitmax_fw/page_meta/gallery.class.php:138
+#@ invictus
+msgid "Choose if you want to show additional informations like copyright and location for the gallery on this page."
+msgstr "Wähle, ob Du zusätzliche Informationen wie Copyright und die Location für die Galerie auf dieser Seite anzeigen möchtest."
+
+#: doitmax_fw/page_meta/gallery.class.php:146
+#@ invictus
+msgid "Additional information are disabled"
+msgstr "Zusätzliche Informationen sind deaktiviert"
+
+#: doitmax_fw/page_meta/gallery.class.php:149
+#@ invictus
+msgid "Additional information such as copyright, etc. are disabled for this page template and will not appear on the gallery page. They will only appear on the detail page of a single photo post."
+msgstr "Zusätzliche Informationen wie Copyright, etc. sind für dieses Template deaktiviert und werden nicht auf der Galerie-Seite erscheinen. Sie werden nur auf der Detailseite eines einzelnen Foto-Post erscheinen."
+
+#: doitmax_fw/page_meta/page.class.php:26
+#@ invictus
+msgid "Page Settings"
+msgstr "Seiteneinstellungen"
+
+#: doitmax_fw/page_meta/video.fullsize.class.php:26
+#@ invictus
+msgid "Fullsize Video Settings"
+msgstr "Fullsize Video-Einstellungen"
+
+#: doitmax_fw/page_meta/video.fullsize.class.php:33
+#@ invictus
+msgid "Choose video type"
+msgstr "Video-Typ wählen"
+
+#: doitmax_fw/page_meta/video.fullsize.class.php:34
+#: doitmax_fw/post_meta/photo.class.php:45
+#@ invictus
+msgid "Self hosted video"
+msgstr "Selbst gehostetes Video"
+
+#: doitmax_fw/page_meta/video.fullsize.class.php:35
+#: doitmax_fw/post_meta/photo.class.php:46
+#@ invictus
+msgid "YouTube embedded video"
+msgstr "Eingebettetes YouTube Video"
+
+#: doitmax_fw/page_meta/video.fullsize.class.php:36
+#: doitmax_fw/post_meta/photo.class.php:47
+#@ invictus
+msgid "Vimeo embedded video"
+msgstr "Eingebettetes Vimeo Video"
+
+#: doitmax_fw/page_meta/video.fullsize.class.php:54
+#: doitmax_fw/post_meta/photo.class.php:76
+#@ invictus
+msgid "Video ID for Fullsize"
+msgstr "Video-ID für Fullsize"
+
+#: doitmax_fw/page_meta/video.fullsize.class.php:58
+#@ invictus
+msgid "If you want to use a Youtube or Vimeo video for your fullsize background, you need to paste the id of the video here. You can find the ID in the URL of your video (e.g. http://www.youtube.de/watch?v=<strong>123456</strong> or http://www.vimeo.com/<strong>123456</strong>.</strong>"
+msgstr "Wenn du ein YouTube oder Vimeo-Video für dein Fullsize-Hintergrund verwenden möchtes, musst Du die ID des Videos hier einfügen. Du findest die ID in der URL des Videos  (zB http://www.youtube.de/watch?v = <strong>123456</strong> oder http://www.vimeo.com/ <strong>123456.</strong>"
+
+#: doitmax_fw/page_meta/video.fullsize.class.php:78
+#: doitmax_fw/post_meta/photo.class.php:100
+#@ invictus
+msgid "H.264 File URL (required)"
+msgstr "H.264 File URL (erforderlich)"
+
+#: doitmax_fw/page_meta/video.fullsize.class.php:81
+#: doitmax_fw/post_meta/photo.class.php:103
+#@ invictus
+msgid "The URL of your self hosted H.264 video file ( .mp4, .m4v, .f4v ). This file is required to make your video run in all browsers!"
+msgstr "Die URL der selbst gehosteten H.264-Video-Datei (. Mp4,. M4v,. F4v). Diese Datei ist erforderlich, um dein Video in allen Browsern anzuzeigen!"
+
+#: doitmax_fw/page_meta/video.fullsize.class.php:88
+#: doitmax_fw/post_meta/photo.class.php:110
+#@ invictus
+msgid "OGV File URL (required)"
+msgstr "OGV File URL (erforderlich)"
+
+#: doitmax_fw/page_meta/video.fullsize.class.php:91
+#: doitmax_fw/post_meta/photo.class.php:113
+#@ invictus
+msgid "The URL of your self hosted OGG Theora video file ( .ogg, .ogv ). This file is required to make your video run in all browsers!"
+msgstr "Die URL der selbst gehosteten OGG Theora-Video-Datei (. Ogg,. Ogv). Diese Datei ist erforderlich, um dein Video in allen Browsern anzuzeigen!"
+
+#: doitmax_fw/page_meta/video.fullsize.class.php:98
+#: doitmax_fw/post_meta/photo.class.php:120
+#@ invictus
+msgid "Video preview image"
+msgstr "Video Vorschaubild"
+
+#: doitmax_fw/page_meta/video.fullsize.class.php:101
+#: doitmax_fw/post_meta/photo.class.php:123
+#@ invictus
+msgid "Choose image you want to use for your video preview. This picture is displayed when the video was not played yet."
+msgstr "Wähle das gewünschte Bild für die Video-Vorschau. Dieses Bild wird angezeigt, wenn das Video noch nicht abgespielt wurde."
+
+#: doitmax_fw/page_meta/video.fullsize.class.php:107
+#: doitmax_fw/post_meta/photo.class.php:129
+#@ invictus
+msgid "Video preview image URL"
+msgstr "Video-Vorschaubild URL"
+
+#: doitmax_fw/page_meta/video.fullsize.class.php:111
+#: doitmax_fw/post_meta/photo.class.php:133
+#@ invictus
+msgid "The URL of your video preview image file."
+msgstr "Die URL der Video-Vorschaubild Datei."
+
+#: doitmax_fw/page_meta/video.fullsize.class.php:117
+#: doitmax_fw/post_meta/photo.class.php:150
+#@ invictus
+msgid "Stretching"
+msgstr "Stretching"
+
+#: doitmax_fw/page_meta/video.fullsize.class.php:119
+#: doitmax_fw/post_meta/photo.class.php:152
+#@ invictus
+msgid "Fill"
+msgstr "Fill"
+
+#: doitmax_fw/page_meta/video.fullsize.class.php:120
+#: doitmax_fw/post_meta/photo.class.php:153
+#@ invictus
+msgid "Exactfit"
+msgstr "Exactfit"
+
+#: doitmax_fw/page_meta/video.fullsize.class.php:121
+#: doitmax_fw/post_meta/photo.class.php:154
+#@ invictus
+msgid "Uniform"
+msgstr "Uniform"
+
+#: doitmax_fw/page_meta/video.fullsize.class.php:124
+#: doitmax_fw/post_meta/photo.class.php:157
+#@ invictus
+msgid "Stretching defines how to resize the poster image and video to fit the display. <a href=\"#\" onclick=\"jQuery('#strechInfo').toggle(); return false;\">Show detailed information</a>"
+msgstr "Stretching definiert, wie das Vorschaubild und das Video auf den verfügbaren Platz des Video-Containers angepasst werden . <a href=\"#\" onclick=\"jQuery('#strechInfo').toggle(); return false;\">Detailinformationen anzeigen</a>"
+
+#: doitmax_fw/page_meta/video.fullsize.class.php:140
+#: doitmax_fw/post_meta/photo.class.php:169
+#@ invictus
+msgid "Autoplay video"
+msgstr "Autoplay-Video"
+
+#: doitmax_fw/page_meta/video.fullsize.class.php:145
+#: doitmax_fw/post_meta/photo.class.php:174
+#@ invictus
+msgid "If set to \"Yes\", your video will automatically start on page load."
+msgstr "Wenn &quot;Ja&quot; gewählt wird, wird das Video automatisch beim Laden der Seite gestartet."
+
+#: doitmax_fw/post_meta/blog.class.php:28
+#@ invictus
+msgid "Post Settings"
+msgstr "Post-Settings"
+
+#: doitmax_fw/post_meta/blog.class.php:35
+#: doitmax_fw/post_meta/photo.class.php:256
+#@ invictus
+msgid "Preview cropping direction"
+msgstr "Vorschau Bildzuschneidung"
+
+#: doitmax_fw/post_meta/blog.class.php:38
+#: doitmax_fw/post_meta/photo.class.php:259
+#@ invictus
+msgid "Choose the position from where your thumbnail of an image will be cropped if cropping is activated in your Invictus Theme Settings."
+msgstr "Wähle die Position, von wo aus das Thumbnail eines Bildes abgeschnitten wird, wenn die \"Zuschneiden\" Option in den Invictus Theme-Einstellungen aktiviert ist."
+
+#: doitmax_fw/post_meta/blog.class.php:44
+#@ invictus
+msgid "Show fullsize background image"
+msgstr "Zeige Fullsize-Hintergrundbild"
+
+#: doitmax_fw/post_meta/blog.class.php:47
+#@ invictus
+msgid "Choose, if you want to show a Fullsize Background Image for this gallery page."
+msgstr "Wähle, ob Du ein Vollbild-Hintergrundbild für diese Galerie anzeigen möchtest."
+
+#: doitmax_fw/post_meta/copyright.class.php:26
+#@ invictus
+msgid "Additional information"
+msgstr "Zusätzliche Informationen"
+
+#: doitmax_fw/post_meta/copyright.class.php:33
+#@ invictus
+msgid "&copy; Copyright information / Owner"
+msgstr "© Copyright Informationen / Inhaber"
+
+#: doitmax_fw/post_meta/copyright.class.php:36
+#@ invictus
+msgid "Who is the owner of this picture? Be sure you have the permissions to use this picture on your website."
+msgstr "Wer ist der Besitzer dieses Bild? Sei sicher, dass Du die Berechtigungen für dieses Bild hast, um es auf deiner Website zu verwenden."
+
+#: doitmax_fw/post_meta/copyright.class.php:42
+#@ invictus
+msgid "&copy; Copyright Link"
+msgstr "© Copyright Link"
+
+#: doitmax_fw/post_meta/copyright.class.php:45
+#@ invictus
+msgid "Link to the owner of this picture (remember to add a http:// before your link)."
+msgstr "Link zum Besitzer des Bildes (denk dran, ein http:// vor dem Link hinzufügen)."
+
+#: doitmax_fw/post_meta/copyright.class.php:55
+#@ invictus
+msgid "Enter the location, the picture was taken."
+msgstr "Die Location, wo das Bild aufgenommen wurde."
+
+#: doitmax_fw/post_meta/copyright.class.php:61
+#@ invictus
+msgid "Date of shot"
+msgstr "Datum der Aufnahme"
+
+#: doitmax_fw/post_meta/copyright.class.php:62
+#@ invictus
+msgid "Click on the input to open the datepicker and choose the date the picture was taken."
+msgstr "Klicke auf das Input-Feld, um den Datepicker zu öffnen und das Datum auszuwählen."
+
+#: doitmax_fw/post_meta/photo.class.php:28
+#@ invictus
+msgid "Image detail settings"
+msgstr "Bild Detail-Einstellungen"
+
+#: doitmax_fw/post_meta/photo.class.php:41
+#@ invictus
+msgid "Choose Link Type"
+msgstr "Link-Typ wählen"
+
+#: doitmax_fw/post_meta/photo.class.php:43
+#@ invictus
+msgid "Project Page"
+msgstr "Projekt-Seite"
+
+#: doitmax_fw/post_meta/photo.class.php:44
+#@ invictus
+msgid "External Link"
+msgstr "Externer Link"
+
+#: doitmax_fw/post_meta/photo.class.php:65
+#@ invictus
+msgid "Embed-Code"
+msgstr "Eingebetteter-Code"
+
+#: doitmax_fw/post_meta/photo.class.php:80
+#@ invictus
+msgid "If you want to use a Youtube or Vimeo video for your Fullsize Gallery, you need to paste the id of the video here. You can find the ID in the URL of your video (e.g. http://www.youtube.de/watch?v=<strong>123456</strong> or http://www.vimeo.com/<strong>123456</strong>.</strong>"
+msgstr "Wenn Du ein Youtube oder Vimeo-Video für die Fullsize Gallery verwenden möchten, musst Du die ID des Videos hier einfügen. Du findest die ID in der URL des jeweiligen Videos (zB http://www.youtube.de/watch?v = <strong>123456</strong> oder http://www.vimeo.com/ <strong>123456.</strong>"
+
+#: doitmax_fw/post_meta/photo.class.php:139
+#@ invictus
+msgid "Video Height"
+msgstr "Video Höhe"
+
+#: doitmax_fw/post_meta/photo.class.php:144
+#@ invictus
+msgid "The height of the Video in px (eg 371)."
+msgstr "Die Höhe des Video in px (zB 371)."
+
+#: doitmax_fw/post_meta/photo.class.php:193
+#@ invictus
+msgid "Type of media"
+msgstr "Medientyp"
+
+#: doitmax_fw/post_meta/photo.class.php:197
+#@ invictus
+msgid "Choose the type of media, you want to show in the Lightbox"
+msgstr "Wähle den Medientyp, den Du in der Lightbox anzeigen möchtest."
+
+#: doitmax_fw/post_meta/photo.class.php:208
+#@ invictus
+msgid "Enter the YouTube URL your want to show in your lightbox. To change the height or width, simple add for example <em>&width=800&height=600</em> to your url"
+msgstr "Gebe die YouTube URL ein, die Du in der Lightbox anzeigen möchtest. Um die Höhe oder Breite zu definieren, füge einfach zum Beispiel <em>&amp; width = 800</em>  <em>&amp; height = 600,</em> an die URL des Links an."
+
+#: doitmax_fw/post_meta/photo.class.php:214
+#@ invictus
+msgid "Vimeo URL"
+msgstr "Vimeo URL"
+
+#: doitmax_fw/post_meta/photo.class.php:219
+#@ invictus
+msgid "Enter the Vimeo URL your want to show in your lightbox. To change the height or width, simple add for example <em>&width=800&height=600</em> to your url"
+msgstr "Gebe die Vimeo URL ein, die Du in der Lightbox anzeigen möchtest. Um die Höhe oder Breite zu definieren, füge einfach zum Beispiel <em>&amp; width = 800&amp; height = 600,</em> an die URL des Links an."
+
+#: doitmax_fw/post_meta/photo.class.php:246
+#@ invictus
+msgid "Choose the link target to open your external link."
+msgstr "Wähle das Ziel für deinen externen Link."
+
+#: functions.php:688
+#@ invictus
+msgid "Show overlay slideshow title"
+msgstr "Zeige Overlay-Slideshow Titel"
+
+#: functions.php:689
+#@ invictus
+msgid "Check, if you want to show the overlay slideshow title beside the slideshow controls on pages with a fullsize background gallery."
+msgstr "Wähle, ob Du den jeweiligen Overlay-Slideshow Titel neben den Scroller-Steuerelementen auf den Seiten mit einem Fullsize-Hintergrund-Galerie anzeigen möchtest."
+
+#: header.php:140
+#: header_release.php:146
+#@ invictus
+msgid "Back to top"
+msgstr "Zum Seitenanfang"
+
+#: single-gallery.php:259
+#@ invictus
+msgid "More from this Gallery"
+msgstr "Mehr aus dieser Galerie"
+
+#: doitmax_fw/max_custom_post_type.php:56
+#@ invictus
+msgid "Gallery"
+msgstr "Galerie"
+
+#: includes/scroller-thumbnails.inc.php:33
+#@ invictus
+msgid "Show more info"
+msgstr "Mehr Infos anzeigen"
+
+#: doitmax_fw/includes/activation.inc.php:51
+#@ invictus
+msgid "Theme successfully activated!"
+msgstr "Theme erfolgreich aktiviert!"
+
+#: doitmax_fw/includes/activation.inc.php:52
+#@ invictus
+msgid "Thank you for purchasing and activating my theme. You are now ready to start working with this theme and setup some general things, upload photos and create an awesome website."
+msgstr "Danke für den Kauf und die Aktivierung von meines Themes. Du kannst die Arbeit mit diesem Theme beginnen und einige allgemeine Dinge einstellen, Fotos hochladen und eine deine großartige Website erstellen."
+
+#: doitmax_fw/includes/activation.inc.php:53
+#@ invictus
+msgid "But stop, wait a second..."
+msgstr "Aber halt, warten Sie eine Sekunde ..."
+
+#: doitmax_fw/includes/activation.inc.php:54
+#@ invictus
+msgid "...before you start working, please take some time to follow us on <strong><a href=\"http://www.facebook.com/pages/doitmax/120695808006003\" target=\"_blank\">facebook</a></strong> or <strong><a href=\"http://twitter.com/#!/doitmax\" target=\"_blank\">Twitter</a></strong> to instantly receive notifications about updates, new items on themeforest.net or other important things."
+msgstr "... Bevor Du loslegst, nimm dir doch etwas Zeit, um uns auf <a href=\"http://www.facebook.com/pages/doitmax/120695808006003\" target=\"_blank\"><strong>facebook</strong></a> oder <a href=\"http://twitter.com/#!/doitmax\" target=\"_blank\"><strong>Twitter</strong></a> zu folgen, um sofort eine Benachrichtigung über Updates, neue Produkte auf themeforest.net oder andere wichtige Dinge zu erhalten."
+
+#: doitmax_fw/includes/activation.inc.php:55
+#@ invictus
+msgid "Follow doitmax on facebook"
+msgstr "Folgen Sie doitmax auf facebook"
+
+#: doitmax_fw/includes/activation.inc.php:71
+#@ invictus
+msgid "If you need any help creating your website open the help file included in your downloaded ZIP package or check out our <a href=\"http://support.do-media.de/help/invictus/\" target=\"_blank\">online documentation</a>. Also feel free to leave a comment at <a href=\"http://themeforest.net/item/invictus-a-premium-photographer-portfolio-theme/discussion/180096?ref=doitmax\" target=\"_blank\">themeforest.net</a> to get in touch."
+msgstr "Wenn DuHilfe bei der Erstellung deiner Website brauchst, öffne bitte die Hilfe-Datei in deinem heruntergeladenen ZIP-Paket  oder besuche unsere <a href=\"http://support.do-media.de/help/invictus/\" target=\"_blank\">Online-Dokumentation</a>. Du kannst auch via <a href=\"http://themeforest.net/item/invictus-a-premium-photographer-portfolio-theme/discussion/180096?ref=doitmax\" target=\"_blank\">themeforest.net</a> mit uns in Kontakt zu treten. Hinterlasse einfach einen Kommentar."
+
+#: doitmax_fw/includes/activation.inc.php:73
+#@ invictus
+msgid "Skip those social gimmicks &raquo;"
+msgstr "Überspringe diese sozialen Spielerreien &raquo;"
+
+#: doitmax_fw/post_meta/slider.class.php:44
+#@ invictus
+msgid "Select Slider"
+msgstr "Slider wählen"
+
+#: doitmax_fw/post_meta/slider.class.php:48
+#@ invictus
+msgid "Choose the slider you want to display on this page instead of the featured image."
+msgstr "Wähle den Slider, den Du auf dieser Seite anstelle des Featured Image anzeigen möchtest."
+
+#: doitmax_fw/post_meta/slider.class.php:56
+#@ invictus
+msgid "Images for this slider"
+msgstr "Bilder für diesen Slider"
+
+#: doitmax_fw/post_meta/slider.class.php:57
+#@ invictus
+msgid "Use this Image as Featured Image"
+msgstr "Verwende dieses Bild als Featured Image"
+
+#: doitmax_fw/post_meta/slider.class.php:58
+#@ invictus
+msgid "Browse"
+msgstr "Browse"
+
+#: doitmax_fw/post_meta/slider.class.php:78
+#@ invictus
+msgid "Autoplay?"
+msgstr "Autoplay?"
+
+#: doitmax_fw/post_meta/slider.class.php:82
+#@ invictus
+msgid "Choose if the slider should start playing on load."
+msgstr "Wähle, ob der Slider automatisch anfangen soll zu spielen, wenn er fertig geladen wurde."
+
+#: doitmax_fw/post_meta/slider.class.php:92
+#: doitmax_fw/post_meta/slider.class.php:118
+#@ invictus
+msgid "Autoplay interval"
+msgstr "Autoplay-Intervall"
+
+#: doitmax_fw/post_meta/slider.class.php:93
+#: doitmax_fw/post_meta/slider.class.php:119
+#@ invictus
+msgid "Choose how long each slide will show in milliseconds (1000ms = 1 second)."
+msgstr "Wähle, wie lange jedes Bild angezeigt wird in Millisekunden (1000ms = 1 Sekunde) "
+
+#: doitmax_fw/post_meta/slider.class.php:125
+#@ invictus
+msgid "Effect"
+msgstr "Effekt"
+
+#: doitmax_fw/post_meta/slider.class.php:128
+#@ invictus
+msgid "Choose the animation effect for the slider. Default is \"Random\""
+msgstr "Wähle den Effekt für die Animation des Sliders. Die Standardeinstellung ist &quot;Random&quot;"
+
+#: doitmax_fw/post_meta/slider.class.php:137
+#@ invictus
+msgid "Slices"
+msgstr "Slices"
+
+#: doitmax_fw/post_meta/slider.class.php:139
+#@ invictus
+msgid "Choose the number of slices for the slice animation of each slider image."
+msgstr "Wähle die Anzahl der Slices für die Animation der einzelnen Slider-Bilder."
+
+#: doitmax_fw/post_meta/slider.class.php:148
+#@ invictus
+msgid "Box cols"
+msgstr "Box Spalten"
+
+#: doitmax_fw/post_meta/slider.class.php:150
+#@ invictus
+msgid "Choose the number of box cols for the slices of boxed animations."
+msgstr "Wähle die Anzahl der Box-Spalten für die Slice Animation."
+
+#: doitmax_fw/post_meta/slider.class.php:159
+#@ invictus
+msgid "Box rows"
+msgstr "Box Reihen"
+
+#: doitmax_fw/post_meta/slider.class.php:161
+#@ invictus
+msgid "Choose the number of box rows for the slices of boxed animations."
+msgstr "Wähle die Anzahl der Box Zeilen für die Slice Animation."
+
+#: doitmax_fw/post_meta/slider.class.php:171
+#@ invictus
+msgid "Slide transition speed"
+msgstr "Slide Übergangs-Geschwindigkeit"
+
+#: doitmax_fw/post_meta/slider.class.php:172
+#@ invictus
+msgid "Choose the speed of transition of each slider image in milliseconds (1000ms = 1 second)."
+msgstr "Wähle die Geschwindigkeit des Übergangs von jedem Slider Bild in Millisekunden (1000ms = 1 Sekunde)."
+
+#: doitmax_fw/post_meta/slider.class.php:195
+#@ invictus
+msgid "Minimum width"
+msgstr "Mindestbreite"
+
+#: doitmax_fw/post_meta/slider.class.php:196
+#@ invictus
+msgid "The width (in pixels) of a fully collapsed item. Do not set too large, otherwise it can cause unwanted results. For best results leave it by default 47px."
+msgstr "Die Breite (in Pixel) eines vollständig zusammegeklappten Elements. Setze diesen Wert nicht zu groß, sonst kann es zu unerwünschten Ergebnissen führen. Das beste Ergebniss wird mit dem Standardwert 47px erreicht."
+
+#: doitmax_fw/post_meta/slider.class.php:206
+#@ invictus
+msgid "Item Spacing"
+msgstr "Abstand zwischen den Elementen"
+
+#: doitmax_fw/post_meta/slider.class.php:207
+#@ invictus
+msgid "Choose the spacing between the items in your Accordion."
+msgstr "Wähle den Abstand zwischen den Elementen in Ihrem Akkordion-Slider."
+
+#: doitmax_fw/post_meta/slider.class.php:213
+#@ invictus
+msgid "Transition easing"
+msgstr "Easing für Übergang"
+
+#: doitmax_fw/post_meta/slider.class.php:216
+#@ invictus
+msgid "Choose the easing effect of the transition."
+msgstr "Wähle den Easing-Effekt für jeden Übergang."
+
+#: doitmax_fw/post_meta/slider.class.php:226
+#@ invictus
+msgid "Duration"
+msgstr "Dauer"
+
+#: doitmax_fw/post_meta/slider.class.php:227
+#@ invictus
+msgid "Choose the number of milliseconds required for each animation to complete."
+msgstr "Wähle die Anzahl der Millisekunden, die für jeden Übergangs-Effekt benötigt wird."
+
+#: doitmax_fw/post_meta/slider.class.php:233
+#@ invictus
+msgid "Sticky item"
+msgstr "Sticky Element"
+
+#: doitmax_fw/post_meta/slider.class.php:238
+#@ invictus
+msgid "One item will always be expanded if activated."
+msgstr "Ein Element wird immer geöffnet sein, wenn diese Option aktiviert wurde."
+
+#: doitmax_fw/post_meta/slider.class.php:245
+#@ invictus
+msgid "Initial active item"
+msgstr "Erstes aktives Element"
+
+#: doitmax_fw/post_meta/slider.class.php:249
+#@ invictus
+msgid "The initially expanded item (if and only if sticky is activated). Note: Zero based, left-to-right (or top-to-bottom)."
+msgstr "Die zunächst geöffnete Element (nur wenn \"Sticky Element\" aktiviert ist). Hinweis: Null-basiert, von links nach rechts (oder von oben nach unten)."
+
+#: doitmax_fw/post_meta/slider.class.php:270
+#@ invictus
+msgid "Sliders are disabled."
+msgstr "Sliders sind deaktiviert."
+
+#: doitmax_fw/post_meta/slider.class.php:273
+#@ invictus
+msgid "Slider options are disabled for this link type and can only be attached to \"Project Page\" link type."
+msgstr "Slider Optionen sind für diese Art des Links deaktiviert und können nur für &quot;Project Page&quot; Link-Typ genutzt werden."
+
+#: functions.php:535
+#@ invictus
+msgid "Do not crop photos featured image"
+msgstr "Featured Images auf Photo-Seiten nicht zuschneiden "
+
+#: functions.php:536
+#@ invictus
+msgid "Check, if you want to use the original ratio without cropping for your featured images on a photos post page."
+msgstr "Wähle, ob Du die original Proportionen für die Featured Images der Photo Posts auf der Detailseite verwenden möchtest."
+
+#: functions.php:541
+#@ invictus
+msgid "Do not crop blog featured images"
+msgstr "Featured Images auf Blog Seiten nicht zuschneiden"
+
+#: functions.php:542
+#@ invictus
+msgid "Check, if you want to use the original ratio without cropping for your featured images on a blog post page."
+msgstr "Wähle, ob Du die original Proportionen für die Featured Images der Blog Posts auf der Detailseite verwenden möchtest."
+
+#: functions.php:548
+#@ invictus
+msgid "Check, if you want to show Images from the current gallery where the photo is drawn from."
+msgstr "Wähle, ob Du Bilder von der aktuellen Galerie des Fotos anzeigen möchtest."
+
+#: functions.php:554
+#@ invictus
+msgid "Set the number of gallery images to show on a photos post page. These images are drawn from the gallery the current photo is bind to."
+msgstr "Die Anzahl der Galerie Bilder, die angezeigt werden. Diese Bilder stammen aus der Galerie des aktuellen Fotos."
+
+#: functions.php:563
+#@ invictus
+msgid "Check, if you want to show the author of a photo post on the photos post page."
+msgstr "Wähle, ob Du den Autor auf den Photo-Post Detailseiten anzeigen möchtest."
+
+#: functions.php:573
+#@ invictus
+msgid "Show the image caption and a small excerpt on mouseover."
+msgstr "Bildbeschriftung und ein kleiner Auszug anzeigen bei mouseover."
+
+#: functions.php:626
+#@ invictus
+msgid "Choose the galleries from which featured images for the fullsize gallery are drawn."
+msgstr "Wähle die Galerien aus, aus der Bilder für die Fullsize Gallery auf deiner Startseite geladen werden."
+
+#: functions.php:677
+#@ invictus
+msgid "Select the type of overlay pattern for your fullsize gallery."
+msgstr "Wähle die Art des Overlay-Musters für deine Fullsize Background Galerie."
+
+#: functions.php:694
+#@ invictus
+msgid "Greyscale images"
+msgstr "Graustufenbilder"
+
+#: functions.php:695
+#@ invictus
+msgid "Check, if you want to show greyscaled thumbnails in your slider. Colored images will be shown on hover."
+msgstr "Wähle, ob Du die Thumbnails in Deinem Schieberegler in graustufen anzeigen möchtest. Farbige Bilder werden beim Hover angezeigt."
+
+#: blog-loop.php:72
+#: single-gallery.php:90
+#: single-post.php:43
+#, php-format
+#@ invictus
+msgid "<li>By <span>%1$s</span>&nbsp;/</li> "
+msgstr "<li>Von <span>%1$s</span>&nbsp;/</li> "
+
+#: blog-loop.php:73
+#: single-gallery.php:91
+#: single-post.php:44
+#, php-format
+#@ invictus
+msgid "<li><span>%1$s</span>&nbsp;/</li>"
+msgstr "<li><span>%1$s</span>&nbsp;/</li>"
+
+#: blog-loop.php:74
+#: single-gallery.php:92
+#: single-post.php:45
+#, php-format
+#@ invictus
+msgid "<li>In <span>%1$s</span>&nbsp;/</li>"
+msgstr "<li>In <span>%1$s</span>&nbsp;/</li>"
+
+#: single-gallery.php:113
+#: single-post.php:55
+#@ invictus
+msgid "Previous post"
+msgstr "Vorheriger Artikel"
+
+#: single-post.php:55
+#@ invictus
+msgctxt "Previous post link"
+msgid ""
+msgstr ""
+
+#: single-gallery.php:116
+#: single-post.php:58
+#@ invictus
+msgid "Next post"
+msgstr "Nächster Artikel"
+
+#: single-post.php:58
+#@ invictus
+msgctxt "Next post link"
+msgid ""
+msgstr ""
+
+#: doitmax_fw/max_wp_admin.php:701
+#@ invictus
+msgid "Font-Size"
+msgstr "Font-Size"
+
+#: doitmax_fw/max_wp_admin.php:717
+#@ invictus
+msgid "Line-Height"
+msgstr "Line-Height"
+
+#: doitmax_fw/max_wp_admin.php:727
+#@ invictus
+msgid "Font-Family"
+msgstr "Font-Family"
+
+#: doitmax_fw/max_wp_admin.php:739
+#@ invictus
+msgid "Font-Weight"
+msgstr "Font-Weight"
+
+#: doitmax_fw/max_wp_admin.php:748
+#@ invictus
+msgid "Color"
+msgstr "Color"
+
+#: functions.php:422
+#@ invictus
+msgid "Main Color"
+msgstr "Main Color"
+
+#: functions.php:428
+#@ invictus
+msgid "Link Color"
+msgstr "Link Color"
+
+#: functions.php:479
+#@ invictus
+msgid "H1 font style"
+msgstr "H1 font style"
+
+#: functions.php:486
+#@ invictus
+msgid "H2 font style"
+msgstr "H2 font style"
+
+#: functions.php:493
+#@ invictus
+msgid "H3 font style"
+msgstr "H3 font style"
+
+#: functions.php:500
+#@ invictus
+msgid "H4 font style"
+msgstr "H4 font style"
+
+#: functions.php:507
+#@ invictus
+msgid "H5 font style"
+msgstr "H5 font style"
+
+#: functions.php:514
+#@ invictus
+msgid "H6 font style"
+msgstr "H6 font style"
+
+#: functions.php:275
+#@ invictus
+msgid "Check, if you want to show the overlay pattern."
+msgstr ""
+
+#: single-gallery.php:113
+#@ invictus
+msgid "Previous post link"
+msgstr ""
+
+#: single-gallery.php:116
+#@ invictus
+msgid "Next post link"
+msgstr ""
+

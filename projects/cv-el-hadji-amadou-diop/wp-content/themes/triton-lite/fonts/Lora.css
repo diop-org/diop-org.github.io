@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'LoraRegular';
+    src: url('../fonts/lora/lora-regular-webfont.eot');
+    src: url('../fonts/lora/lora-regular-webfont.eot?iefix') format('eot'),
+         url('../fonts/lora/lora-regular-webfont.woff') format('woff'),
+         url('../fonts/lora/lora-regular-webfont.ttf') format('truetype'),
+         url('../fonts/lora/lora-regular-webfont.svg#webfontU6zW2ZPN') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+	
+h1, h2, h3, h4, h5, h6, #topmenu ul li a, .trt_button a, #submit_msg, #submit_msg, #submit, .fourofour a, .trt_wgt_tt, #related ul li a, #logo h1 a, #slider .slider-content h2 a, .lay1 .post .postitle a, .lay1 .page .postitle a{ font-family: 'LoraRegular'!important;}

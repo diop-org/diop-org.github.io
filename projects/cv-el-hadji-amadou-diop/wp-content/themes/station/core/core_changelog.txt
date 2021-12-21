@@ -1,0 +1,34 @@
+****************************
+
+  PageLines Core Release Notes: 
+
+****************************
+
+Version 4.0.0
+- Added template functions
+- Created pagelines_pro function
+- Support for WordPress 3.0
+
+Version 3.1.9.1
+- Free version text
+
+Version 3.1.9
+- Added PageLines nav function
+
+Version 3.1.8
+- Fixed feature name/thumb bug for multiple pages
+- Modified global e_pagelines function
+
+Version 3.1.7
+- Changed load order in initialization
+- Added pagelines_localize() function
+- Changed theme support to post thumbnails (instead of global)
+
+Version 3.1.6
+- Moved localization in init file
+
+Version 3.1.5
+- added stripslashes in case user has gpc_magic_quotes
+
+
+** Start Changelog tracking **

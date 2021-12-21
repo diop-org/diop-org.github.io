@@ -1,0 +1,23 @@
+/*
+	Coin Slider jQuery plugin CSS styles
+	http://workshop.rs/projects/coin-slider
+*/
+
+
+.coin-slider { overflow: hidden; zoom: 1; position: relative;}
+.coin-slider a{ text-decoration: none; outline: none; border: none; }
+.coin-slider a:hover{ text-decoration: none; outline: none; border: none; color:white;}
+
+.cs-buttons { font-size: 0px; padding: 10px; float: left; }
+.cs-buttons a, .cs-buttons a:hover { margin-right: 5px; height: 10px; width: 10px; float: left; border: 1px solid #222; color: black;; text-indent: -1000px; -moz-border-radius: 4px; border-radius: 4px;}
+.cs-active, .cs-active:hover { background-color: purple; background: -moz-linear-gradient( top, 800080, #BA55D3); background: -webkit-gradient(linear, left top, left bottom, from(#800080), to(#BA55D3)); }
+
+.cs-title { width: 990px; padding: 5px; background-color: purple; font-weight: 500; font-size:1.2em; font-family: "Segoe UI", "Lucida Grande", Verdana, Arial, sans-serif; color: #FFFFFF;}
+
+.cs-prev, 
+.cs-next { background-color: purple; font-size:1.2em; font-family: "Segoe UI",Calibri,"Myriad Pro",Myriad,"Trebuchet MS",Helvetica,Arial,sans-serif; color: #FFFFFF; padding: 3px 10px; }
+
+.cs-title p{
+	margin:0;
+	display:inline;
+}

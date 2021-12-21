@@ -1,0 +1,74 @@
+/*
++----------------------------------------------------------------+
+|																							|
+|	WordPress 2.8 Plugin: WP-PageNavi 2.50									|
+|	Copyright (c) 2009 Lester "GaMerZ" Chan									|
+|																							|
+|	File Written By:																	|
+|	- Lester "GaMerZ" Chan															|
+|	- http://lesterchan.net															|
+|																							|
+|	File Information:																	|
+|	- Page Navigation CSS Style													|
+|	- wp-content/plugins/wp-pagenavi/pagenavi-css.css					|
+|																							|
++----------------------------------------------------------------+
+*/
+.wp-pagenavi {
+	margin: 2em 0 0 28px;
+	font-size:12px;
+	padding-bottom: 3em;
+	clear:both;
+}
+
+.wp-pagenavi a, .wp-pagenavi a:link {
+	padding: 2px 6px; 
+	margin: 2px;
+	text-decoration: none;
+	border: 1px solid #666;
+	color: #666;
+	background-color: #FFFFFF;	
+}
+.wp-pagenavi a:visited {
+	padding: 2px 6px; 
+	margin: 2px;
+	text-decoration: none;
+	border: 1px solid #666;
+	color: #666;
+	background-color: #FFFFFF;	
+}
+.wp-pagenavi a:hover {	
+	border: 1px solid #000;
+	color: #000;
+	background-color: #FFFFFF;
+}
+.wp-pagenavi a:active {
+	padding: 2px 6px; 
+	margin: 2px;
+	text-decoration: none;
+	border: 1px solid #666;
+	color: #666;
+	background-color: #FFFFFF;	
+}
+.wp-pagenavi span.pages {
+	padding: 2px 6px; 
+	margin: 2px 2px 2px 2px;
+	color: #666;
+	border: 1px solid #666;
+	background-color: #FFFFFF;
+}
+.wp-pagenavi span.current {
+	padding: 2px 6px; 
+	margin: 2px;
+	font-weight: bold;
+	border: 1px solid #ff6600;
+	color: #ff6600;
+	background-color: #FFFFFF;
+}
+.wp-pagenavi span.extend {
+	padding: 2px 6px; 
+	margin: 2px;	
+	border: 1px solid #666;
+	color: #666;
+	background-color: #FFFFFF;
+}

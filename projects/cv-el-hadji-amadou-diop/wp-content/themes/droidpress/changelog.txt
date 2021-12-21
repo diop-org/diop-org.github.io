@@ -1,0 +1,43 @@
+DroidPress Changelog
+
+****************************
+Version 1.0.6 (12-12-2011)
+-Visual tweak to theme options panel for WordPress 3.3 compatibility. 
+-Removed jQuery call. 
+
+Version 1.0.5 (11-02-2011)
+-Added jQuery call in functions.php.
+-Adjusted various HTML element styles (tables, definition lists, blockquotes).
+-Added a bottom margin to meta category links. 
+-Fixed line height on post titles. 
+-Adjusted margin on post formats icons. 
+-Fixed comment element in byline information not being hidden when disabled via theme options. 
+
+Version 1.0.4 (10-23-2011)
+-Fixed margin on archive post title. 
+-Placed superfish script regstier calls into function that hooks into wp_enqueue_scripts, removed unecessary jQuery call. 
+-Fixed syntax issue with clearing div on single.php. 
+-Updated jQuery-UI to version 1.8.16.
+-Removed depreciated HTML from 404.php and the theme options page.
+-Slight styling adjustments on dropdown arrows, afterfooter, and archive post titles. 
+-Fixed hide post formats icon function. 
+
+Version 1.0.3 (10-20-2011)
+-Fixed image paths related to post format icons.
+-Changed default font family to Arial, Helvetica, serif.
+-Fixed theme options copy. 
+
+Version 1.0.2 (9-27-2011)
+-wp_link_pages(); added to content templates. 
+-Adjusted H tag stylings, added line height.
+-Height:auto added to full size image class. 
+-Adjusted Definition Title and Text styling.
+-Reduced content_width to account for margins.
+-Removed extra trailing slash from JS filepath in functions.php
+-Register_sidebar now within a function that hooks into widgets_init().
+
+Version 1.0.1 (09-01-2011)
+-Added post formats support (not sure how that was deleted).
+
+Version 1.0 (09-01-2011)
+-Initial release.
