@@ -1,1 +1,0 @@
-<div class="post-nav fix"> <span class="previous"><?php previous_post_link('%link') ?></span> <span class="next"><?php next_post_link('%link') ?></span></div>

@@ -1,1 +1,0 @@
-	<ul><?php mframe_display( 'bookmarks' ); ?></ul>

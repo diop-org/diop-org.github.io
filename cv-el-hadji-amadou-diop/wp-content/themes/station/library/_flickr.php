@@ -1,1 +1,0 @@
-<?php get_flickrRSS(array('num_items' => 6)); ?>
